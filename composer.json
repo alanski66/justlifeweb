@@ -1,22 +1,38 @@
 {
   "require": {
-    "craftcms/cms": "3.4.5",
+    "craftcms/cms": "3.4.9",
     "vlucas/phpdotenv": "^2.4.0",
-    "craftcms/redactor": "2.5.0",
+    "craftcms/redactor": "2.6.0.1",
     "rias/craft-position-fieldtype": "1.0.14",
     "topshelfcraft/environment-label": "3.2.0",
     "ether/seo": "3.6.3",
     "wrav/oembed": "1.2.5",
-    "xpertbot/craft-wheelform": "2.3.8",
+    "xpertbot/craft-wheelform": "2.4.2",
     "pennebaker/craft-architect": "2.3.2",
-    "verbb/super-table": "2.4.4",
+    "verbb/super-table": "2.4.6",
     "charliedev/section-field": "1.1.0",
     "studioespresso/craft-splashingimages": "1.4.0",
     "rias/craft-schema": "1.0.3",
     "nystudio107/craft-minify": "1.2.9",
     "nystudio107/craft-typogrify": "1.1.18",
-    "craftcms/feed-me": "4.2.0.1"
+    "craftcms/feed-me": "4.2.0.1",
+    "joomkit/pdfthumbnailer": "1.0.0",
+    "verbb/icon-picker": "1.1.2",
+    "ether/tags": "1.0.6",
+    "verbb/smith": "1.1.1",
+    "aelvan/imager": "v2.4.0",
+    "dolphiq/iconpicker": "1.0.5",
+    "superbig/craft3-mobiledetect": "1.0.2"
   },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "plugins/joomkit/*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
   "autoload": {
     "psr-4": {
       "modules\\": "modules/"

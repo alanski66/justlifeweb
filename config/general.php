@@ -25,16 +25,19 @@ return [
 
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => getenv('SECURITY_KEY'),
-        'baseUrl'  => getenv('CRAFTENV_BASE_URL'),
+//        'baseUrl'  => getenv('CRAFTENV_BASE_URL'),
         'basePath' => getenv('CRAFTENV_BASE_PATH'),
+//        'baseUrl'   => getenv('CRAFTENV_BASE_URL'),
         'aliases' => [
+            '@web' => getenv('CRAFTENV_BASE_URL'),
             '@assetsUrl' => getenv('ASSET_BASE_URL'),
             '@assetBaseUrl' => getenv('ASSET_BASE_URL'),
             '@assetBasePath' => getenv('ASSET_BASE_PATH'),
             '@baseUrl' => getenv('CRAFTENV_BASE_URL'),
-            '@web' => getenv('CRAFTENV_BASE_URL'),
             '@basePath' => getenv('CRAFTENV_BASE_PATH')
         ],
+        'recaptcha_v3_public' => getenv('RECAPTCHAV3_PUBLIC'),
+        'recaptcha_v3_private' => getenv('RECAPTCHAV3_PRIVATE'),
     ],
 
     // Dev environment settings

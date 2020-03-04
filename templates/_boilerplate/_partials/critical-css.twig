@@ -6,6 +6,41 @@
      Cookie.set("critical-css", '1', { expires: "7D", secure: true });
 </script>
 
+{% if entry.projectImage | length %}
+     {% set globalheaderimage = entry.projectImage.one() %}
+
+     {# SUGGEST WE SET MULTI IMAGE BACKGROUDS HERE#}
+     <style>
+          .overlay::before {
+          opacity:0.2;
+          }
+          
+          {#@media(min-width: 475px){#}
+          {#     .page-title {#}
+          {#          background-image: url('{{ globalheaderimage.getUrl('heroMobile')}}');#}
+          {#     }#}
+          {#}#}
+
+          {#@media(min-width: 990px){#}
+          {#     .page-title {#}
+          {#     background-image: url('{{ globalheaderimage.getUrl('heroTablet')}}');#}
+          {#     }#}
+          {#}#}
+
+          {#@media(min-width: 1200px){#}
+          {#     .page-title {#}
+          {#          background-image: url('{{ globalheaderimage.getUrl('heroDesktop')}}');#}
+          {#     }#}
+          {#}#}
+
+          @media(min-width: 0px){
+               .page-title {
+                    background-image: url('{{ globalheaderimage.getUrl('heroHD')}}');
+               }
+          }
+
+     </style>
+{% endif %}
 {# {{ craft.twigpack.includeCriticalCssTags() }}
 
 {{ craft.twigpack.includeCssModule("styles.css", true) }}

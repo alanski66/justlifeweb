@@ -1,0 +1,26 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+
+
+{% block content %}
+    {%  set layout = null %}
+    <!--Join  Page Entry type Content -->
+    {%  if entry is defined %}
+
+        {% include '/_partials/hero-featured.twig' %}
+ 
+
+        <section class="{{entry.type }} page ">
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="col-lg-9 mb-3">
+                        <h1>{{ entry.title }}</h1>
+                        {{ entry.body }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%  endif %}
+
+{% endblock %}

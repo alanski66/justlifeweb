@@ -1,3 +1,82 @@
-<nav>
-    <h2>navbar</h2>
-</nav>
+{% import '_macros' as macros %}
+<ul class="navbar-nav ml-auto justify-content-endMmm">
+    {% set pages = craft.entries.section('mainMenu').hidePage('0').all()  %}
+
+
+    {% for entry in pages %}
+
+
+        {#{%  if entry.altNavTitle|length %}#}
+        {#{%  set navTitle = entry.altNavTitle %}#}
+        {#{% else %}#}
+        {#{%  set navTitle = entry.title %}#}
+        {#{% endif %}#}
+
+        {% if entry.entryLink.one()|length %}
+            {% set navlink = entry.entryLink.one().uri %}
+        {% else %}
+            {% set navlink = entry.customLink %}
+        {% endif %}
+
+        {% if entry.level == 1 and entry.children|length %}
+            <li class="nav-item dropdown {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }}">
+
+                {% if isMobile == 1 %}
+                    <a id="{{ entry.title }}" href="#" class="nav-link mob" data-toggle="dropdown" role="button"
+                       data-length="{{ entry.title|length }}" aria-haspopup="true"
+                       aria-expanded="false">{{ entry.title }}<span class="caret"></span></a>
+                {% else %}
+                    <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}" class="nav-link  notmob"
+                       data-length="{{ entry.title|length }}" aria-haspopup="true"
+                       aria-expanded="false">{{ entry.title }} <span class="caret"></span></a>
+                {% endif %}
+
+                <div class="dropdown-menu dropdown-menu-right">
+
+                    <!-- add mobile parent link to drop down -->
+                    {% if isMobile == 1 %}
+
+                        <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}"
+                           class="dropwdown-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }}">{{ entry.title }}</a>
+
+                    {% endif %}
+
+                    <!-- get children -->
+                    {% for child in entry.getDescendants().hidePage('not 1') %}
+                        {% if child is defined %}
+                            {# get child custom link or entry uri #}
+                            {% if child.entryLink.one()|length %}
+                            {% set childlink = child.entryLink.one().uri %}
+                            {% else %}
+                            {% set childlink = child.uri %}
+                            {% endif %}
+                            <a id="{{ entry.title }}" href="{{ siteUrl }}{{ childlink }}"
+                               class="dropdown-item level {{ child.level }}">{{ child.title }}</a>
+
+                        {% endif %}
+                    {% endfor %}
+
+                </div>
+            </li>
+
+        {% elseif entry.level == 1 and not entry.hasDescendants() %}
+
+            {% set btnnav = ""%}
+            {%  if loop.last %}
+               {% set btnnav = "btn btn-primary btn-sm" %}
+                {% endif %}
+            <li class="nav-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }} {{ entry.title |lower  }}">
+                <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}"
+                                 class="nav-link {{ macros.activeLinkClass(navlink, entry.level) |trim }} level{{ entry.level }} {{  btnnav}}">{{ entry.title }}</a>
+            </li>
+
+
+        {% endif %}
+    {%  endfor %}
+
+    {# add top nav for mobile #}
+
+   
+
+
+</ul>

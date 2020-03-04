@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="357px" height="306px" viewBox="0 0 357 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Vertical Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Vertical-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 13.000000)">
+            <g id="iconsq" transform="translate(82.000000, 0.000000)">
+                <rect id="Rectangle" fill="#D00E38" x="0" y="0" width="194" height="192" rx="12.5999996"></rect>
+                <path d="M102,45 L122.536559,45 C122.536559,76.0791367 122.536559,96.3938849 122.536559,105.944245 C122.536559,112.742806 122.435644,128.767986 134.079208,141.151079 C139.940594,146.978417 145.247525,150.863309 150,152.805755 C136.930765,153.453237 127.438238,152.482014 121.522419,149.892086 C108.614089,144.240858 102.106616,132.748052 102,115.413669 L102,45 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <path d="M42,45 L62.536559,45 C62.536559,76.0791367 62.536559,96.3938849 62.536559,105.944245 C62.536559,112.742806 62.4356436,128.767986 74.0792079,141.151079 C79.9405941,146.978417 85.2475248,150.863309 90,152.805755 C76.9307648,153.453237 67.4382377,152.482014 61.5224185,149.892086 C48.614089,144.240858 42.1066161,132.748052 42,115.413669 L42,45 Z" id="Rectangle" fill="#FFFFFF" transform="translate(66.000000, 99.000000) scale(-1, 1) translate(-66.000000, -99.000000) "></path>
+            </g>
+            <text id="Just" fill="#3C3C3B" font-family="Raleway-Bold, Raleway" font-size="104.24003" font-weight="bold" line-spacing="89.9455112" letter-spacing="-5.54400015">
+                <tspan x="0" y="303">Just</tspan>
+            </text>
+            <text id="life" fill="#3C3C3B" font-family="Raleway-Medium, Raleway" font-size="100.799997" font-weight="400" letter-spacing="5">
+                <tspan x="197" y="287">life</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

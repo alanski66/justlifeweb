@@ -21,10 +21,32 @@
 
 {# -- Any <meta> tags that should be included in the <head> #}
 {% block headMeta %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158791076-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158791076-1');
+    </script>
+
 {% endblock headMeta %}
 
 {# -- Any <link> tags that should be included in the <head> #}
 {% block headLinks %}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ baseUrl }}/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ baseUrl }}/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ baseUrl }}/favicons/favicon-16x16.png">
+    <link rel="manifest" href="{{ baseUrl }}/favicons/site.webmanifest?ckcachebust=604859207">
+    <link rel="mask-icon" href="{{ baseUrl }}/favicons/safari-pinned-tab.svg?ckcachebust=604859207" color="#d00e38">
+    <link rel="shortcut icon" href="{{ baseUrl }}/favicons/favicon.ico?ckcachebust=604859207">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-config" content="{{ baseUrl }}/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#d00e38">
+
+    <link href="{{ baseUrl }}assets/css/style.css" rel="stylesheet">
+
 {% endblock headLinks %}
 
 {# -- Any CSS that should be included before </head> -- #}
@@ -34,30 +56,31 @@
 
 {# -- Page body -- #}
 {% block bodyHtml %}
-    <div id="page-container" class="overflow-hidden leading-tight">
-        <confetti></confetti>
-        <div id="content-container" class="bg-repeat header-background">
+
 
             {# -- Info header, including _navbar.twig -- #}
             {% include "_partials/info-header.twig" %}
-
-            <main>
-                <div class="container mx-auto pb-8">
+<div class="">
                     {# -- Primary content block -- #}
                     {% block content %}
+
                     {% endblock %}
-                </div>
-            </main>
-        </div>
+</div>
 
         {# -- Content that appears below the primary content block -- #}
-        {% block subcontent %}
+<div class="container">
+    {% block subcontent %}
         {% endblock %}
+</div>
 
         {# -- Info footer -- #}
         {% include "_partials/info-footer.twig" %}
 
         {# -- HTML Footer -- #}
         {% include "_partials/global-footer.twig" %}
-    </div>
+
 {% endblock bodyHtml %}
+    {% block bodyJs %}
+        <script  src="{{ baseUrl }}assets/js/dist-min.js"></script>
+        <script  src="{{ baseUrl }}assets/js/script.js"></script>
+    {% endblock bodyJs %}
