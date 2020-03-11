@@ -2,13 +2,16 @@
 # not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)
 
 /makepdf.js
-/.env
+/.envcopy
 /.idea
 /_templatesNY107
 /scripts/.env.sh
 /scripts/.envprod.sh
 /backups/*
 /html
+/public_html/assets/documents
+/public_html/assets/images
+/public_html/cpresources
 /vendor
 /sql
 .DS_Store
