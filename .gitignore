@@ -2,6 +2,7 @@
 # not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)
 
 /makepdf.js
+/.env
 /.envcopy
 /.idea
 /_templatesNY107
