@@ -25,13 +25,21 @@
     <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
             <h1 class="section-title section-title-border">{{entry.title}}</h1>
-            <p class="mb-5 col-lg-8 offset-lg-2 col-xs-12 px-0">{{entry.introText|striptags}}</p>
+            <p class="lead mb-5 col-lg-8 offset-lg-2 col-xs-12 px-0">{{entry.introText|striptags}}</p>
         </div>
 
 
-        {% for entry in entries.all() %}
 
-        {% set assets = entry.staffImage %}
+        {% for category in craft.categories.group('staffGroups').all() %}
+
+
+            <div class="col-lg-12 text-center py-4"><h3>{{ category.title }}</h3></div>
+
+        {% for entry in entries.relatedTo(category).all() %}
+
+
+            {% set assets = entry.staffImage %}
+
 
 
         <!-- team member -->
@@ -69,7 +77,9 @@
             </div>
         </div>
         {% endfor %}
+        {# end category loop item #}
 
+        {% endfor %}
     </div>
     </div>
     </section>

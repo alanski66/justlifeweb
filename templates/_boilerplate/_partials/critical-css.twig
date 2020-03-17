@@ -6,6 +6,7 @@
      Cookie.set("critical-css", '1', { expires: "7D", secure: true });
 </script>
 
+{% if entry is defined %}
 {% if entry.projectImage | length %}
      {% set globalheaderimage = entry.projectImage.one() %}
 
@@ -40,6 +41,7 @@
           }
 
      </style>
+{% endif %}
 {% endif %}
 {# {{ craft.twigpack.includeCriticalCssTags() }}
 

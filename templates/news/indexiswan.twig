@@ -47,17 +47,9 @@
 
 
 
-{#    {% set entries = craft.entries()#}
-{#    .section('news')#}
-{#    .limit('10') %}#}
-
-    {% set queryParams = {
-        section: 'news',
-
-        order: 'postDate desc',
-        limit: '10'
-    } %}
-
+    {% set entries = craft.entries()
+    .section('news')
+    .limit('10') %}
 
     {#{% set entries = craft.entries({#}
     {#sectionId:2#}
@@ -65,7 +57,7 @@
     {#limit:     2#}
     {#}) %}#}
 
-    {% paginate craft.entries(queryParams).limit(10) as pageInfo, pageEntries %}
+    {% paginate craft.entries.section('news').limit(10) as pageInfo, pageEntries %}
 
     {% set first = pageEntries|slice(0,1) %}
     {% set therest = pageEntries|slice(1,9) %}
@@ -86,14 +78,8 @@
 
                 <section class="news top-story gray">
                     <div class="container">
-                        <div class=" row mt-5">
-                            <div class="col-lg-12 text-center {{ entry.type }}">
 
-                                <h2 class="section-title section-title-border ">News</h2>
-                            </div>
-                        </div>
-
-                        <div class=" row">
+                        <div class="row">
                         {%  if asset %}
                             {% set newsImage = craft.imager.transformImage(asset,
                             [
@@ -109,10 +95,6 @@
                             interlace: true
                             }
                             ) %}
-
-                            
-
-
                             <div class="col pic mb-sm-3 pt-md-2">
                                 <a href="{{ entry.url }}">
                                     <picture>
@@ -152,13 +134,18 @@
 
     {#{% include '_includes/subscribe-section.twig' %}#}
 
+
     <section class="newslist white pt-5">
         <div class="container">
             <div class="row ">
+
                 {% set layout = "n" %}
 
-                            {% for entry in therest %}
 
+
+                    <div class="col-md-12  ">
+                        <ul class="list-unstyled">
+                            {% for entry in therest %}
 
                                 {% switch entry.type %}
                                 {% case 'oldnews' %}
@@ -196,7 +183,7 @@
                                 {% set newsImage = craft.imager.transformImage(asset,
                                 [
                                 { width: 576, position: asset.getFocalPoint(), jpegQuality: 85,ratio: 4/3 },
-                                { width: 550, height:350,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
+                                { width: 150, height:150,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
                                 { width: 720, height:375,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
                                 ],
                                 {
@@ -209,35 +196,32 @@
                                 ) %}
                                 {% endif %}
 
-                                <!-- blog-item -->
-                                <div class="col-lg-4 col-sm-6 mb-4">
-                                    <div class="card">
-                                        <a href="{{entry.url}}">
-                                        <div class="card-img-wrapper overlay-rounded-top">
-                                           <picture>
-                                                <source media="(max-width: 320px)" sizes="100vw" srcset="{{ newsImage[0].url }}">
-                                                <source media="(max-width: 540px)" sizes="100vw" srcset="{{ newsImage[1].url }}">
-                                                <source media="(max-width: 992px)" sizes="100vw" srcset="{{ newsImage[2].url }}">
-                                               <img class="card-img-top" src="{{ newsImage[1].url }}" alt="{{ entry.title }}">
-                                            </picture>
-                                        </div>
-                                        </a>
-                                        <div class="card-body p-0">
-                                            <div class="d-flex" data-mh="blog-height">
-                                                <div class="py-3 px-4 border-right text-center">
-                                                    <h3 class="text-primary mb-0">{{ entry.postDate.format('d') }}</h3>
-                                                    <p class="mb-0">{{ entry.postDate.format('M') }}</p>
-                                                </div>
-                                                <div class="p-3">
-                                                    <a href="{{entry.url}}" class="h4 font-primary text-dark">{{entry.title}}</a>
-                                                </div>
+
+                                <li class="mb-5 text-xs-center text-sm-left d-flex flex-sm-column  flex-md-row ">
+
+                                    <a href="{{ entry.url }}">
+                                        {%  if asset | length and newsImage | length %}
+                                        <picture class="">
+                                            <source media="(max-width: 768px)" sizes="100vw" srcset="{{ newsImage[0].url }}">
+                                            <source media="(max-width: 3992px)" sizes="100vw" srcset="{{ newsImage[1].url }}">
+                                            <img class=" img-fluid float-xs-none float-sm-left  mr-sm-3 mr-md-3 mb-3 mt-2" src="{{ newsImage[1].url }}" alt="{% if asset.title |length %} {{ asset.title}} {% else %}{{ entry.title}}{% endif %} }}">
+                                        </picture>
+                                        {% endif %}
+
+                                        <div class="text-left">
+                                            <h2 class="mt-0 mb-0">{{ entry.title }}</h2>
+
+                                            {{ date | raw }}
+                                            <div class="intro mb-4">
+                                            {%  if introText | length %}{{ introText | truncateOnWord(140) }}{% endif %}
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </a>
+                                </li>
 
                             {% endfor %}
-
+                        </ul>
+                    </div>
 
 
             </div>

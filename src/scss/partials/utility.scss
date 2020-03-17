@@ -11,3 +11,18 @@
 div.cardrow > [class^="ti-"]{
   font-size:26px;
 }
+
+//.section-title-border wider
+.section-title-border{
+  padding-bottom: 10px;
+}
+.section-title-border::before{
+  width:300px;
+}
+.newslist .h4{
+  font-size: 1.1rem;
+}
+
+p.meta{
+  font-size:14px;
+}

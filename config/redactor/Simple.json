@@ -1,4 +1,5 @@
 {
-  "buttons": ["bold", "italic"],
-  "toolbarFixed": true
+  "buttons": ["html","bold", "italic"],
+  "toolbarFixed": true,
+  "imageResizable": true, "imagePosition": true
 }

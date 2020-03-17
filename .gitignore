@@ -13,6 +13,10 @@
 /public_html/assets/documents
 /public_html/assets/images
 /public_html/cpresources
+/public_html/cpresources/**
+/public_html/imager/
+/public_html/imager/images/
+
 /vendor
 /sql
 .DS_Store
@@ -20,3 +24,4 @@
 !/craft/storage/rebrand
 /sql/*
 /templatesold/*
+config.codekit3
