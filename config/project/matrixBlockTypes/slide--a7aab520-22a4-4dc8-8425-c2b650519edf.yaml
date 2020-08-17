@@ -23,6 +23,15 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: bb1452df-3ceb-4b35-a22e-70da941ee2ed
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 9ba48dc9-f0b4-4494-8c36-4c201f29d30e
             instructions: null
             label: null
@@ -68,7 +77,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: bb1452df-3ceb-4b35-a22e-70da941ee2ed
+            fieldUid: f02681ca-0e3d-4e81-8d29-7f32bffcd4b2
             instructions: null
             label: null
             required: false
@@ -249,6 +258,25 @@ fields:
     settings:
       byteLimit: null
       charLimit: 50
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f02681ca-0e3d-4e81-8d29-7f32bffcd4b2:
+    contentColumnType: text
+    fieldGroup: null
+    handle: test
+    instructions: ''
+    name: test
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
       code: ''
       columnType: null
       initialRows: '4'
