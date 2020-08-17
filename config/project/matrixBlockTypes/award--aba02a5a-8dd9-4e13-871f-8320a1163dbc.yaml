@@ -1,0 +1,60 @@
+field: 88ed5aad-170c-45d9-918b-fa221bd47790
+fieldLayouts:
+  72482e1b-2ad0-4345-b956-f9ec626354f9:
+    tabs:
+      -
+        fields:
+          34049412-21ec-4cc5-a02a-6c4e03428b30:
+            required: false
+            sortOrder: 1
+          e29ec61c-6a8d-414e-a38b-fa60b86b1d66:
+            required: false
+            sortOrder: 2
+        name: Content
+        sortOrder: 1
+fields:
+  34049412-21ec-4cc5-a02a-6c4e03428b30:
+    contentColumnType: string
+    fieldGroup: null
+    handle: awardLogo
+    instructions: ''
+    name: 'Award logo'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: 'Add logo for award in transparent form'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:projectImage'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e29ec61c-6a8d-414e-a38b-fa60b86b1d66:
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: awardLogoLink
+    instructions: 'Add url for logo to link to optional'
+    name: 'Award logo link'
+    searchable: true
+    settings:
+      maxLength: 255
+      placeholder: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: award
+name: Award
+sortOrder: 2

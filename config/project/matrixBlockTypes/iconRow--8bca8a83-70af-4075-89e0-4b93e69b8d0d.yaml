@@ -1,0 +1,134 @@
+field: 3d10d985-092b-4e66-976f-b2ef9a74e210
+fieldLayouts:
+  a8c5e247-93bf-4ddc-aa68-334f563f6e29:
+    tabs:
+      -
+        fields:
+          489f013c-c054-4552-b965-94911c2bae90:
+            required: false
+            sortOrder: 2
+          7cc9469f-f82a-4189-9666-cf37ac075b86:
+            required: false
+            sortOrder: 3
+          7ece6dd1-43a7-43e2-954d-618c49371c0d:
+            required: false
+            sortOrder: 1
+          8667f163-2e8c-4ba4-b519-f5dd8699a955:
+            required: false
+            sortOrder: 4
+        name: Content
+        sortOrder: 1
+fields:
+  489f013c-c054-4552-b965-94911c2bae90:
+    contentColumnType: string
+    fieldGroup: null
+    handle: icons
+    instructions: ''
+    name: Icons
+    searchable: true
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 108
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 111
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 112
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 109
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 110
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_icons_3}}'
+      fieldLayout: row
+      maxRows: ''
+      minRows: ''
+      propagationMethod: all
+      selectionLabel: 'Add icon column'
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  7cc9469f-f82a-4189-9666-cf37ac075b86:
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: ''
+    name: 'Button text'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7ece6dd1-43a7-43e2-954d-618c49371c0d:
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8667f163-2e8c-4ba4-b519-f5dd8699a955:
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonLink
+    instructions: ''
+    name: 'Button link'
+    searchable: true
+    settings:
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: iconRow
+name: 'Icon row'
+sortOrder: 1

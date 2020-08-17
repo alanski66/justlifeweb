@@ -1,0 +1,25 @@
+fieldLayouts:
+  82dec387-25d1-45f8-a867-e4fcb466768d:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 642977d9-c3cc-4eed-9b52-c111a413ab3f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 3b9c3cb5-ac74-401a-a998-7dd9f31a8572
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Supports and funders'
+        sortOrder: 1
+handle: supportersFunders
+hasTitleField: true
+name: 'Supporters & Funders'
+section: 98a49d1d-ea91-4fa4-97a1-3748fcec9423
+sortOrder: 1
+titleFormat: ''

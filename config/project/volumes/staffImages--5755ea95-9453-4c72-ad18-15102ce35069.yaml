@@ -1,0 +1,8 @@
+handle: staffImages
+hasUrls: true
+name: 'Staff images'
+settings:
+  path: '@assetBasePath/images/staff'
+sortOrder: 4
+type: craft\volumes\Local
+url: '@assetBaseUrl/images/staff'

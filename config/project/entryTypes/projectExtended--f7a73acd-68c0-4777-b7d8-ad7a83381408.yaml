@@ -1,0 +1,49 @@
+fieldLayouts:
+  522cffff-dcef-41d6-b6ff-9f5f0dbdffbb:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 9436ee17-32aa-4b1f-8bd1-e25479319a24
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 4234221a-a85d-4136-9d1d-1ca358e80ff0
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: f3aac0db-576b-4844-93aa-85edbe16dd78
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 8c28222c-b71c-46e5-8266-83f8eaa38c45
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 05f63b3e-42b6-4518-9eee-102648d0b4ef
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: b9b0ac43-4737-4b27-8b6c-e8b9d4d4c0ce
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 894c03e7-0179-4b48-9102-141bf40ac3d1
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: e2639022-dbb4-4ea3-8e00-dbccac51844d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Projects
+        sortOrder: 1
+handle: projectExtended
+hasTitleField: true
+name: 'Project extended'
+section: b64f51ec-21e9-4f29-a1d2-468e90ed13f8
+sortOrder: 3
+titleFormat: ''

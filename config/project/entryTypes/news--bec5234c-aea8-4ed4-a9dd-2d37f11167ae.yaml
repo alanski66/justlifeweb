@@ -1,0 +1,53 @@
+fieldLayouts:
+  d1ca9d0e-8902-4874-b5de-c9145ec409b8:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 08d20686-3600-47f2-8c0a-9e17b8d80457
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 14edf059-6ee9-43fb-83b3-2ad7ba50b48e
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: a1fb593f-8cf1-4328-a410-8af0f7d0cbe6
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: e2639022-dbb4-4ea3-8e00-dbccac51844d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: a6ae855d-6642-404c-9ad4-1b9608ee6a85
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 85fc3b41-3642-41bd-a769-2cf9e1b27ccd
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Default
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 40e8c726-41e0-4aa7-aab2-2b9bda75957d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: SEO
+        sortOrder: 2
+handle: news
+hasTitleField: true
+name: News
+section: de4daed0-91e0-4d82-95d3-14e27ea0b01c
+sortOrder: 1
+titleFormat: ''

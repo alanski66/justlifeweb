@@ -1,0 +1,85 @@
+fieldLayouts:
+  849d664f-86ea-4ffd-bc62-3e4f50b0419c:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: e2639022-dbb4-4ea3-8e00-dbccac51844d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 9436ee17-32aa-4b1f-8bd1-e25479319a24
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 14edf059-6ee9-43fb-83b3-2ad7ba50b48e
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 4234221a-a85d-4136-9d1d-1ca358e80ff0
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: f3aac0db-576b-4844-93aa-85edbe16dd78
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Projects
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 71ca7802-37e2-4c68-877d-7fcfb890a192
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: b35196bf-887f-40bb-8832-b520e071ebb4
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1f113853-a212-457d-b76f-db78244af209
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 26a325fe-7f1d-40a5-b307-6a2d371dc6e3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 5b7818b4-46a0-40ef-b373-1c5a6f4d461b
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 5e1ed6e4-9824-4759-8805-96310b5ad444
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: da26ab3d-5b81-4a02-b922-36ff90bbb95f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Featured
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: 300d193f-c768-4945-8669-26af92cf0613
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Sponsorships
+        sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: 88ed5aad-170c-45d9-918b-fa221bd47790
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Project Awards'
+        sortOrder: 4
+handle: project
+hasTitleField: true
+name: Project
+section: b64f51ec-21e9-4f29-a1d2-468e90ed13f8
+sortOrder: 2
+titleFormat: ''

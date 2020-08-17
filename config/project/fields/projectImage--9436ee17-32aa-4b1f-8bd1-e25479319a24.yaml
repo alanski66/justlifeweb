@@ -1,0 +1,32 @@
+contentColumnType: string
+fieldGroup: b0271536-52a9-46ee-8122-425017ee9f4d
+handle: projectImage
+instructions: 'Add a large full width image '
+name: 'Project image'
+searchable: true
+settings:
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: ''
+  selectionLabel: ''
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  singleUploadLocationSource: 'volume:projectImage'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+    - 'volume:e64ccb15-e61c-41a3-84f8-e9c3a375a142'
+    - 'volume:projectImage'
+    - 'volume:8efd0c0c-fba0-499f-a93e-1b57ff148494'
+    - 'volume:2004cf85-89b4-43cc-8c92-7cfe1ed5ebb0'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

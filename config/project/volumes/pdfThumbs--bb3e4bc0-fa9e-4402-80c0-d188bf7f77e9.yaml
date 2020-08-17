@@ -1,0 +1,18 @@
+fieldLayouts:
+  0e14b557-0ce6-4712-b560-8e51aaddfbb8:
+    tabs:
+      -
+        fields:
+          eecce7d1-ca94-4724-add4-29fd320d464a:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+handle: pdfThumbs
+hasUrls: true
+name: 'PDf thumbs'
+settings:
+  path: '@assetBasePath/images/pdfthumbs'
+sortOrder: 9
+type: craft\volumes\Local
+url: '@assetBaseUrl/images/pdfthumbs'

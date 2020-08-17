@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: b0271536-52a9-46ee-8122-425017ee9f4d
+handle: projectAwards
+instructions: ''
+name: 'Project awards'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_projectawards}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

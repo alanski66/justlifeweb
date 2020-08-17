@@ -1,0 +1,7 @@
+handle: miscPages
+hasTitleField: true
+name: 'Misc pages'
+section: 3bc5c2a4-9f38-4b42-ba01-178a86c3745b
+sortOrder: 1
+titleFormat: null
+titleLabel: Title

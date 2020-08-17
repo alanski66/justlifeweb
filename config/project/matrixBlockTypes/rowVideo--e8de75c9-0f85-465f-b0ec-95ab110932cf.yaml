@@ -1,0 +1,187 @@
+field: d9918bb6-9a7e-43aa-b619-9c3b1aa7ce4c
+fieldLayouts:
+  52e467d4-23d6-48e4-846a-a6ff05d73727:
+    tabs:
+      -
+        fields:
+          0d01114e-8dbe-4ca7-98d2-dcd4380cb4a4:
+            required: false
+            sortOrder: 3
+          5b6e6829-19be-41df-8562-a1fb74eeb75e:
+            required: false
+            sortOrder: 2
+          6de39ddb-8561-42ca-8abd-ec53b05eb2e2:
+            required: false
+            sortOrder: 5
+          9bf6a0c8-f40a-4298-bdb8-d0805d323865:
+            required: false
+            sortOrder: 4
+          b896df80-343f-4075-9a4d-82db6f72b2b7:
+            required: false
+            sortOrder: 6
+          c74220c3-a7fd-4f00-9e6b-27307cfe69d6:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  0d01114e-8dbe-4ca7-98d2-dcd4380cb4a4:
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: ''
+    name: Text
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  5b6e6829-19be-41df-8562-a1fb74eeb75e:
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6de39ddb-8561-42ca-8abd-ec53b05eb2e2:
+    contentColumnType: string
+    fieldGroup: null
+    handle: videoThumb
+    instructions: 'Optional video thumb - upload an image you want to show as the still image for the video'
+    name: Videothumb
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:ddf55caf-7ee2-4e28-a3a7-5403cb88782e'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:ddf55caf-7ee2-4e28-a3a7-5403cb88782e'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:ddf55caf-7ee2-4e28-a3a7-5403cb88782e'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: ''
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  9bf6a0c8-f40a-4298-bdb8-d0805d323865:
+    contentColumnType: text
+    fieldGroup: null
+    handle: videoEmbed
+    instructions: 'Add the url of a youtube video here'
+    name: 'Video embed'
+    searchable: true
+    settings:
+      url: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: wrav\oembed\fields\OembedField
+  b896df80-343f-4075-9a4d-82db6f72b2b7:
+    contentColumnType: string
+    fieldGroup: null
+    handle: localVideo
+    instructions: ''
+    name: 'Local video'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:ddf55caf-7ee2-4e28-a3a7-5403cb88782e'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: 'Upload add a local video'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:ddf55caf-7ee2-4e28-a3a7-5403cb88782e'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c74220c3-a7fd-4f00-9e6b-27307cfe69d6:
+    contentColumnType: string
+    fieldGroup: null
+    handle: alignment
+    instructions: ''
+    name: Alignment
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Centre
+            -
+              - value
+              - center
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: rowVideo
+name: Video
+sortOrder: 3

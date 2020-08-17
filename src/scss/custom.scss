@@ -41,11 +41,11 @@
 @import 'theme/slick-theme.scss';
 @import 'partials/btns';
 //@import 'partials/nav';
-//@import 'partials/page';
-//@import 'partials/footer';
-//@import 'partials/forms';
+@import 'partials/page';
+@import 'partials/footer';
+@import 'partials/forms';
 @import 'partials/utility';
-
+@import 'partials/lunar';
 //really simple social share
 @import 'rrssb/rrssb.scss';
 

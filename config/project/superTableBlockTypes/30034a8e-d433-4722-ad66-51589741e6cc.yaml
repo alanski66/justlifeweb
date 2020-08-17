@@ -1,0 +1,216 @@
+field: 4881baab-fb5a-4f28-8db5-8b0750a56b7d
+fieldLayouts:
+  28a812e5-512a-47e6-99d6-1eb3eb36516f:
+    tabs:
+      -
+        fields:
+          18548933-6264-4903-9f75-516ace8330cc:
+            required: false
+            sortOrder: 2
+          4ddbcff3-fc20-403c-a1be-a24b71677cfc:
+            required: false
+            sortOrder: 7
+          6c4c11ac-021e-45b3-a9e6-baa58884d18e:
+            required: false
+            sortOrder: 1
+          7188fe22-f189-4e55-83bf-6d6625882a40:
+            required: false
+            sortOrder: 3
+          7f93d305-4d2c-44ce-a430-19de42f60e40:
+            required: false
+            sortOrder: 4
+          d27bf05b-0c8d-4ee5-ae8b-a7ee0c032cda:
+            required: false
+            sortOrder: 6
+          ee68d96e-771f-4baf-977c-bfc7f92db7e6:
+            required: false
+            sortOrder: 5
+        name: Content
+        sortOrder: 1
+fields:
+  18548933-6264-4903-9f75-516ace8330cc:
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardImage
+    instructions: ''
+    name: 'Card image'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:65b046c4-d946-472f-9eb0-5c845aabedda'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+        - 'volume:65b046c4-d946-472f-9eb0-5c845aabedda'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: ''
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  4ddbcff3-fc20-403c-a1be-a24b71677cfc:
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardButtonIcon
+    instructions: ''
+    name: 'Card button icon'
+    searchable: true
+    settings:
+      columnType: text
+      iconSets: null
+      remoteSets: '*'
+      showLabels: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\iconpicker\fields\IconPickerField
+  6c4c11ac-021e-45b3-a9e6-baa58884d18e:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardTitle
+    instructions: ''
+    name: 'Card title'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7188fe22-f189-4e55-83bf-6d6625882a40:
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageZoom
+    instructions: 'You can zoom in on the focal point of the image by setting the zoom factor here'
+    name: 'Card image zoom'
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Zoom 1:1'
+            -
+              - value
+              - '1'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Zoom 1.5'
+            -
+              - value
+              - '1.5'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Zoom 2.0'
+            -
+              - value
+              - '2'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Zoom 2.5'
+            -
+              - value
+              - '2.5'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Zoom 3'
+            -
+              - value
+              - '3'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  7f93d305-4d2c-44ce-a430-19de42f60e40:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardBody
+    instructions: ''
+    name: 'Card body'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d27bf05b-0c8d-4ee5-ae8b-a7ee0c032cda:
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardButtonLink
+    instructions: ''
+    name: 'Card button link'
+    searchable: true
+    settings:
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: ''
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  ee68d96e-771f-4baf-977c-bfc7f92db7e6:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardButtonTitle
+    instructions: ''
+    name: 'Card button title'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

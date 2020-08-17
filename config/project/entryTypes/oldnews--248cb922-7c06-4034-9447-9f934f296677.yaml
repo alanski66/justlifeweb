@@ -1,0 +1,41 @@
+fieldLayouts:
+  91423465-583a-4c75-bb71-76d22696a5e7:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 6c55c1fe-8dc5-4c1b-92be-ea0db0b30f1d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 85fc3b41-3642-41bd-a769-2cf9e1b27ccd
+            required: true
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: a6ae855d-6642-404c-9ad4-1b9608ee6a85
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: e2639022-dbb4-4ea3-8e00-dbccac51844d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Content
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 40e8c726-41e0-4aa7-aab2-2b9bda75957d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: SEO
+        sortOrder: 2
+handle: oldnews
+hasTitleField: true
+name: 'Old News'
+section: de4daed0-91e0-4d82-95d3-14e27ea0b01c
+sortOrder: 2
+titleFormat: ''

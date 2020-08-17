@@ -1,0 +1,41 @@
+fieldLayouts:
+  4ef03dfd-414b-47bc-99be-af56f1d61d92:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: fd894e73-ca1e-4682-8abd-242d8fb30a84
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Newsletter content'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 2246c772-7c16-4625-a6af-3c549f6bc595
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 0568f7bd-c756-4a37-a36d-a2c4be779712
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 96716c3b-ede4-4d28-96e4-99a30c844851
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: dcc8af56-c34c-423e-b070-2c22a3dbd270
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Newsletter heading & footer'
+        sortOrder: 2
+handle: emailNewsletters
+hasTitleField: true
+name: 'Email Newsletters'
+section: 3454114f-38f3-4107-9028-88ac9b8cc9fd
+sortOrder: 1
+titleFormat: null

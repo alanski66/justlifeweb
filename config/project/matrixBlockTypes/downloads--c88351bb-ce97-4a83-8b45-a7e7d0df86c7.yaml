@@ -1,0 +1,134 @@
+field: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9
+fieldLayouts:
+  d4f9c486-7867-4dd1-97bc-dcce99542d77:
+    tabs:
+      -
+        fields:
+          02a0696b-5fef-4116-ba52-f18b14fe7009:
+            required: false
+            sortOrder: 4
+          794e5528-8ada-4fcc-8d67-ee3fb58905e1:
+            required: false
+            sortOrder: 2
+          b5ba5b41-4bd5-4984-8982-1a80317498ca:
+            required: false
+            sortOrder: 3
+          e47d7e3f-80be-44fe-8022-0d8ac03d0d57:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  02a0696b-5fef-4116-ba52-f18b14fe7009:
+    contentColumnType: string
+    fieldGroup: null
+    handle: displayStyle
+    instructions: 'Sets display style for document list'
+    name: 'Display style'
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Box list'
+            -
+              - value
+              - boxList
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Icon list'
+            -
+              - value
+              - iconList
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Button list'
+            -
+              - value
+              - buttonList
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  794e5528-8ada-4fcc-8d67-ee3fb58905e1:
+    contentColumnType: text
+    fieldGroup: null
+    handle: subline
+    instructions: 'small amount of text to appear under heading if required - use for short explanations'
+    name: Subline
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b5ba5b41-4bd5-4984-8982-1a80317498ca:
+    contentColumnType: string
+    fieldGroup: null
+    handle: download
+    instructions: ''
+    name: Download
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: 'Choose a file to add'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: ''
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e47d7e3f-80be-44fe-8022-0d8ac03d0d57:
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: 'heading to show above download(s)'
+    name: Heading
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: downloads
+name: Downloads
+sortOrder: 6

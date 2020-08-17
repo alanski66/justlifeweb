@@ -1,0 +1,7 @@
+handle: fundraisingEvents
+hasTitleField: true
+name: 'Fundraising Events'
+section: 006fd09c-a75e-4d11-87ca-5fa7b5aced98
+sortOrder: 1
+titleFormat: null
+titleLabel: Title

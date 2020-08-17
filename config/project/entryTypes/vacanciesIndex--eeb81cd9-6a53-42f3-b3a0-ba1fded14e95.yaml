@@ -1,0 +1,7 @@
+handle: vacanciesIndex
+hasTitleField: false
+name: 'Vacancies index'
+section: 1cdead03-8dd8-4d95-98ef-6410b57f76ce
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleLabel: null

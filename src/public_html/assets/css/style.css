@@ -1,2 +1,2 @@
-div.cardrow>[class^="ti-"]{font-size:26px}
+.section landingpagerows .left [class*='col-'].first-child{background:red}
 /*# sourceMappingURL=style.css.map */

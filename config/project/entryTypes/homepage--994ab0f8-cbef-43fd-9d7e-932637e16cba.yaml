@@ -1,0 +1,52 @@
+fieldLayouts:
+  2c583da7-7f0d-4a56-8bd7-30fd16a838d2:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 3d10d985-092b-4e66-976f-b2ef9a74e210
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Content
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 9abbaee7-cb0e-4e11-b58f-88ba10242b3b
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Carousel
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: 71ca7802-37e2-4c68-877d-7fcfb890a192
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 26a325fe-7f1d-40a5-b307-6a2d371dc6e3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 5b7818b4-46a0-40ef-b373-1c5a6f4d461b
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1f113853-a212-457d-b76f-db78244af209
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Featured
+        sortOrder: 3
+      -
+        name: SEO
+        sortOrder: 4
+handle: homepage
+hasTitleField: true
+name: Homepage
+section: 4ae13be4-c235-48bb-a44f-cc265aeb982a
+sortOrder: 1
+titleFormat: '{section.name|raw}'

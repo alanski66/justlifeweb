@@ -1,0 +1,227 @@
+field: 489f013c-c054-4552-b965-94911c2bae90
+fieldLayouts:
+  c8fd50b6-af31-4e08-a571-7ede22167847:
+    tabs:
+      -
+        fields:
+          08a7e56e-2483-4fe2-a651-649f8423c463:
+            required: false
+            sortOrder: 1
+          363cf021-aee1-4c33-a240-4cee24ffc96a:
+            required: false
+            sortOrder: 2
+          a8fb4007-f9b2-4386-8444-4c3f8e561b86:
+            required: false
+            sortOrder: 4
+          c376e0b9-b7ff-43d9-90b3-708f9e817bf2:
+            required: false
+            sortOrder: 3
+          f55508fe-d5c8-43dc-b831-c7369df9e8f7:
+            required: false
+            sortOrder: 5
+        name: Content
+        sortOrder: 1
+fields:
+  08a7e56e-2483-4fe2-a651-649f8423c463:
+    contentColumnType: string
+    fieldGroup: null
+    handle: icon
+    instructions: ''
+    name: Icon
+    searchable: true
+    settings:
+      errorMessage: 'Unable to find component class ''plugins\dolphiq\iconpicker\fields\Iconpicker''.'
+      expectedType: plugins\dolphiq\iconpicker\fields\Iconpicker
+      settings:
+        __assoc__:
+          -
+            - columnType
+            - string
+          -
+            - iconFont
+            - fontawesome-webfont
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\MissingField
+  363cf021-aee1-4c33-a240-4cee24ffc96a:
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: ''
+    name: Text
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a8fb4007-f9b2-4386-8444-4c3f8e561b86:
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: iconColor
+    instructions: ''
+    name: 'Icon color'
+    searchable: true
+    settings:
+      defaultColor: '#ffffff'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  c376e0b9-b7ff-43d9-90b3-708f9e817bf2:
+    contentColumnType: string
+    fieldGroup: null
+    handle: customIcon
+    instructions: 'This will override icons chosen above. Remove it to use the font based icon'
+    name: 'Custom icon'
+    searchable: true
+    settings:
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:customIcons'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  f55508fe-d5c8-43dc-b831-c7369df9e8f7:
+    contentColumnType: string
+    fieldGroup: null
+    handle: iconSize
+    instructions: ''
+    name: 'Icon size'
+    searchable: true
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 1x
+            -
+              - value
+              - fa-1x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 2x
+            -
+              - value
+              - fa-2x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 3x
+            -
+              - value
+              - fa-3x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 4x
+            -
+              - value
+              - fa-4x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 5x
+            -
+              - value
+              - fa-5x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 6x
+            -
+              - value
+              - fa-6x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 7x
+            -
+              - value
+              - fa-7x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 8x
+            -
+              - value
+              - fa-8x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 9x
+            -
+              - value
+              - fa-9x
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 10x
+            -
+              - value
+              - fa-10x
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown

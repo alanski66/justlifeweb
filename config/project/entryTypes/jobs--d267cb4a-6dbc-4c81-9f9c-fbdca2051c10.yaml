@@ -1,0 +1,53 @@
+fieldLayouts:
+  09dd9292-3b5c-4eb0-a85e-6bdeafa59c07:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 14edf059-6ee9-43fb-83b3-2ad7ba50b48e
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 98b30784-0bde-4938-928a-6bf154a806a9
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 19a31027-55ba-4453-b3d7-b08398c68ea5
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 894c03e7-0179-4b48-9102-141bf40ac3d1
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 5d3534eb-0732-47c8-a8e2-b9487cb526be
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 0b98253b-ff78-4531-b512-936251f733b6
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 99c5fcee-86df-44ab-932b-3f4cc2609a23
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Job
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 40e8c726-41e0-4aa7-aab2-2b9bda75957d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: SEO
+        sortOrder: 2
+handle: jobs
+hasTitleField: true
+name: Jobs
+section: 1c04d6ec-3b1f-41b9-a10d-be00b8dab319
+sortOrder: 1
+titleFormat: ''

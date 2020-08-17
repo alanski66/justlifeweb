@@ -1,0 +1,29 @@
+fieldLayouts:
+  d926d867-f9f4-4dbc-ae0f-9282431cfac4:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 98b30784-0bde-4938-928a-6bf154a806a9
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: abaa395c-662b-4f31-932b-edc406a82c5c
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: cf1e4563-c3fa-4515-bc6c-0a8d7d25980f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Pages
+        sortOrder: 1
+handle: staffIndex
+hasTitleField: true
+name: 'Staff index'
+section: d92c03cb-0d89-4034-a675-4c44d44df257
+sortOrder: 3
+titleFormat: ''

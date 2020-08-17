@@ -1,0 +1,8 @@
+handle: landingpages
+hasUrls: true
+name: 'Landing pages'
+settings:
+  path: '@assetBasePath/images/landingpage'
+sortOrder: 8
+type: craft\volumes\Local
+url: '@assetBaseUrl/images/landingpage'

@@ -1,0 +1,33 @@
+fieldLayouts:
+  8ff3e94f-23c1-45a8-b343-ee19973b04e4:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 943d62c7-9600-469f-b6d7-9f8162759193
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 70579a5e-bdbd-4298-a851-a0f6979cc7a1
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: cf1e4563-c3fa-4515-bc6c-0a8d7d25980f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: abaa395c-662b-4f31-932b-edc406a82c5c
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Menu
+        sortOrder: 1
+handle: topNav
+hasTitleField: true
+name: 'Top nav'
+section: bdb9bcc5-6d5c-4325-bdbf-f9d19658766a
+sortOrder: 1
+titleFormat: null

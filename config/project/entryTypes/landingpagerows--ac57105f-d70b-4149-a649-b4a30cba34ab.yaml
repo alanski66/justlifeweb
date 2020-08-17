@@ -1,0 +1,45 @@
+fieldLayouts:
+  de045452-720c-4365-9b9b-fa6e553eacf0:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: d9918bb6-9a7e-43aa-b619-9c3b1aa7ce4c
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Landing page rows'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 727edbaa-4674-4a82-bc49-28a722425891
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1eba2c3a-5fac-49e8-b41a-4d750a8e9439
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 134d1fe5-ddc8-46d7-bb05-0291e4b5c260
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Banner
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: 40e8c726-41e0-4aa7-aab2-2b9bda75957d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: SEO
+        sortOrder: 3
+handle: landingpagerows
+hasTitleField: true
+name: 'Landing page rows'
+section: d92c03cb-0d89-4034-a675-4c44d44df257
+sortOrder: 11
+titleFormat: ''

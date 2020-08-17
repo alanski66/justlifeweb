@@ -1,0 +1,41 @@
+fieldLayouts:
+  ae262fa3-be83-4678-b42c-ae42fdbf6938:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 85fc3b41-3642-41bd-a769-2cf9e1b27ccd
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 14edf059-6ee9-43fb-83b3-2ad7ba50b48e
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 44ce4f57-f3d7-416c-bc55-f7505aa7b29e
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 2e999a83-5681-42a4-bf7d-99b2c00d47b3
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: b35196bf-887f-40bb-8832-b520e071ebb4
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: e2639022-dbb4-4ea3-8e00-dbccac51844d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Default
+        sortOrder: 1
+handle: networkProject
+hasTitleField: true
+name: 'Network project'
+section: b64f51ec-21e9-4f29-a1d2-468e90ed13f8
+sortOrder: 4
+titleFormat: ''

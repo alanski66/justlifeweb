@@ -1,0 +1,53 @@
+fieldLayouts:
+  8c1ce11b-854f-49bd-b5c9-4a8a6e60432c:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 08e678d9-9ee0-4ece-8fdd-a402c203d9e7
+            required: true
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 98b30784-0bde-4938-928a-6bf154a806a9
+            required: true
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 0b98253b-ff78-4531-b512-936251f733b6
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 99c5fcee-86df-44ab-932b-3f4cc2609a23
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 85fc3b41-3642-41bd-a769-2cf9e1b27ccd
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: af0983a5-20e4-4c61-a7b4-b1c773769e1c
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 506fa8b9-4666-41cd-9863-8182b7a9c79c
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Resources
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 40e8c726-41e0-4aa7-aab2-2b9bda75957d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: SEO
+        sortOrder: 2
+handle: research
+hasTitleField: true
+name: Research
+section: 0d088044-129d-459a-8873-012a51dea2bb
+sortOrder: 1
+titleFormat: ''

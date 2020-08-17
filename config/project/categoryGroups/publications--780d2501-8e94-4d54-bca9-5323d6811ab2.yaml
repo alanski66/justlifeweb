@@ -1,0 +1,10 @@
+handle: publications
+name: Publications
+siteSettings:
+  dda3b550-c778-4d47-86b0-11543ac8053a:
+    hasUrls: true
+    template: ''
+    uriFormat: 'publications/{slug}'
+structure:
+  maxLevels: null
+  uid: c53f19e2-167f-46dd-b8bb-3bc997f4f656

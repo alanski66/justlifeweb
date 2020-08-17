@@ -1,0 +1,18 @@
+fieldLayouts:
+  e05aa12a-b6b3-42bc-adee-0b5f83a739b4:
+    tabs:
+      -
+        fields:
+          2e999a83-5681-42a4-bf7d-99b2c00d47b3:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+handle: unsplashImages
+hasUrls: true
+name: 'Unsplash images'
+settings:
+  path: '@assetBasePath/images/unsplash'
+sortOrder: 3
+type: craft\volumes\Local
+url: '@assetBaseUrl/images/unsplash'

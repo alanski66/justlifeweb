@@ -1,0 +1,169 @@
+dateModified: 1597675503
+email:
+  fromEmail: admin@mysite.com
+  fromName: Mysite
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+plugins:
+  architect:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  dolphiq-iconpicker:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  environment-label:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.2
+  icon-picker:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      iconSetsPath: /Users/alansparkes/sites/justlifeweb/public_html/fonts/
+      iconSetsUrl: /fonts/
+      maxIconsShown: '100'
+      redactorFieldHandle: ''
+  imager:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  mobile-detect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  oembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  pdfthumbnailer:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      pdfDocument: pdfDocument
+      pdfThumbnailImage: pdfThumbnailImage
+      pdfThumbnailImageVolume: pdfthumbs
+  position-fieldtype:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+  redactor:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 2.3.0
+    settings: null
+  schema:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  section-field:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.0.1
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.1.1
+    settings:
+      description: '{% if entry.introText %}{introText}{%else%}{{body}}{% endif %}'
+      facebookAppId: ''
+      metaTemplate: ''
+      removeAlternateUrls: ''
+      robots:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage:
+        - '5332'
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - locked
+              - '0'
+            -
+              - template
+              - '{title}'
+        -
+          __assoc__:
+            -
+              - key
+              - '2'
+            -
+              - locked
+              - '1'
+            -
+              - template
+              - ' - {{ siteName }}'
+      titleSuffix: null
+      twitterHandle: justlifeuk
+  smith:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  splashing-images:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.2.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+  tag-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  wheelform:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      cp_label: Forms
+      from_email: noreply@justlife.org.uk
+      from_name: JustLife
+      recaptcha_public: $RECAPTCHAV3_PUBLIC
+      recaptcha_secret: $RECAPTCHAV3_PRIVATE
+      recaptcha_version: '3'
+      success_message: 'Thank You! we will review your submission shortly.'
+      volume_id: ''
+system:
+  edition: pro
+  live: true
+  name: Justlife
+  schemaVersion: 3.5.12
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

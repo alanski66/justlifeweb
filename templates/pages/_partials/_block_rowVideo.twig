@@ -1,0 +1,48 @@
+{% set image = block.videoThumb.one() %}
+
+{% set thumb = {
+    mode: 'crop',
+    width: 545,
+    height: 362,
+    quality: 85,
+    position: 'left-center'
+} %}
+{% set image = image.getUrl(thumb)  %}
+{% set vthumb = image ?? nullImage ?? null %}
+{# public_html/assets/images/landingpage/placeholder.png #}
+
+{% if block.alignment =='left' %}
+{% set orderOne = 'order-1' %}
+{% set orderTwo = 'order-2' %}
+{% endif %}
+
+{% if block.alignment == "right" %}
+    {% set orderOne = 'order-2' %}
+    {% set orderTwo = 'order-1' %}
+{% endif %}
+
+{% if block.alignment == "center" %}
+    {% set orderOne = 'order-0' %}
+    {% set orderTwo = 'order-0' %}
+{% endif %}
+
+<!-- row video -->
+<section class="section {{ entry.type }} {{ block.alignment }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 align-self-center {{ orderOne }}">
+                <div class="overlay overlay-rounded mb-md-50">
+                    <img class="img-fluid w-100 rounded" src="{{ vthumb }}" alt="{{ entry.title }}">
+                    <a class="play-icon popup-youtube centralized" href="{{ block.videoEmbed.url }}"><i class="ti-control-play"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-7 {{ orderTwo }}">
+
+                <h2 class="section-title section-title-border-half">{{ block.heading }}</h2>
+                {{block.text}}
+                <a href="#" class=" hide btn btn-primary">Explore More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- row video -->

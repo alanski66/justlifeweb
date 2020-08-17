@@ -1,0 +1,8 @@
+handle: social
+hasUrls: true
+name: Social
+settings:
+  path: '@assetBasePath/social'
+sortOrder: 7
+type: craft\volumes\Local
+url: '@assetBaseUrl/social'

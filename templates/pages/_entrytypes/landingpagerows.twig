@@ -1,0 +1,20 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% block content %}
+    {%  set layout = null %}
+    <!-- Page Content -->
+
+
+        {% include '/_partials/hero-banner.twig' %}
+
+
+<!-- landingpage rows -->
+    {% set lazyImage = false %}
+    {% set blockPrefix = "" %}
+    {% for block in entry.contentRows.all() %}
+        {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}
+        {% if block.type.handle == "image" %}
+            {% set lazyImage = true %}
+        {% endif %}
+    {% endfor %}
+
+{% endblock %}

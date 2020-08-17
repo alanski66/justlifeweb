@@ -1,0 +1,41 @@
+fieldLayouts:
+  78a77b15-b94a-4e4e-b893-4cbbd16161d1:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: abaa395c-662b-4f31-932b-edc406a82c5c
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: cf1e4563-c3fa-4515-bc6c-0a8d7d25980f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Pages
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 727edbaa-4674-4a82-bc49-28a722425891
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1eba2c3a-5fac-49e8-b41a-4d750a8e9439
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Banner
+        sortOrder: 2
+handle: page
+hasTitleField: true
+name: Page
+section: d92c03cb-0d89-4034-a675-4c44d44df257
+sortOrder: 1
+titleFormat: ''

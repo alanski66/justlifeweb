@@ -1,0 +1,17 @@
+contentColumnType: text
+fieldGroup: 2d92916c-c74c-4dec-aa83-2f95c7899790
+handle: emailFooterMessage
+instructions: ''
+name: 'Email Footer message'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,22 @@
+contentColumnType: text
+fieldGroup: f4c77426-3ec4-4532-b94d-83fff64f75c4
+handle: ctaText
+instructions: ''
+name: 'CTA text'
+searchable: true
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  cleanupHtml: true
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
