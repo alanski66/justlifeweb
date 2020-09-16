@@ -20,14 +20,12 @@ fields:
     settings:
       columns:
         186:
-          __assoc__:
-            -
-              - width
-              - ''
-      contentTable: '{{%stc_ticklistitem_3}}'
+          width: ''
+      contentTable: '{{%stc_18_ticklistitem}}'
       fieldLayout: table
       maxRows: ''
       minRows: ''
+      placeholderKey: null
       propagationMethod: all
       selectionLabel: ''
       staticField: ''

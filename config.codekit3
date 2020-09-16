@@ -355,54 +355,148 @@
 		"oAP": "/public_html/fonts/fa-solid-900.woff2",
 		"oF": 0
 		},
-	"/public_html/fonts/fontawesome-webfont.eot": {
+	"/public_html/fonts/fa5/fa-brands-400.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/public_html/fonts/fontawesome-webfont.eot",
+		"oAP": "/public_html/fonts/fa5/fa-brands-400.eot",
 		"oF": 0
 		},
-	"/public_html/fonts/fontawesome-webfont.svg": {
+	"/public_html/fonts/fa5/fa-brands-400.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/public_html/fonts/fontawesome-webfont.svg",
+		"oAP": "/public_html/fonts/fa5/fa-brands-400.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/public_html/fonts/fontawesome-webfont.ttf": {
+	"/public_html/fonts/fa5/fa-brands-400.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/public_html/fonts/fontawesome-webfont.ttf",
+		"oAP": "/public_html/fonts/fa5/fa-brands-400.ttf",
 		"oF": 0
 		},
-	"/public_html/fonts/fontawesome-webfont.woff": {
+	"/public_html/fonts/fa5/fa-brands-400.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/public_html/fonts/fontawesome-webfont.woff",
+		"oAP": "/public_html/fonts/fa5/fa-brands-400.woff",
 		"oF": 0
 		},
-	"/public_html/fonts/fontawesome-webfont.woff2": {
+	"/public_html/fonts/fa5/fa-brands-400.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/public_html/fonts/fontawesome-webfont.woff2",
+		"oAP": "/public_html/fonts/fa5/fa-brands-400.woff2",
 		"oF": 0
 		},
-	"/public_html/fonts/FontAwesome.otf": {
+	"/public_html/fonts/fa5/fa-regular-400.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/public_html/fonts/FontAwesome.otf",
+		"oAP": "/public_html/fonts/fa5/fa-regular-400.eot",
+		"oF": 0
+		},
+	"/public_html/fonts/fa5/fa-regular-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/fonts/fa5/fa-regular-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/fonts/fa5/fa-regular-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/fa5/fa-regular-400.ttf",
+		"oF": 0
+		},
+	"/public_html/fonts/fa5/fa-regular-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/fa5/fa-regular-400.woff",
+		"oF": 0
+		},
+	"/public_html/fonts/fa5/fa-regular-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/fa5/fa-regular-400.woff2",
+		"oF": 0
+		},
+	"/public_html/fonts/fa5/fa-solid-900.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/fa5/fa-solid-900.eot",
+		"oF": 0
+		},
+	"/public_html/fonts/fa5/fa-solid-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/fonts/fa5/fa-solid-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/fonts/fa5/fa-solid-900.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/fa5/fa-solid-900.ttf",
+		"oF": 0
+		},
+	"/public_html/fonts/fa5/fa-solid-900.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/fa5/fa-solid-900.woff",
+		"oF": 0
+		},
+	"/public_html/fonts/fa5/fa-solid-900.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/fa5/fa-solid-900.woff2",
+		"oF": 0
+		},
+	"/public_html/fonts/themify.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/fonts/themify.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/fonts/themify.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/themify.ttf",
 		"oF": 0
 		},
 	"/public_html/icons/themify--fvbane.svg": {
@@ -423,6 +517,17 @@
 		"oAP": "/public_html/imager/images/book-portraits/226/Copy-of-irLtHeng_cf623f298524cb27db9652e70452d80f.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/public_html/imager/images/book-portraits/226/Copy-of-irLtHeng_cf623f298524cb27db9652e70452d80f.jpg": {
+		"ft": 16384,
+		"iS": 9499,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/book-portraits/226/Copy-of-irLtHeng_cf623f298524cb27db9652e70452d80f.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -434,7 +539,7 @@
 		"oAP": "/public_html/imager/images/creativestudio/160/IMG_20190617_145038_880_a62dd584e8321eb64e54f25c51cc66e0.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg": {
@@ -489,7 +594,7 @@
 		"oAP": "/public_html/imager/images/tanetwork/254/Doors.-007Photograph-Kim-Jae-Hwan-AFP-Getty-Images_a62dd584e8321eb64e54f25c51cc66e0.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/landingpages/144/IMG_20180418_150736640_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
@@ -498,6 +603,336 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/landingpages/144/IMG_20180418_150736640_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5104/FLNM_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 63538,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5104/FLNM_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5104/FLNM_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg": {
+		"ft": 16384,
+		"iS": 14953,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5104/FLNM_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5104/FLNM_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 83291,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5104/FLNM_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5104/FLNM_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 63218,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5104/FLNM_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5104/FLNM_dcc2a189e60cd34cab44458d458679f9.jpg": {
+		"ft": 16384,
+		"iS": 115019,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5104/FLNM_dcc2a189e60cd34cab44458d458679f9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5272/Untitled-design_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 60630,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5272/Untitled-design_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5272/Untitled-design_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 86549,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5272/Untitled-design_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5272/Untitled-design_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 63629,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5272/Untitled-design_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5275/black_and_white_man_person_rain_rainy_street_umbrella-1084087.jpgd_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 36572,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5275/black_and_white_man_person_rain_rainy_street_umbrella-1084087.jpgd_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5275/black_and_white_man_person_rain_rainy_street_umbrella-1084087.jpgd_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 48802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5275/black_and_white_man_person_rain_rainy_street_umbrella-1084087.jpgd_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5275/black_and_white_man_person_rain_rainy_street_umbrella-1084087.jpgd_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 37181,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5275/black_and_white_man_person_rain_rainy_street_umbrella-1084087.jpgd_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5278/Justlife-We-Are-Open_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 46496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5278/Justlife-We-Are-Open_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5278/Justlife-We-Are-Open_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 61142,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5278/Justlife-We-Are-Open_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5278/Justlife-We-Are-Open_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 47854,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5278/Justlife-We-Are-Open_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5281/Screen-Shot-2018-11-22-at-09.44.20_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 59301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5281/Screen-Shot-2018-11-22-at-09.44.20_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5281/Screen-Shot-2018-11-22-at-09.44.20_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 79127,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5281/Screen-Shot-2018-11-22-at-09.44.20_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5281/Screen-Shot-2018-11-22-at-09.44.20_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 63589,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5281/Screen-Shot-2018-11-22-at-09.44.20_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5284/IMG_7175_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 25849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5284/IMG_7175_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5284/IMG_7175_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 34362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5284/IMG_7175_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5284/IMG_7175_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 26413,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5284/IMG_7175_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5287/Screenshot-2018-12-04-at-09.23.52_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 22384,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5287/Screenshot-2018-12-04-at-09.23.52_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5287/Screenshot-2018-12-04-at-09.23.52_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 31539,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5287/Screenshot-2018-12-04-at-09.23.52_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5287/Screenshot-2018-12-04-at-09.23.52_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 24513,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5287/Screenshot-2018-12-04-at-09.23.52_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5290/conference-1_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 60606,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5290/conference-1_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5290/conference-1_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 82974,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5290/conference-1_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5290/conference-1_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 61752,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5290/conference-1_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5293/annie-spratt-469222-unsplash_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 57714,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5293/annie-spratt-469222-unsplash_234787f0082358ae77911d661a5c35b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5293/annie-spratt-469222-unsplash_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 78071,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5293/annie-spratt-469222-unsplash_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5293/annie-spratt-469222-unsplash_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 57501,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5293/annie-spratt-469222-unsplash_c637c80e972ba896587237c1c197807c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5296/evan-kirby-101570-unsplash_234787f0082358ae77911d661a5c35b1.jpg": {
+		"ft": 16384,
+		"iS": 28489,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5296/evan-kirby-101570-unsplash_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -509,6 +944,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/oldnewsimages/5296/evan-kirby-101570-unsplash_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5296/evan-kirby-101570-unsplash_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
+		"ft": 16384,
+		"iS": 40681,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5296/evan-kirby-101570-unsplash_b18274a50b7408ca9f0508bc348e7bc3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/oldnewsimages/5296/evan-kirby-101570-unsplash_c637c80e972ba896587237c1c197807c.jpg": {
+		"ft": 16384,
+		"iS": 30030,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/oldnewsimages/5296/evan-kirby-101570-unsplash_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -533,7 +990,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5302/paolo-nicolello-694104-unsplash_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5302/paolo-nicolello-694104-unsplash_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
@@ -544,7 +1001,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5302/paolo-nicolello-694104-unsplash_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5302/paolo-nicolello-694104-unsplash_c637c80e972ba896587237c1c197807c.jpg": {
@@ -555,7 +1012,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5302/paolo-nicolello-694104-unsplash_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5307/Just-Life_Parliament-20-1_234787f0082358ae77911d661a5c35b1.jpg": {
@@ -566,7 +1023,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5307/Just-Life_Parliament-20-1_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5307/Just-Life_Parliament-20-1_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
@@ -577,7 +1034,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5307/Just-Life_Parliament-20-1_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5307/Just-Life_Parliament-20-1_c637c80e972ba896587237c1c197807c.jpg": {
@@ -588,7 +1045,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5307/Just-Life_Parliament-20-1_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5310/sunrise-image_234787f0082358ae77911d661a5c35b1.jpg": {
@@ -599,7 +1056,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5310/sunrise-image_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5310/sunrise-image_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
@@ -610,7 +1067,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5310/sunrise-image_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5310/sunrise-image_c637c80e972ba896587237c1c197807c.jpg": {
@@ -621,7 +1078,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5310/sunrise-image_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5313/khlkhg_234787f0082358ae77911d661a5c35b1.jpg": {
@@ -632,7 +1089,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5313/khlkhg_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5313/khlkhg_b18274a50b7408ca9f0508bc348e7bc3.jpg": {
@@ -643,7 +1100,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5313/khlkhg_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5313/khlkhg_c637c80e972ba896587237c1c197807c.jpg": {
@@ -654,7 +1111,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5313/khlkhg_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5316/Screen-Shot-2019-02-20-at-12.07.54_234787f0082358ae77911d661a5c35b1.jpg": {
@@ -665,7 +1122,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5316/Screen-Shot-2019-02-20-at-12.07.54_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5316/Screen-Shot-2019-02-20-at-12.07.54_3f9086382a2dbace3348290b871ff06c.jpg": {
@@ -687,7 +1144,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5316/Screen-Shot-2019-02-20-at-12.07.54_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5316/Screen-Shot-2019-02-20-at-12.07.54_c637c80e972ba896587237c1c197807c.jpg": {
@@ -698,7 +1155,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5316/Screen-Shot-2019-02-20-at-12.07.54_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5319/Justlife-Brighton-7-years-01_234787f0082358ae77911d661a5c35b1.jpg": {
@@ -709,7 +1166,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5319/Justlife-Brighton-7-years-01_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5319/Justlife-Brighton-7-years-01_3f9086382a2dbace3348290b871ff06c.jpg": {
@@ -731,7 +1188,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5319/Justlife-Brighton-7-years-01_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5319/Justlife-Brighton-7-years-01_c637c80e972ba896587237c1c197807c.jpg": {
@@ -742,7 +1199,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5319/Justlife-Brighton-7-years-01_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5322/IMG_0475_234787f0082358ae77911d661a5c35b1.jpg": {
@@ -753,7 +1210,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5322/IMG_0475_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5322/IMG_0475_3f9086382a2dbace3348290b871ff06c.jpg": {
@@ -775,7 +1232,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5322/IMG_0475_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5322/IMG_0475_c637c80e972ba896587237c1c197807c.jpg": {
@@ -786,7 +1243,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5322/IMG_0475_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_234787f0082358ae77911d661a5c35b1.jpg": {
@@ -797,7 +1254,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_234787f0082358ae77911d661a5c35b1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg": {
@@ -808,7 +1265,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_3f9086382a2dbace3348290b871ff06c.jpg": {
@@ -830,7 +1287,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_c637c80e972ba896587237c1c197807c.jpg": {
@@ -841,7 +1298,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_c637c80e972ba896587237c1c197807c.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_dcc2a189e60cd34cab44458d458679f9.jpg": {
@@ -852,7 +1309,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5325/Photo-20-11-2019-13-58-57-CEO_dcc2a189e60cd34cab44458d458679f9.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5328/received_267870317406708_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg": {
@@ -863,7 +1320,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5328/received_267870317406708_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5328/received_267870317406708_3f9086382a2dbace3348290b871ff06c.jpg": {
@@ -885,7 +1342,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5328/received_267870317406708_b18274a50b7408ca9f0508bc348e7bc3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/oldnewsimages/5328/received_267870317406708_bd00e3734fd1780afee9d692bfd9f576.jpg": {
@@ -896,7 +1353,7 @@
 		"oAP": "/public_html/imager/oldnewsimages/5328/received_267870317406708_bd00e3734fd1780afee9d692bfd9f576.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/images/about/about-1.jpg": {
@@ -1554,8 +2011,8 @@
 		"oA": 0,
 		"oAP": "/public_html/images/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1989,6 +2446,3641 @@
 		"oA": 1,
 		"oAP": "/public_html/index.php",
 		"oF": 1
+		},
+	"/public_html/themify-icons-font.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons-font.zip",
+		"oF": 0
+		},
+	"/public_html/themify-icons/demo-files/demo.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/demo-files/demo-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/public_html/themify-icons/fonts/themify.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/fonts/themify.eot",
+		"oF": 0
+		},
+	"/public_html/themify-icons/fonts/themify.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/fonts/themify.ttf",
+		"oF": 0
+		},
+	"/public_html/themify-icons/fonts/themify.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/fonts/themify.woff",
+		"oF": 0
+		},
+	"/public_html/themify-icons/ie7/ie7.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/ie7/ie7-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/public_html/themify-icons/ie7/ie7.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/public_html/assets/js/dist-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/public_html/themify-icons/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/index.html",
+		"oF": 0
+		},
+	"/public_html/themify-icons/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/readme.txt",
+		"oF": 0
+		},
+	"/public_html/themify-icons/SVG/agenda.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/agenda.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/alarm-clock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/alarm-clock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/alert.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/alert.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/align-center.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/align-center.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/align-justify.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/align-justify.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/align-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/align-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/align-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/align-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/anchor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/anchor.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/android.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/android.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-double-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-double-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-double-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-double-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-double-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-double-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-double-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-double-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/angle-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/angle-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/announcement.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/announcement.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/apple.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/apple.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/archive.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/archive.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-circle-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-circle-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-circle-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-circle-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-circle-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-circle-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-circle-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-circle-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-top-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-top-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-top-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-top-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrows-corner.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrows-corner.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrows-horizontal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrows-horizontal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/arrows-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/arrows-vertical.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/back-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/back-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/back-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/back-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bar-chart-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bar-chart-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bar-chart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bar-chart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/basketball.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/basketball.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bell.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bell.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/blackboard.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/blackboard.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bolt-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bolt-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bolt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bolt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/book.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/book.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bookmark-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bookmark-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/bookmark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/bookmark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/briefcase.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/briefcase.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/brush-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/brush-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/brush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/brush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/calendar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/calendar.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/camera.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/car.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/car.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/check-box.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/check-box.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/check.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/clip.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/clip.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/clipboard.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/clipboard.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/cloud-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/cloud-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/cloud-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/cloud-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/cloud.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/cloud.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/comment-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/comment-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/comment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/comment.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/comments-smiley.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/comments-smiley.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/comments.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/comments.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-backward.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-backward.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-eject.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-eject.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-forward.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-forward.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-pause.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-pause.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-play.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-play.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-record.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-record.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-shuffle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-shuffle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-skip-backward.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-skip-backward.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-skip-forward.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-skip-forward.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/control-stop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/control-stop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/credit-card.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/credit-card.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/crown.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/crown.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/css3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/css3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/cup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/cup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/cut.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/cut.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/dashboard.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/dashboard.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/desktop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/desktop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/direction-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/direction-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/direction.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/direction.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/download.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/download.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/dribbble.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/dribbble.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/dropbox-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/dropbox-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/dropbox.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/dropbox.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/drupal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/drupal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/envelope.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/envelope.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/eraser.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/eraser.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/exchange-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/exchange-vertical.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/export.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/export.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/eye.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/eye.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/face-sad.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/face-sad.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/face-smile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/face-smile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/file.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/file.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/files.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/files.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/filter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/filter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/flag-alt-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/flag-alt-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/flag-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/flag-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/flag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/flickr-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/flickr-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/flickr.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/flickr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/folder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/folder.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/fullscreen.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/fullscreen.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/gallery.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/gallery.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/game.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/game.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/gift.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/gift.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/github.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/github.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hand-drag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hand-drag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hand-open.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hand-open.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hand-point-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hand-point-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hand-point-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hand-point-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hand-point-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hand-point-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hand-point-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hand-point-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hand-stop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hand-stop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/harddrive.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/harddrive.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/harddrives.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/harddrives.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/headphone-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/headphone-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/headphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/headphone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/heart-broken.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/heart-broken.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/heart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/help-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/help-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/help.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/help.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/home.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/home.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/html5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/html5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/hummer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/hummer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/id-badge.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/id-badge.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/image.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/import.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/import.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/infinite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/infinite.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/info-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/info-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/info.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/info.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/ink-pen.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/ink-pen.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/Italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/Italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/joomla.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/joomla.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/jsfiddle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/jsfiddle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/key.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/key.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layers-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layers-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layers.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-accordion-list.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-accordion-list.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-accordion-merged.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-accordion-merged.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-accordion-separated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-accordion-separated.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-column2-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-column2-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-column2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-column2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-column3-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-column3-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-column3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-column3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-column4-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-column4-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-column4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-column4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-cta-btn-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-cta-btn-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-cta-btn-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-cta-btn-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-cta-center.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-cta-center.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-cta-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-cta-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-cta-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-cta-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-grid2-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-grid2-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-grid2-thumb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-grid2-thumb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-grid2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-grid2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-grid3-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-grid3-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-grid3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-grid3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-grid4-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-grid4-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-grid4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-grid4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-line-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-line-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-list-large-image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-list-large-image.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-list-post.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-list-post.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-list-thumb-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-list-thumb-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-list-thumb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-list-thumb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-center-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-center-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-center.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-center.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-left-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-left-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-overlay-alt-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-overlay-alt-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-overlay-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-overlay-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-overlay.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-overlay.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-right-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-right-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-media-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-media-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-menu-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-menu-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-menu-separated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-menu-separated.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-menu-v.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-menu-v.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-placeholder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-placeholder.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-sidebar-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-sidebar-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-sidebar-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-sidebar-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-sidebar-none.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-sidebar-none.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-sidebar-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-sidebar-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-slider-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-slider-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-slider.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-slider.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-tab-min.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-tab-min.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-tab-v.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-tab-v.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-tab-window.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-tab-window.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-width-default-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-width-default-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-width-default.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-width-default.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout-width-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout-width-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/layout.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/layout.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/light-bulb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/light-bulb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/line-dashed.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/line-dashed.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/line-dotted.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/line-dotted.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/line-double.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/line-double.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/link.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/linux.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/linux.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/list-ol.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/list-ol.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/list.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/list.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/location-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/location-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/location-pin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/location-pin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/lock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/lock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/loop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/loop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/magnet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/magnet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/map-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/map-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/marker-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/marker-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/marker.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/marker.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/medall-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/medall-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/medall.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/medall.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/menu-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/menu-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/microphone-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/microphone-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/microphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/microphone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/microsoft-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/microsoft-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/microsoft.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/microsoft.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/minus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/minus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/money.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/money.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/more-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/more-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/more.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/mouse-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/mouse-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/mouse.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/mouse.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/music-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/music-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/music.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/music.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/na.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/na.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/new-window.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/new-window.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/notepad.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/notepad.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/package.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/package.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/paint-bucket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/paint-bucket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/paint-roller.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/paint-roller.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/palette.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/palette.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/panel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/panel.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/paragraph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/paragraph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pencil-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pencil-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pencil-alt2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pencil-alt2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pie-chart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pie-chart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pin-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pin-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pin2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pin2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pinterest-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pinterest-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pinterest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pinterest.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/plug.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/plug.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/power-off.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/power-off.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/printer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/printer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/pulse.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/pulse.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/quote-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/quote-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/quote-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/quote-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/receipt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/receipt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/reddit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/reddit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/reload.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/reload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/rocket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/rocket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/rss-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/rss-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/rss.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/rss.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/ruler-alt-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/ruler-alt-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/ruler-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/ruler-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/ruler-pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/ruler-pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/ruler.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/ruler.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/save-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/save-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/save.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/save.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/search.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/server.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/server.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/settings.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/settings.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/share-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/share-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/share.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/share.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/sharethis-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/sharethis-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/sharethis.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/sharethis.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shield.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shield.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shift-left-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shift-left-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shift-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shift-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shift-right-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shift-right-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shift-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shift-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shine.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shine.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shopping-cart-full.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shopping-cart-full.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shopping-cart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shopping-cart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/shortcode.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/shortcode.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/signal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/signal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/skype.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/skype.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/slice.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/slice.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/smallcap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/smallcap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/soundcloud.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/soundcloud.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/split-h.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/split-h.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/split-v-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/split-v-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/split-v.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/split-v.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/spray.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/spray.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/stack-overflow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/stack-overflow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/stamp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/stamp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/star.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/star.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/stats-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/stats-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/stats-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/stats-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/support.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/support.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/tag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/tag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/target.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/target.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/text.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/text.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/themify-favicon-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/themify-favicon-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/themify-favicon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/themify-favicon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/themify-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/themify-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/thought.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/thought.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/thumb-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/thumb-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/thumb-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/thumb-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/ticket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/ticket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/time.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/time.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/timer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/timer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/trash.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/trash.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/trello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/trello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/truck.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/truck.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/tumblr-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/tumblr-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/tumblr.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/tumblr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/twitter-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/twitter-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/underline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/underline.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/unlink.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/unlink.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/unlock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/unlock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/upload.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/upload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/uppercase.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/uppercase.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/user.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/user.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/video-camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/video-camera.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/video-clapper.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/video-clapper.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/view-grid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/view-grid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/view-list-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/view-list-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/view-list.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/view-list.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/vimeo-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/vimeo-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/vimeo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/vimeo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/volume.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/volume.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/wallet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/wallet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/wand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/wand.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/wheelchair.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/wheelchair.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/widget-alt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/widget-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/widget.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/widget.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/widgetized.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/widgetized.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/window.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/window.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/wordpress.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/wordpress.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/world.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/world.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/write.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/yahoo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/yahoo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/youtube.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/youtube.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/zip.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/zip.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/zoom-in.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/zoom-in.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/SVG/zoom-out.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify-icons/SVG/zoom-out.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify-icons/Themify IconFonts 5-23-2014.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/public_html/themify-icons/Themify IconFonts 5-23-2014-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/public_html/themify-icons/themify-icons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify-icons/themify-icons-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/public_html/themify.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/themify.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/themify.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/themify.ttf",
+		"oF": 0
 		},
 	"/public_html/web.config": {
 		"cB": 0,
@@ -2452,28 +6544,10 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/src/public_html/assets/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/public_html/assets/css/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/src/public_html/assets/css/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/public_html/assets/css/style.css.map",
-		"oF": 0
-		},
 	"/src/scss/bootstrap/_alert.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2481,12 +6555,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_badge.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2494,12 +6568,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_breadcrumb.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2507,12 +6581,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_button-group.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2520,12 +6594,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_buttons.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2533,12 +6607,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_card.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2546,12 +6620,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_carousel.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2559,12 +6633,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_close.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2572,12 +6646,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_code.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2585,12 +6659,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_custom-forms.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2598,12 +6672,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_dropdown.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2611,12 +6685,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_forms.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2624,12 +6698,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_functions.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2637,12 +6711,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_grid.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2650,12 +6724,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_images.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2663,12 +6737,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_input-group.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2676,12 +6750,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_jumbotron.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2689,12 +6763,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_list-group.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2702,12 +6776,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_media.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2715,12 +6789,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_mixins.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2728,12 +6802,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_modal.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2741,12 +6815,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_nav.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2754,12 +6828,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_navbar.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2767,12 +6841,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_pagination.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2780,12 +6854,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_popover.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2793,12 +6867,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_print.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2806,12 +6880,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_progress.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2819,12 +6893,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_reboot.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2832,12 +6906,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_root.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2845,12 +6919,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_spinners.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2858,12 +6932,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_tables.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2871,12 +6945,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_toasts.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2884,12 +6958,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_tooltip.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2897,12 +6971,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_transitions.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2910,12 +6984,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_type.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2923,12 +6997,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_utilities.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2936,12 +7010,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2949,12 +7023,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/bootstrap-grid.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2962,12 +7036,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/bootstrap-reboot.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2975,12 +7049,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/bootstrap.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -2988,12 +7062,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_alert.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3001,12 +7075,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_background-variant.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3014,12 +7088,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_badge.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3027,12 +7101,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_border-radius.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3040,12 +7114,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_box-shadow.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3053,12 +7127,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_breakpoints.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3066,12 +7140,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_buttons.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3079,12 +7153,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_caret.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3092,12 +7166,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_clearfix.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3105,12 +7179,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_deprecate.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3118,12 +7192,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_float.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3131,12 +7205,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_forms.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3144,12 +7218,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_gradients.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3157,12 +7231,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_grid-framework.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3170,12 +7244,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_grid.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3183,12 +7257,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_hover.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3196,12 +7270,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_image.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3209,12 +7283,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_list-group.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3222,12 +7296,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_lists.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3235,12 +7309,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_nav-divider.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3248,12 +7322,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_pagination.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3261,12 +7335,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_reset-text.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3274,12 +7348,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_resize.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3287,12 +7361,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_screen-reader.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3300,12 +7374,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_size.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3313,12 +7387,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_table-row.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3326,12 +7400,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_text-emphasis.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3339,12 +7413,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_text-hide.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3352,12 +7426,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_text-truncate.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3365,12 +7439,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_transition.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3378,12 +7452,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/mixins/_visibility.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3391,12 +7465,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_align.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3404,12 +7478,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_background.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3417,12 +7491,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_borders.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3430,12 +7504,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_clearfix.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3443,12 +7517,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_display.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3456,12 +7530,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_embed.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3469,12 +7543,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_flex.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3482,12 +7556,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_float.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3495,12 +7569,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_overflow.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3508,12 +7582,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_position.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3521,12 +7595,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_screenreaders.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3534,12 +7608,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_shadows.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3547,12 +7621,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_sizing.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3560,12 +7634,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_spacing.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3573,12 +7647,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_stretched-link.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3586,12 +7660,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_text.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3599,12 +7673,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/utilities/_visibility.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3612,12 +7686,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/bootstrap/vendor/_rfs.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3625,12 +7699,12 @@
 		"oAP": "/src/scss/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/custom.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3638,12 +7712,12 @@
 		"oAP": "/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_animated.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3651,12 +7725,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_bordered-pulled.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3664,12 +7738,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_core.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3677,12 +7751,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_fixed-width.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3690,12 +7764,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_icons.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3703,12 +7777,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_larger.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3716,12 +7790,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_list.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3729,12 +7803,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_mixins.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3742,12 +7816,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_rotated-flipped.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3755,12 +7829,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_screen-reader.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3768,12 +7842,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_shims.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3781,12 +7855,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_stacked.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3794,12 +7868,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3807,12 +7881,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/brands.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3820,12 +7894,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/fontawesome.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3833,12 +7907,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/regular.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3846,12 +7920,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/solid.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3859,12 +7933,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/font-awesome-5/v4-shims.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -3872,194 +7946,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_animated.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_bordered-pulled.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_core.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_fixed-width.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_icons.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_larger.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_list.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_mixins.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_path.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_rotated-flipped.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_screen-reader.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_stacked.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/_variables.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/font-awesome-v4/fontawesome.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/src/public_html/assets/css/style.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/bootstrap_overrides.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4067,12 +7959,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/btns.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4080,12 +7972,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/footer.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4093,12 +7985,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/forms.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4106,12 +7998,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/header.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4119,12 +8011,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/lunar.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4132,12 +8024,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/nav.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4145,12 +8037,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/partials/page.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4158,12 +8050,25 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
+		},
+	"/src/scss/partials/quote-card.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 14,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/src/public_html/assets/css/style.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
 		},
 	"/src/scss/partials/utility.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4171,12 +8076,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/rrssb/rrssb.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4184,12 +8089,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/about-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4197,12 +8102,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/animate.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4210,12 +8115,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/aos.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4223,22 +8128,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/theme/base.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/scss/theme/base-min.css",
-		"oF": 0,
-		"oS": 3
+		"sct": 0
 		},
 	"/src/scss/theme/base.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4246,12 +8141,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/blog-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4259,12 +8154,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/call-to-action.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4272,12 +8167,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/client-logo-slider.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4285,25 +8180,25 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/coming-soon.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/consultation-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4311,12 +8206,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/contact-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4324,12 +8219,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/footer-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4337,22 +8232,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
-		},
-	"/src/scss/theme/fun-facts-section.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/scss/theme/fun-facts-section-min.css",
-		"oF": 0,
-		"oS": 3
+		"sct": 0
 		},
 	"/src/scss/theme/fun-facts-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4360,7 +8245,7 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/hero-area.css": {
 		"aP": 1,
@@ -4375,7 +8260,7 @@
 	"/src/scss/theme/hero-area.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4383,12 +8268,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/magnific-popup.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4396,7 +8281,7 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/mission-section.css": {
 		"aP": 1,
@@ -4411,7 +8296,7 @@
 	"/src/scss/theme/mission-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4419,7 +8304,7 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/navigation.css": {
 		"aP": 1,
@@ -4434,7 +8319,7 @@
 	"/src/scss/theme/navigation.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4442,12 +8327,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/prism.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4455,12 +8340,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/progress-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4468,12 +8353,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/project-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4481,12 +8366,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/promo-video-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4494,12 +8379,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/service-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4507,12 +8392,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/signup-wrapper.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4520,12 +8405,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/slick-theme.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4533,12 +8418,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/slick.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4546,12 +8431,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/testimonial-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4559,12 +8444,12 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/theme/work-section.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4572,7 +8457,7 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/src/scss/themify-icons/fonts/themify--fvbane.eot": {
 		"cB": 0,
@@ -4619,7 +8504,7 @@
 	"/src/scss/themify-icons/themify-icons.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 14,
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
@@ -4627,7 +8512,7 @@
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
-		"sct": 1
+		"sct": 0
 		},
 	"/storage": {
 		"ft": 65536,
@@ -4872,6 +8757,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/_partials/hero-featured.twig",
+		"oF": 0
+		},
+	"/templates/_partials/hero-slider.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/_partials/hero-slider.twig",
 		"oF": 0
 		},
 	"/templates/_partials/info-footer.twig": {
@@ -5372,6 +9265,102 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/templates/projects/_entry.twig",
+		"oF": 0
+		},
+	"/templates/projects/_entry_.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_entry_.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_form.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_form.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_image.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_image.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_impact.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_impact.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_news.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_news.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_promotion.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_promotion.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_publications.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_publications.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_quote.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_quote.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_stories.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_stories.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_text.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_text.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/_block_video.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_video.twig",
+		"oF": 0
+		},
+	"/templates/projects/_partials/test.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/projects/_partials/test.twig",
 		"oF": 0
 		},
 	"/templates/projects/index.twig": {
@@ -7496,9 +11485,9 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
-		"compilerType": 1,
+		"compilerType": 0,
 		"createSourceMap": 1,
-		"decimalPrecision": 10,
+		"decimalPrecision": 14,
 		"emitCharset": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,

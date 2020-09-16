@@ -1,0 +1,59 @@
+<section class="block">
+    <div class="row mb-0">
+        <div class="col-md-12  {{ block.type }} ">
+            <h3 class="mb-2">{{ block.type }}</h3>
+        </div>
+
+
+            {% for entry in block.relatedNewsItems %}
+
+                {% if entry.oldNewsImage | length %}
+                    {% set asset = entry.oldNewsImage.one() %}
+                    {% set newsImage = craft.imager.transformImage(asset,
+                        [
+                            { width: 576, position: asset.getFocalPoint(), jpegQuality: 85,ratio: 4/3 },
+                            { width: 550, height:350,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
+                            { width: 720, height:375,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
+                        ],
+                        {
+                            format: 'jpg',
+                            allowUpscale: true,
+                            mode: 'crop',
+                            jpegQuality: 90,
+                            interlace: true
+                        }
+                        ) %}
+                {% endif %}
+
+
+                <!-- blog-item -->
+                <div class=" col-sm-6 mb-4">
+                    <div class="card">
+                        <a href="{{entry.url}}">
+                            <div class="card-img-wrapper overlay-rounded-top">
+                                <picture>
+                                    <source media="(max-width: 320px)" sizes="100vw" srcset="{{ newsImage[0].url }}">
+                                    <source media="(max-width: 540px)" sizes="100vw" srcset="{{ newsImage[1].url }}">
+                                    <source media="(max-width: 992px)" sizes="100vw" srcset="{{ newsImage[2].url }}">
+                                    <img class="card-img-top" src="{{ newsImage[1].url }}" alt="{{ entry.title }}">
+                                </picture>
+                            </div>
+                        </a>
+                        <div class="card-body p-0">
+                            <div class="d-flex" data-mh="blog-height">
+                                <div class="py-3 px-4 border-right text-center">
+                                    <h3 class="text-primary mb-0">{{ entry.postDate.format('d') }}</h3>
+                                    <p class="mb-0">{{ entry.postDate.format('M') }}</p>
+                                </div>
+                                <div class="p-3">
+                                    <a href="{{entry.url}}" class="h4 font-primary text-dark">{{entry.title}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            {% endfor %}
+
+    </div>
+</section>

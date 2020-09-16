@@ -2,7 +2,7 @@ contentColumnType: string
 fieldGroup: 1bbbe75e-abba-46a9-9d94-19d1c0f10dac
 handle: carousel
 instructions: ''
-name: Carousel
+name: 'Hero Carousel'
 searchable: true
 settings:
   contentTable: '{{%matrixcontent_carousel_6}}'

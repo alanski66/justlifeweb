@@ -5,6 +5,7 @@
 /.env
 /.envcopy
 /.idea
+/*.sh*
 /_templatesNY107
 /scripts/.env.sh
 /scripts/.envprod.sh

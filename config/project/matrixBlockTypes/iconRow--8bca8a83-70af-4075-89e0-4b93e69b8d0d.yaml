@@ -28,42 +28,16 @@ fields:
     searchable: true
     settings:
       columns:
-        __assoc__:
-          -
-            - 108
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 111
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 112
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 109
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 110
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
+        108:
+          width: ''
+        109:
+          width: ''
+        110:
+          width: ''
+        111:
+          width: ''
+        112:
+          width: ''
       contentTable: '{{%stc_icons_3}}'
       fieldLayout: row
       maxRows: ''

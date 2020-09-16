@@ -1,0 +1,21 @@
+<section class="mb-4">
+    <div class="row mb-0">
+        <div class="col-md-12  {{ block.type }} ">
+            <h3 class="mb-3">{{ block.heading }}</h3>
+
+            <div class="block-text ">{{ block.text }}</div>
+        </div>
+
+    </div>
+</section>
+
+
+{#                {% if block.heading |length %}#}
+{#                    <h3 class="blog">#}
+{#                        <span class="blog-headline-link">#}
+{#                            <a id="{{ block.heading |kebab }}" href="#{{ block.heading |kebab }}"> <i class="icon-link"></i></a>#}
+{#                        </span>#}
+{#                        {{ block.heading |smartypants }}#}
+{#                    </h3>#}
+{#                {% endif %}#}
+{#                <div class="{{ block.type.handle }}">{{ block.text }}</div>#}

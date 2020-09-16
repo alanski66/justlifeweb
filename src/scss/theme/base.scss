@@ -7,13 +7,16 @@
 //     1.3 Button Style
     
     /* 1.1 typography */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700%7CPoppins:300,400,500,600,700%7CWork+Sans:400,500,600");
+@import url("https://fonts.googleapis.com/css?family=Cabin:Open+Sans:400,600,700%7CPoppins:300,400,500,600,700%7CWork+Sans:400,500,600");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: $font-size-base;
   line-height: 1.6;
+}
+aside p{
+  font-size:0.9rem;
 }
 .hide{
   display:none!important;
@@ -21,7 +24,7 @@ body {
 p, .paragraph {
   font-weight: 400;
   color: #444;
-  font-size: 16px;
+  font-size: $font-size-base;
 
   font-family: "Open Sans", sans-serif;
 }
@@ -30,6 +33,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+  //font-family: "Cabin", sans-serif;
+  //font-family: "Raleway", sans-serif;
 }
 
 h1, .h1 {
@@ -41,14 +46,17 @@ box-shadow: 0 8px 6px -6px #efefef;
 }
 @media (max-width: 400px) {
   h1, .h1 {
-    font-size: 30px;
+    //font-size: 30px;
   }
 }
 
 h2, .h2 {
-  font-size: 36px;
+  //font-size: 36px;
 }
-
+h2.subtitle{
+  font-size: 1.1rem;
+  text-shadow: 1px 1px #333;
+}
 h3, .h3 {
   font-size: 30px;
 }

@@ -85,6 +85,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: bfdad300-d7bd-4ee6-9a0a-9b17f290226c
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -267,12 +276,12 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f02681ca-0e3d-4e81-8d29-7f32bffcd4b2:
+  bfdad300-d7bd-4ee6-9a0a-9b17f290226c:
     contentColumnType: text
     fieldGroup: null
-    handle: test
+    handle: tabTitle
     instructions: ''
-    name: test
+    name: 'Tab title'
     searchable: false
     settings:
       byteLimit: null
@@ -286,6 +295,18 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  f02681ca-0e3d-4e81-8d29-7f32bffcd4b2:
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: textColor
+    instructions: ''
+    name: 'text color'
+    searchable: false
+    settings:
+      defaultColor: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
 handle: slide
 name: Slide
 sortOrder: 1

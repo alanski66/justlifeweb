@@ -116,25 +116,15 @@ fields:
     searchable: true
     settings:
       columns:
-        __assoc__:
-          -
-            - cf23b0ca-dd3c-43c3-882c-a13cb6753156
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 675b889f-8f75-4714-9b69-050cf6339d83
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
+        675b889f-8f75-4714-9b69-050cf6339d83:
+          width: ''
+        cf23b0ca-dd3c-43c3-882c-a13cb6753156:
+          width: ''
       contentTable: '{{%stc_1_customlinks}}'
       fieldLayout: row
       maxRows: '2'
       minRows: ''
+      placeholderKey: null
       propagationMethod: all
       selectionLabel: 'Add custom example links'
       staticField: ''

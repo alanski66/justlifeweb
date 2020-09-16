@@ -1,0 +1,37 @@
+<section class="block">
+    <div class="row mb-0">
+        <div class="col-md-12  {{ block.type }} ">
+            <h3 class="mb-2">{{ block.type }}</h3>
+        </div>
+        <div class="col-md-12">
+            {% for story in block.storyLink %}
+
+                {% if story.image.exists() %}
+                    {% set asset = story.image.one() %}
+                    {% set thumb = {
+                        mode: 'crop',
+                        width: 70,
+                        height: 70,
+                        quality: 75,
+                        position: 'center-center'
+                    } %}
+                {% endif %}
+                <div class="d-flex py-3 mb-2 border-bottom">
+                    <div class="mr-4">
+                        <a href="{{ story.url }}">
+                            <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
+                        </a>
+                    </div>
+                    <div>
+                        <h4 class="mb-3">
+                            <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
+                        </h4>
+                        <p class="meta">{{ story.introText }}</p>
+                    </div>
+                </div>
+
+
+            {% endfor %}
+        </div>
+    </div>
+</section>
