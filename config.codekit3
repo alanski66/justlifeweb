@@ -491,12 +491,22 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/public_html/fonts/themify.ttf": {
+	"/public_html/fonts/themify/themify.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/fonts/themify/themify.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/fonts/themify/themify.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/public_html/fonts/themify.ttf",
+		"oAP": "/public_html/fonts/themify/themify.ttf",
 		"oF": 0
 		},
 	"/public_html/icons/themify--fvbane.svg": {
