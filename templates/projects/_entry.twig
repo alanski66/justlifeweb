@@ -52,7 +52,7 @@
                         {% switch block.type %}
                         {% case "stories" %}
 
-                        {% for story in block.storyLink %}
+                        {% for story in block.storyLink.all() %}
 
                             {% if story.image.exists() %}
                                 {% set asset = story.image.one() %}
@@ -84,7 +84,7 @@
                     {% case "publications" %}
                         <div class="mb-4">
                             <h4>Related publications</h4>
-                                {% for story in block.relatedPublications %}
+                                {% for story in block.relatedPublications.all() %}
 
                                     {% if story.pdfThumbnailImage | length %}
                                         {% set asset = story.pdfThumbnailImage.one() %}
@@ -116,7 +116,7 @@
                     {% case "news" %}
                     <div class="mb-4">
                         <h4>Related news</h4>
-                        {% for story in block.relatedNewsItems %}
+                        {% for story in block.relatedNewsItems.all() %}
 
                             {% if story.oldNewsImage | length %}
                                 {% set asset = story.oldNewsImage.one() %}

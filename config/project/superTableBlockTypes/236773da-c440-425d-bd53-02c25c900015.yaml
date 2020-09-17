@@ -8,7 +8,7 @@ fieldLayouts:
             fieldUid: 08a7e56e-2483-4fe2-a651-649f8423c463
             instructions: null
             label: null
-            required: false
+            required: '0'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -17,7 +17,7 @@ fieldLayouts:
             fieldUid: 363cf021-aee1-4c33-a240-4cee24ffc96a
             instructions: null
             label: null
-            required: false
+            required: '0'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -26,7 +26,7 @@ fieldLayouts:
             fieldUid: c376e0b9-b7ff-43d9-90b3-708f9e817bf2
             instructions: null
             label: null
-            required: false
+            required: '0'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -35,7 +35,7 @@ fieldLayouts:
             fieldUid: a8fb4007-f9b2-4386-8444-4c3f8e561b86
             instructions: null
             label: null
-            required: false
+            required: '0'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -44,7 +44,7 @@ fieldLayouts:
             fieldUid: f55508fe-d5c8-43dc-b831-c7369df9e8f7
             instructions: null
             label: null
-            required: false
+            required: '0'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -60,13 +60,19 @@ fields:
     name: Icon
     searchable: true
     settings:
-      charLimit: null
-      columnType: string
-      iconFont: themify
-      placeholder: null
+      errorMessage: 'Unable to find component class ''plugins\dolphiq\iconpicker\fields\Iconpicker''.'
+      expectedType: plugins\dolphiq\iconpicker\fields\Iconpicker
+      settings:
+        __assoc__:
+          -
+            - columnType
+            - string
+          -
+            - iconFont
+            - fontawesome-webfont
     translationKeyFormat: null
     translationMethod: none
-    type: plugins\dolphiq\iconpicker\fields\Iconpicker
+    type: craft\fields\MissingField
   363cf021-aee1-4c33-a240-4cee24ffc96a:
     contentColumnType: text
     fieldGroup: null
@@ -120,7 +126,8 @@ fields:
       singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
       singleUploadLocationSubpath: ''
       source: null
-      sources: '*'
+      sources:
+        - 'volume:customIcons'
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false

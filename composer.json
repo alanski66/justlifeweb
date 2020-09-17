@@ -1,6 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "3.5.9",
+    "craftcms/cms": "3.5.10.1",
     "vlucas/phpdotenv": "^2.4.0",
     "craftcms/redactor": "2.7.4",
     "topshelfcraft/environment-label": "3.2.0",

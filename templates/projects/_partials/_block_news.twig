@@ -3,10 +3,7 @@
         <div class="col-md-12  {{ block.type }} ">
             <h3 class="mb-2">{{ block.type }}</h3>
         </div>
-
-
-            {% for entry in block.relatedNewsItems %}
-
+            {% for entry in block.relatedNewsItems.all() %}
                 {% if entry.oldNewsImage | length %}
                     {% set asset = entry.oldNewsImage.one() %}
                     {% set newsImage = craft.imager.transformImage(asset,
