@@ -1,11 +1,11 @@
-field: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9
+field: 7382c89d-f041-4b2a-a12b-1b73543ff4fc
 fieldLayouts:
-  c8d029e2-f0e2-4441-a7d2-31ad3363831c:
+  ab088f62-259a-4594-8355-ab05c944fb18:
     tabs:
       -
         elements:
           -
-            fieldUid: b7959e32-8927-4bdd-9fa9-71c0e3cd6e77
+            fieldUid: 20fa2034-c0bf-48ed-9617-f96839fd3025
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: eb8c1c6d-fa93-412d-968d-74ef065a071b
+            fieldUid: efb4b686-7900-4b2d-9d7e-1e34d4acca50
             instructions: null
             label: null
             required: false
@@ -25,18 +25,18 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  b7959e32-8927-4bdd-9fa9-71c0e3cd6e77:
+  20fa2034-c0bf-48ed-9617-f96839fd3025:
     contentColumnType: text
     fieldGroup: null
     handle: heading
-    instructions: ''
+    instructions: 'Use this as a section heading or subtitle for your text content'
     name: Heading
-    searchable: true
+    searchable: false
     settings:
       byteLimit: null
       charLimit: null
       code: ''
-      columnType: text
+      columnType: null
       initialRows: '4'
       multiline: ''
       placeholder: ''
@@ -44,16 +44,16 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  eb8c1c6d-fa93-412d-968d-74ef065a071b:
+  efb4b686-7900-4b2d-9d7e-1e34d4acca50:
     contentColumnType: text
     fieldGroup: null
     handle: text
-    instructions: ''
+    instructions: 'Simple body text can contain multiple paragraphs'
     name: Text
-    searchable: true
+    searchable: false
     settings:
-      availableTransforms: '*'
-      availableVolumes: '*'
+      availableTransforms: ''
+      availableVolumes: ''
       cleanupHtml: true
       columnType: text
       configSelectionMode: choose
@@ -67,7 +67,7 @@ fields:
       removeNbsp: '1'
       showHtmlButtonForNonAdmins: '1'
       showUnpermittedFiles: false
-      showUnpermittedVolumes: true
+      showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none

@@ -3,10 +3,16 @@ fieldLayouts:
   8efae287-b2a5-469d-acc1-8b33c8126af8:
     tabs:
       -
-        fields:
-          e6566bbe-eaf3-4424-9f1c-3df84eeed2ef:
+        elements:
+          -
+            fieldUid: e6566bbe-eaf3-4424-9f1c-3df84eeed2ef
+            instructions: null
+            label: null
             required: false
-            sortOrder: 1
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -25,6 +31,7 @@ fields:
       initialRows: '6'
       multiline: '1'
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText

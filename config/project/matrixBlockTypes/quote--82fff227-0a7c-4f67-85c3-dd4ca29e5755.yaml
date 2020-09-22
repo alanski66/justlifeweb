@@ -1,11 +1,11 @@
-field: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9
+field: 7382c89d-f041-4b2a-a12b-1b73543ff4fc
 fieldLayouts:
-  c8d029e2-f0e2-4441-a7d2-31ad3363831c:
+  ad9ea147-4131-4add-b454-37fde985fe1c:
     tabs:
       -
         elements:
           -
-            fieldUid: b7959e32-8927-4bdd-9fa9-71c0e3cd6e77
+            fieldUid: dbed8e46-7a59-47c1-95c6-13a422fe1df8
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: eb8c1c6d-fa93-412d-968d-74ef065a071b
+            fieldUid: 0b3cecf6-3ccc-487b-8593-ecb91949d807
             instructions: null
             label: null
             required: false
@@ -25,18 +25,18 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  b7959e32-8927-4bdd-9fa9-71c0e3cd6e77:
+  0b3cecf6-3ccc-487b-8593-ecb91949d807:
     contentColumnType: text
     fieldGroup: null
-    handle: heading
+    handle: source
     instructions: ''
-    name: Heading
-    searchable: true
+    name: Source
+    searchable: false
     settings:
       byteLimit: null
       charLimit: null
       code: ''
-      columnType: text
+      columnType: null
       initialRows: '4'
       multiline: ''
       placeholder: ''
@@ -44,34 +44,25 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  eb8c1c6d-fa93-412d-968d-74ef065a071b:
+  dbed8e46-7a59-47c1-95c6-13a422fe1df8:
     contentColumnType: text
     fieldGroup: null
-    handle: text
-    instructions: ''
-    name: Text
-    searchable: true
+    handle: quote
+    instructions: 'Add the main text of quote here'
+    name: Quote
+    searchable: false
     settings:
-      availableTransforms: '*'
-      availableVolumes: '*'
-      cleanupHtml: true
-      columnType: text
-      configSelectionMode: choose
-      defaultTransform: ''
-      manualConfig: ''
-      purifierConfig: ''
-      purifyHtml: '1'
-      redactorConfig: ''
-      removeEmptyTags: '1'
-      removeInlineStyles: '1'
-      removeNbsp: '1'
-      showHtmlButtonForNonAdmins: '1'
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: true
-      uiMode: enlarged
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
-    type: craft\redactor\Field
-handle: text
-name: Text
-sortOrder: 1
+    type: craft\fields\PlainText
+handle: quote
+name: Quote
+sortOrder: 2

@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 95a13bbd-3401-43e3-84b1-479984da84ec
+handle: referralBlock
+instructions: ''
+name: 'Referral block'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_referralblock}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

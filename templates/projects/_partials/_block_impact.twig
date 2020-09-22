@@ -1,5 +1,5 @@
 <section class="block our-impact">
-    <div class="row mb-0">
+    <div class="row mb-0 hide ">
         <div class="col-md-12  {{ block.type }} ">
             <h3 class="mb-3">{{ block.heading }}</h3>
         </div>
@@ -36,21 +36,28 @@
                 <p>63 of our Brighton clients reported an improvement in their motivation to take responsibility for themselves going forward.</p>
             </div>
         </div>
-
-
-{#        <div class="col-md-12  {{ block.type }} ">#}
-{#            <h2 class="mb-3">{{ block.heading }}</h2>#}
-{#            <div class="card-group">#}
-{#                {% for item in block.impactIcons %}#}
-
-{#                    <div class="card">#}
-{#                        <i class="align-content-between fa fa-5x fa-{{ item.icon }}" aria-hidden="true"></i>#}
-{#                        <div class="card-body">#}
-{#                            {{ item.impactText }}#}
-{#                        </div>#}
-{#                    </div>#}
-{#                {% endfor %}#}
-{#            </div>#}
-{#        </div>#}
     </div>
+    <div class="row mb-0 ">
+
+        <div class="col-md-12  {{ block.type }} ">
+            <h2 class="mb-3">{{ block.heading }}</h2>
+        </div>
+            <div class="card-group">
+                {% for item in block.impactCard %}
+
+                    <div class="col-lg-6 mb-3">
+                        <div class="card px-2 py-4 text-center h-100">
+                            <i class="align-content-between fa fa-5x fa-{{ item.icon.glyphName }}" aria-hidden="true"></i>
+                            {% if item.stat |length %}
+                                <div class="stat">{{ item.stat }}</div>
+                            {% endif %}
+                            <h4>{{ item.statisticType }}</h4>
+                            <p>{{ item.impactText }}</p>
+                        </div>
+                    </div>
+
+                {% endfor %}
+            </div>
+        </div>
+
 </section>

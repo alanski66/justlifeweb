@@ -5,6 +5,7 @@ instructions: ''
 name: Image
 searchable: true
 settings:
+  allowSelfRelations: false
   allowedKinds: null
   defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
   defaultUploadLocationSubpath: ''
@@ -12,6 +13,7 @@ settings:
   localizeRelations: false
   restrictFiles: ''
   selectionLabel: ''
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'

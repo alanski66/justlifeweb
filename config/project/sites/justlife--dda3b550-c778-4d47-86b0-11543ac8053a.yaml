@@ -1,4 +1,5 @@
 baseUrl: '@web/'
+enabled: true
 handle: justlife
 hasUrls: true
 language: en-GB

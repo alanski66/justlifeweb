@@ -16,6 +16,7 @@ return [
 
         // Enable CSRF Protection (recommended)
         'enableCsrfProtection' => true,
+//        'allowAdminChanges' =>false,
 
         // Whether generated URLs should omit "index.php"
         'omitScriptNameInUrls' => true,

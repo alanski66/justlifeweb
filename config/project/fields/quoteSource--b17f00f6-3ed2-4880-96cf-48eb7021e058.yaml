@@ -1,14 +1,14 @@
 contentColumnType: text
 fieldGroup: e001e685-5f71-409f-88bf-0a4c333d9520
-handle: imageCaption
+handle: quoteSource
 instructions: ''
-name: 'Image caption'
-searchable: true
+name: 'Quote source'
+searchable: false
 settings:
   byteLimit: null
   charLimit: null
   code: ''
-  columnType: text
+  columnType: null
   initialRows: '4'
   multiline: ''
   placeholder: ''

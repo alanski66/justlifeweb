@@ -1,11 +1,20 @@
-field: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9
+field: be2d090c-b7de-43dc-915b-194dc8de3e34
 fieldLayouts:
-  4ae26920-742a-4e6d-9b02-e938c7cc4a42:
+  2a451c98-26b5-45b6-bddd-59ace9e12bcc:
     tabs:
       -
         elements:
           -
-            fieldUid: 0c1c29aa-3066-417e-a569-3b8ad4b2ccbf
+            fieldUid: bf1ee760-333d-462e-a0ad-1a014c2c9538
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 06085e59-ce31-4870-a7e3-e32b6f3aad17
             instructions: null
             label: null
             required: false
@@ -14,28 +23,19 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 213c5cea-e8c3-48a5-9501-d506030864dd
+            fieldUid: 09dce948-15fb-4b5d-818c-a1e33e6cdb15
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: 7fb40023-ad56-4c67-bc65-9353674d5c1b
+            fieldUid: 9c8ca7e8-254f-441a-8bc8-6b48a21039eb
             instructions: null
             label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 29a1fb65-d50c-4f48-8297-164038ba941a
-            instructions: null
-            label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -43,18 +43,56 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  0c1c29aa-3066-417e-a569-3b8ad4b2ccbf:
+  06085e59-ce31-4870-a7e3-e32b6f3aad17:
     contentColumnType: text
     fieldGroup: null
-    handle: quote
-    instructions: ''
-    name: Quote
+    handle: stat
+    instructions: 'Add the number of the statistic here'
+    name: Stat
     searchable: true
     settings:
       byteLimit: null
       charLimit: null
       code: ''
-      columnType: text
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  09dce948-15fb-4b5d-818c-a1e33e6cdb15:
+    contentColumnType: text
+    fieldGroup: null
+    handle: statisticType
+    instructions: 'Add a heading category name for this statistic. Eg is it about mental health, Outreach, Housing etc?'
+    name: 'Statistic type'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9c8ca7e8-254f-441a-8bc8-6b48a21039eb:
+    contentColumnType: text
+    fieldGroup: null
+    handle: impactText
+    instructions: ''
+    name: 'Impact text'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
       initialRows: '4'
       multiline: '1'
       placeholder: ''
@@ -62,57 +100,20 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  213c5cea-e8c3-48a5-9501-d506030864dd:
-    contentColumnType: text
+  bf1ee760-333d-462e-a0ad-1a014c2c9538:
+    contentColumnType: string
     fieldGroup: null
-    handle: citationIntro
+    handle: icon
     instructions: ''
-    name: 'Citation intro'
-    searchable: true
+    name: Icon
+    searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
       columnType: text
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
-      uiMode: normal
+      iconSets:
+        - 'font:fa-regular-400.woff'
+        - 'font:themify.ttf'
+      remoteSets: ''
+      showLabels: '1'
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
-  29a1fb65-d50c-4f48-8297-164038ba941a:
-    contentColumnType: string(255)
-    fieldGroup: null
-    handle: citationLink
-    instructions: 'Add a link if relevant to the source'
-    name: 'Citation link'
-    searchable: true
-    settings:
-      maxLength: '255'
-      placeholder: ''
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Url
-  7fb40023-ad56-4c67-bc65-9353674d5c1b:
-    contentColumnType: text
-    fieldGroup: null
-    handle: citation
-    instructions: ''
-    name: Citation
-    searchable: true
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: text
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-handle: quote
-name: Quote
-sortOrder: 4
+    type: verbb\iconpicker\fields\IconPickerField

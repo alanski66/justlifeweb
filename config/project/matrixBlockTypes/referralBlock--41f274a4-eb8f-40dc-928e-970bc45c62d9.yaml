@@ -1,11 +1,11 @@
-field: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9
+field: 027841ee-12c9-4ec8-93a1-6ce221dc5175
 fieldLayouts:
-  94325d58-5ad0-40ad-a738-54d0a7e01fe6:
+  64c8b5fd-4e9c-48ba-a37c-6bada30ec248:
     tabs:
       -
         elements:
           -
-            fieldUid: f39ef456-6c58-4268-bdd4-84de4c7c01aa
+            fieldUid: bd4fdb0c-a16e-4eaf-abe7-bf26e2c107d3
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 66d852db-6826-44d9-a927-5391137b5465
+            fieldUid: 7e4f2ec4-9a04-49e3-ab87-c91d8c242154
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: f1c08b6a-df2b-4cdf-aa22-98ebb63784fc
+            fieldUid: bcadc3a3-87e2-4ed5-8068-f309505031be
             instructions: null
             label: null
             required: false
@@ -32,16 +32,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5456edfc-4d31-4867-b950-376a1305242d
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 7f6d3a2a-18dd-4e4d-8791-82e2f2fdb96e
+            fieldUid: aa29a687-6bad-4bf2-a98e-2c6c3cb598b1
             instructions: null
             label: null
             required: false
@@ -52,71 +43,87 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  5456edfc-4d31-4867-b950-376a1305242d:
-    contentColumnType: string(255)
-    fieldGroup: null
-    handle: customLink
-    instructions: 'Add a custom link to the content you are promoting. If you fill out this field this will override the entry selection and display this custom text and a custom link in the promotion box'
-    name: 'Custom link'
-    searchable: true
-    settings:
-      maxLength: '255'
-      placeholder: ''
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Url
-  66d852db-6826-44d9-a927-5391137b5465:
+  7e4f2ec4-9a04-49e3-ab87-c91d8c242154:
     contentColumnType: string
     fieldGroup: null
-    handle: entryToPromote
-    instructions: 'Select an entry to promote - the template will handle display'
-    name: 'Entry to promote'
-    searchable: true
+    handle: download
+    instructions: 'Add from downloads or upload and select file required '
+    name: Download
+    searchable: false
     settings:
       allowSelfRelations: false
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:8b316631-f36c-481c-8e3f-c8aab26c4c24'
+      defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
-      selectionLabel: ''
+      restrictFiles: ''
+      selectionLabel: 'Add a referral document for download'
       showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
+      singleUploadLocationSubpath: ''
       source: null
-      sources: '*'
+      sources:
+        - 'volume:8b316631-f36c-481c-8e3f-c8aab26c4c24'
       targetSiteId: null
+      useSingleFolder: false
       validateRelatedElements: false
-      viewMode: null
+      viewMode: list
     translationKeyFormat: null
     translationMethod: site
-    type: craft\fields\Entries
-  7f6d3a2a-18dd-4e4d-8791-82e2f2fdb96e:
+    type: craft\fields\Assets
+  aa29a687-6bad-4bf2-a98e-2c6c3cb598b1:
     contentColumnType: text
     fieldGroup: null
-    handle: customLinkTitle
+    handle: buttonText
+    instructions: 'Text to appear on download button'
+    name: 'Button text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  bcadc3a3-87e2-4ed5-8068-f309505031be:
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
     instructions: ''
-    name: 'Custom link title'
-    searchable: true
+    name: Text
+    searchable: false
     settings:
       byteLimit: null
       charLimit: null
       code: ''
-      columnType: text
+      columnType: null
       initialRows: '4'
-      multiline: ''
+      multiline: '1'
       placeholder: ''
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f1c08b6a-df2b-4cdf-aa22-98ebb63784fc:
+  bd4fdb0c-a16e-4eaf-abe7-bf26e2c107d3:
     contentColumnType: text
     fieldGroup: null
-    handle: customText
-    instructions: 'Supplemental text'
-    name: 'Custom text'
-    searchable: true
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
     settings:
       byteLimit: null
       charLimit: null
       code: ''
-      columnType: text
+      columnType: null
       initialRows: '4'
       multiline: ''
       placeholder: ''
@@ -124,25 +131,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f39ef456-6c58-4268-bdd4-84de4c7c01aa:
-    contentColumnType: text
-    fieldGroup: null
-    handle: boxHeading
-    instructions: 'Box header - leave blank to not show'
-    name: 'Box heading'
-    searchable: true
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: text
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-handle: promotion
-name: Promotion
-sortOrder: 5
+handle: referralBlock
+name: 'Referral block'
+sortOrder: 1

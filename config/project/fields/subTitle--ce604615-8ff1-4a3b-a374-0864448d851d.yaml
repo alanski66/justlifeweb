@@ -1,16 +1,16 @@
 contentColumnType: text
-fieldGroup: e001e685-5f71-409f-88bf-0a4c333d9520
-handle: imageCaption
+fieldGroup: 95a13bbd-3401-43e3-84b1-479984da84ec
+handle: subTitle
 instructions: ''
-name: 'Image caption'
-searchable: true
+name: 'Sub title'
+searchable: false
 settings:
   byteLimit: null
   charLimit: null
   code: ''
-  columnType: text
-  initialRows: '4'
-  multiline: ''
+  columnType: null
+  initialRows: '2'
+  multiline: '1'
   placeholder: ''
   uiMode: normal
 translationKeyFormat: null

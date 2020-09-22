@@ -1,4 +1,4 @@
-dateModified: 1600349471
+dateModified: 1600718303
 email:
   fromEmail: admin@mysite.com
   fromName: Mysite
@@ -25,6 +25,16 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.1.2
+  icon-picker:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      enableCache: true
+      iconSetsPath: /Users/alansparkes/sites/justlifeweb/public_html/fonts
+      iconSetsUrl: /fonts/
+      maxIconsShown: '100'
+      redactorFieldHandle: ''
   imager:
     edition: standard
     enabled: true
