@@ -1,9 +1,0 @@
-baseUrl: '@web/'
-enabled: true
-handle: justlife
-hasUrls: true
-language: en-GB
-name: Justlife
-primary: true
-siteGroup: d050c4b8-f1e6-4ae4-8abc-ecd893aed528
-sortOrder: 1
