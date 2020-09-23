@@ -5,9 +5,11 @@ instructions: ''
 name: 'Link to staff'
 searchable: true
 settings:
+  allowSelfRelations: false
   limit: ''
   localizeRelations: false
   selectionLabel: 'Add link to regional staff (more than one allowed)'
+  showSiteMenu: true
   source: null
   sources:
     - 'section:22867151-2300-450d-ad2b-104bf8ae2fc0'

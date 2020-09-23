@@ -5,7 +5,9 @@ instructions: 'turn this on to make news item stay on the top heading space'
 name: Sticky
 searchable: true
 settings:
-  default: ''
+  default: false
+  offLabel: null
+  onLabel: null
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Lightswitch

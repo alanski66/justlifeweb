@@ -3,16 +3,34 @@ fieldLayouts:
   bd3d2aca-d06d-46c8-93a0-7bbef010ae22:
     tabs:
       -
-        fields:
-          18aad2d2-1a31-4834-964f-00413bc6d5ed:
-            required: false
-            sortOrder: 2
-          4881baab-fb5a-4f28-8db5-8b0750a56b7d:
-            required: false
-            sortOrder: 3
-          8ac944b2-2dd7-488d-983d-9feb5b3cc7a3:
-            required: false
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: 8ac944b2-2dd7-488d-983d-9feb5b3cc7a3
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 18aad2d2-1a31-4834-964f-00413bc6d5ed
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4881baab-fb5a-4f28-8db5-8b0750a56b7d
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -40,20 +58,56 @@ fields:
     searchable: true
     settings:
       columns:
-        18548933-6264-4903-9f75-516ace8330cc:
-          width: ''
-        4ddbcff3-fc20-403c-a1be-a24b71677cfc:
-          width: ''
-        6c4c11ac-021e-45b3-a9e6-baa58884d18e:
-          width: ''
-        7188fe22-f189-4e55-83bf-6d6625882a40:
-          width: ''
-        7f93d305-4d2c-44ce-a430-19de42f60e40:
-          width: ''
-        d27bf05b-0c8d-4ee5-ae8b-a7ee0c032cda:
-          width: ''
-        ee68d96e-771f-4baf-977c-bfc7f92db7e6:
-          width: ''
+        __assoc__:
+          -
+            - 6c4c11ac-021e-45b3-a9e6-baa58884d18e
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 18548933-6264-4903-9f75-516ace8330cc
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 7188fe22-f189-4e55-83bf-6d6625882a40
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 7f93d305-4d2c-44ce-a430-19de42f60e40
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - ee68d96e-771f-4baf-977c-bfc7f92db7e6
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - d27bf05b-0c8d-4ee5-ae8b-a7ee0c032cda
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 4ddbcff3-fc20-403c-a1be-a24b71677cfc
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
       contentTable: '{{%stc_2_carditem}}'
       fieldLayout: row
       maxRows: ''
@@ -80,6 +134,7 @@ fields:
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText

@@ -5,7 +5,9 @@ instructions: 'Use this to hide the link button n the overlay'
 name: 'Feature button hide'
 searchable: true
 settings:
-  default: ''
+  default: false
+  offLabel: null
+  onLabel: null
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Lightswitch

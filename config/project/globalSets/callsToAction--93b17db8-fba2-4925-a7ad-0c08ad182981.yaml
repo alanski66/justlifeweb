@@ -2,34 +2,88 @@ fieldLayouts:
   d9f22edb-e1d7-4a49-b7e2-b903b628cf11:
     tabs:
       -
-        fields:
-          1f1b70a7-c93d-4d55-bc43-80124c28d43d:
-            required: false
-            sortOrder: 9
-          4e8c561e-1c2e-4518-ba84-7409f32efe43:
-            required: false
-            sortOrder: 4
-          854a81d0-40bc-45ae-ae97-3405888619f2:
-            required: false
-            sortOrder: 7
-          88f481ab-083c-4016-a3a2-1ce22e2f1a55:
-            required: false
-            sortOrder: 3
-          a0089a26-45cd-4af0-a9f2-5f78694a585c:
-            required: false
-            sortOrder: 6
-          b94541a5-4fee-46e9-8f0d-59da799180c8:
-            required: false
-            sortOrder: 8
-          c37dd07c-e401-4016-a7c9-bbfd7f66055a:
-            required: false
-            sortOrder: 5
-          e96f447b-ed39-42f1-aa27-a7e77bb9444c:
-            required: false
-            sortOrder: 1
-          eb4dd8d4-526e-45bc-9df9-1798512dd7be:
-            required: false
-            sortOrder: 2
+        elements:
+          -
+            fieldUid: e96f447b-ed39-42f1-aa27-a7e77bb9444c
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: eb4dd8d4-526e-45bc-9df9-1798512dd7be
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 88f481ab-083c-4016-a3a2-1ce22e2f1a55
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4e8c561e-1c2e-4518-ba84-7409f32efe43
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c37dd07c-e401-4016-a7c9-bbfd7f66055a
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a0089a26-45cd-4af0-a9f2-5f78694a585c
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 854a81d0-40bc-45ae-ae97-3405888619f2
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b94541a5-4fee-46e9-8f0d-59da799180c8
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1f1b70a7-c93d-4d55-bc43-80124c28d43d
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Call to action'
         sortOrder: 1
 handle: callsToAction

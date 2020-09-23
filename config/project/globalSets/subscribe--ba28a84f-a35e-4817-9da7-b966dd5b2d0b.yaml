@@ -2,25 +2,61 @@ fieldLayouts:
   6b90017b-25b5-4ed5-ad0f-7f6925d06df4:
     tabs:
       -
-        fields:
-          854a81d0-40bc-45ae-ae97-3405888619f2:
-            required: false
-            sortOrder: 4
-          88f481ab-083c-4016-a3a2-1ce22e2f1a55:
-            required: false
-            sortOrder: 3
-          a0089a26-45cd-4af0-a9f2-5f78694a585c:
-            required: false
-            sortOrder: 7
-          b94541a5-4fee-46e9-8f0d-59da799180c8:
-            required: false
-            sortOrder: 5
-          c37dd07c-e401-4016-a7c9-bbfd7f66055a:
-            required: false
-            sortOrder: 6
-          eb4dd8d4-526e-45bc-9df9-1798512dd7be:
-            required: false
-            sortOrder: 2
+        elements:
+          -
+            fieldUid: eb4dd8d4-526e-45bc-9df9-1798512dd7be
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 88f481ab-083c-4016-a3a2-1ce22e2f1a55
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 854a81d0-40bc-45ae-ae97-3405888619f2
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b94541a5-4fee-46e9-8f0d-59da799180c8
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c37dd07c-e401-4016-a7c9-bbfd7f66055a
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a0089a26-45cd-4af0-a9f2-5f78694a585c
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Subscribe
         sortOrder: 1
 handle: subscribe

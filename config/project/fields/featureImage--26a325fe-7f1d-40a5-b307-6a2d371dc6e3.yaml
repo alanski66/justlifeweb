@@ -5,13 +5,16 @@ instructions: 'We use big screen width so we are ideally looking for 1900 x 600 
 name: 'Feature image'
 searchable: true
 settings:
+  allowSelfRelations: false
   allowedKinds: null
   defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
   defaultUploadLocationSubpath: features
   limit: ''
   localizeRelations: false
+  previewMode: full
   restrictFiles: ''
   selectionLabel: ''
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'

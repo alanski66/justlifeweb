@@ -3,13 +3,25 @@ fieldLayouts:
   f05cfd7b-fdeb-440f-9367-f9229d801013:
     tabs:
       -
-        fields:
-          7889e0d3-a94d-47a2-ab7e-6d03aa0e33cf:
-            required: false
-            sortOrder: 2
-          8b0672bb-de4e-4a90-a29b-cb2319ff0f45:
-            required: true
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: 8b0672bb-de4e-4a90-a29b-cb2319ff0f45
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7889e0d3-a94d-47a2-ab7e-6d03aa0e33cf
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -21,6 +33,8 @@ fields:
     name: 'Sponsorship end date'
     searchable: true
     settings:
+      max: null
+      min: null
       minuteIncrement: '30'
       showDate: true
       showTime: false
@@ -35,9 +49,11 @@ fields:
     name: Sponsoredby
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: '1'
       localizeRelations: false
       selectionLabel: ''
+      showSiteMenu: true
       source: null
       sources:
         - 'section:sponsors'

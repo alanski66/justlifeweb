@@ -5,7 +5,9 @@ instructions: 'turn on to show this call to action on every page'
 name: 'Show sitewide'
 searchable: false
 settings:
-  default: ''
+  default: false
+  offLabel: null
+  onLabel: null
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Lightswitch

@@ -1,12 +1,8 @@
-dateModified: 1600718303
+dateModified: 1600796355
 email:
   fromEmail: admin@mysite.com
   fromName: Mysite
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 plugins:
   architect:
     edition: standard
@@ -31,8 +27,8 @@ plugins:
     schemaVersion: 1.0.1
     settings:
       enableCache: true
-      iconSetsPath: /Users/alansparkes/sites/justlifeweb/public_html/fonts
-      iconSetsUrl: /fonts/
+      iconSetsPath: '@basePath/fonts'
+      iconSetsUrl: '@web/fonts/'
       maxIconsShown: '100'
       redactorFieldHandle: ''
   imager:
@@ -160,8 +156,9 @@ system:
   edition: pro
   live: true
   name: Justlife
+  retryDuration: null
   schemaVersion: 3.5.13
-  timeZone: America/Los_Angeles
+  timeZone: Europe/London
 users:
   allowPublicRegistration: false
   defaultGroup: null

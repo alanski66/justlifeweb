@@ -2,10 +2,16 @@ fieldLayouts:
   e14a883e-4671-45af-82bc-8df5fd7549fc:
     tabs:
       -
-        fields:
-          03c5550e-dcc7-4568-bc0d-fffc089f9396:
-            required: false
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: 03c5550e-dcc7-4568-bc0d-fffc089f9396
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Tracking scripts'
         sortOrder: 1
 handle: tracking

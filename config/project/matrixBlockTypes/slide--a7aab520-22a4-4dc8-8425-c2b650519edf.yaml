@@ -86,7 +86,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ecb232d0-7a54-46c2-92a8-d706d789ccf4
+            fieldUid: bfdad300-d7bd-4ee6-9a0a-9b17f290226c
             instructions: null
             label: null
             required: false
@@ -111,6 +111,7 @@ fields:
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
+      previewMode: full
       restrictFiles: ''
       selectionLabel: 'Add slide image'
       showSiteMenu: true
@@ -276,11 +277,11 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  ecb232d0-7a54-46c2-92a8-d706d789ccf4:
+  bfdad300-d7bd-4ee6-9a0a-9b17f290226c:
     contentColumnType: text
     fieldGroup: null
     handle: tabTitle
-    instructions: 'Title for tab nav of slide'
+    instructions: ''
     name: 'Tab title'
     searchable: false
     settings:
@@ -296,29 +297,17 @@ fields:
     translationMethod: none
     type: craft\fields\PlainText
   f02681ca-0e3d-4e81-8d29-7f32bffcd4b2:
-    contentColumnType: string
+    contentColumnType: string(7)
     fieldGroup: null
     handle: textColor
     instructions: ''
-    name: 'Text color'
+    name: 'text color'
     searchable: false
     settings:
-      optgroups: true
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - white
-            -
-              - value
-              - white
-            -
-              - default
-              - ''
+      defaultColor: ''
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\Dropdown
+    type: craft\fields\Color
 handle: slide
 name: Slide
 sortOrder: 1

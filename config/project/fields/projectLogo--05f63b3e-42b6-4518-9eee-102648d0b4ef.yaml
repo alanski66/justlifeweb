@@ -5,13 +5,16 @@ instructions: 'If the project has a logo upload a transparent one here'
 name: 'Project logo'
 searchable: true
 settings:
+  allowSelfRelations: false
   allowedKinds: null
   defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
+  previewMode: full
   restrictFiles: ''
   selectionLabel: ''
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:projectImage'

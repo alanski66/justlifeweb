@@ -5,13 +5,16 @@ instructions: ''
 name: 'Supporter logo'
 searchable: true
 settings:
+  allowSelfRelations: false
   allowedKinds: null
   defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
   defaultUploadLocationSubpath: supporter
   limit: '1'
   localizeRelations: false
+  previewMode: full
   restrictFiles: ''
   selectionLabel: 'Add transparent logo of support / funder'
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
@@ -21,7 +24,7 @@ settings:
     - 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
   targetSiteId: null
   useSingleFolder: false
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: large
 translationKeyFormat: null
 translationMethod: site

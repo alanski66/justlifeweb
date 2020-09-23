@@ -7,13 +7,15 @@ searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
+  allowSelfRelations: false
   limit: null
   localizeRelations: false
   selectionLabel: 'Add a topic tag'
+  showSiteMenu: true
   source: 'taggroup:b8fcf5e7-b419-4c32-a733-25a8b9c149c2'
   sources: '*'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

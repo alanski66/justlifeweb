@@ -6,16 +6,42 @@ name: Icons
 searchable: true
 settings:
   columns:
-    08a7e56e-2483-4fe2-a651-649f8423c463:
-      width: ''
-    363cf021-aee1-4c33-a240-4cee24ffc96a:
-      width: ''
-    a8fb4007-f9b2-4386-8444-4c3f8e561b86:
-      width: ''
-    c376e0b9-b7ff-43d9-90b3-708f9e817bf2:
-      width: ''
-    f55508fe-d5c8-43dc-b831-c7369df9e8f7:
-      width: ''
+    __assoc__:
+      -
+        - 08a7e56e-2483-4fe2-a651-649f8423c463
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 363cf021-aee1-4c33-a240-4cee24ffc96a
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - a8fb4007-f9b2-4386-8444-4c3f8e561b86
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - c376e0b9-b7ff-43d9-90b3-708f9e817bf2
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - f55508fe-d5c8-43dc-b831-c7369df9e8f7
+        -
+          __assoc__:
+            -
+              - width
+              - ''
   contentTable: '{{%stc_icons_3}}'
   fieldLayout: row
   maxRows: ''

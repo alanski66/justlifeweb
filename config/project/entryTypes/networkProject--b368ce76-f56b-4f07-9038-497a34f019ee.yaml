@@ -67,17 +67,6 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: df4c702a-094d-4113-85c5-a6b7f23f88a0
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            type: craft\fieldlayoutelements\HorizontalRule
-          -
             fieldUid: ddc21f59-ae6d-4790-bc6c-5f1466eeed3f
             instructions: null
             label: null
@@ -86,7 +75,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Stats & supporters'
+        name: Supporters
         sortOrder: 2
       -
         elements:

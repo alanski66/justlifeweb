@@ -2,10 +2,39 @@ fieldLayouts:
   e05aa12a-b6b3-42bc-adee-0b5f83a739b4:
     tabs:
       -
-        fields:
-          2e999a83-5681-42a4-bf7d-99b2c00d47b3:
-            required: false
-            sortOrder: 1
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2e999a83-5681-42a4-bf7d-99b2c00d47b3
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 handle: unsplashImages

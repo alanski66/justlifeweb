@@ -12,6 +12,7 @@ settings:
   initialRows: '5'
   multiline: '1'
   placeholder: ''
+  uiMode: normal
 translationKeyFormat: null
 translationMethod: language
 type: craft\fields\PlainText

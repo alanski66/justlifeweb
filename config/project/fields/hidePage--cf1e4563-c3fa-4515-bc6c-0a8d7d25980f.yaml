@@ -5,7 +5,9 @@ instructions: 'Turn this on to hide page from display'
 name: 'Hide page'
 searchable: true
 settings:
-  default: ''
+  default: false
+  offLabel: null
+  onLabel: null
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Lightswitch

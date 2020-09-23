@@ -527,6 +527,72 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/public_html/imager/images/book-portraits/226/Copy-of-irLtHeng_cf623f298524cb27db9652e70452d80f.jpeg": {
+		"ft": 16384,
+		"iS": 9930,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/book-portraits/226/Copy-of-irLtHeng_cf623f298524cb27db9652e70452d80f.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/creativestudio/160/IMG_20190617_145038_880_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 12819,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/creativestudio/160/IMG_20190617_145038_880_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg": {
+		"ft": 16384,
+		"iS": 13004,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/supporter/512/archhealthcare_84cba2a4253bd174c4dfe3fccfe262e1.png": {
+		"ft": 32768,
+		"iS": 5993,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/supporter/512/archhealthcare_84cba2a4253bd174c4dfe3fccfe262e1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/imager/images/tanetwork/254/Doors.-007Photograph-Kim-Jae-Hwan-AFP-Getty-Images_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 14214,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/tanetwork/254/Doors.-007Photograph-Kim-Jae-Hwan-AFP-Getty-Images_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/landingpages/144/IMG_20180418_150736640_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 18499,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/144/IMG_20180418_150736640_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/public_html/images/about/about-1.jpg": {
 		"ft": 16384,
 		"iS": 74625,
@@ -8444,6 +8510,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/templates/projects/_entry_.twig",
+		"oF": 0
+		},
+	"/templates/projects/_entrytypes/networkProject.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/projects/_entrytypes/networkProject.twig",
+		"oF": 0
+		},
+	"/templates/projects/_entrytypes/project.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/projects/_entrytypes/project.twig",
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_form.twig": {

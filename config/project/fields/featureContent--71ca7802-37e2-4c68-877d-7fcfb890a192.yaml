@@ -5,7 +5,9 @@ instructions: 'Turn this on to make this content feature in its section'
 name: 'Feature content'
 searchable: true
 settings:
-  default: ''
+  default: false
+  offLabel: null
+  onLabel: null
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Lightswitch

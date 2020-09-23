@@ -3,34 +3,88 @@ fieldLayouts:
   7d757602-62c5-4ff3-92da-1d6e747ffdf8:
     tabs:
       -
-        fields:
-          482c18af-4f01-492b-8f55-066cf921f8e6:
-            required: false
-            sortOrder: 8
-          4b18a12d-af37-4f5a-a54f-2106dfbd2fcb:
-            required: false
-            sortOrder: 1
-          5473aace-4074-4fb7-aa2e-467dbffe24a9:
-            required: false
-            sortOrder: 3
-          7888e512-9107-4a5b-aace-92228b88be6a:
-            required: false
-            sortOrder: 4
-          9155dd04-124d-4208-8d10-9f83d944870e:
-            required: false
-            sortOrder: 9
-          aa4874fc-584e-48ca-9c64-0e827e6540d4:
-            required: false
-            sortOrder: 6
-          f3517307-9666-4cfb-9aa7-6e7669f8ac13:
-            required: false
-            sortOrder: 5
-          f96e6d80-ad9e-4c78-b1c4-c1f3a03bffd2:
-            required: false
-            sortOrder: 2
-          feb65961-74c7-4b0f-9f1a-22ed35189b82:
-            required: false
-            sortOrder: 7
+        elements:
+          -
+            fieldUid: 4b18a12d-af37-4f5a-a54f-2106dfbd2fcb
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f96e6d80-ad9e-4c78-b1c4-c1f3a03bffd2
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5473aace-4074-4fb7-aa2e-467dbffe24a9
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7888e512-9107-4a5b-aace-92228b88be6a
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f3517307-9666-4cfb-9aa7-6e7669f8ac13
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: aa4874fc-584e-48ca-9c64-0e827e6540d4
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: feb65961-74c7-4b0f-9f1a-22ed35189b82
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 482c18af-4f01-492b-8f55-066cf921f8e6
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9155dd04-124d-4208-8d10-9f83d944870e
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -42,13 +96,15 @@ fields:
     name: 'Example links'
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: ''
       localizeRelations: false
       selectionLabel: ''
+      showSiteMenu: true
       source: null
       sources: '*'
       targetSiteId: null
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site
@@ -68,6 +124,7 @@ fields:
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
@@ -86,6 +143,7 @@ fields:
       initialRows: '4'
       multiline: '1'
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
@@ -104,6 +162,7 @@ fields:
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
@@ -116,10 +175,21 @@ fields:
     searchable: true
     settings:
       columns:
-        675b889f-8f75-4714-9b69-050cf6339d83:
-          width: ''
-        cf23b0ca-dd3c-43c3-882c-a13cb6753156:
-          width: ''
+        __assoc__:
+          -
+            - cf23b0ca-dd3c-43c3-882c-a13cb6753156
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 675b889f-8f75-4714-9b69-050cf6339d83
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
       contentTable: '{{%stc_1_customlinks}}'
       fieldLayout: row
       maxRows: '2'
@@ -139,13 +209,15 @@ fields:
     name: 'Card button link'
     searchable: true
     settings:
+      allowSelfRelations: false
       limit: ''
       localizeRelations: false
       selectionLabel: ''
+      showSiteMenu: true
       source: null
       sources: '*'
       targetSiteId: null
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: null
     translationKeyFormat: null
     translationMethod: site
@@ -165,6 +237,7 @@ fields:
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
@@ -176,13 +249,16 @@ fields:
     name: 'Card image'
     searchable: true
     settings:
+      allowSelfRelations: false
       allowedKinds: null
       defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
       defaultUploadLocationSubpath: ''
       limit: ''
       localizeRelations: false
+      previewMode: full
       restrictFiles: ''
       selectionLabel: ''
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: true
       singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
@@ -192,7 +268,7 @@ fields:
         - 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
       targetSiteId: null
       useSingleFolder: false
-      validateRelatedElements: ''
+      validateRelatedElements: false
       viewMode: large
     translationKeyFormat: null
     translationMethod: site
@@ -212,6 +288,7 @@ fields:
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText

@@ -5,9 +5,11 @@ instructions: ''
 name: 'Related projects'
 searchable: true
 settings:
+  allowSelfRelations: false
   limit: ''
   localizeRelations: false
   selectionLabel: 'Add multiple related projects'
+  showSiteMenu: true
   source: null
   sources:
     - 'section:b64f51ec-21e9-4f29-a1d2-468e90ed13f8'

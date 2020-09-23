@@ -3,10 +3,16 @@ fieldLayouts:
   d0a491eb-4ed2-4549-b5e0-c39f1733f950:
     tabs:
       -
-        fields:
-          af60db8b-ccbf-4192-9a5c-fc0639d3899d:
-            required: false
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: af60db8b-ccbf-4192-9a5c-fc0639d3899d
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -20,8 +26,11 @@ fields:
     settings:
       columns:
         186:
-          width: ''
-      contentTable: '{{%stc_18_ticklistitem}}'
+          __assoc__:
+            -
+              - width
+              - ''
+      contentTable: '{{%stc_ticklistitem_3}}'
       fieldLayout: table
       maxRows: ''
       minRows: ''

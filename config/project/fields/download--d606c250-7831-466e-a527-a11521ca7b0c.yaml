@@ -11,6 +11,7 @@ settings:
   defaultUploadLocationSubpath: ''
   limit: ''
   localizeRelations: false
+  previewMode: full
   restrictFiles: ''
   selectionLabel: 'Add a file for download'
   showSiteMenu: true

@@ -7,13 +7,15 @@ searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
+  allowSelfRelations: false
   limit: null
   localizeRelations: false
   selectionLabel: ''
+  showSiteMenu: true
   source: 'taggroup:b7f30b7b-5724-41e0-88ef-dc4a0135c4ca'
   sources: '*'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

@@ -122,6 +122,7 @@ fields:
       defaultUploadLocationSubpath: ''
       limit: ''
       localizeRelations: false
+      previewMode: full
       restrictFiles: ''
       selectionLabel: 'Choose a file to add'
       showSiteMenu: true

@@ -85,7 +85,7 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: impactText
-    instructions: ''
+    instructions: 'Add a short description that goes beneath the stat to give meaning and context to the number - if no number then a brief paragraph will do. '
     name: 'Impact text'
     searchable: true
     settings:
@@ -93,7 +93,7 @@ fields:
       charLimit: null
       code: ''
       columnType: null
-      initialRows: '4'
+      initialRows: '3'
       multiline: '1'
       placeholder: ''
       uiMode: normal
@@ -111,7 +111,7 @@ fields:
       columnType: text
       iconSets:
         - 'font:fa-regular-400.woff'
-        - 'font:themify.ttf'
+        - 'font:themify--fvbane.ttf'
       remoteSets: ''
       showLabels: '1'
     translationKeyFormat: null

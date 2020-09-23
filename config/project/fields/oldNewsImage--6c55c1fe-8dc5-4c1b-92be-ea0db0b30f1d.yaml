@@ -5,13 +5,16 @@ instructions: ''
 name: 'Old news image'
 searchable: true
 settings:
+  allowSelfRelations: false
   allowedKinds: null
   defaultUploadLocationSource: 'volume:2004cf85-89b4-43cc-8c92-7cfe1ed5ebb0'
   defaultUploadLocationSubpath: ''
   limit: ''
   localizeRelations: false
+  previewMode: full
   restrictFiles: ''
   selectionLabel: ''
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
   singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277'
@@ -21,7 +24,7 @@ settings:
     - 'volume:2004cf85-89b4-43cc-8c92-7cfe1ed5ebb0'
   targetSiteId: null
   useSingleFolder: false
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site

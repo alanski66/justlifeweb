@@ -5,9 +5,11 @@ instructions: ''
 name: 'Entry link'
 searchable: true
 settings:
+  allowSelfRelations: false
   limit: '1'
   localizeRelations: false
   selectionLabel: 'Select an entry - thus will be a menu link to the entry content'
+  showSiteMenu: true
   source: null
   sources: '*'
   targetSiteId: null

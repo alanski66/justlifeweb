@@ -4,33 +4,77 @@ fieldLayouts:
       -
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
             instructions: null
             label: Title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
           -
             fieldUid: fd894e73-ca1e-4682-8abd-242d8fb30a84
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Newsletter content'
         sortOrder: 1
       -
         elements:
           -
             fieldUid: 2246c772-7c16-4625-a6af-3c549f6bc595
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 0568f7bd-c756-4a37-a36d-a2c4be779712
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: 96716c3b-ede4-4d28-96e4-99a30c844851
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: dcc8af56-c34c-423e-b070-2c22a3dbd270
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Newsletter heading & footer'
         sortOrder: 2
 handle: emailNewsletters
@@ -39,3 +83,5 @@ name: 'Email Newsletters'
 section: 3454114f-38f3-4107-9028-88ac9b8cc9fd
 sortOrder: 1
 titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''
