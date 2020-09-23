@@ -19,20 +19,17 @@
 {#    {% endif %}#}
 {#</blockquote>#}
 {#{% endif %}#}
-
+{% if {{block.quote | length }} %}
 <div class="row">
     <div class="container">
         <blockquote class="quote-card mb-5 ">
             <p>
-                I don’t know what I would have done without the support from Justlife. I have been suicidal and attempted it but I haven’t done this since having the support from Justlife.
+                {{block.quote}}
             </p>
-
             <cite>
-                – UTA resident
+                {{ block.source }}
             </cite>
         </blockquote>
-
-
-
     </div>
 </div>
+{% endif %}
