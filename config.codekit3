@@ -1077,6 +1077,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/public_html/images/case.png": {
+		"ft": 32768,
+		"iS": 319934,
+		"oA": 0,
+		"oAP": "/public_html/images/case.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/public_html/images/chart.png": {
 		"ft": 32768,
 		"iS": 24347,
@@ -8646,6 +8657,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/publications/index.twig",
+		"oF": 0
+		},
+	"/templates/publications/indexbk.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/publications/indexbk.twig",
 		"oF": 0
 		},
 	"/templates/staff/_entry.twig": {

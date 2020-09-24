@@ -7,7 +7,9 @@
   text-shadow: 2px 2px #000000;
 }
 
-
+.text-red{
+  color: $primary
+}
 
 div.cardrow > [class^="ti-"]{
   font-size:26px;

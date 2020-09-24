@@ -109,13 +109,20 @@ body {
 ol,
 ul {
   //list-style-type: none;
-  margin: 0px;
+  margin: 0;
 }
 .content-block ul {
   list-style-type: disc;
   color:#444;
+  margin-bottom: 1.4rem;
+}
+.content-block ol {
+  margin-bottom: 1.4rem;
+}
+.content-block ol li,.content-block ul li {
   margin-bottom: 1.2rem;
 }
+
 img {
   vertical-align: middle;
   border: 0;

@@ -17,6 +17,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
     <!-- sub title -->
     <section class="py-3 bg-gray  hide">
@@ -38,8 +39,8 @@
                 <aside class="col-lg-4 order-lg-2 order-2">
 
                     <!-- referal block -->
-                    {% if entry.referralBlock|length %}
-                        {% for block in entry.referralBlock.all() %}
+                    {% if entry.ctaBlock|length %}
+                        {% for block in entry.ctaBlock.all() %}
 
                             <div class="rounded bg-gray border py-3 px-4 mb-4 ">
                                 <i class="d-inline-block mr-1 text-dark ti-files" style="font-size: 20px;"></i>

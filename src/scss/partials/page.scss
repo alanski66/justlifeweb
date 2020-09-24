@@ -7,6 +7,17 @@
 .overlay::before{
   opacity: 0.3!important;
 }
+.overlay .location{
+  font-size:1rem;
+  vertical-align: super;
+}
+.overlay .text-shadow{
+  text-shadow: 1px 1px #333;
+  font-family: $font-family-base;
+}
+.overlay .ti-location-pin{
+  font-size:1.7rem
+}
 .cta p{
   line-height: 1.6;
   margin-bottom: 0;
