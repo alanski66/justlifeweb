@@ -22,6 +22,11 @@ div.cardrow > [class^="ti-"]{
 .section-title-border::before{
   width:300px;
 }
+//see also full width border
+.see-also .section-title-border::before{
+  width:100%;
+}
+
 .newslist .h4{
   font-size: 1.1rem;
 }

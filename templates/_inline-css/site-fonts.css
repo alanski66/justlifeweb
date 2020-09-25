@@ -1,5 +1,23 @@
 /* -- Site fonts */
 
+/*@font-face {*/
+/*  font-family: 'themify';*/
+/*  src: url('{{ baseUrl }}fonts/themify--fvbane.eot');*/
+/*  src: url('{{ baseUrl }}fonts/themify-.eot#iefix-fvbane') format('embedded-opentype'),*/
+/*  url('{{ baseUrl }}fonts/themify--fvbane.woff') format('woff'),*/
+/*  url('{{ baseUrl }}fonts/themify--fvbane.ttf') format('truetype'),*/
+/*  url('{{ baseUrl }}fonts/themify--fvbane.svg#themify') format('svg');*/
+/*  font-weight: normal;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'themify';*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    font-display: auto;*/
+/*    src: url("{{ craft.iconPicker.fontUrl('fonts/themify--fvbane.ttf') }}");*/
+/*}*/
 /* -- Operator Mono normal */
 
 @font-face {

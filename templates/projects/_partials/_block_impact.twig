@@ -47,7 +47,17 @@
 
                     <div class="col-lg-6 mb-3">
                         <div class="card px-2 py-4 text-center h-100">
-                            <i class="align-content-between fa fa-5x fa-{{ item.icon.glyphName }}" aria-hidden="true"></i>
+
+                            <span class=""><pre>{{ item.icon.glyph }}</pre></span>
+                            {{ item.icon.css  }}
+                            <hr>
+                            {{ item.icon.glyph  }}
+                            {{ item.icon.glyph|raw  }}
+{#                            {{  dump(item.icon) }}#}
+                            <span class="fa">&#xf1e2</span>
+
+
+                            <i class="align-content-between ti-{{ item.icon }} " aria-hidden="true"></i>
                             {% if item.stat |length %}
                                 <div class="stat">{{ item.stat }}</div>
                             {% endif %}

@@ -481,6 +481,40 @@
 		"oAP": "/public_html/fonts/fa5/fa-solid-900.woff2",
 		"oF": 0
 		},
+	"/public_html/fonts/themify--fvbane.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/themify--fvbane.eot",
+		"oF": 0
+		},
+	"/public_html/fonts/themify--fvbane.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/fonts/themify--fvbane.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/fonts/themify--fvbane.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/themify--fvbane.ttf",
+		"oF": 0
+		},
+	"/public_html/fonts/themify-.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public_html/fonts/themify-.eot",
+		"oF": 0
+		},
 	"/public_html/fonts/themify.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -499,22 +533,12 @@
 		"oAP": "/public_html/fonts/themify.ttf",
 		"oF": 0
 		},
-	"/public_html/fonts/themify/themify.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/public_html/fonts/themify/themify.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/public_html/fonts/themify/themify.ttf": {
+	"/public_html/fonts/themify.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/public_html/fonts/themify/themify.ttf",
+		"oAP": "/public_html/fonts/themify.woff",
 		"oF": 0
 		},
 	"/public_html/icons/themify--fvbane.svg": {
@@ -555,28 +579,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/public_html/imager/images/supporter/512/archhealthcare_84cba2a4253bd174c4dfe3fccfe262e1.png": {
-		"ft": 32768,
-		"iS": 5993,
-		"oA": 0,
-		"oAP": "/public_html/imager/images/supporter/512/archhealthcare_84cba2a4253bd174c4dfe3fccfe262e1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/public_html/imager/images/tanetwork/254/Doors.-007Photograph-Kim-Jae-Hwan-AFP-Getty-Images_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
-		"ft": 16384,
-		"iS": 14214,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/public_html/imager/images/tanetwork/254/Doors.-007Photograph-Kim-Jae-Hwan-AFP-Getty-Images_a62dd584e8321eb64e54f25c51cc66e0.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7871,6 +7873,16 @@
 		"oA": 0,
 		"oAP": "/templates/_boilerplate/_partials/tab-handler.twig",
 		"oF": 0
+		},
+	"/templates/_inline-css/site-fonts-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/templates/_inline-css/site-fonts-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/templates/_inline-css/site-fonts.css": {
 		"aP": 1,

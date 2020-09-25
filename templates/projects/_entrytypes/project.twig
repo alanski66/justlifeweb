@@ -126,12 +126,27 @@
                     </div>
                     <div class="mb-4">
                         <h4>Related news</h4>
-                        {% set newsByTag = craft.tags().group('topics') %}
-                        {% set tag = craft.tags.search('health engagement').one() %}
+
+                        {#  get related news by tags yuck #}
+                        {% set tags = entry.newsTags.all() %}
+                        {% set relatedTo = [] %}
+                        {% for tagId in tags %}
+
+                            {% set relatedTo = relatedTo|merge([{
+                                targetElement: tagId.id ,
+                                field: 'tags'
+                            }]) %}
+                        {% endfor %}
+
+                        {% if relatedTo|length > 1 %}
+                            {% set relatedTo = ['and']|merge(relatedTo) %}
+                        {% endif %}
+
+                        {#  get news entries tagged with this entry's tags #}
                         {% set entries = craft.entries()
-                            .section('news').relatedTo(tag)
+                            .section('news').relatedTo(relatedTo)
                             .limit('3') %}
-                        {% set entries = craft.entries.relatedTo(tag) %}
+
                         {% for story in entries.all() %}
 
                             {% if story.oldNewsImage | length %}
