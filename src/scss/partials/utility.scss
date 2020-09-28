@@ -34,3 +34,39 @@ div.cardrow > [class^="ti-"]{
 p.meta{
   font-size:14px;
 }
+
+//malchimp
+ input.mce_inline_error {
+  //border-color: $white!important;
+  font-size:14px!important;
+}
+
+ div.mce_inline_error {
+  margin: 0 0 5px 0;
+  padding: 5px 10px;
+  background-color: $white!important;
+  font-weight: normal!important;
+  font-size:14px!important;
+  z-index: 1;
+  color: $primary!important;
+}
+ //mailchimp erorrs response container
+ .response{
+   padding: 18px;
+   border-radius: 5px;
+ }
+#mce-error-response{
+  background: #FFE38F7F;
+}
+#mce-success-response{
+  background: lightyellow;
+}
+.form-control.mce_inline_error{
+  margin-bottom: 5px!important;
+}
+
+//old new wpimage
+.wp-block-image img{
+  max-width:100%;
+  height:auto;
+}
