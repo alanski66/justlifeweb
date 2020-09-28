@@ -62,6 +62,8 @@
                     {% endif %}
 
                     <!-- ################################   side related   ########################### -->
+
+                    {%  if entry.relatedStories | length %}
                     <div class="mb-4">
                         <h4 class="mb-3">Life stories</h4>
                         {% for story in entry.relatedStories.all() %}
@@ -90,6 +92,7 @@
                             </div>
                         {% endfor %}
                     </div>
+                    {% endif %}
 
 
 
@@ -117,7 +120,7 @@
                                     <h4 class="mb-1">
                                         <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
                                     </h4>
-                                    <p class="meta">{{ story.introText }}</p>
+                                    <p class="meta">{{ story.introText |truncateOnWord(90) |raw }}</p>
                                 </div>
                             </div>
 
