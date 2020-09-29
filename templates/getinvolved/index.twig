@@ -1,0 +1,126 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% block content %}
+
+    <section class="page-title overlay" style="background-image: url('images/background/page-title.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-white font-weight-bold">Get Involved</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>Our Service</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cta -->
+    <section class="cta py-50 overlay-white" style="background-image: url('images/background/cta.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 text-center text-lg-left mb-3 mb-lg-0">
+                    <h3 class="text-dark">From partners to volunteers, events and donors our supporters are the driving force of our work. </h3>
+                </div>
+                <div class="col-lg-3 text-lg-right text-center align-self-center">
+                    <a href="#" class="btn btn-sm btn-primary">Send Free Enquiry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /cta -->
+
+    <!-- service -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                {% for block in entry.cards.all() %}
+                    {% switch block.type %}
+                    {%  case "cardImageTop" %}
+                        {%  set card = block %}
+
+                                    {% if card.cardImage | length %}
+                                        {%  set image = card.cardImage[0] %}
+                                        {% set asset = craft.imager.transformImage(image, {
+                                            width: 350,
+                                            height:190,
+                                            position: image.getFocalPoint(),
+                                            cropZoom: 1.5
+                                        }) %}
+                                        {% set imgUrl = asset.getUrl() %}
+                                    {% else %}
+
+                                        {% set imgUrl = "https://via.placeholder.com/350x190" %}
+                                    {% endif %}
+                                    <!-- regional item col -->
+                                    <div class="col-lg-4 col-sm-6 col-xs-12 mb-5 pb-5">
+                                        <div class="card text-center">
+                                            <h4 class="card-title pt-3" data-mh="mh-title">{{card.cardTitle}}</h4>
+                                            <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}">
+                                                <div class="card-img-wrapper">
+                                                    <img  class="card-img-top rounded-0"  src="{{ imgUrl }}" >
+                                                </div>
+                                            </a>
+                                            <div class="card-body py-3" >
+                                                <p class="card-text mx-2" data-mh="mh-text">{{card.cardText}}</p>
+                                                <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}" class="btn btn-secondary translateY-25">{{ card.cardButtonTitle ? card.cardButtonTitle: 'Read more'}} </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                    {% endswitch %}
+
+                {% endfor %}
+                <!-- service item -->
+             
+            </div>
+        </div>
+    </section>
+    <!-- service -->
+
+    <section class="fun-facts overlay-dark section-sm" style="background-image: url('images/background/cta.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                    <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                        <i class="round-icon ti-server mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                        <div class="text-center text-sm-left">
+                            <h2 class="count text-white mb-0" data-count="230">0</h2>
+                            <p class="text-white mb-0">Projects Done</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                    <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                        <i class="round-icon ti-face-smile mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                        <div class="text-center text-sm-left">
+                            <h2 class="count text-white mb-0" data-count="789">0</h2>
+                            <p class="text-white mb-0">Satisfied Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                    <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                        <i class="round-icon ti-thumb-up mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                        <div class="text-center text-sm-left">
+                            <h2 class="count text-white mb-0" data-count="580">0</h2>
+                            <p class="text-white mb-0">Cup Of Coffee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                    <div class="d-flex flex-sm-row flex-column justify-content-lg-center align-items-center text-center text-sm-left">
+                        <i class="round-icon ti-cup mr-sm-3 mr-0 mb-3 mb-sm-0"></i>
+                        <div class="text-center text-sm-left">
+                            <h2 class="count text-white mb-0" data-count="130">0</h2>
+                            <p class="text-white mb-0">Awards Win</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
