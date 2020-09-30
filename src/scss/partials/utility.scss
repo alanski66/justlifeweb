@@ -70,3 +70,10 @@ p.meta{
   max-width:100%;
   height:auto;
 }
+
+//fix stylised bullets
+
+.content-block .rounded  ul {
+  list-style-type: none;
+
+}

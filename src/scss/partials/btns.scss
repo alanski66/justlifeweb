@@ -23,12 +23,12 @@
 }
 
 .btn-primary {
-  background: #D00E38;
+  background-color: #D00E38!important;
   color: #fff;
 }
 
 .btn-primary:active {
-  background: #D00E38 !important;
+  background-color: #D00E38 !important;
 }
 
 .btn-primary:hover {
@@ -36,12 +36,12 @@
 }
 
 .btn-secondary {
-  background: #303032;
+  background-color: #303032;
   color: #fff;
 }
 
 .btn-secondary:active {
-  background: #D00E38 !important;
+  background-color: #D00E38 !important;
 }
 
 .btn-secondary:hover {
@@ -76,6 +76,9 @@
   padding: 13px 40px !important;
 }
 
+//.btn-primary {
+//  @include button-variant($red, darken($red, 7.5%), darken($red, 10%), lighten($red,5%), lighten($red, 10%), darken($red,30%));
+//}
 
 //ani buttons
 

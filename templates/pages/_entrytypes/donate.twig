@@ -1,0 +1,119 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% set bodyClass = "donate-fr" %}
+{% block content %}
+    {%  set layout = null %}
+
+        <!-- Page Content -->
+    {%  if entry is defined %}
+
+{#        {% include '/_includes/hero-featured.twig' %}#}
+
+
+<!-- service -->
+<section class="mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+                
+                <h1 class="section-title section-title-border">Donate</h1>
+            </div>
+            <div class="row ">
+                <div class="col-sm-12 col-md-10 offset-md-1 text-center pb-5">
+                    <p class="lead">{{entry.introText | striptags}}</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div><!-- /.container -->
+</section>
+        <!-- pricing -->
+        <section class="mt-2 mb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="mb-2">Make a Monthly Gift by Direct Debit</h2>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    </div>
+                    <!-- pricing item -->
+                    <div class="col-lg-4 col-sm-6 mb-md-50">
+                        <div class="rounded border">
+                            <div class="p-4 border-bottom">
+                                <h2 class="font-weight-bold mb-3">£10<span class="h5">/month</span>
+                                </h2>
+                                <i class="square-icon translateY-10 float-right ti-gift"></i>
+                            </div>
+                            <div class="pt-5 px-4">
+
+                                <p>Could pay for refreshments at a drop-in session for up to 30 people. These sessions provide advice and reduce feelings of isolation.</p>
+
+                                <a href="{{ baseUrl }}donate-regularly?amount=10.00" class="btn btn-primary translateY-25">Donate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pricing item -->
+                    <div class="col-lg-4 col-sm-6 mb-md-50">
+                        <div class="rounded border">
+                            <div class="p-4 border-bottom">
+                                <h2 class="font-weight-bold mb-3">£25<span class="h5">/month</span>
+                                </h2>                                <i class="square-icon translateY-10 float-right ti-gift"></i>
+                            </div>
+                            <div class="pt-5 px-4">
+
+                                <p>Could pay for two one-to-one project work sessions, helping a homeless person address issues in their life and make steps forward.</p>
+
+                                <a href="{{ baseUrl }}donate-regularly?amount=25.00" class="btn btn-primary translateY-25">Donate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pricing item -->
+                    <div class="col-lg-4 col-sm-6 mb-md-50">
+                        <div class="rounded border">
+                            <div class="p-4 border-bottom">
+                                <h2 class="font-weight-bold mb-3">£50<span class="h5">/month</span></h2>
+                                <i class="square-icon translateY-10 float-right ti-gift"></i>
+                            </div>
+                            <div class="pt-5 px-4">
+                                <p>Could provide travel costs for an individual (bus pass), so they can attend medical appointments and access support services.</p>
+                                <a href="{{ baseUrl }}donate-regularly?amount=50.00" class="btn btn-primary translateY-25">Donate</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                  
+                </div>
+            </div>
+        </section>
+        <!-- /pricing -->
+
+        <section class="cta bg-gray py-50 text-center text-lg-left" style="background-image: url('images/background/cta.jpg');">
+            <div class="container">
+
+                <div class="row justify-content-between">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="mb-2">Make a one off donation</h2>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    </div>
+                    
+                    <div class="col-lg-12 ">
+
+                        <form class="form-inline justify-content-center" method="get" action="{{ baseUrl }}donate">
+                            <div class="form-group mx-sm-3 mb-2">
+                                <label for="amount" class="sr-only">Amount</label>
+                                <i class=" translateY-10 coins ti-server pr-4 pt-3"></i>
+                                <input type="amount" class="form-control mb-0" id="amount" placeholder="amount">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Donate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%  endif %}
+
+
+{% endblock %}

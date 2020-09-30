@@ -1,214 +1,329 @@
 {% extends "_layouts/generic-page-layout.twig" %}
+{%  set bodyClass = " donate" %}
 {% block content %}
-    <link type="text/css" rel="stylesheet" href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=622998993" />
+    <link type="text/css" rel="stylesheet" href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=623178666" />
+he correct version of the file is uncommented-->
+    <script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=623178666"></script>
+    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=623178666"></script>-->
 
+    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=623178666"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=623178666"></script>
 
-    <!--Make sure the correct version of the file is uncommented-->
-    <script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=622998993"></script>
-    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=622998993"></script>-->
-
-    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=622998993"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=622998993"></script>
-
-
-
-    <form method="post" id="CreditCardForm">
-        <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
-        <h3>Your details</h3>
-        <table>
-            <tbody>
-            <tr>
-                <td>
-                    <label class="" for="Title">Title*</label><br>
-                    <input type="text" name="Title" class="required" id="Title" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="FirstName">First Name*</label><br>
-                    <input type="text" name="FirstName" class="required" id="FirstName" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="LastName">Last Name*</label><br>
-                    <input type="text" name="LastName" class="required" id="LastName" maxlength="50">
-                </td>
-            </tr>
-            <tr style="display:none;">
-                <td>
-                    <label class="" for="AddressSearch">Address Search</label><br>
-                    <input type="text" class="" id="AddressSearch" maxlength="50" placeholder="Use Postcode or Address">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="Address1">Address</label><br>
-                    <input type="text" name="Address1" class="required" id="Address1" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="text" name="Address2" class="" id="Address2" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="Town">City</label><br>
-                    <input type="text" name="Town" class="required" id="Town" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="County">County</label><br>
-                    <input type="text" name="County" class="" id="County" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="Postcode">Postcode</label><br>
-                    <input type="text" name="Postcode" class="required" id="Postcode" maxlength="10">
-                </td>
-            </tr>
-            <tr style="">
-                <td>
-                    <label class="" for="Country">Country</label><br>
-                    <select name="Country" class="" id="Country">
-                        <option value=""></option>
-                        <option value="Holland">Holland</option>
-                        <option value="Germany">Germany</option>
-                        <option value="France">France</option>
-                        <option value="United Kingdom">United Kingdom</option>
-                        <option value="Italy">Italy</option>
-                        <option value="Spain">Spain</option>
-
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="Phone">Phone</label><br>
-                    <input type="text" name="Phone" class="" id="Phone" maxlength="50">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="Email">Email*</label><br>
-                    <input type="text" name="Email" class="required" type="email" id="Email" maxlength="50">
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <h3>Payment details</h3>
-        <table>
-            <tbody>
-            <tr>
-                <td>
-                    <label class="" for="Amount">Amount*</label><br>
-                    <span id="AmountPrefix">&pound;</span><input type="text" name="Amount" class="required numberOnly" id="Amount" maxlength="10" title="Please enter the amount you want to give - don't include the pound sign">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="card-number">Card Number*</label><br>
-                    <div id="card-number" class=""></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="card-expiry">Expires*</label><br>
-                    <div id="card-expiry" class=""></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="card-cvc">Security Code / CVC *</label><br>
-                    <div id="card-cvc" class=""></div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="OneOffPayment">I would like to make this gift*</label><br>
-                    <label><span>A One Off</span><input type="radio" id="OneOffPayment" name="PaymentType" value="OneOff" checked="checked"></label><label>
-                        <span>An Ongoing Commitment to Help</span>
-                        <input type="radio" id="RecurringPayment" name="PaymentType" value="Recurring">
-                    </label>
-                </td>
-            </tr>
-            <tr id="PaymentScheduleRow" style="display: none;">
-                <td>
-                    <label class="" for="MonthlyPayment">I would like to donate*</label><br>
-                    <label><span>Monthly</span><input type="radio" id="MonthlyPayment" name="PaymentSchedule" value="Monthly" checked="checked"></label><label><span>Quarterly</span><input type="radio" id="QuarterlyPayment" name="PaymentSchedule" value="Quarterly"></label><label><span>Annually</span><input type="radio" id="AnnualPayment" name="PaymentSchedule" value="Annually"></label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label class="" for="Comment">Comments</label><br>
-                    <textarea rows="3" cols="40" class="" name="Comment" id="Comment" title="Optional comments you may wish to make regarding this payment">
-                    </textarea>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <!-- insert your gift aid logo here -->
-        <h3>Gift Aid</h3>
-        <div>
-            <label>Yes I would like you to claim Gift Aid on my donation</label> <input id="GiftAid" type="checkbox" />
-            <p>
-                I want all donations I've made to you in the past four years and all donations in future to be treated as Gift Aid donations until I notify you otherwise.<br />
-                I am a UK taxpayer and understand that if I pay less Income Tax and/or Capital Gains Tax than
-                the amount of Gift Aid claimed on all my donations in that tax year it is my responsibility to pay any
-                difference.<br />
-                We will claim 25p on every &pound;1 you donate.
-            </p>
+    <section class="donate page-title overlay" style="background-image: url('images/donate.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                </div>
+            </div>
         </div>
-        <div>
-            <label>
-                I would like to be kept up to date with your projects and activities by the methods I choose below<br />
-                <input type="checkbox" value="2" class="KeepInTouch">&nbsp;Email<br />
-                <input type="checkbox" value="4" class="KeepInTouch">&nbsp;Post<br />
-                <input type="checkbox" value="8" class="KeepInTouch">&nbsp;Sms<br />
-                <input type="checkbox" value="16" class="KeepInTouch">&nbsp;Phone<br />
-            </label>
+    </section>
+
+    <!-- title -->
+    <section class=" title ">
+        <!-- bg grid -->
+        <div class="bg-grid position-absolute m-0 p-0 w-100">
+            <div class="row m-0 p-0">
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/woman.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-in-corridor.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/mangarden.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-looking-up-in-street.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-guitar.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-in-chair.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-whistle.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man2.png"></div>
+
+
+            </div>
         </div>
-
-
-
-        <table>
-            <tbody>
-            <tr>
-                <td style="text-align: right">
-                    <div id="card-errors" role="alert"></div>
-                    <div id="ErrorContainer" class="ErrorContainer">
-                        There is a problem with your donation
-                        <div id="Errors"></div>
+        <!-- end bg grid -->
+        <!-- formstuff-->
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-sm-4 col-md-6 col-left">
+                    <div class="rounded p-sm-5 px-3 py-5 bg-secondary">
+                        <h3 class="section-title section-title-border-half text-white">Your donation</h3>
+                        <p class="text-white mb-40">Every donation, no matter how small, goes towards improving the lives of homeless people living in emergency & temporary accommodation and provides services like:</p>
+                        <div>
+                            <ul class="d-inline-block pl-0">
+                                <li class="font-secondary mb-10 text-white float-sm-left mr-sm-5">
+                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Drop-in sessions</li>
+                                <li class="font-secondary mb-10 text-white">
+                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>One-to-one support</li>
+                                <li class="font-secondary mb-10 text-white">
+                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Travel to hospital</li>
+                            </ul>
+                            <ul class="d-inline-block pl-0">
+                                <li class="font-secondary mb-10 text-white">
+                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>A "move-in" pack</li>
+                                <li class="font-secondary mb-10 text-white">
+                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>A months rent</li>
+                                <li class="font-secondary mb-10 text-white">
+                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Skill building</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4">Explore More</a>
                     </div>
-                    <input type="submit" value="Donate Now" id="submitButton">
-                    <div id="PleaseWait" style="display: none; color: darkblue">Processing your donation - please wait ...</div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <!-- Hidden fields for tags -->
-        <input type="hidden" id="ActiveTags" value="" />
-        <input type="hidden" id="BlockedTags" value="" />
-        <!-- Do not change these values -->
-        <input type="hidden" id="PublishableKey" value="pk_live_51HRIKuHBdizcKlMwud4FzsUe8TYR3DRzZ0rNLpIGgnoCSsuILxK7AmVRN2jDahANmlzcxamBNmtB1DcBGUMPYqN700Xg6C0ZFu" />
-        <input type="hidden" id="TenantCode" value="2CQ425IEX8" />
-        <input type="hidden" id="WidgetId" value="0ff7cdfc-71fe-ea11-b5d9-501ac582a015" />
-        <input type="hidden" id="DonationPageId" value="" />
-        <input type="hidden" id="RedirectToPage" value="https://justlife.stagingbox.co.uk/donation-thank-you" />
-        <input type="hidden" id="ReCaptchaSiteKey" value="6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR" />
-        <input type="hidden" id="ReCaptchaAction" value="Donorfy" />
-    </form>
+                </div>
+                <div class="col-sm-8 col-md-6 col-lift donorfy">
+                    <h2 class="">Donate</h2>
+                    <p class="hide">Every donation, no matter how small, goes towards improving the lives of homeless people living in emergency & temporary accommodation by funding frontline and research & policy work.</p>
+
+                    <form method="post" id="CreditCardForm">
+                        <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
+                        <h3>Your details</h3>
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <label class="" for="Title">Title*</label><br>
+                                    <input type="text" name="Title" class="required" id="Title" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="FirstName">First Name*</label><br>
+                                    <input type="text" name="FirstName" class="required" id="FirstName" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="LastName">Last Name*</label><br>
+                                    <input type="text" name="LastName" class="required" id="LastName" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr style="display:none;">
+                                <td>
+                                    <label class="" for="AddressSearch">Address Search</label><br>
+                                    <input type="text" class="" id="AddressSearch" maxlength="50" placeholder="Use Postcode or Address">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="Address1">Address</label><br>
+                                    <input type="text" name="Address1" class="required" id="Address1" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" name="Address2" class="" id="Address2" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="Town">City</label><br>
+                                    <input type="text" name="Town" class="required" id="Town" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="County">County</label><br>
+                                    <input type="text" name="County" class="" id="County" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="Postcode">Postcode</label><br>
+                                    <input type="text" name="Postcode" class="required" id="Postcode" maxlength="10">
+                                </td>
+                            </tr>
+                            <tr style="">
+                                <td>
+                                    <label class="" for="Country">Country</label><br>
+                                    <select name="Country" class="" id="Country">
+                                        <option value=""></option>
+                                        <option value="Holland">Holland</option>
+                                        <option value="Germany">Germany</option>
+                                        <option value="France">France</option>
+                                        <option value="United Kingdom">United Kingdom</option>
+                                        <option value="Italy">Italy</option>
+                                        <option value="Spain">Spain</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="Phone">Phone</label><br>
+                                    <input type="text" name="Phone" class="" id="Phone" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="Email">Email*</label><br>
+                                    <input type="text" name="Email" class="required" type="email" id="Email" maxlength="50">
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h3>Payment details</h3>
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <label class="" for="Amount">Amount*</label><br>
+                                    <span id="AmountPrefix">&pound;</span><input type="text" name="Amount" class="required numberOnly" id="Amount" maxlength="10" title="Please enter the amount you want to give - don't include the pound sign">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="card-number">Card Number*</label><br>
+                                    <div id="card-number" class=""></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="card-expiry">Expires*</label><br>
+                                    <div id="card-expiry" class=""></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="card-cvc">Security Code / CVC *</label><br>
+                                    <div id="card-cvc" class=""></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="OneOffPayment">I would like to make this gift*</label><br>
+                                    <label><span>A One Off</span><input type="radio" id="OneOffPayment" name="PaymentType" value="OneOff" checked="checked"></label><label>
+                                        <span>An Ongoing Commitment to Help</span>
+                                        <input type="radio" id="RecurringPayment" name="PaymentType" value="Recurring">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr id="PaymentScheduleRow" style="display: none;">
+                                <td>
+                                    <label class="" for="MonthlyPayment">I would like to donate*</label><br>
+                                    <label><span>Monthly</span><input type="radio" id="MonthlyPayment" name="PaymentSchedule" value="Monthly" checked="checked"></label><label><span>Quarterly</span><input type="radio" id="QuarterlyPayment" name="PaymentSchedule" value="Quarterly"></label><label><span>Annually</span><input type="radio" id="AnnualPayment" name="PaymentSchedule" value="Annually"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="" for="Comment">Comments</label><br>
+                                    <textarea rows="3" cols="40" class="" name="Comment" id="Comment" title="Optional comments you may wish to make regarding this payment">
+                    </textarea>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- insert your gift aid logo here -->
+                        <h3>Gift Aid</h3>
+                        <div>
+                            <label>Yes I would like you to claim Gift Aid on my donation</label> <input id="GiftAid" type="checkbox" />
+                            <p>
+                                I want all donations I've made to you in the past four years and all donations in future to be treated as Gift Aid donations until I notify you otherwise.<br />
+                                I am a UK taxpayer and understand that if I pay less Income Tax and/or Capital Gains Tax than
+                                the amount of Gift Aid claimed on all my donations in that tax year it is my responsibility to pay any
+                                difference.<br />
+                                We will claim 25p on every &pound;1 you donate.
+                            </p>
+                        </div>
+                        <div>
+                            <label>
+                                I would like to be kept up to date with your projects and activities by the methods I choose below<br />
+                                <input type="checkbox" value="2" class="KeepInTouch">&nbsp;Email<br />
+                                <input type="checkbox" value="4" class="KeepInTouch">&nbsp;Post<br />
+                                <input type="checkbox" value="8" class="KeepInTouch">&nbsp;Sms<br />
+                                <input type="checkbox" value="16" class="KeepInTouch">&nbsp;Phone<br />
+                            </label>
+                        </div>
+
+
+
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td style="text-align: right">
+                                    <div id="card-errors" role="alert"></div>
+                                    <div id="ErrorContainer" class="ErrorContainer">
+                                        There is a problem with your donation
+                                        <div id="Errors"></div>
+                                    </div>
+                                    <input type="submit" value="Donate Now" id="submitButton">
+                                    <div id="PleaseWait" style="display: none; color: darkblue">Processing your donation - please wait ...</div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- Hidden fields for tags -->
+                        <input type="hidden" id="ActiveTags" value="" />
+                        <input type="hidden" id="BlockedTags" value="" />
+                        <!-- Do not change these values -->
+                        <input type="hidden" id="PublishableKey" value="pk_live_51HRIKuHBdizcKlMwud4FzsUe8TYR3DRzZ0rNLpIGgnoCSsuILxK7AmVRN2jDahANmlzcxamBNmtB1DcBGUMPYqN700Xg6C0ZFu" />
+                        <input type="hidden" id="TenantCode" value="2CQ425IEX8" />
+                        <input type="hidden" id="WidgetId" value="0ff7cdfc-71fe-ea11-b5d9-501ac582a015" />
+                        <input type="hidden" id="DonationPageId" value="" />
+                        <input type="hidden" id="RedirectToPage" value="https://justlife.stagingbox.co.uk/donation-thank-you" />
+                        <input type="hidden" id="ReCaptchaSiteKey" value="6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR" />
+                        <input type="hidden" id="ReCaptchaAction" value="Donorfy" />
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
+
     <script>
+        // STRIPE
         // The InitialiseForm() function is called after the form has loaded
         // optionally you add any code you want to run
         // e.g. to style the controls added by Stripe Elements to access the controls
         // use variables cardNumber, cardExpiry and cardCvc
         // see https://stripe.com/docs/stripe-js/reference#element-mount
-        function InitialiseForm() { }
+
+        function InitialiseForm() {
+            var elementStyles = {
+                base: {
+                    backgroundColor: '#fff',
+                    color: '#32325D',
+                    fontWeight: 500,
+                    fontFamily: 'Source Code Pro, Consolas, Menlo, monospace',
+                    fontSize: '16px',
+                    fontSmoothing: 'antialiased',
+                    '::placeholder': {
+                        color: '#CFD7DF',
+                    },
+                    ':-webkit-autofill': {
+                        color: '#e39f48',
+                    },
+                },
+                invalid: {
+                    color: '#E25950','::placeholder': {color: '#FFCCA5',},
+                }
+            };
+            var elementClasses = {
+                base: 'basey',
+                focus: 'focused form-control',
+                empty: 'empty form-control',
+                invalid: 'invalid form-control',
+            };
+            cardNumber.update({style: elementStyles, classes: elementClasses} );
+            cardExpiry.update({style: elementStyles, classes: elementClasses} );
+            cardCvc.update({style: elementStyles, classes: elementClasses} );
+        }
     </script>
+    {% js %}
+        var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+        return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+        }
+        };
+
+        document.getElementById('Amount').value = getUrlParameter('amount');
+    {% endjs %}
 
 
 

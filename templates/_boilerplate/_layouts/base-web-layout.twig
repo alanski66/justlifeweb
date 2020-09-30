@@ -44,7 +44,11 @@
             </head>
 
             {% block bodyTag %}
-            <body>
+            {% if bodyClass is not defined %}
+                {% set bodyClass = entry is defined ? entry.type : craft.app.request.segments|first %}
+            {% endif %}
+
+    <body class="{{ bodyClass }}">
             {% endblock bodyTag %}
                 {# -- Page content that should be included in the <body> -- #}
                 {% block bodyContent %}

@@ -1585,6 +1585,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/public_html/images/background/get-involved.jpg": {
+		"ft": 16384,
+		"iS": 121748,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/images/background/get-involved.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/public_html/images/background/page-title.jpg": {
 		"ft": 16384,
 		"iS": 110379,
@@ -2025,11 +2036,143 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/public_html/images/donate2.jpg": {
+		"ft": 16384,
+		"iS": 144902,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/images/donate2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/images/donate3.jpg": {
+		"ft": 16384,
+		"iS": 1920818,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/images/donate3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/public_html/images/favicon.png": {
 		"ft": 32768,
 		"iS": 1672,
 		"oA": 0,
 		"oAP": "/public_html/images/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man-guitar.png": {
+		"ft": 32768,
+		"iS": 631643,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man-guitar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man-in-chair.png": {
+		"ft": 32768,
+		"iS": 553762,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man-in-chair.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man-in-corridor.png": {
+		"ft": 32768,
+		"iS": 280927,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man-in-corridor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man-looking-up-in-street.png": {
+		"ft": 32768,
+		"iS": 785503,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man-looking-up-in-street.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man-reading-paper.png": {
+		"ft": 32768,
+		"iS": 757862,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man-reading-paper.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man-whistle.png": {
+		"ft": 32768,
+		"iS": 520900,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man-whistle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man.jpg": {
+		"ft": 16384,
+		"iS": 63167,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/images/gridsq/man2.png": {
+		"ft": 32768,
+		"iS": 887428,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/man2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/mangarden.png": {
+		"ft": 32768,
+		"iS": 596552,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/mangarden.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/gridsq/woman.png": {
+		"ft": 32768,
+		"iS": 553216,
+		"oA": 0,
+		"oAP": "/public_html/images/gridsq/woman.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6597,24 +6740,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/src/public_html/assets/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/public_html/assets/css/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/src/public_html/assets/css/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/public_html/assets/css/style.css.map",
-		"oF": 0
-		},
 	"/src/scss/bootstrap/_alert.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -8941,6 +9066,14 @@
 		"oAP": "/templates/amp-index.twig",
 		"oF": 0
 		},
+	"/templates/donate/_dd.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/donate/_dd.twig",
+		"oF": 0
+		},
 	"/templates/donate/index.twig": {
 		"cB": 1,
 		"ft": 8192,
@@ -9239,6 +9372,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/pages/_entrytypes/basic.twig",
+		"oF": 0
+		},
+	"/templates/pages/_entrytypes/donate.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/pages/_entrytypes/donate.twig",
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/getInvolved.twig": {

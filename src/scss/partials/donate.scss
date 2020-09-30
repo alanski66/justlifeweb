@@ -1,10 +1,121 @@
+body.donate{
+  background-color: #dedede;
+}
+.bg-grid{
+  z-index: -1;
+}
 .donate.page-title{
   padding-top:450px;
 }
-.donate .collift{
+.donate .col-left{
+  margin-top: -300px;
+  opacity:0.95;
+}
+.donate .col-lift{
+  opacity:0.95;
   margin-top: -300px;
   background: #fff;
   padding: 30px;
   box-shadow: 0 0 2px black;
   border-radius: 2px;
+}
+//.ElementsApp input,
+.donorfy form input{
+  border-radius: 5px!important;
+  padding: 0 15px 2px!important;
+  height: 40px!important;
+  //margin-bottom: 15px!important;
+  border: 1px solid #e5e5e5!important;
+  //font-family: "Open Sans",sans-serif;
+  font-weight: 600;
+  font-size: 14px!important;
+ color: #666!important;
+  width:100% !important
+}
+
+.donorfy input#Amount{
+  width:99px!important;
+}
+.donorfy form input:focus {
+  border-color: #D00E38;
+  box-shadow: none !important;
+}
+.donorfy .table th, .table td {
+  padding: .15rem;
+  vertical-align: top;
+  border-top: 0px solid #dee2e6;
+}
+.donorfy form input[type='checkbox'] {
+  width:25px!important;
+  height:25px!important;
+  display: inline-block;
+}
+
+//hide single and regular opton
+#CreditCardForm table tr tr tr tr tr{
+  display:none!important;
+}
+
+.basey.form-control {
+  border-radius: 5px !important;
+  padding: 12px 15px 10px !important;
+  height: 40px !important;
+  border: 1px solid #e5e5e5 !important;
+  font-weight: 600;
+  font-size: 18px !important;
+  color: #666 !important;
+  width: 100% !important;
+}
+
+.donorfy form input[type='submit']{
+  padding: 15px;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  color: #222;
+  text-transform: uppercase;
+  transition: .2s ease;
+  font-size: 16px;
+  background-color: #d00e38 !important;
+  width: 175px !important;
+  border-radius: 35px !important;
+  color: #fff !important;
+  margin: 0 auto;
+  /* align-self: center; */
+  justify-content: center;
+  display: flex;
+  height:50px!important;
+}
+
+//strip / domorfy error table tweaks
+.donorfy form#CreditCardForm table{
+  width:100%;
+}
+
+.donorfy form#CreditCardForm table tr td{
+  text-align: left!important;
+}
+
+//target recurring table hide so default is single
+.donorfy form#CreditCardForm table:nth-of-type(2) tr:nth-child(5),
+.donorfy form#CreditCardForm table:nth-of-type(2) tr:nth-child(6),
+.donorfy form#CreditCardForm table:nth-of-type(2) tr:nth-child(7){
+  display:none!important;
+  //background-color:red;
+}
+.donate .page-title.overlay::before{
+  opacity: 0!important;
+}
+
+//page specific
+
+.donate-fr .section-title{
+  margin-bottom: 20px;
+}
+
+#accordion p{
+  color:$white;
+}
+.coins{
+  font-size:2.5rem;
+  color:gray;
 }

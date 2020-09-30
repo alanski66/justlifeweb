@@ -1,17 +1,7 @@
 {% extends "_layouts/generic-page-layout.twig" %}
+ {%  set bodyClass = " donate" %}
 {% block content %}
-    {%  set bodyClass = " donate" %}
-    <link type="text/css" rel="stylesheet" href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=623179802" />
-
-
-    <!--Make sure the correct version of the file is uncommented-->
-    <script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=623179802"></script>
-    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=623179802"></script>-->
-
-    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=623179802"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=623179802"></script>
-
-    <section class="donate page-title overlay" style="background-image: url('images/donate.jpg');">
+    <section class="donate page-title overlay" style="background-image: url('images/donate2.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -21,25 +11,7 @@
     </section>
     
     <!-- title -->
-    <section class=" title ">
-        <!-- bg grid -->
-        <div class="bg-grid position-absolute m-0 p-0 w-100">
-            <div class="row m-0 p-0">
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/woman.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-in-corridor.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/mangarden.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-looking-up-in-street.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-guitar.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-in-chair.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-whistle.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man2.png"></div>
-
-
-            </div>
-        </div>
-        <!-- end bg grid -->
-        <!-- formstuff-->
+    <section class=" title " >
         <div class="container">
             <div class="row justify-content-start">
                 <div class="col-sm-4 col-md-6 col-left">
@@ -65,6 +37,7 @@
                                     <i class="text-primary mr-2 ti-arrow-circle-right"></i>Skill building</li>
                             </ul>
                         </div>
+
                         <div id="accordion">
                             <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"
                                href="#collapseOne">
@@ -77,16 +50,22 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-sm-8 col-md-6 col-lift donorfy">
+                <div class="col-sm-8 col-md-6 col-lift donorfy shadow">
                     <h2 class="">Donate</h2>
-                    <p class="hide">Every donation, no matter how small, goes towards improving the lives of homeless people living in emergency & temporary accommodation by funding frontline and research & policy work.</p>
+                    <!-- dd -->
+                    <link type="text/css" rel="stylesheet" href="https://az763204.vo.msecnd.net/wwcss/gocardlesspayments.2015.1.css" />
+                    {% do view.registerJsFile('https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js') %}
+                    <script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/gocardlesspayments.2017.1.js"></script>
+                    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/gocardlesspayments.2017.1.demo.js"></script>-->
 
-                    <form method="post" id="CreditCardForm">
+
+                    <form method="post" id="DirectDebitForm">
                         <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
                         <h3>Your details</h3>
-                        <table class="table">
+                        <table>
                             <tbody>
                             <tr>
                                 <td>
@@ -106,7 +85,7 @@
                                     <input type="text" name="LastName" class="required" id="LastName" maxlength="50">
                                 </td>
                             </tr>
-                            <tr style="display:none;">
+                            <tr style=" display:none;">
                                 <td>
                                     <label class="" for="AddressSearch">Address Search</label><br>
                                     <input type="text" class="" id="AddressSearch" maxlength="50" placeholder="Use Postcode or Address">
@@ -115,7 +94,7 @@
                             <tr>
                                 <td>
                                     <label class="" for="Address1">Address</label><br>
-                                    <input type="text" name="Address1" class="required" id="Address1" maxlength="50">
+                                    <input type="text" name="Address1" class="" id="Address1" maxlength="50">
                                 </td>
                             </tr>
                             <tr>
@@ -125,8 +104,8 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <label class="" for="Town">City</label><br>
-                                    <input type="text" name="Town" class="required" id="Town" maxlength="50">
+                                    <label class="" for="Town">Town</label><br>
+                                    <input type="text" name="Town" class="" id="Town" maxlength="50">
                                 </td>
                             </tr>
                             <tr>
@@ -138,22 +117,7 @@
                             <tr>
                                 <td>
                                     <label class="" for="Postcode">Postcode</label><br>
-                                    <input type="text" name="Postcode" class="required" id="Postcode" maxlength="10">
-                                </td>
-                            </tr>
-                            <tr style="">
-                                <td>
-                                    <label class="" for="Country">Country</label><br>
-                                    <select name="Country" class="" id="Country">
-                                        <option value=""></option>
-                                        <option value="Holland">Holland</option>
-                                        <option value="Germany">Germany</option>
-                                        <option value="France">France</option>
-                                        <option value="United Kingdom">United Kingdom</option>
-                                        <option value="Italy">Italy</option>
-                                        <option value="Spain">Spain</option>
-
-                                    </select>
+                                    <input type="text" name="Postcode" class="" id="Postcode" maxlength="10">
                                 </td>
                             </tr>
                             <tr>
@@ -175,38 +139,23 @@
                             <tbody>
                             <tr>
                                 <td>
-                                    <label class="" for="Amount">Amount*</label><br>
+                                    <label class="" for="Amount">Amount I would like to give each month*</label><br>
                                     <span id="AmountPrefix">&pound;</span><input type="text" name="Amount" class="required numberOnly" id="Amount" maxlength="10" title="Please enter the amount you want to give - don't include the pound sign">
                                 </td>
                             </tr>
-                            <tr>
+                            <tr style="display:none;">
                                 <td>
-                                    <label class="" for="card-number">Card Number*</label><br>
-                                    <div id="card-number" class=""></div>
+                                    <label class="" for="SortCode1">Sort Code*</label><br>
+                                    <input type="text" id="SortCode1" name="SortCode1" class="digits numberOnly" maxlength="2" size="2" title="Sort Code is required" /><span>-</span><input type="text" id="SortCode2" name="SortCode2" class="digits numberOnly" maxlength="2" size="2" title="Sort Code is required" /><span>-</span><input type="text" id="SortCode3" name="SortCode3" class="digits numberOnly" maxlength="2" size="2" title="Sort Code is required" />
                                 </td>
                             </tr>
-                            <tr>
+                            <tr style="display:none;">
                                 <td>
-                                    <label class="" for="card-expiry">Expires*</label><br>
-                                    <div id="card-expiry" class=""></div>
+                                    <label class="" for="AccountNumber">Account Number*</label><br>
+                                    <input type="text" id="AccountNumber" name="AccountNumber" class="digits numberOnly" value="" maxlength="8" size="10" title="Account Number is required" />
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <label class="" for="card-cvc">Security Code / CVC *</label><br>
-                                    <div id="card-cvc" class=""></div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label class="" for="OneOffPayment">I would like to make this gift*</label><br>
-                                    <label><span>A One Off</span><input type="radio" id="OneOffPayment" name="PaymentType" value="OneOff" checked="checked"></label><label>
-                                        <span>An Ongoing Commitment to Help</span>
-                                        <input type="radio" id="RecurringPayment" name="PaymentType" value="Recurring">
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr id="PaymentScheduleRow" style="display: none;">
+                            <tr id="PaymentScheduleRow" style="display:none;">
                                 <td>
                                     <label class="" for="MonthlyPayment">I would like to donate*</label><br>
                                     <label><span>Monthly</span><input type="radio" id="MonthlyPayment" name="PaymentSchedule" value="Monthly" checked="checked"></label><label><span>Quarterly</span><input type="radio" id="QuarterlyPayment" name="PaymentSchedule" value="Quarterly"></label><label><span>Annually</span><input type="radio" id="AnnualPayment" name="PaymentSchedule" value="Annually"></label>
@@ -215,8 +164,7 @@
                             <tr>
                                 <td>
                                     <label class="" for="Comment">Comments</label><br>
-                                    <textarea rows="3" cols="40" class="" name="Comment" id="Comment" title="Optional comments you may wish to make regarding this payment">
-                    </textarea>
+                                    <textarea rows="3" cols="40" class="" name="Comment" id="Comment" title="Optional comments you may wish to make regarding this payment"></textarea>
                                 </td>
                             </tr>
                             </tbody>
@@ -248,30 +196,34 @@
                         <table>
                             <tbody>
                             <tr>
-                                <td style="text-align: right">
-                                    <div id="card-errors" role="alert"></div>
-                                    <div id="ErrorContainer" class="ErrorContainer">
-                                        There is a problem with your donation
+                                <td style="text-align: right;" >
+                                    <div id="ErrorContainer" style="display:none" class="ErrorContainer">
+                                        There is a problem with your payment -
                                         <div id="Errors"></div>
                                     </div>
-                                    <input type="submit" value="Donate Now" id="submitButton">
-                                    <div id="PleaseWait" style="display: none; color: darkblue">Processing your donation - please wait ...</div>
+                                    <div id="PleaseWait" style="display:none">Please wait ...</div>
+                                    <input type="submit" value="Setup Direct Debit ..." id="submitButton">
                                 </td>
                             </tr>
                             </tbody>
                         </table>
-                        <!-- Hidden fields for tags -->
+                        <!-- Hidden fields for tags --->
                         <input type="hidden" id="ActiveTags" value="" />
                         <input type="hidden" id="BlockedTags" value="" />
-                        <!-- Do not change these values -->
-                        <input type="hidden" id="PublishableKey" value="pk_live_51HRIKuHBdizcKlMwud4FzsUe8TYR3DRzZ0rNLpIGgnoCSsuILxK7AmVRN2jDahANmlzcxamBNmtB1DcBGUMPYqN700Xg6C0ZFu" />
+                        <!-- Do not change these values --->
                         <input type="hidden" id="TenantCode" value="2CQ425IEX8" />
-                        <input type="hidden" id="WidgetId" value="0ff7cdfc-71fe-ea11-b5d9-501ac582a015" />
-                        <input type="hidden" id="DonationPageId" value="" />
-                        <input type="hidden" id="RedirectToPage" value="https://justlife.stagingbox.co.uk/donation-thank-you" />
-                        <input type="hidden" id="ReCaptchaSiteKey" value="6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR" />
-                        <input type="hidden" id="ReCaptchaAction" value="Donorfy" />
+                        <input type="hidden" id="WidgetId" value="70c05916-72fe-ea11-b5d9-501ac580925b" />
                     </form>
+
+                    <div id="spinner" style="display:none;">
+                        <img id="img-spinner" src="https://cdn.donorfy.com/wwimages/loading.gif" alt="Loading" />
+                    </div>
+
+
+
+                    <!-- end dd -->
+
+
                 </div>
             </div>
             <div class="row">
@@ -279,49 +231,9 @@
             </div>
         </div>
     </section>
-    
-    
-    <script>
-        // STRIPE
-        // The InitialiseForm() function is called after the form has loaded
-        // optionally you add any code you want to run
-        // e.g. to style the controls added by Stripe Elements to access the controls
-        // use variables cardNumber, cardExpiry and cardCvc
-        // see https://stripe.com/docs/stripe-js/reference#element-mount
 
-        function InitialiseForm() {
-            var elementStyles = {
-                base: {
-                    backgroundColor: '#fff',
-                    color: '#32325D',
-                    fontWeight: 500,
-                    fontFamily: 'Source Code Pro, Consolas, Menlo, monospace',
-                    fontSize: '16px',
-                    fontSmoothing: 'antialiased',
-                    '::placeholder': {
-                        color: '#CFD7DF',
-                    },
-                    ':-webkit-autofill': {
-                        color: '#e39f48',
-                    },
-                },
-                invalid: {
-                    color: '#E25950','::placeholder': {color: '#FFCCA5',},
-                }
-            };
-            var elementClasses = {
-                base: 'basey',
-                focus: 'focused form-control',
-                empty: 'empty form-control',
-                invalid: 'invalid form-control',
-            };
-            cardNumber.update({style: elementStyles, classes: elementClasses} );
-            cardExpiry.update({style: elementStyles, classes: elementClasses} );
-            cardCvc.update({style: elementStyles, classes: elementClasses} );
-        }
-    </script>
-    {% js %}
-        var getUrlParameter = function getUrlParameter(sParam) {
+{% js %}
+    var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = window.location.search.substring(1),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
@@ -334,11 +246,13 @@
         return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
         }
         }
-        };
+    };
 
-        document.getElementById('Amount').value = getUrlParameter('amount');
-    {% endjs %}
+    document.getElementById('Amount').value = getUrlParameter('amount');
+{% endjs %}
+<script>
 
+</script>
 
 
 {% endblock %}
