@@ -11,13 +11,9 @@
 /*  font-style: normal;*/
 /*}*/
 
-/*@font-face {*/
-/*    font-family: 'themify';*/
-/*    font-style: normal;*/
-/*    font-weight: normal;*/
-/*    font-display: auto;*/
-/*    src: url("{{ craft.iconPicker.fontUrl('fonts/themify--fvbane.ttf') }}");*/
-/*}*/
+
+{% do view.registerAssetBundle("plugins\\dolphiq\\iconpicker\\assets\\sharedAsset") %}
+
 /* -- Operator Mono normal */
 
 @font-face {

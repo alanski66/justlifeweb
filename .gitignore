@@ -13,6 +13,7 @@ config.codekit3
 /scripts/.envprod.sh
 /backups/*
 /html
+/public_html/fontsold/
 /public_html/assets/documents
 /public_html/assets/images
 /public_html/cpresources
