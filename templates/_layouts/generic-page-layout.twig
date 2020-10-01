@@ -22,7 +22,7 @@
 {# -- Any <meta> tags that should be included in the <head> #}
 {% block headMeta %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158791076-1&ckcachebust=622735426"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158791076-1&ckcachebust=623259147"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -62,18 +62,17 @@
 
             {# -- Info header, including _navbar.twig -- #}
             {% include "_partials/info-header.twig" %}
-<div class="content-block">
+
                     {# -- Primary content block -- #}
                     {% block content %}
 
                     {% endblock %}
-</div>
 
         {# -- Content that appears below the primary content block -- #}
-<div class="container">
+
     {% block subcontent %}
         {% endblock %}
-</div>
+
 
         {# -- Info footer -- #}
         {% include "_partials/info-footer.twig" %}

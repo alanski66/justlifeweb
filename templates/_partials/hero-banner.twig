@@ -1,7 +1,33 @@
 {% if entry is defined  and entry.hideBanner != "1" %}
 
 {% set asset = entry.bannerImage[0] ?? null %}
+      {% if asset | length %}
+    {% set transformedBannerImages = craft.imager.transformImage(asset,
+        [
+            { width: 550, height:380, position: 'center-center', jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
+            { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
+            { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
+            { width: 1200, height:380, position: asset.getFocalPoint() },
+            { width: 2400, height:380, position: asset.getFocalPoint(),ratio: 2/1 }
+        ],
+        {
+            format: 'jpg',
+            allowUpscale: true,
+            mode: 'crop',
+            jpegQuality: 90,
+            interlace: true
+        }
+        ) %}
+          {% css %}
+              @media(min-width: 990px{
+                  .overlay{
+                    background: url('') no-repeat;
+                  }
+              }
 
+
+          {% endcss %}
+{% endif %}
 <section class="page-title overlay" style="background-image: url('{{ asset.getUrl() }}');">
     <div class="container">
         <div class="row">

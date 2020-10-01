@@ -16,7 +16,7 @@
 
     //Hero Slider
     $('.hero-slider').slick({
-        autoplay: true,
+        autoplay: false,
         infinite: true,
         // speed: 3000,
         arrows: true,

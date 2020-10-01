@@ -48,17 +48,10 @@
                     <div class="col-lg-6 mb-3">
                         <div class="card px-2 py-4 text-center h-100">
 
-                            <span class=""><pre>{{ item.icon.glyph }}</pre></span>
-                            {{ item.icon.css  }}
-                            <hr>
-                            {{ craft.iconPicker.fontUrl('themify--fvbane.ttf') }}
-                            {{ item.icon.glyph  }}
-                            {{ item.icon.glyph|raw  }}
-{#                            {{  dump(item.icon) }}#}
-                            <span class="fa">&#xf1e2</span>
+                            <img class="ti-svg mx-auto align-content-between" src="{{ item.icon.url }}" >
 
 
-                            <i class="align-content-between ti-{{ item.icon }} " aria-hidden="true"></i>
+
                             {% if item.stat |length %}
                                 <div class="stat">{{ item.stat }}</div>
                             {% endif %}
