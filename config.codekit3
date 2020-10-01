@@ -11676,7 +11676,7 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/src/public_html/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
