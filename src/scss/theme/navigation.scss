@@ -30,6 +30,11 @@
   padding: 0 20px;
   border-right: 1px solid #e5e5e5;
   color: #bcbcbd;
+  font-size: 14px;//$font-size-xs;
+}
+.top-header ul li {
+  color: #bcbcbd;
+  font-size: 14px
 }
 
 @media (max-width: 575px) {

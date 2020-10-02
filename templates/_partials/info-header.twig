@@ -1,6 +1,6 @@
 <!-- facebook crud -->
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js%2525252523xfbml=1&version=v6.0?ckcachebust=606416994"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js%25252525252525252525252525252525252525252525252525252525252525252523xfbml=1&version=v6.0?ckcachebust=623329895"></script>
 {#<script>(function(d, s, id) {#}
 {#        var js, fjs = d.getElementsByTagName(s)[0];#}
 {#        if (d.getElementById(id)) return;#}
@@ -25,10 +25,18 @@
                         <li class="list-inline-item">
                             <a href="mailto:info@companyname.com">Agencies Referral</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="callto:0300 123 1550">Call Us:
-                                <span class="ml-2"> 0300 123 1550</span>
-                            </a>
+                        {# organisationInfo.xxxx #}
+                        <li class="list-inline-item text-white"><i class="text-white ti-mobile pr-1"></i>
+                            <a class="border-right-0 p-0" href="tel:03001231550">Brighton: 0300 123 1550</a><span class=" px-1">-</span>
+                            <a class="pl-0" href="tel:0161 285 5888">Manchester: 0161 285 5888</a>
+                        </li>
+                        <li class="list-inline-item hide">
+
+                            <a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="Contact us"
+                               data-html="true" data-content="
+Brighton 0300 123 1550 | Manchester 0161 285 5888
+"><i class="ti-mobile"></i> Call Us</a>
+
                         </li>
                         <li class="list-inline-item">
                             <a href="#" class="search" id="searchOpen">
