@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7087fbfe5de0a2dd50588757dba7d88d",
+    "content-hash": "491796cb3f44e7b1cf435b4a12305306",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -599,11 +599,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.5.12",
+            "version": "3.5.12.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/513dee9715e08b36c67ed1e1e71e5612b0ea61fe",
-                "reference": "513dee9715e08b36c67ed1e1e71e5612b0ea61fe",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/142e988624dcb0405a6e4baf126e1207e6b084fd",
+                "reference": "142e988624dcb0405a6e4baf126e1207e6b084fd",
                 "shasum": ""
             },
             "require": {
@@ -684,7 +684,7 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2020-10-01T19:10:36+00:00"
+            "time": "2020-10-02T21:21:05+00:00"
         },
         {
             "name": "craftcms/feed-me",
