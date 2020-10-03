@@ -85,3 +85,31 @@ img.ti-svg{
   width: 30px;
   height:auto;
 }
+.textrow ul{
+  list-style-type:none;
+  text-align: left;
+  margin: 0 auto;
+  display:table;
+}
+.textrow ul li{
+  line-height: 2.5rem;
+}
+.textrow ul li:before{
+  font-family: "themify";
+  content: "\e65d"!important;
+  color:$red;
+  margin-right: 5px;
+
+}
+.homepage section.section.cards,
+.homepage section.section.quoterow,
+.homepage section.section.textrow{
+  padding:0;
+}
+
+.homepage section.section{
+  margin: 0 0 3rem 0;
+}
+.homepage .processstep img.arrow-top{
+  top:170px;
+}

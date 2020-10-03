@@ -1,0 +1,27 @@
+<!-- image row -->
+<section class="section {{ block.type| lower }}">
+    <div class="container">
+        <div class="row">
+{#                {% for block in block.imageRow.all() %}#}
+
+{#                    <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">#}
+{#                        <div class="card text-center">#}
+{#                            <div class="card-img-wrapper overlay-rounded-top">#}
+{#                                <img class="card-img-top rounded-0" src="images/service/service-1.jpg" alt="service-image">#}
+{#                            </div>#}
+{#                            <div class="card-body p-0">#}
+{#                                <h4 class="card-title pt-3">{{ block.rowTitle }}</h4>#}
+{#                                <p class="card-text mx-2 mb-0">{{ block.intro | raw }}.</p>#}
+{#                                {% if block.buttonLink.one() |  length %}#}
+{#                                    <a href="{{ block.buttonLink.one().url }}">{{ block.buttonText| default("read more") }}</a>#}
+{#                                {% endif %}#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                {% endfor %}#}
+
+
+
+        </div>
+    </div>
+</section>

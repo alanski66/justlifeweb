@@ -192,26 +192,28 @@
                                 {#{% set asset =  entry.image.one() %}#}
                                 {#{% endswitch %}#}
 
-                                {% if asset %}
-                                {% set newsImage = craft.imager.transformImage(asset,
-                                [
-                                { width: 576, position: asset.getFocalPoint(), jpegQuality: 85,ratio: 4/3 },
-                                { width: 550, height:350,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
-                                { width: 720, height:375,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
-                                ],
-                                {
-                                format: 'jpg',
-                                allowUpscale: true,
-                                mode: 'crop',
-                                jpegQuality: 90,
-                                interlace: true
-                                }
-                                ) %}
-                                {% endif %}
+
 
                                 <!-- blog-item -->
                                 <div class="col-lg-4 col-sm-6 mb-4">
                                     <div class="card">
+                                        {% if asset | length %}
+
+                                                {% set newsImage = craft.imager.transformImage(asset,
+                                                    [
+                                                        { width: 576, position: asset.getFocalPoint(), jpegQuality: 85,ratio: 4/3 },
+                                                        { width: 550, height:350,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
+                                                        { width: 720, height:375,position: asset.getFocalPoint(), ratio: 2/1 ,jpegQuality: 90 },
+                                                    ],
+                                                    {
+                                                        format: 'jpg',
+                                                        allowUpscale: true,
+                                                        mode: 'crop',
+                                                        jpegQuality: 90,
+                                                        interlace: true
+                                                    }
+                                                    ) %}
+
                                         <a href="{{entry.url}}">
                                         <div class="card-img-wrapper overlay-rounded-top">
                                            <picture>
@@ -222,6 +224,13 @@
                                             </picture>
                                         </div>
                                         </a>
+                                            {% else %}
+                                                <div class="card-img-wrapper overlay-rounded-top">
+                                                    <picture>
+                                                        <img class="card-img-top" src="{{ nullImage }}" alt="{{ entry.title }}">
+                                                    </picture>
+                                                </div>
+                                        {% endif %}
                                         <div class="card-body p-0">
                                             <div class="d-flex" data-mh="blog-height">
                                                 <div class="py-3 px-4 border-right text-center">

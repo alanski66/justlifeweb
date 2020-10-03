@@ -17,13 +17,13 @@
     //Hero Slider
     $('.hero-slider').slick({
         autoplay: false,
-        infinite: true,
+        infinite: false,
         // speed: 3000,
         arrows: true,
         autoplaySpeed: 4000,
         prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
         nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>',
-        dots: true,
+
         customPaging: function (slider, i) {
             var icon = $(slider.$slides[i]).data('icon');
             var text = $(slider.$slides[i]).data('text');

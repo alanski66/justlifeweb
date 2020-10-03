@@ -1,0 +1,46 @@
+<!-- icon row -->
+<section class="section {{ block.type| lower }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                    <div class="hedding">
+                        {%  set heading = block.heading |replace({'[': "<span>", ']': "</span>"})  %}
+                        <h2>{{ heading | raw }}</h2>
+                    </div>
+                    {# supertable#}
+                    <div class="row">
+                        <div class="card-group">
+                            {% for item in block.icons.all() %}
+
+                                <div class="col-lg-4 mb-3">
+                                    <div class="card px-2 py-4 text-center h-100">
+
+                                        <img class="ti-svg mx-auto align-content-between" src="{{ item.icon.url }}" >
+
+
+
+                                        {% if item.stat |length %}
+                                            <div class="stat">{{ item.stat }}</div>
+                                        {% endif %}
+                                        <h4>{{ item.statisticType }}</h4>
+                                        <p>{{ item.text }}</p>
+                                    </div>
+                                </div>
+
+                            {% endfor %}
+                        </div>
+                    
+                    </div>
+                    {%  if block.buttonText |length %}
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="get-involved">{{ block.icons.buttonText }}
+                                <a href="{{ block.buttonLink.one().url }}">Get involved</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

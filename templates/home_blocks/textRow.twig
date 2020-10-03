@@ -1,0 +1,18 @@
+<!-- text row -->
+{% if block.heading | length or block.text | length %}
+    <section class="section {{ block.type| lower }}">
+        <div class="container">
+            <div class="row">
+                {% if block.heading | length %}
+                    <div class="col-12 text-center mb-2">
+                        <h2>{{ block.   heading | raw }}</h2>
+                    </div>
+                {% endif %}
+                {% if block.text | length %}
+                    <div class="col-12 text-center btext">
+                        {{ block.text }}</div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+{% endif %}

@@ -195,7 +195,7 @@
 
                     {% endfor %}
 
-                    {% for block in entry.impactStats %}
+                    {% for block in entry.impactStats.all() %}
 
                         {% include ('projects/_partials/_' ~ blockPrefix ~ 'block_impact') %}
 

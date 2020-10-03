@@ -252,7 +252,7 @@
 
                 {% set entry = craft.entries.id(104).one() %}
 
-                {% for block in entry.cards.offset(1)  %}
+                {% for block in entry.cards.offset(1).all()  %}
 
 
                     {% switch block.type %}

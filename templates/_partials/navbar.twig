@@ -42,7 +42,7 @@
                     {% endif %}
 
                     <!-- get children -->
-                    {% for child in entry.getDescendants().hidePage('not 1') %}
+                    {% for child in entry.getDescendants().hidePage('not 1').all() %}
                         {% if child is defined %}
                             {# get child custom link or entry uri #}
                             {% if child.entryLink.one()|length %}

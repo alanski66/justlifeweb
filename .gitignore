@@ -2,6 +2,7 @@
 # not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)
 config.codekit3
 /config/project
+/config/project/
 /config/icon-picker.php
 /makepdf.js
 /.env

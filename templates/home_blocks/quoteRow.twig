@@ -1,0 +1,20 @@
+<!-- quote row -->
+<section class="section {{ block.type| lower }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>{{ block.rowTitle | raw }}</h2>
+            </div>
+
+            <div class="mt-5 col-md-10 offset-md-1 text-center">
+                <i class="align-self-start testimonial-icon ti-quote-left"></i>
+                <blockquote>{{ block.quote }}</blockquote>
+                <i class="testimonial-icon ti-quote-right"></i>
+                    {% if block.author | length %}<p><span>{{ block.author }}</span></p>{% endif %}
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+</section>
