@@ -7722,7 +7722,7 @@
 		"oAP": "/public_html/imager/bannerimages/6772/runners_a622c74958c3cc20a3504f3224ab4fdb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/bannerimages/6772/runners_cb724c858f5cca8c09fe6d59c6e5eae9.jpg": {
@@ -7744,7 +7744,7 @@
 		"oAP": "/public_html/imager/bannerimages/6774/group_248082b99567a623495455f8e0aa4a17.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/bannerimages/6774/group_24ec76ad31d40fc24410aee3f3bb0cf8.jpg": {
@@ -7755,7 +7755,7 @@
 		"oAP": "/public_html/imager/bannerimages/6774/group_24ec76ad31d40fc24410aee3f3bb0cf8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/bannerimages/6774/group_2db59eb92a79138d608659bd0d3b214a.jpg": {
@@ -7766,7 +7766,7 @@
 		"oAP": "/public_html/imager/bannerimages/6774/group_2db59eb92a79138d608659bd0d3b214a.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/bannerimages/6774/group_a622c74958c3cc20a3504f3224ab4fdb.jpg": {
@@ -7777,7 +7777,7 @@
 		"oAP": "/public_html/imager/bannerimages/6774/group_a622c74958c3cc20a3504f3224ab4fdb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/bannerimages/6774/group_cb724c858f5cca8c09fe6d59c6e5eae9.jpg": {
@@ -7788,7 +7788,7 @@
 		"oAP": "/public_html/imager/bannerimages/6774/group_cb724c858f5cca8c09fe6d59c6e5eae9.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public_html/imager/bannerimages/6800/lakers-man_248082b99567a623495455f8e0aa4a17.jpg": {
@@ -7863,6 +7863,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/images/5534/macnhester-portrait-1_94c2c53cb9c2eb328f3977584c5873a3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg": {
+		"ft": 16384,
+		"iS": 13004,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
