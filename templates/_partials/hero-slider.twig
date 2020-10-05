@@ -94,6 +94,8 @@
     {% set autoplay = "false" %}
     {% set arrows = "false" %}
     {% set dots = "false" %}
+    {% set slideTotal = entry.carousel|length %}
+
 {#    {% set autoplay = block.autoplay|raw %}#}
 {#    {% set arrows = block.arrows %}#}
 {% for block in entry.heroCarouselSettings.all() %}
@@ -107,8 +109,14 @@
     {% if block.autoplay %}
         {% set autoplay = "true" %}
     {% endif %}
+    {# adust arrows display for no of slide - if only one slide then dont show #}
     {% if block.arrows %}
-        {% set arrows = "true" %}
+        {% if slideTotal == "1" %}
+            {% set arrows = "false" %}
+        {% else %}
+            {% set arrows = "true" %}
+        {% endif %}
+
     {% endif %}
 
 
