@@ -8,9 +8,10 @@
 
             <div class="mt-5 col-md-10 offset-md-1 text-center">
                 <i class="align-self-start testimonial-icon ti-quote-left"></i>
-                <blockquote>{{ block.quote }}</blockquote>
-                <i class="testimonial-icon ti-quote-right"></i>
-                    {% if block.author | length %}<p><span>{{ block.author }}</span></p>{% endif %}
+                <blockquote class="shadow p-5">{{ block.quote }}
+                    {% if block.author | length %}<br><cite><span class="small">{{ block.author }}</span></cite>{% endif %}</blockquote>
+                <i class="hide testimonial-icon ti-quote-right"></i>
+
             </div>
 
 
