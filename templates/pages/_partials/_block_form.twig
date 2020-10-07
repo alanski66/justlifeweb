@@ -17,6 +17,9 @@
 
 {% if block.selectForm |length %}
 
+    {{ wheelform.recaptchaV3()}}
+
+
     {% macro errorList(errors) %}
         {% if errors %}
             <ul class="errors">
@@ -29,8 +32,17 @@
     {% from _self import errorList %}
 
     {% set form = wheelform.form({
-        id: 1,
-        redirect: 'contact-us/thanks'
+        id: block.selectForm.id,
+        redirect: 'contact-thanks',
+        submitButton: {
+            "type": "button",
+            "label": "Send",
+            "attributes": {
+                "class": "btn btn-primary mb-5",
+                "id": "submit-btn",
+                "data-submit": "wheeloo",
+            }
+        }
     }) %}
 
     {{ form.open() }}

@@ -5,3 +5,10 @@
   text-align: right;
   padding: 10px 10px 0 0;
 }
+//wheel form
+.wf-group.form-check .wf-group-heading label{
+  display:none;
+}
+.wf-group.form-group textarea.form-control{
+  min-height:100px!important;
+}
