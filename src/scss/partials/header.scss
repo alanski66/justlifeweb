@@ -4,3 +4,22 @@
 .hero-content h1{
   //text-shadow: 2px 2px #000000;
 }
+
+.picture-credit{
+  position: absolute;
+  //left: 10px;
+  //bottom: 10px;
+  color: #fff;
+  font-size: 10px;
+  opacity: 0.7;
+  text-shadow: 1px 1px 1px #000;
+}
+section.no-featured-image{
+padding-top:3rem;
+}
+.picture-credit{
+  bottom: 10px;
+  top: initial;
+  right:initial;
+  left:10px;
+}

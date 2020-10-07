@@ -1,3 +1,21 @@
 li.nav-item.donate{
   margin:0 auto;
 }
+
+.navigation .navbar li.nav-item{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navigation .navbar .nav-item .nav-link.active{
+  color: $red;
+  border-bottom:1px solid $red;
+  padding:15px 0 0;
+}
+.child.active{
+  color:$red;
+}
+
+//hover width
+.navigation .navbar .dropdown:hover .dropdown-menu{
+  width:240px;
+}

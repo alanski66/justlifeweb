@@ -14,6 +14,7 @@
 
         {% if entry.entryLink.one()|length %}
             {% set navlink = entry.entryLink.one().uri %}
+            {%  set navpage =  entry.entryLink[0] %}
         {% else %}
             {% set navlink = entry.customLink %}
         {% endif %}
@@ -42,15 +43,29 @@
                     {% endif %}
 
                     <!-- get children -->
-                    {% for child in entry.getDescendants().hidePage('not 1').all() %}
+{#                    {% for child in entry.getDescendants().hidePage('not 1').all() %}#}
+{#                    {% if child is defined %}#}
+{#                        #}{# get child custom link or entry uri #}
+{#                        {% if child.entryLink.one()|length %}#}
+{#                            {% set childlink = child.entryLink.one().uri %}#}
+{#                        {% else %}#}
+{#                            {% set childlink = child.uri %}#}
+{#                        {% endif %}#}
+{#                        <a id="{{ entry.title }}" href="{{ siteUrl }}{{ childlink }}"#}
+{#                           class="dropdown-item level {{ child.level }}">{{ child.title }} desc</a>#}
+
+{#                    {% endif %}#}
+{#                    {% endfor %}#}
+                    {% for child in navpage.getDescendants().hidePage('not 1').all() %}
+
                         {% if child is defined %}
                             {# get child custom link or entry uri #}
-                            {% if child.entryLink.one()|length %}
-                            {% set childlink = child.entryLink.one().uri %}
-                            {% else %}
-                            {% set childlink = child.uri %}
-                            {% endif %}
-                            <a id="{{ entry.title }}" href="{{ siteUrl }}{{ childlink }}"
+{#                            {% if child.entryLink.one()|length %}#}
+{#                            {% set childlink = child.entryLink.one().uri %}#}
+{#                            {% else %}#}
+{#                            {% set childlink = child.uri %}#}
+{#                            {% endif %}#}
+                            <a id="{{ entry.title }}" href="{{ child.url }}"
                                class="dropdown-item level {{ child.level }}">{{ child.title }}</a>
 
                         {% endif %}

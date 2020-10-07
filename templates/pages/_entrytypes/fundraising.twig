@@ -15,10 +15,15 @@
 
                     <div class="col-lg-8 pt-3">
                         <div class="bg-whit rounded mb-40">
-                            <h1 class="mb-5">{{ entry.title }}</h1>
-                            {%  if entry.body | length %}
-                            {{ entry.body }}
-                                {% endif %}
+                        <h1 class="mb-5">{{ entry.title }}</h1>
+                        {% set lazyImage = false %}
+                        {% set blockPrefix = "" %}
+                        {% for block in entry.contentBlock.all() %}
+                            {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}
+                            {% if block.type.handle == "image" %}
+                                {% set lazyImage = true %}
+                            {% endif %}
+                        {% endfor %}
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -26,9 +31,9 @@
                         <div class="bg-white px-4 py-4 sidebar-box-shadow">
                             <!-- categories -->
                             <div class="mb-50">
-                                <h4 class="mb-3">In this section</h4>
-                                {#                                {% set pages = craft.entries.section('pages').level(1).all() %}#}
-                                {% set pages = craft.entries.section('pages').hidePage('0').all() %}
+                                <h4 class="mb-3">Get Involved</h4>
+{#                                {% set pages = craft.entries.section('pages').level(1).all() %}#}
+                                {% set pages = craft.entries.section('fundraising').hidePage('0').all() %}
                                 <ul class="pl-0 mb-0">
                                     {% for entry in pages %}
                                         <li class="border-bottom">
@@ -42,10 +47,10 @@
                             <!-- global subscribe newsletter -->
                             <div class="newsletter">
                                 <h4 class="mb-3">Stay Updated</h4>
+                                
 
-
-                                <input type="email" name="email" id="email" class="form-control pass-email" placeholder="Email">
-                                <button type="submit" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#subscribeModal">Subscribe</button>
+                                    <input type="email" name="email" id="email" class="form-control pass-email" placeholder="Email">
+                                    <button type="submit" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#subscribeModal">Subscribe</button>
 
                             </div>
                         </div>

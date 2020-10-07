@@ -1,12 +1,17 @@
 
+{% if block.heading |length or block.text | length %}
+<section class="text mb-5">
+{% if block.heading |length %}
 
-
-                {% if block.heading |length %}
-                    <h3 class="blog">
-                        <span class="blog-headline-link">
-                            <a id="{{ block.heading |kebab }}" href="#{{ block.heading |kebab }}"> <i class="icon-link"></i></a>
+    <h3 class="mb-3">
+                        <span class="page-headline-link">
+                            <a id="{{ block.heading |kebab }}" href="#{{ block.heading |kebab }}"> <i
+                                        class="icon-link"></i></a>
                         </span>
-                        {{ block.heading |smartypants }}
-                    </h3>
-                {% endif %}
-                <div class="{{ block.type.handle }}">{{ block.text }}</div>
+        {{ block.heading |smartypants }}
+    </h3>
+
+{% endif %}
+<div class="{{ block.type.handle }}">{{ block.text }}</div>
+</section>
+{% endif %}
