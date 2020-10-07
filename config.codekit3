@@ -8489,6 +8489,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/public_html/images/loading.gif": {
+		"ft": 4194304,
+		"iS": 88496,
+		"oA": 0,
+		"oAP": "/public_html/images/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/public_html/images/logo-footer.png": {
 		"ft": 32768,
 		"iS": 2213,
