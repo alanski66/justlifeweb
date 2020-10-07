@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left mb-3 mb-lg-0">
-                  
+
                     <h3 class="text-dark">From partners to volunteers, events and donors our supporters are the driving force of our work. </h3>
                 </div>
                 <div class="col-lg-3 text-lg-right text-center align-self-center">
@@ -37,46 +37,46 @@
                     {%  case "cardImageTop" %}
                         {%  set card = block %}
 
-                                    {% if card.cardImage | length %}
-                                        {%  set image = card.cardImage[0] %}
-                                        {% set asset = craft.imager.transformImage(image, {
-                                            width: 350,
-                                            height:190,
-                                            position: image.getFocalPoint(),
-                                            cropZoom: 1.5
-                                        }) %}
-                                        {% set imgUrl = asset.getUrl() %}
-                                    {% else %}
+                        {% if card.cardImage | length %}
+                            {%  set image = card.cardImage[0] %}
+                            {% set asset = craft.imager.transformImage(image, {
+                                width: 350,
+                                height:190,
+                                position: image.getFocalPoint(),
+                                cropZoom: 1.5
+                            }) %}
+                            {% set imgUrl = asset.getUrl() %}
+                        {% else %}
 
-                                        {% set imgUrl = "https://via.placeholder.com/350x190" %}
-                                    {% endif %}
-                                    <!-- regional item col -->
-                                    <div class="col-lg-4 col-sm-6 col-xs-12 mb-5 pb-5">
-                                        <div class="card text-center">
-                                            <h4 class="card-title pt-3" data-mh="mh-title">{{card.cardTitle}}</h4>
-                                            <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}">
-                                                <div class="card-img-wrapper">
-                                                    <img  class="card-img-top rounded-0"  src="{{ imgUrl }}" >
-                                                </div>
-                                            </a>
-                                            <div class="card-body py-3" >
-                                                <p class="card-text mx-2" data-mh="mh-text">{{card.cardText}}</p>
-                                                <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}" class="btn btn-secondary translateY-25">{{ card.cardButtonTitle ? card.cardButtonTitle: 'Read more'}} </a>
-                                            </div>
-                                        </div>
+                            {% set imgUrl = "https://via.placeholder.com/350x190" %}
+                        {% endif %}
+                        <!-- regional item col -->
+                        <div class="col-lg-4 col-sm-6 col-xs-12 mb-5 pb-5">
+                            <div class="card text-center">
+                                <h4 class="card-title pt-3" data-mh="mh-title">{{card.cardTitle}}</h4>
+                                <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}">
+                                    <div class="card-img-wrapper">
+                                        <img  class="card-img-top rounded-0"  src="{{ imgUrl }}" >
                                     </div>
+                                </a>
+                                <div class="card-body py-3" >
+                                    <p class="card-text mx-2" data-mh="mh-text">{{card.cardText}}</p>
+                                    <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}" class="btn btn-secondary translateY-25">{{ card.cardButtonTitle ? card.cardButtonTitle: 'Read more'}} </a>
+                                </div>
+                            </div>
+                        </div>
 
                     {% endswitch %}
 
                 {% endfor %}
                 <!-- service item -->
-             
+
             </div>
         </div>
     </section>
     <!-- service -->
 
-    <section class="fun-facts overlay-dark section-sm" style="background-image: url('images/background/cta.jpg');">
+    <section class="hide fun-facts overlay-dark section-sm" style="background-image: url('images/background/cta.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">

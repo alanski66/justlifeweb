@@ -164,7 +164,7 @@
                 <div class="col-lg-8 col-md-7">
                     <p class="text-white text-center text-md-left">
                         <span class="text-primary">{{organisationInfo.organisationName}}</span> &copy; {{ 'now' | date('Y') }}
-                        <span class="text-primary">CIC Ltd 6724021 / Justlife Foundation Ltd 7517887 Registered Charity 1140822</span>
+                        <span class="text-primary">{{organisationInfo.charityOrganisationStatement}}</span>
 
                     </p>
                 </div>
@@ -175,9 +175,9 @@
                             <a class="font-secondary text-white" href="#">Sitemap</a>
                         </li>
                         <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                            <a class="font-secondary text-white" href="#">Privacy Policy</a>
+                            <a class="font-secondary text-white" href="{{ baseUrl }}privacy-policy">Privacy Policy</a>
                         </li>
-                        <li class="list-inline-item ml-lg-3 my-lg-0 ml-2 my-2 ml-0">
+                        <li class="hide list-inline-item ml-lg-3 my-lg-0 ml-2 my-2 ml-0">
                             <a class="font-secondary text-white" href="#">Terms &amp; Conditions</a>
                         </li>
                     </ul>

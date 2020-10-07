@@ -1,15 +1,20 @@
 {% extends "_layouts/generic-page-layout.twig" %}
-{%  set bodyClass = " donate" %}
+{% set bodyClass = " donate" %}
 {% block content %}
-    <link type="text/css" rel="stylesheet" href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=623178666" />
-he correct version of the file is uncommented-->
-    <script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=623178666"></script>
-    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=623178666"></script>-->
 
-    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=623178666"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=623178666"></script>
+    <link type="text/css" rel="stylesheet"
+          href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=623694056"/>
 
-    <section class="donate page-title overlay" style="background-image: url('images/donate.jpg');">
+
+    <!--Make sure the correct version of the file is uncommented-->
+    <script type="text/javascript"
+            src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=623694056"></script>
+    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=623694056"></script>-->
+
+    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=623694056"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=623694056"></script>
+
+    <section class="donate page-title overlay" style="background-image: url('{{ baseUrl }}images/donate.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -21,17 +26,26 @@ he correct version of the file is uncommented-->
     <!-- title -->
     <section class=" title ">
         <!-- bg grid -->
-        <div class="bg-grid position-absolute m-0 p-0 w-100">
+        <div class="bg-grid position-absolute m-0 p-0 w-100 hide">
             <div class="row m-0 p-0">
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/woman.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-in-corridor.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/mangarden.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-looking-up-in-street.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-guitar.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-in-chair.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man-whistle.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="images/gridsq/man2.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="{{ baseUrl }}images/gridsq/woman.png">
+                </div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
+                                                    src="{{ baseUrl }}images/gridsq/man-in-corridor.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
+                                                    src="{{ baseUrl }}images/gridsq/mangarden.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="{{ baseUrl }}images/gridsq/man.png">
+                </div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
+                                                    src="{{ baseUrl }}images/gridsq/man-looking-up-in-street.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
+                                                    src="{{ baseUrl }}images/gridsq/man-guitar.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
+                                                    src="{{ baseUrl }}images/gridsq/man-in-chair.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
+                                                    src="{{ baseUrl }}images/gridsq/man-whistle.png"></div>
+                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="{{ baseUrl }}images/gridsq/man2.png">
+                </div>
 
 
             </div>
@@ -41,38 +55,47 @@ he correct version of the file is uncommented-->
         <div class="container">
             <div class="row justify-content-start">
                 <div class="col-sm-4 col-md-6 col-left">
-                    <div class="rounded p-sm-5 px-3 py-5 bg-secondary">
-                        <h3 class="section-title section-title-border-half text-white">Your donation</h3>
-                        <p class="text-white mb-40">Every donation, no matter how small, goes towards improving the lives of homeless people living in emergency & temporary accommodation and provides services like:</p>
-                        <div>
-                            <ul class="d-inline-block pl-0">
-                                <li class="font-secondary mb-10 text-white float-sm-left mr-sm-5">
-                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Drop-in sessions</li>
-                                <li class="font-secondary mb-10 text-white">
-                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>One-to-one support</li>
-                                <li class="font-secondary mb-10 text-white">
-                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Travel to hospital</li>
-                            </ul>
-                            <ul class="d-inline-block pl-0">
-                                <li class="font-secondary mb-10 text-white">
-                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>A "move-in" pack</li>
-                                <li class="font-secondary mb-10 text-white">
-                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>A months rent</li>
-                                <li class="font-secondary mb-10 text-white">
-                                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Skill building</li>
-                            </ul>
+
+                    <div class="rounded p-sm-5 px-3 py-5 bg-secondary shadow info-box">
+                        <h3 class="section-title section-title-border-half text-white">{{ entry.donateInfoBoxTitle }}</h3>
+                        <p class="text-white mb-40">{{ entry.donateInfoBoxText }}</p>
+                        <div class="">
+                            {% if entry.donateInfoBoxList | length %}
+                                {% for block in entry.donateInfoBoxList %}
+                                    <ul class="d-inline-block pl-0">
+                                        {% for block in block.listItem %}
+
+                                            <li class="font-secondary mb-10 text-white {% if loop.first %}float-sm-left mr-sm-5{% endif %}">
+                                                <i class="text-primary mr-2 ti-arrow-circle-right"></i>{{ block.item }}
+                                            </li>
+
+                                        {% endfor %}
+                                    </ul>
+                                {% endfor %}
+                            {% endif %}
                         </div>
-                        <a href="#" class="btn btn-primary mt-4">Explore More</a>
+                        {%  if entry.donateInfoBoxMoreText | length %}
+                        <div id="accordion">
+                            <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"
+                               href="#collapseOne">
+                                <i class="ti-plus text-primary mr-2"></i> More
+                            </a>
+                            <div id="collapseOne" class="collapse"
+                                 data-parent="#accordion">
+                                <div class="card-body font-secondary text-white pl-0 pb-0">
+                                    {{ entry.donateInfoBoxMoreText }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
-                <div class="col-sm-8 col-md-6 col-lift donorfy">
-                    <h2 class="">Donate</h2>
-                    <p class="hide">Every donation, no matter how small, goes towards improving the lives of homeless people living in emergency & temporary accommodation by funding frontline and research & policy work.</p>
-
+                <div class="col-sm-8 col-md-6 col-lift donorfy shadow">
+                    {%  if entry.donateFormTitle %} <h2 class="">{{ entry.donateFormTitle }}</h2>{% endif %}
                     <form method="post" id="CreditCardForm">
                         <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
-                        <h3>Your details</h3>
-                        <table class="table">
+                        {%  if entry.donateFormSubtitle %}<h3>{{entry.donateFormSubtitle}}</h3>{% endif %}
+                            <table class="table">
                             <tbody>
                             <tr>
                                 <td>
@@ -95,7 +118,8 @@ he correct version of the file is uncommented-->
                             <tr style="display:none;">
                                 <td>
                                     <label class="" for="AddressSearch">Address Search</label><br>
-                                    <input type="text" class="" id="AddressSearch" maxlength="50" placeholder="Use Postcode or Address">
+                                    <input type="text" class="" id="AddressSearch" maxlength="50"
+                                           placeholder="Use Postcode or Address">
                                 </td>
                             </tr>
                             <tr>
@@ -151,7 +175,8 @@ he correct version of the file is uncommented-->
                             <tr>
                                 <td>
                                     <label class="" for="Email">Email*</label><br>
-                                    <input type="text" name="Email" class="required" type="email" id="Email" maxlength="50">
+                                    <input type="text" name="Email" class="required" type="email" id="Email"
+                                           maxlength="50">
                                 </td>
                             </tr>
                             </tbody>
@@ -162,7 +187,10 @@ he correct version of the file is uncommented-->
                             <tr>
                                 <td>
                                     <label class="" for="Amount">Amount*</label><br>
-                                    <span id="AmountPrefix">&pound;</span><input type="text" name="Amount" class="required numberOnly" id="Amount" maxlength="10" title="Please enter the amount you want to give - don't include the pound sign">
+                                    <span id="AmountPrefix">&pound;</span><input type="text" name="Amount"
+                                                                                 class="required numberOnly" id="Amount"
+                                                                                 maxlength="10"
+                                                                                 title="Please enter the amount you want to give - don't include the pound sign">
                                 </td>
                             </tr>
                             <tr>
@@ -186,7 +214,9 @@ he correct version of the file is uncommented-->
                             <tr>
                                 <td>
                                     <label class="" for="OneOffPayment">I would like to make this gift*</label><br>
-                                    <label><span>A One Off</span><input type="radio" id="OneOffPayment" name="PaymentType" value="OneOff" checked="checked"></label><label>
+                                    <label><span>A One Off</span><input type="radio" id="OneOffPayment"
+                                                                        name="PaymentType" value="OneOff"
+                                                                        checked="checked"></label><label>
                                         <span>An Ongoing Commitment to Help</span>
                                         <input type="radio" id="RecurringPayment" name="PaymentType" value="Recurring">
                                     </label>
@@ -195,13 +225,19 @@ he correct version of the file is uncommented-->
                             <tr id="PaymentScheduleRow" style="display: none;">
                                 <td>
                                     <label class="" for="MonthlyPayment">I would like to donate*</label><br>
-                                    <label><span>Monthly</span><input type="radio" id="MonthlyPayment" name="PaymentSchedule" value="Monthly" checked="checked"></label><label><span>Quarterly</span><input type="radio" id="QuarterlyPayment" name="PaymentSchedule" value="Quarterly"></label><label><span>Annually</span><input type="radio" id="AnnualPayment" name="PaymentSchedule" value="Annually"></label>
+                                    <label><span>Monthly</span><input type="radio" id="MonthlyPayment"
+                                                                      name="PaymentSchedule" value="Monthly"
+                                                                      checked="checked"></label><label><span>Quarterly</span><input
+                                                type="radio" id="QuarterlyPayment" name="PaymentSchedule"
+                                                value="Quarterly"></label><label><span>Annually</span><input
+                                                type="radio" id="AnnualPayment" name="PaymentSchedule" value="Annually"></label>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <label class="" for="Comment">Comments</label><br>
-                                    <textarea rows="3" cols="40" class="" name="Comment" id="Comment" title="Optional comments you may wish to make regarding this payment">
+                                    <textarea rows="3" cols="40" class="" name="Comment" id="Comment"
+                                              title="Optional comments you may wish to make regarding this payment">
                     </textarea>
                                 </td>
                             </tr>
@@ -210,25 +246,29 @@ he correct version of the file is uncommented-->
                         <!-- insert your gift aid logo here -->
                         <h3>Gift Aid</h3>
                         <div>
-                            <label>Yes I would like you to claim Gift Aid on my donation</label> <input id="GiftAid" type="checkbox" />
+                            <label>Yes I would like you to claim Gift Aid on my donation</label> <input id="GiftAid"
+                                                                                                        type="checkbox"/>
                             <p>
-                                I want all donations I've made to you in the past four years and all donations in future to be treated as Gift Aid donations until I notify you otherwise.<br />
-                                I am a UK taxpayer and understand that if I pay less Income Tax and/or Capital Gains Tax than
-                                the amount of Gift Aid claimed on all my donations in that tax year it is my responsibility to pay any
-                                difference.<br />
+                                I want all donations I've made to you in the past four years and all donations in future
+                                to be treated as Gift Aid donations until I notify you otherwise.<br/>
+                                I am a UK taxpayer and understand that if I pay less Income Tax and/or Capital Gains Tax
+                                than
+                                the amount of Gift Aid claimed on all my donations in that tax year it is my
+                                responsibility to pay any
+                                difference.<br/>
                                 We will claim 25p on every &pound;1 you donate.
                             </p>
                         </div>
                         <div>
                             <label>
-                                I would like to be kept up to date with your projects and activities by the methods I choose below<br />
-                                <input type="checkbox" value="2" class="KeepInTouch">&nbsp;Email<br />
-                                <input type="checkbox" value="4" class="KeepInTouch">&nbsp;Post<br />
-                                <input type="checkbox" value="8" class="KeepInTouch">&nbsp;Sms<br />
-                                <input type="checkbox" value="16" class="KeepInTouch">&nbsp;Phone<br />
+                                I would like to be kept up to date with your projects and activities by the methods I
+                                choose below<br/>
+                                <input type="checkbox" value="2" class="KeepInTouch">&nbsp;Email<br/>
+                                <input type="checkbox" value="4" class="KeepInTouch">&nbsp;Post<br/>
+                                <input type="checkbox" value="8" class="KeepInTouch">&nbsp;Sms<br/>
+                                <input type="checkbox" value="16" class="KeepInTouch">&nbsp;Phone<br/>
                             </label>
                         </div>
-
 
 
                         <table>
@@ -241,22 +281,26 @@ he correct version of the file is uncommented-->
                                         <div id="Errors"></div>
                                     </div>
                                     <input type="submit" value="Donate Now" id="submitButton">
-                                    <div id="PleaseWait" style="display: none; color: darkblue">Processing your donation - please wait ...</div>
+                                    <div id="PleaseWait" style="display: none; color: darkblue">Processing your donation
+                                        - please wait ...
+                                    </div>
                                 </td>
                             </tr>
                             </tbody>
                         </table>
                         <!-- Hidden fields for tags -->
-                        <input type="hidden" id="ActiveTags" value="" />
-                        <input type="hidden" id="BlockedTags" value="" />
+                        <input type="hidden" id="ActiveTags" value=""/>
+                        <input type="hidden" id="BlockedTags" value=""/>
                         <!-- Do not change these values -->
-                        <input type="hidden" id="PublishableKey" value="pk_live_51HRIKuHBdizcKlMwud4FzsUe8TYR3DRzZ0rNLpIGgnoCSsuILxK7AmVRN2jDahANmlzcxamBNmtB1DcBGUMPYqN700Xg6C0ZFu" />
-                        <input type="hidden" id="TenantCode" value="2CQ425IEX8" />
-                        <input type="hidden" id="WidgetId" value="0ff7cdfc-71fe-ea11-b5d9-501ac582a015" />
-                        <input type="hidden" id="DonationPageId" value="" />
-                        <input type="hidden" id="RedirectToPage" value="https://justlife.stagingbox.co.uk/donation-thank-you" />
-                        <input type="hidden" id="ReCaptchaSiteKey" value="6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR" />
-                        <input type="hidden" id="ReCaptchaAction" value="Donorfy" />
+                        <input type="hidden" id="PublishableKey"
+                               value="pk_live_51HRIKuHBdizcKlMwud4FzsUe8TYR3DRzZ0rNLpIGgnoCSsuILxK7AmVRN2jDahANmlzcxamBNmtB1DcBGUMPYqN700Xg6C0ZFu"/>
+                        <input type="hidden" id="TenantCode" value="2CQ425IEX8"/>
+                        <input type="hidden" id="WidgetId" value="0ff7cdfc-71fe-ea11-b5d9-501ac582a015"/>
+                        <input type="hidden" id="DonationPageId" value=""/>
+                        <input type="hidden" id="RedirectToPage"
+                               value="https://justlife.stagingbox.co.uk/donation-thank-you"/>
+                        <input type="hidden" id="ReCaptchaSiteKey" value="6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR"/>
+                        <input type="hidden" id="ReCaptchaAction" value="Donorfy"/>
                     </form>
                 </div>
             </div>
@@ -292,7 +336,7 @@ he correct version of the file is uncommented-->
                     },
                 },
                 invalid: {
-                    color: '#E25950','::placeholder': {color: '#FFCCA5',},
+                    color: '#E25950', '::placeholder': {color: '#FFCCA5',},
                 }
             };
             var elementClasses = {
@@ -301,9 +345,9 @@ he correct version of the file is uncommented-->
                 empty: 'empty form-control',
                 invalid: 'invalid form-control',
             };
-            cardNumber.update({style: elementStyles, classes: elementClasses} );
-            cardExpiry.update({style: elementStyles, classes: elementClasses} );
-            cardCvc.update({style: elementStyles, classes: elementClasses} );
+            cardNumber.update({style: elementStyles, classes: elementClasses});
+            cardExpiry.update({style: elementStyles, classes: elementClasses});
+            cardCvc.update({style: elementStyles, classes: elementClasses});
         }
     </script>
     {% js %}
