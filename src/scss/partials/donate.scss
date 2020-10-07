@@ -94,7 +94,10 @@ body.donate{
 .donorfy form#CreditCardForm table tr td{
   text-align: left!important;
 }
-
+a.btn-mgiftbox{
+  display:flex;
+  width:50%;
+}
 //target recurring table hide so default is single
 .donorfy form#CreditCardForm table:nth-of-type(2) tr:nth-child(5),
 .donorfy form#CreditCardForm table:nth-of-type(2) tr:nth-child(6),
@@ -108,7 +111,6 @@ body.donate{
 
 .donate .info-box ul{
   list-style-type: none;
-
 }
 //page specific
 

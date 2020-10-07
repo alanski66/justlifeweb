@@ -28,4 +28,3 @@ config.codekit3
 !/craft/storage/rebrand
 /sql/*
 /templatesold/*
-config.codekit3

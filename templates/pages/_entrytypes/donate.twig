@@ -53,11 +53,11 @@
                             </h2>
                             <i class="square-icon translateY-10 float-right ti-gift"></i>
                         </div>
-                        <div class="pt-5 px-4" data-mh="giftbox">
+                        <div class="pt-5 px-4" >
 
-                            <p>{{ block.text }}</p>
+                            <p data-mh="giftbox">{{ block.text }}</p>
 
-                            <a href="{{ baseUrl }}get-involved/donate/monthly-gift?amount=10.00" class="btn btn-primary translateY-25">{{ block.buttonText | default("Donate") }}</a>
+                            <a href="{{ baseUrl }}get-involved/donate/monthly-gift?amount=10.00" class="btn btn-primary translateY-25 btn-mgiftbox">{{ block.buttonText | default("Donate") }}</a>
                         </div>
                     </div>
                 </div>
