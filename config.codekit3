@@ -13000,6 +13000,14 @@
 		"oAP": "/templates/staff/index.twig",
 		"oF": 0
 		},
+	"/templates/stories/_entry.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/stories/_entry.twig",
+		"oF": 0
+		},
 	"/templates/supporters/_entry.twig": {
 		"cB": 1,
 		"ft": 8192,
