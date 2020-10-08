@@ -22,12 +22,20 @@
     "aelvan/imager": "v2.4.0",
     "dolphiq/iconpicker": "1.0.5",
     "superbig/craft3-mobiledetect": "1.0.2",
-    "hybridinteractive/craft-position-fieldtype": "1.0.16"
+    "hybridinteractive/craft-position-fieldtype": "1.0.16",
+    "xpertbot/wheelformhelper": "*"
   },
   "repositories": [
     {
       "type": "path",
       "url": "plugins/joomkit/*",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "path",
+      "url": "plugins/xpertbot/*",
       "options": {
         "symlink": true
       }

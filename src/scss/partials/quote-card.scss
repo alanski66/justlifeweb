@@ -101,5 +101,11 @@
   right: 15px;
   font-size: 5em;
   color: rgba(238, 238, 238, .8);
+  color: rgba(208, 15, 56, .8);
   font-weight: normal;
+}
+.homepage .quoterow .quote-card:before,
+.homepage .quoterow .quote-card:after {
+  color:$red;
+  //color: rgba(208, 15, 56, .8);
 }

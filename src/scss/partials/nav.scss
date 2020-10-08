@@ -11,6 +11,13 @@ li.nav-item.donate{
   border-bottom:1px solid $red;
   padding:15px 0 0;
 }
+//.navigation .navbar .nav-item .nav-link:hover{
+//  border-bottom:1px solid $red;
+//  padding:15px 0 0;
+//}
+.navigation .navbar .nav-item:last-child .nav-link.active{
+  color:$white;
+}
 .child.active{
   color:$red;
 }

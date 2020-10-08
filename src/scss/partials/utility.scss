@@ -6,7 +6,9 @@
   padding: 0px;
   text-shadow: 2px 2px #000000;
 }
-
+a#donate{
+  color:$white;
+}
 .text-white.text-shadow{
   text-shadow: 1px 1px #000000;
 }
@@ -109,6 +111,9 @@ img.ti-svg{
 
 .homepage section.section{
   margin: 0 0 3rem 0;
+}
+.homepage section.section.iconrow{
+  margin:0 0 0 0 ;
 }
 .homepage section.section.processstep{
 
