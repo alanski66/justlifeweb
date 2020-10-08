@@ -29,11 +29,11 @@ class Plugin extends \craft\base\Plugin
         Event::on(Mailer::class, Mailer::EVENT_BEFORE_SEND, function($event)
         {
             //Add extra fields to message
-            $event->message['extra_field'] = [
-                'label' => 'New Label',
-                'value' => 'Lorem Ipsum',
-                'type' => "text"
-            ];
+//            $event->message['extra_field'] = [
+//                'label' => 'New Label',
+//                'value' => 'Lorem Ipsum',
+//                'type' => "text"
+//            ];
 
             //Add static Reply_to email
             $event->reply_to = 'reply@example.com';
@@ -50,17 +50,17 @@ class Plugin extends \craft\base\Plugin
             //It's a good idea to add more checks such as form ID and valid email.
             if(array_key_exists('Location', $event->message)) {
                 if($event->message['Location']['value'] == 'Brighton' ) {
-                    $event->to[] = 'joomkit@gmail.com';
+                    $event->to[] = 'brighton@justlife.org.uk';
                 }
             }
             if(array_key_exists('Location', $event->message)) {
                 if($event->message['Location']['value'] == 'Manchester' ) {
-                    $event->to[] = 'alan@joomkit.com';
+                    $event->to[] = 'info@justlife.org.uk';
                 }
             }
             if(array_key_exists('Location', $event->message)) {
                 if($event->message['Location']['value'] == 'Other enquiry' ) {
-                    $event->to[] = 'info@joomkit.com';
+                    $event->to[] = 'info@justlife.org.uk';
                 }
             }
 
