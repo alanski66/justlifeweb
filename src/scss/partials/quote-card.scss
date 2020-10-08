@@ -85,3 +85,21 @@
 .quote-card.yellow-card:before, .quote-card.yellow-card:after {
   color: #FBC02D;
 }
+.homepage .quoterow .quote-card {
+  margin-left: 0;
+}
+.homepage .quoterow .quote-card p{
+  max-width:100%;
+  margin-left: 0;
+}
+.homepage .quoterow .quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: 30px;
+  line-height: 100px;
+  right: 15px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, .8);
+  font-weight: normal;
+}

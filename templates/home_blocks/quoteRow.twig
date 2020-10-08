@@ -7,8 +7,9 @@
             </div>
 
             <div class="mt-5 col-md-10 offset-md-1 text-center">
-                <i class="align-self-start testimonial-icon ti-quote-left"></i>
-                <blockquote class="shadow p-5">{{ block.quote }}
+                <i class="hide align-self-start testimonial-icon ti-quote-left"></i>
+                <blockquote class="quote-card shadow p-5">
+                    <p>{{ block.quote }}</p>
                     {% if block.author | length %}<br><cite><span class="small">{{ block.author }}</span></cite>{% endif %}</blockquote>
                 <i class="hide testimonial-icon ti-quote-right"></i>
 
