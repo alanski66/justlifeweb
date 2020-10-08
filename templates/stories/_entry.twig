@@ -23,19 +23,43 @@
                         <!-- Sidebar -->
                         <div class="bg-white px-4 py-4 sidebar-box-shadow">
                             <!-- categories -->
-                            <div class="mb-50">
-                                <h4 class="mb-3">In this section</h4>
-                                {#                                {% set pages = craft.entries.section('pages').level(1).all() %}#}
-                                {% set pages = craft.entries.section('pages').level(2).hidePage('0').all() %}
-                                <ul class="pl-0 mb-0">
-                                    {% for entry in pages %}
-                                        <li class="border-bottom">
-                                            <a href="{{ entry.url }}" class="{{ macros.isActiveChildClass(entry.slug) |trim }} d-block text-color py-10">{{ entry.title }}</a>
-                                        </li>
 
+                                <div class="mb-4">
+                                    <h4 class="mb-3">Life stories</h4>
+                                    {% set entries = craft.entries({
+                                        section: 'stories'
+                                    }).orderBy('title') %}
+                                    {% for story in entries.all() %}
+                                        {% if story.image.exists() %}
+                                            {% set asset = story.image.one() %}
+                                            {% set thumb = {
+                                                mode: 'crop',
+                                                width: 70,
+                                                height: 70,
+                                                quality: 75,
+                                                position: 'center-center'
+                                            } %}
+                                        {% endif %}
+                                        <div class="d-flex py-3 border-bottom">
+                                            <div class="mr-4">
+                                                <a href="{{ story.url }}">
+                                                    <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1">
+                                                    <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
+                                                </h6>
+                                                {% if story.introText | length %}
+                                                <p>{{ story.introText|truncateOnWord(60) }}</p>
+                                                {%  else %}
+                                                    <p>{{ story.body|truncateOnWord(60) }}</p>
+                                                    {% endif %}
+                                            </div>
+                                        </div>
                                     {% endfor %}
-                                </ul>
-                            </div>
+                                </div>
+
 
                             <!-- global subscribe newsletter -->
                             <div class="newsletter">
