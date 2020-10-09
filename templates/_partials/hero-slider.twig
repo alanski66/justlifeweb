@@ -1,7 +1,6 @@
 <section class=" mb-5">
     <div class=" hero-slider position-relative">
 
-
         {% for block in entry.carousel.all() %}
 
 
@@ -28,18 +27,36 @@
                         }
                         ) %}
                     {% css %}
-                        @media(min-width: 768px){
-                        .hero-slider-item-{{ block.id }}{
-                        background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
-                        {#                        height:593px;#}
+                        @media(min-width: 320px){
+                            .slide-{{ block.id }}{
+                                background-image: url('{{ baseUrl ~ transformedBannerImages[0].url }}');
+                                height:380px;
+                            }
                         }
+                        @media(min-width: 550px){
+                            .slide-{{ block.id }}{
+                                background-image: url('{{ baseUrl ~ transformedBannerImages[1].url }}');
+                                height:380px;
+                         }
+                        }
+                        @media(min-width: 768px){
+                            .slide-{{ block.id }}{
+                                background-image: url('{{ baseUrl ~ transformedBannerImages[2].url }}');
+                                height:480px;
+                            }
+                        }
+                        @media(min-width: 990px){
+                            .slide-{{ block.id }}{
+                                background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
+                            {#                        height:593px;#}
+                            }
                         }
 
-                        @media(min-width: 990px){
-                        .slide-{{ block.id }}{
-                        background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
-                        height:593px;
-                        }
+                        @media(min-width: 1200px){
+                            .slide-{{ block.id }}{
+                            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+                            height:593px;
+                            }
                         }
 
 

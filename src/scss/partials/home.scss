@@ -1,0 +1,48 @@
+@media(max-width:590px){
+  .hero-slider-item .hero-content h4{
+    font-size: $font-size-xs;
+  }
+  .hero-slider-item .hero-content h1.large{
+    font-size:2rem;
+  }
+  .hero-slider-item .hero-content h1.medium{
+    font-size:1.5rem;
+  }
+  .hero-slider-item .hero-content h1.small {
+    font-size: 1.5rem;
+  }
+
+  //blocks
+  .homepage section.section.cards,
+  .homepage section.section.quoterow,
+  .homepage section.section.textrow{
+    padding:0;
+  }
+
+  .homepage section.section{
+    margin: 0 0 3rem 0;
+  }
+  .homepage section.section.iconrow{
+    margin:0 0 0 0 ;
+  }
+  .homepage section.section.processstep{
+
+  }
+  .homepage .processstep img.arrow-top{
+    top:170px;
+  }
+  .homepage .processstep img.arrow-bottom{
+    bottom:-20px;
+  }
+  .homepage section.textrow p:first-of-type,
+  .homepage section.textrow h3:first-of-type{
+    font-size: 2rem;
+    line-height: 2;
+    font-weight: 400;
+  }
+
+  .homepage section.textrow h3:first-of-type{
+    font-size:1.4rem;
+  }
+
+}

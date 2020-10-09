@@ -102,6 +102,8 @@
   font-size:1.8rem;
 }
 
+
+
 //nudge classes drop left
 .hero-slider-item.position-drop-left.py-160{
   padding:0;
@@ -210,6 +212,9 @@
 @media (max-width: 767px) {
   .hero-slider .slick-dots li a i {
     margin: 0;
+  }
+  .hero-slider h1{
+    font-size:1.5rem;
   }
 }
 

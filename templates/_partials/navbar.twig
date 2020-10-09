@@ -1,9 +1,9 @@
 {% import '_macros' as macros %}
 <ul class="navbar-nav ml-auto justify-content-endMmm">
-    {% set pages = craft.entries.section('mainMenu').hidePage('0').all()  %}
+    {% set menu = craft.entries.section('mainMenu').hidePage('0').all()  %}
 
 
-    {% for entry in pages %}
+    {% for entry in menu %}
 
 
         {#{%  if entry.altNavTitle|length %}#}
@@ -22,11 +22,11 @@
             <li class="nav-item dropdown {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }}">
 
                 {% if isMobile == 1 %}
-                    <a id="{{ entry.title }}" href="#" class="nav-link mob" data-toggle="dropdown" role="button"
+                    <a id="{{ entry.title }}" href="#" class="nav-link mob dropdown-toggle" data-toggle="dropdown" role="button"
                        data-length="{{ entry.title|length }}" aria-haspopup="true"
                        aria-expanded="false">{{ entry.title }}<span class="caret"></span></a>
                 {% else %}
-                    <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}" class="nav-link  notmob"
+                    <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}" class="nav-link  notmob  dropdown-toggle"
                        data-length="{{ entry.title|length }}" aria-haspopup="true"
                        aria-expanded="false">{{ entry.title }} <span class="caret"></span></a>
                 {% endif %}
@@ -37,7 +37,7 @@
                     {% if isMobile == 1 %}
 
                         <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}"
-                           class="dropwdown-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }}">{{ entry.title }}</a>
+                           class="dropdown-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }}">{{ entry.title }}</a>
 
                     {% endif %}
 

@@ -1,6 +1,6 @@
 <!-- facebook crud -->
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js%2525252525252525252525252525252525252525252525252525252525252525252523xfbml=1&version=v6.0?ckcachebust=623930753"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252523xfbml=1&version=v6.0?ckcachebust=623958202"></script>
 {#<script>(function(d, s, id) {#}
 {#        var js, fjs = d.getElementsByTagName(s)[0];#}
 {#        if (d.getElementById(id)) return;#}
@@ -21,14 +21,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="list-inline text-lg-right text-center">
+                    <ul class="list-inline text-left text-lg-right ">
                         <li class="list-inline-item">
                             <a href="mailto:info@companyname.com">Agencies Referral</a>
                         </li>
                         {# organisationInfo.xxxx #}
-                        <li class="list-inline-item text-white"><i class="text-white ti-mobile pr-1"></i>
-                            <a class="border-right-0 p-0" href="tel:03001231550">Brighton: 0300 123 1550</a><span class=" px-1">-</span>
-                            <a class="pl-0" href="tel:0161 285 5888">Manchester: 0161 285 5888</a>
+                        <li class="list-inline-item text-white">
+                            <i class="text-white ti-mobile pr-1 pl-2"></i>
+                            <a class="border-right-0 p-0 mr-3" href="tel:03001231550">Brighton: 0300 123 1550</a>
+                            <span class=" d-none px-1">-</span>
+                            <i class="text-white ti-mobile pr-1"></i>
+                            <a class="pl-0 border-right-0" href="tel:0161 285 5888">Manchester: 0161 285 5888</a>
                         </li>
                         <li class="list-inline-item hide">
 
@@ -52,9 +55,17 @@ Brighton 0300 123 1550 | Manchester 0161 285 5888
     <div class="navigation">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="{{ alias('@web') }}">
-                    <img src="{{ baseUrl }}images/logo.png" alt="logo">
+                <a class="navbar-brand mr-0" href="{{ alias('@web') }}">
+                    <img src="{{ baseUrl }}images/logo.png" alt="logo" class="d-none d-lg-block mx-auto">
+                    <img src="{{ baseUrl }}images/logo-icon-sq@3x.png" alt="logo" height="40" width="40" class="d-sm-block d-md-none block d-lg-none d-xl-none my-2">
+                    <img src="{{ baseUrl }}images/logo-mobile.png" alt="logo" height="40" width="151" class="d-none d-sm-none d-md-block d-lg-none d-xl-none my-2">
                 </a>
+                <div class="call-locale">
+                    <a class=" text-left text-dark" href="tel:0300 123 1550">Brighton<br><i class="text-red ti-mobile pr-1"></i>0300 123 1550</a></div>
+                <div class="call-locale man text-left">
+
+                    <a class="border-right-0 text-left text-dark" href="tel:0161 285 5888">Manchester<br><i class="text-red ti-mobile pr-1"></i>0161 285 5888</a></div>
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

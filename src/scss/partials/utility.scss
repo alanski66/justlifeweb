@@ -103,37 +103,14 @@ img.ti-svg{
   margin-right: 5px;
 
 }
-.homepage section.section.cards,
-.homepage section.section.quoterow,
-.homepage section.section.textrow{
-  padding:0;
-}
-
-.homepage section.section{
-  margin: 0 0 3rem 0;
-}
-.homepage section.section.iconrow{
-  margin:0 0 0 0 ;
-}
-.homepage section.section.processstep{
-
-}
-.homepage .processstep img.arrow-top{
-  top:170px;
-}
-.homepage .processstep img.arrow-bottom{
-  bottom:-20px;
-}
-.homepage section.textrow p:first-of-type,
-.homepage section.textrow h3:first-of-type{
-  font-size: 2rem;
-  line-height: 2.6rem;
-  font-weight: 400;
-}
 
 //quote specific
 .testimonial-icon:before{
   font-size:16px;
+}
+
+.getInvolved .card .translateY-25{
+  transform: translateY(40px);
 }
 .quoterow .testimonial-icon:before{
   font-size:5rem;
