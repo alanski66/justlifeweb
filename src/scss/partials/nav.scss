@@ -17,6 +17,7 @@ li.nav-item.donate{
 //}
 .navigation .navbar .nav-item:last-child .nav-link.active{
   color:$white;
+  border-bottom:none;
 }
 .child.active{
   color:$red;

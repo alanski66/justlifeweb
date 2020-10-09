@@ -14,9 +14,8 @@
                             <input type="search" name="q" type="text" class="form-control search-input" placeholder="Search">
 
                     <span class="input-group-addon">
-                        <button type="submit" class="btn btn-blue search-submit"><span class="searchBtnText">Search</span>
-                            <i class="icon-search fa fa-search fa-sm"></i>
-                        </button>
+                        <button type="submit" class="btn btn-outline search-submit"><span class="searchBtnText pr-2">SEARCH</span>
+<i class="icon-search ti-search "></i>                        </button>
                     </span>
                         </div>
                     </form>
@@ -39,7 +38,7 @@
 
 
                         {% set query = craft.app.request.getParam('q') %}
-                        {% set sentries = craft.entries.search(query).section('news').orderBy('score').limit(null) %}
+                        {% set sentries = craft.entries.section('news').search(query).orderBy('score').limit(null) %}
 
                         {% paginate  sentries.limit(10) as pageInfo, pageEntries %}
 

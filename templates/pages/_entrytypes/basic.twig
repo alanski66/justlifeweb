@@ -28,7 +28,7 @@
                             <div class="mb-50">
                                 <h4 class="mb-3">In this section</h4>
                                 {#                                {% set pages = craft.entries.section('pages').level(1).all() %}#}
-                                {% set pages = craft.entries.section('pages').level(2).hidePage('0').all() %}
+                                {% set pages = craft.entries.section('menu').level(2).hidePage('0').all() %}
                                 <ul class="pl-0 mb-0">
                                     {% for entry in pages %}
                                         <li class="border-bottom">
