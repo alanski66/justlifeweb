@@ -22,10 +22,16 @@ li.nav-item.donate{
 .child.active{
   color:$red;
 }
-
+//dropdown
+.navigation .navbar .dropdown-item:not(:last-child) {
+  margin-bottom: 12px;
+}
 //hover width
 .navigation .navbar .dropdown:hover .dropdown-menu{
-  width:240px;
+  width:290px;
+}
+ .dropdown-item{
+  white-space: pre-wrap;
 }
 .top-header ul{
   margin: 0 0 0 0;
