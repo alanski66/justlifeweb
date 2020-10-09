@@ -72,28 +72,21 @@
                     </div>
                 </div>
                 <!-- footer links -->
-                <div class="col-lg-2 col-md-4 col-6">
-                    <h4 class="text-white mb-4">Services</h4>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <h4 class="text-white mb-4">Quick links</h4>
                     <ul class="footer-links">
-                        <li>
-                            <a href="#">Company History</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href="service.html">Service</a>
-                        </li>
-                        <li>
-                            <a href="#">Privacy Policy</a>
-                        </li>
+                        {% for block in footer.footerLinks %}
+                            {% for block in block.footerLeftLink %}
+
+                                <li>
+                                    <a href="{{ block.url }}">{{ block.title }}</a>
+                                </li>
+                            {% endfor %}
+                        {% endfor %}
                     </ul>
                 </div>
                 <!-- footer links -->
-                <div class="col-lg-2 col-md-4 col-6">
+                <div class="hide col-lg-2 col-md-4 col-6">
                     <h4 class="text-white mb-4">Quick Link</h4>
                     <ul class="footer-links">
                         <li>
@@ -114,14 +107,14 @@
                     </ul>
                 </div>
                 <!-- subscribe form -->
-                <div class="col-lg-3 col-md-12 offset-lg-1">
-                    <div class="mt-5 mt-lg-0 text-center text-md-left mb-60">
-                        <h4 class="mb-4 text-white">Subscribe </h4>
-                        <p class="text-white mb-4">Join our email newsletter and stay up to date</p>
+                <div class="col-lg-4 col-md-4 ffset-lg-1">
+                    <div class="mt-5 mt-lg-0 text-center text-md-left mb-5">
+                        <h4 class="mb-2 text-white">Subscribe </h4>
+                        <p class="text-white mb-3">Join our email newsletter and stay up to date</p>
 
                             <form  id="" method="post" name="" class="validate position-relative"  novalidate="novalidate">
 
-                                <input type="email" value="" name="subemail" class="form-control subscribe" id="pass-email" placeholder="Enter Your Email" aria-required="true" aria-invalid="true">
+                                <input type="email" value="" name="subemail" class="form-control subscribe mb-0" id="pass-email" placeholder="Enter Your Email" aria-required="true" aria-invalid="true">
 
                             <button class="btn-subscribe" type="reset" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >
                                 <i class="ti-arrow-right"></i>
@@ -129,7 +122,7 @@
                         </form>
                     </div>
 
-                    <h4 class="mb-4 text-white">Stay in touch</h4>
+                    <h4 class="mb-3 text-white">Stay in touch</h4>
                     <!-- social icon -->
                     <ul class="list-inline">
                         <li class="list-inline-item">
@@ -153,6 +146,9 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="fr pt-4">
+                        <img src="{{ baseUrl }}images/fr-logo.svg">
+                    </div>
                 </div>
             </div>
         </div>

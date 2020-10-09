@@ -7972,6 +7972,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/public_html/imager/landingpages/8727/DSC03278-copy_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 19696,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/8727/DSC03278-copy_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/landingpages/8737/Screenshot-2020-10-08-at-11.42.22_a62dd584e8321eb64e54f25c51cc66e0.png": {
+		"ft": 32768,
+		"iS": 108108,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/8737/Screenshot-2020-10-08-at-11.42.22_a62dd584e8321eb64e54f25c51cc66e0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/imager/landingpages/8758/DSC03306-copy_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 14914,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/8758/DSC03306-copy_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/public_html/imager/oldnewsimages/5310/sunrise-image_234787f0082358ae77911d661a5c35b1.jpg": {
 		"ft": 16384,
 		"iS": 22658,
@@ -9157,6 +9190,27 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public_html/images/fr-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/images/fr-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public_html/images/fr-regulator-200.png": {
+		"ft": 32768,
+		"iS": 2386,
+		"oA": 0,
+		"oAP": "/public_html/images/fr-regulator-200.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
