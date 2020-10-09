@@ -1,0 +1,42 @@
+<!-- sub nav -->
+{# Get the related nav entry for the current entry being viewed
+https://craftcms.stackexchange.com/questions/15898/how-to-set-hero-image-for-root-and-children-in-a-structure
+#}
+{% import '_macros' as macros %}
+                            {% set navEntry = craft.entries.section('mainMenu').relatedTo({
+                                targetElement: entry,
+                                field: 'entryLink'
+                            }).one() %}
+
+                            {# Get the root (top level parent) structure entry for the nav entry #}
+                            {% set rootEntry = navEntry ? craft.entries.ancestorOf(navEntry).level(1).one() : null %}
+
+                            {# If a root entry was found, print out the title #}
+
+                            {% if rootEntry.hasDescendants() %}
+
+                                <div class="mb-50">
+                                    <h4 class="mb-3">{{ rootEntry.title }}</h4>
+                                    <ul class="pl-0 mb-0">
+                                        {#Get entries to build the sub-menu#}
+                                        {% set subMenu = craft.entries.descendantOf(rootEntry) %}
+
+                                        {#Output the sub menu#}
+                                        {% for entry in subMenu.all() %}
+                                            {#{% if entry.entryLink.first|length %}#}
+                                            {##}
+                                            {#{% else %}#}
+                                            {#{% set navlink = entry.customLink %}#}
+                                            {#{% endif %}#}
+                                            {% set navlink = entry.uri %}
+                                            <li class="border-bottom {{ macros.isActiveChildClass(entry.slug)|trim }} level{{ entry.level }}">
+                                                <a href="{{ siteUrl }}{{ entry.uri }}"
+                                                   class="{{ macros.isActiveChildClass(entry.slug) |trim }} d-block text-color py-10">{{ entry.title }}</a>
+                                            </li>
+
+                                        {% endfor %}
+
+                                    </ul>
+                                </div>
+                            {% endif %}
+<!-- end sub nav -->

@@ -11,4 +11,11 @@
     TwitterWindow = window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
     return false;
     }
+
+    function shareOnLinkedIn(){
+    var url = 'https://www.linkedin.com/shareArticle?mini=true&url={{ entry.url| url_encode(true) }}';
+
+    LinkedInWindow = window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');
+    return false;
+    }
 {% endjs %}

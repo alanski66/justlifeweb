@@ -12,3 +12,10 @@
 .wf-group.form-group textarea.form-control{
   min-height:100px!important;
 }
+
+@media(min-width: 768px){
+
+  .wf-group {
+    max-width:60%
+  }
+}
