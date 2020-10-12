@@ -21,9 +21,9 @@
                         <p class="text-white mb-40">{{ entry.donateInfoBoxText }}</p>
                         <div class="">
                             {% if entry.donateInfoBoxList | length %}
-                                {% for block in entry.donateInfoBoxList %}
+                                {% for block in entry.donateInfoBoxList.all() %}
                                     <ul class="d-inline-block pl-0">
-                                        {% for block in block.listItem %}
+                                        {% for block in block.listItem.all() %}
 
                                             <li class="font-secondary mb-10 text-white {% if loop.first %}float-sm-left mr-sm-5{% endif %}">
                                                 <i class="text-primary mr-2 ti-arrow-circle-right"></i>{{ block.item }}

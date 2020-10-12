@@ -2,10 +2,7 @@
     <div class=" hero-slider position-relative">
 
         {% for block in entry.carousel.all() %}
-
-
             {% switch block.type %}
-
             {% case "slide" %}
                 {#            {%  set asset = block.image.one() %}#}
                 {% set asset = block.image[0] ?? null %}
