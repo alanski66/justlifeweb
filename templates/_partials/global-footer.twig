@@ -76,7 +76,7 @@
                     <h4 class="text-white mb-4">Quick links</h4>
                     <ul class="footer-links">
                         {% for block in footer.footerLinks.all() %}
-                            {% for block in block.footerLeftLink %}
+                            {% for block in block.footerLeftLink.all() %}
 
                                 <li>
                                     <a href="{{ block.url }}">{{ block.title }}</a>
