@@ -152,8 +152,9 @@
 
                         {% for story in entries.all() %}
 
-                            {% if story.oldNewsImage | length %}
-                                {% set asset = story.oldNewsImage.one() %}
+
+                            {% set asset = story.oldNewsImage.one() ?? story.image.one() ?? null %}
+                            {% if asset | length %}
                                 {% set thumb = {
                                     mode: 'crop',
                                     width: 70,

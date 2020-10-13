@@ -56,7 +56,7 @@
 
             {% set reformUrl = field.content | replace("[[baseurl]]",baseUrl) %}
             {{ reformUrl |raw }}
-            
+
             {% else %}
                 {{ field.render() }}
         {% endif %}

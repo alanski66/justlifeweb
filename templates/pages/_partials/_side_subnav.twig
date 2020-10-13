@@ -13,7 +13,7 @@ https://craftcms.stackexchange.com/questions/15898/how-to-set-hero-image-for-roo
 
                             {# If a root entry was found, print out the title #}
 
-                            {% if rootEntry.hasDescendants() %}
+                            {% if rootEntry | length and  rootEntry.hasDescendants() %}
 
                                 <div class="mb-50">
                                     <h4 class="mb-3">{{ rootEntry.title }}</h4>
