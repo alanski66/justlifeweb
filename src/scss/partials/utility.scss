@@ -109,7 +109,7 @@ img.ti-svg{
   font-size:16px;
 }
 
-.getInvolved .card .translateY-25{
+.getinvolved .card .translateY-25{
   transform: translateY(40px);
 }
 .quoterow .testimonial-icon:before{
@@ -145,4 +145,13 @@ img.ti-svg{
   border: 1px solid #7b7878;
   height: 40px;
   border-radius: 20px;
+}
+
+//sidebox
+@media(max-width: 990px){
+  .sidebar-box-shadow{
+    box-shadow: none;
+    background-color: aliceblue!important;
+    margin-bottom: 3rem;
+  }
 }

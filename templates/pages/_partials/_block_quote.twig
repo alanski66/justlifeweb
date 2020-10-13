@@ -1,5 +1,6 @@
 {% if block.quote |length %}
-<blockquote class="blockquote">
+
+    <blockquote class="quote-card shadow p-5">
     <p class="mb-0">{{ block.quote }}</p>
 
     {% if block.citationIntro |length %}
@@ -19,3 +20,4 @@
     {% endif %}
 </blockquote>
 {% endif %}
+

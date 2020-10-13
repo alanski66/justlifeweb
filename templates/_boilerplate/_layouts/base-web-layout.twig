@@ -45,7 +45,7 @@
 
             {% block bodyTag %}
             {% if bodyClass is not defined %}
-                {% set bodyClass = entry is defined ? entry.type : craft.app.request.segments|first %}
+                {% set bodyClass = entry is defined ? entry.type|lower : craft.app.request.segments|first %}
             {% endif %}
 
     <body class="{{ bodyClass }}">

@@ -23,7 +23,8 @@
     "dolphiq/iconpicker": "1.0.5",
     "superbig/craft3-mobiledetect": "1.0.2",
     "hybridinteractive/craft-position-fieldtype": "1.0.16",
-    "xpertbot/wheelformhelper": "*"
+    "xpertbot/wheelformhelper": "*",
+    "nystudio107/craft-seomatic": "3.3.21"
   },
   "repositories": [
     {

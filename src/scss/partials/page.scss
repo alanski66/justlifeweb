@@ -46,3 +46,17 @@ section.block{
 .news.top-story h1{
   font-size:30px;
 }
+//page blocks
+.promo{
+  background-color: #444;
+  border-radius: 5px;
+}
+.promo div,
+.promo h3,
+.promo h4,
+.promo h5,
+.promo p,
+promo a{
+  color:$white;
+
+}

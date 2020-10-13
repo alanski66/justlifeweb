@@ -1,6 +1,6 @@
 {% extends "_layouts/generic-page-layout.twig" %}
 {% import '_macros' as macros %}
-{% set bodyClass =  "page" %}
+{% set bodyClass =  " page" %}
 {% block content %}
     {%  set layout = null %}
     <!--Join  Page Entry type Content -->
@@ -8,7 +8,7 @@
 
         {% include '/_partials/hero-featured.twig' %}
 
-        <section class="bg-gra {{entry.type }} page {%  if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+        <section class="ala {{entry.type }} page {%  if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
             <div class="container">
 
                 <div class="row ">
