@@ -51,7 +51,17 @@
     {{ wheelformErrors['honeypot'] is defined ? errorList(wheelformErrors['honeypot']) }}
 
     {% for field in form.fields %}
-        {{ field.render() }}
+
+        {% if field.type == 'html' %}
+
+            {% set reformUrl = field.content | replace("[[baseurl]]",baseUrl) %}
+            {{ reformUrl |raw }}
+            
+            {% else %}
+                {{ field.render() }}
+        {% endif %}
+
+
         {{ wheelformErrors[field.name] is defined ? errorList(wheelformErrors[field.name]) }}
     {% endfor %}
     {{ form.close() }}
