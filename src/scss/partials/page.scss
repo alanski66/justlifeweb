@@ -51,6 +51,15 @@ section.block{
   background-color: #444;
   border-radius: 5px;
 }
+
+.download{
+  background-color: $white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+//page blocks
 .promo div,
 .promo h3,
 .promo h4,
@@ -58,5 +67,43 @@ section.block{
 .promo p,
 promo a{
   color:$white;
+}
 
+.promo a.btn{
+  white-space:nowrap;
+
+}
+
+//quote block
+.block .quote-card {
+  margin-left: 0;
+}
+.block .quote-card p{
+  max-width:100%;
+  margin-left: 0;
+}
+.block .quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: 30px;
+  line-height: 100px;
+  right: 15px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, .8);
+  color: rgba(208, 15, 56, .8);
+  font-weight: normal;
+}
+.block .quote-card:before,
+.block .quote-card:after {
+  color:$red;
+  //color: rgba(208, 15, 56, .8);
+}
+
+//image
+.block.image figcaption .fa{
+  color:$gray-600;
+}
+.block.image figcaption{
+  font-size: 12px;
 }

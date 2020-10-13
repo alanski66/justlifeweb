@@ -1,6 +1,6 @@
 {% if block.customLink |length %}
 
-    <div class=" promo">
+    <section class="block promo mb-5">
         <div class="row p-3">
             {% if block.boxHeading |length %}
                 <div class="col-12 promo-header mb-4">
@@ -16,7 +16,7 @@
 
                 {% if block.customLink |length %}
                     <p class="text-center">
-                        <a href="{{ block.customLink  }}" class="btn btn-primary">
+                        <a href="{{ block.customLink }}" class="btn btn-primary">
                             {{ block.customLinkTitle }}
                         </a>
                     </p>
@@ -26,48 +26,51 @@
         </div>
 
 
-    </div>
+    </section>
 {% elseif block.entryToPromote |length %}
 
-    {%  set entry = block.entryToPromote.one() %}
+    {% set entry = block.entryToPromote.one() %}
 
     {% set pdfImage = entry.pdfThumbnailImage[0] ?? null %}
 
-    {%  set pdfDocument = entry.pdfDocument.one() ?? null %}
+    {% set pdfDocument = entry.pdfDocument.one() ?? null %}
 
 
-    <div class=" promo wha mb-4 mt-1 rounded">
+    <section class="block promo wha mb-5 rounded">
         <div class="container">
-        <div class="row p-3">
+            <div class="row p-3">
+                {% if pdfImage |length %}
 
-            {% if block.boxHeading |length %}
-                <div class="hide col-12 promo-header mb-4">
-                    <h4>{{ block.boxHeading }}</h4>
-                </div>
-            {% endif %}
-            {%  if pdfImage |length %}
-                <div class=" text-md-left col-lg-5 text-center">
-                        <img class="align-self-start mb-4" src="{{ pdfImage.getUrl('sponsorLogo') }}" alt="">
-                </div>
-                <div class="text-md-left col-lg-7 text-center">
-                    {% if entry.customText | length %}
-                        <p class="lead">{{ entry.customText }}</p>
-                    {% endif %}
-                    {% if pdfDocument |length %}
-                        <p>
-                            <a target="_blank" href="{{ pdfDocument.url }}" class="btn btn-primary"><i class="fa fa-arrow-circle-down"></i> Download</a>
-                        </p>
-                    {% else %}
-                        {% if entry.title | length %}
-                            <p class="float-right">
-                                <a target="_blank" href="{{ entry.url }}" class="btn btn-outline">
-                                    {{ entry.title }}</a>
-                            </p>
+                    <div class=" text-md-left col-md-5 col-lg-5 text-center my-auto">
+                        <img class="my-auto " src="{{ pdfImage.getUrl('documentThumb') }}"
+                             alt="{{ entry.title }}">
+                    </div>
+
+                    <div class="text-md-left col-md-7 col-lg-7 text-center">
+                        {% if block.boxHeading |length %}
+                                <h4>{{ block.boxHeading }}</h4>
+                        {% endif %}                        {% if block.customText | length %}
+                            <p class="lead">{{ block.customText }}</p>
                         {% endif %}
-                    {% endif %}
-                </div>
+
+                        {% if pdfDocument |length %}
+                            <p class="text-md-left text-">
+                                <a target="_blank" href="{{ pdfDocument.url }}" class="btn btn-primary"><i
+                                            class="fa fa-arrow-circle-down"></i> Download</a>
+                            </p>
+                        {% else %}
+                            {% if entry.title | length %}
+                                <p class="float-right text-md-right">
+                                    <a target="_blank" href="{{ entry.url }}" class="btn btn-primary">
+                                        {{ entry.title }}</a>
+                                </p>
+                            {% endif %}
+                        {% endif %}
+                    </div>
+
                 {% else %}
-                    <div class="text-md-left col-lg-8 text-center">
+
+                    <div class="text-md-left col-lg-7 text-center">
                         {% if block.boxHeading |length %}
                             <h4>{{ block.boxHeading }}</h4>
                         {% endif %}
@@ -77,19 +80,19 @@
 
                     </div>
                     {% if entry.title | length %}
-                        <div class="col-lg-4 mt-auto text-right">
+                        <div class="col-lg-5 mt-auto text-center text-md-right">
 
-                            <a target="_blank" href="{{ entry.url }}" class="btn btn-primary text-white">
+                            <a target="_blank" href="{{ entry.url }}" class="btn btn-primary">
                                 {{ entry.title }}</a>
                         </div>
 
                     {% endif %}
 
-            {% endif %}
+                {% endif %}
 
+            </div>
         </div>
-        </div>
 
 
-    </div>
+    </section>
 {% endif %}

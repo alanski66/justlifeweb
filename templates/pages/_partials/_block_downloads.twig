@@ -1,9 +1,9 @@
 {% set style = null %}
 {%  set icon = null %}
-{% if block.displayStyle | length %}
-    {% set style = block.displayStyle %}
+{% if block.colorStyle | length %}
+    {% set style = block.colorStyle %}
 {% endif %}
-<section class="mb-4 mt-4  {{ style }}">
+<section class="block download mb-4 mt-4  p-3 {{ style }}">
 
                 {% if block.heading |length %}
                     <h5 class="{{ style }}">
@@ -15,7 +15,7 @@
                 {% endif %}
 
                 {% if block.subline |length %}
-
+                    <p>{{ block.subline }}</p>
                 {% endif %}
 
                   {% if block.download |length %}
@@ -33,13 +33,10 @@
                                 {%  set icon = "arrow-circle-down" %}
                             {%  endif %}
                            <li class="mb-3">
-                               <a class="btn {{ style }}"
-                                  target="_blank" data-on="click"
-                                  data-event-category="Downloads"
-                                  data-event-action="link"
-                                  data-event-label="Relief download - {{ doc.title }}"
-                                       href="{{ doc.url }}">
-                                   <i class="fa fa-{{ icon }}"></i> {{ doc.title }}</a></li>
+                               <a class="btn btn-outline" href="{{ doc.url }}">
+                                   <i class="fa fa-{{ icon }}"></i> {{ doc.title }}
+                               </a>
+                           </li>
                         {% endfor %}
                       </ul>
                   {% endif %}

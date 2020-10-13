@@ -1,7 +1,7 @@
 {% set image = block.image.one() %}
 
 {% if image %}
-   <section class="image mt-1 mb-3">
+   <section class="block image mb-5">
        {% set imgCredit = image.imageCredit ?? null %}
        {% set imgCaption =  image.imageCaption ?? null %}
        {% set imgBlockCaption =  block.caption ?? null %}
