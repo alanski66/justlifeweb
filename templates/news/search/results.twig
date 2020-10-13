@@ -2,6 +2,7 @@
 
 
 {% block content %}
+
     <div class=" search-drop">
 
         <div class="row justify-content-center">
@@ -9,21 +10,22 @@
                 <div id="imaginary_container">
                     <h4>Search </h4>
 
-                    <form action="{{ url('news/search/results') }}" id="search" name="search">
+                    <form action="{{ url('search/results') }}" id="search" name="search">
                         <div class="input-group stylish-input-group">
-                            <input type="search" name="q" type="text" class="form-control search-input" placeholder="Search">
+                            <input type="search" name="q" type="text" class="form-control search-input"
+                                   placeholder="type your search words here">
 
-                    <span class="input-group-addon">
-                        <button type="submit" class="btn btn-outline search-submit"><span class="searchBtnText pr-2">SEARCH</span>
-<i class="icon-search ti-search "></i>                        </button>
-                    </span>
+                            <div class="input-group-append">
+                                <button type="submit" class="ml-0 btn btn-secondary search-submit"><span
+                                            class="searchBtnText pr-2">SEARCH</span>
+                                    <i class="icon-search ti-search "></i></button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
 
         <div class="container search ">
             <div class="row ">
@@ -38,8 +40,11 @@
 
 
                         {% set query = craft.app.request.getParam('q') %}
-                        {% set sentries = craft.entries.section('news').search(query).orderBy('score').limit(null) %}
-
+                    {% set sentries = craft.entries({
+                        'search': query,
+                        'section': 'news',
+                        'order': 'score'
+                    }) %}
                         {% paginate  sentries.limit(10) as pageInfo, pageEntries %}
 
                         {% if pageEntries|length %}
