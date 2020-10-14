@@ -48,7 +48,7 @@ return [
         'siteUrl' => null,
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
-        'devMode' => false,
+        'devMode' => true,
     ],
 
     // Staging environment settings

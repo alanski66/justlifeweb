@@ -20,14 +20,14 @@ https://craftcms.stackexchange.com/questions/15898/how-to-set-hero-image-for-roo
 
                                         {#Output the sub menu#}
                                         {% for entry in subMenu.all() %}
-                                            {#{% if entry.entryLink.first|length %}#}
-                                            {##}
-                                            {#{% else %}#}
-                                            {#{% set navlink = entry.customLink %}#}
-                                            {#{% endif %}#}
-                                            {% set navlink = entry.uri %}
+                                            {% if entry.entryLink|length %}
+                                                {% set navlink = entry.entryLink.one().url  %}
+                                            {% else %}
+                                            {% set navlink = entry.customLink %}
+                                            {% endif %}
+
                                             <li class="border-bottom {{ macros.isActiveChildClass(entry.slug)|trim }} level{{ entry.level }}">
-                                                <a href="{{ siteUrl }}{{ entry.uri }}"
+                                                <a href="{{navlink}}"
                                                    class="{{ macros.isActiveChildClass(entry.slug) |trim }} d-block text-color py-10">{{ entry.title }}</a>
                                             </li>
 
