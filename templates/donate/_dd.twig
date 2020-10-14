@@ -1,7 +1,79 @@
 {% extends "_layouts/generic-page-layout.twig" %}
  {%  set bodyClass = " donate" %}
 {% block content %}
-    <section class="donate page-title overlay" style="background-image: url('images/donate2.jpg');">
+    {% set asset = entry.donateHeaderImage[0] ?? null %}
+
+    {% if asset | length %}
+        {% set transformedBannerImages = craft.imager.transformImage(asset,
+            [
+                { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
+                { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
+                { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
+                { width: 1200, height:580, position: asset.getFocalPoint() },
+                { width: 2400, height:530, position: asset.getFocalPoint(),ratio: 2/1 }
+            ],
+            {
+                format: 'jpg',
+                allowUpscale: true,
+                mode: 'crop',
+                jpegQuality: 90,
+                interlace: true
+            }
+            ) %}
+        {% css %}
+            @media(min-width: 0px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[0].url }}');
+            height:380px;
+            background-position-y:-48px;
+            background-position-x:0px;
+            padding:200px 0 0 ;
+            }
+            }
+            @media(min-width: 550px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[1].url }}');
+            height:380px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 768px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[2].url }}');
+            height:480px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 990px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
+            {#                        height:593px;#}
+            }
+            }
+
+            @media(min-width: 1200px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:593px;
+            }
+            }
+            @media(min-width: 1400px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:653px;
+            }
+            }
+            @media(min-width: 1600px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:753px;
+            }
+            }
+
+
+        {% endcss %}
+    {% endif %}
+    <section class="donate page-title overlay" style="background-image: url('{{ asset.url }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -14,8 +86,7 @@
     <section class=" title " >
         <div class="container">
             <div class="row justify-content-start">
-                <div class="col-sm-4 col-md-6 col-left">
-
+                <div class="col-sm-12 col-md-6 col-left">
                     <div class="rounded p-sm-5 px-3 py-5 bg-secondary shadow info-box">
                         {%  if entry.donateInfoBoxTitle %} <h3 class="section-title section-title-border-half text-white">{{ entry.donateInfoBoxTitle }}</h3>{% endif %}
                         <p class="text-white mb-40">{{ entry.donateInfoBoxText }}</p>
@@ -51,7 +122,7 @@
                         {% endif %}
                     </div>
                 </div>
-                <div class="col-sm-8 col-md-6 col-lift donorfy shadow">
+                <div class="col-sm-12 col-md-6 col-lift donorfy shadow">
                     {% if entry.donateFormTitle %} <h2 class="">{{ entry.donateFormTitle }}</h2>{% endif %}
 
                     <!-- dd -->
@@ -65,7 +136,7 @@
                         <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
                         {% if entry.donateFormSubtitle %}<h3>{{entry.donateFormSubtitle}}</h3>{% endif %}
 
-                        <table>
+                        <table class="w-100">
                             <tbody>
                             <tr>
                                 <td>
