@@ -3,18 +3,90 @@
 {% block content %}
 
     <link type="text/css" rel="stylesheet"
-          href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=623694056"/>
+          href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=624369184"/>
 
 
     <!--Make sure the correct version of the file is uncommented-->
     <script type="text/javascript"
-            src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=623694056"></script>
-    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=623694056"></script>-->
+            src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=624369184"></script>
+    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=624369184"></script>-->
 
-    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=623694056"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=623694056"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=624369184"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=624369184"></script>
 
-    <section class="donate page-title overlay" style="background-image: url('{{ baseUrl }}images/donate.jpg');">
+    {% set asset = entry.donateHeaderImage[0] ?? null %}
+
+    {% if asset | length %}
+        {% set transformedBannerImages = craft.imager.transformImage(asset,
+            [
+                { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
+                { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
+                { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
+                { width: 1200, height:580, position: asset.getFocalPoint() },
+                { width: 2400, height:530, position: asset.getFocalPoint(),ratio: 2/1 }
+            ],
+            {
+                format: 'jpg',
+                allowUpscale: true,
+                mode: 'crop',
+                jpegQuality: 90,
+                interlace: true
+            }
+            ) %}
+        {% css %}
+            @media(min-width: 0px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[0].url }}');
+            height:380px;
+            background-position-y:-48px;
+            background-position-x:0px;
+            padding:200px 0 0 ;
+            }
+            }
+            @media(min-width: 550px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[1].url }}');
+            height:380px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 768px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[2].url }}');
+            height:480px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 990px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
+            {#                        height:593px;#}
+            }
+            }
+
+            @media(min-width: 1200px){
+                .donate.overlay{
+                background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+                height:593px;
+                }
+            }
+            @media(min-width: 1400px){
+                .donate.overlay{
+                background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+                height:653px;
+                }
+            }
+            @media(min-width: 1600px){
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:753px;
+            }
+            }
+
+
+        {% endcss %}
+    {% endif %}
+    <section class="donate page-title overlay" style="background-image: url('{{ asset.url }}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -25,47 +97,26 @@
 
     <!-- title -->
     <section class=" title ">
-        <!-- bg grid -->
-        <div class="bg-grid position-absolute m-0 p-0 w-100 hide">
-            <div class="row m-0 p-0">
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="{{ baseUrl }}images/gridsq/woman.png">
-                </div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
-                                                    src="{{ baseUrl }}images/gridsq/man-in-corridor.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
-                                                    src="{{ baseUrl }}images/gridsq/mangarden.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="{{ baseUrl }}images/gridsq/man.png">
-                </div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
-                                                    src="{{ baseUrl }}images/gridsq/man-looking-up-in-street.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
-                                                    src="{{ baseUrl }}images/gridsq/man-guitar.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
-                                                    src="{{ baseUrl }}images/gridsq/man-in-chair.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100"
-                                                    src="{{ baseUrl }}images/gridsq/man-whistle.png"></div>
-                <div class="col-sm-6  m-0 p-0"><img class="img-fluid w-100" src="{{ baseUrl }}images/gridsq/man2.png">
-                </div>
 
-
-            </div>
-        </div>
-        <!-- end bg grid -->
         <!-- formstuff-->
         <div class="container">
             <div class="row justify-content-start">
-                <div class="col-sm-4 col-md-6 col-left">
+                <div class="col-sm-12 col-md-6 col-left">
 
-                    <div class="rounded p-sm-5 px-3 py-5 bg-secondary shadow info-box">
-                        <h3 class="section-title section-title-border-half text-white">{{ entry.donateInfoBoxTitle }}</h3>
-                        <p class="text-white mb-40">{{ entry.donateInfoBoxText }}</p>
-                        <div class="">
+                    <div class="rounded p-sm-5 px-3 py-3 bg-secondary shadow info-box">
+                        <h3 class="section-title mb-4 section-title-border-half text-white">{{ entry.donateInfoBoxTitle }}</h3>
+
+                        <p class="text-white mb-1 mb-md-3">{{ entry.donateInfoBoxText }}</p>
+                        <div class="mx-auto text-center "><i class="d-md-none ti-angle-double-down text-white"
+                                                             data-toggle="collapse" href="#collapseExample"></i></div>
+                        <div class="collapse" id="collapseExample">
+
                             {% if entry.donateInfoBoxList | length %}
                                 {% for block in entry.donateInfoBoxList %}
                                     <ul class="d-inline-block pl-0">
                                         {% for block in block.listItem %}
 
-                                            <li class="font-secondary mb-10 text-white {% if loop.first %}float-sm-left mr-sm-5{% endif %}">
+                                               <li class="font-secondary mb-10 text-white {% if loop.first %}float-sm-left mr-sm-5{% endif %}">
                                                 <i class="text-primary mr-2 ti-arrow-circle-right"></i>{{ block.item }}
                                             </li>
 
@@ -74,28 +125,29 @@
                                 {% endfor %}
                             {% endif %}
                         </div>
-                        {%  if entry.donateInfoBoxMoreText | length %}
-                        <div id="accordion">
-                            <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"
-                               href="#collapseOne">
-                                <i class="ti-plus text-primary mr-2"></i> More
-                            </a>
-                            <div id="collapseOne" class="collapse"
-                                 data-parent="#accordion">
-                                <div class="card-body font-secondary text-white pl-0 pb-0">
-                                    {{ entry.donateInfoBoxMoreText }}
+                        {% if entry.donateInfoBoxMoreText | length %}
+                            <div id="accordion">
+                                <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"
+                                   href="#collapseOne">
+                                    <i class="ti-plus text-primary mr-2"></i> More
+                                </a>
+                                <div id="collapseOne" class="collapse"
+                                     data-parent="#accordion">
+                                    <div class="card-body font-secondary text-white pl-0 pb-0">
+                                        {{ entry.donateInfoBoxMoreText }}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         {% endif %}
                     </div>
                 </div>
-                <div class="col-sm-8 col-md-6 col-lift donorfy shadow">
-                    {%  if entry.donateFormTitle %} <h2 class="">{{ entry.donateFormTitle }}</h2>{% endif %}
+                <div class="col-sm-12 col-md-6 col-lift donorfy shadow">
+                    {% if entry.donateFormTitle %} <h2
+                            class="d-none d-md-block">{{ entry.donateFormTitle }}</h2>{% endif %}
                     <form method="post" id="CreditCardForm">
                         <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
-                        {%  if entry.donateFormSubtitle %}<h3>{{entry.donateFormSubtitle}}</h3>{% endif %}
-                            <table class="table">
+                        {% if entry.donateFormSubtitle %}<h3>{{ entry.donateFormSubtitle }}</h3>{% endif %}
+                        <table class="table">
                             <tbody>
                             <tr>
                                 <td>
@@ -154,7 +206,7 @@
                             <tr style="">
                                 <td>
                                     <label class="" for="Country">Country</label><br>
-                                    <select name="Country" class="" id="Country">
+                                    <select name="Country" class="form-control" id="Country">
                                         <option value=""></option>
                                         <option value="Holland">Holland</option>
                                         <option value="Germany">Germany</option>
@@ -332,11 +384,11 @@
                         color: '#CFD7DF',
                     },
                     ':-webkit-autofill': {
-                        color: '#e39f48',
+                        color: '#D00E38',
                     },
                 },
                 invalid: {
-                    color: '#E25950', '::placeholder': {color: '#FFCCA5',},
+                    color: '#D00E38', '::placeholder': {color: '#FFCCA5',},
                 }
             };
             var elementClasses = {
@@ -348,7 +400,52 @@
             cardNumber.update({style: elementStyles, classes: elementClasses});
             cardExpiry.update({style: elementStyles, classes: elementClasses});
             cardCvc.update({style: elementStyles, classes: elementClasses});
+
+            // var form = document.getElementById('#CreditCardForm');   //your form element
+            // console.log(form);
+            //
+            // form.addEventListener("submit", function(evt) {
+            //
+            //     console.log("listening");
+            //     // for(var i = 0; i < form.elements.length; i++) {
+            //     //     var el = form.elements[i];
+            //     //     if (!el.checkValidity()) {
+            //     //         evt.preventDefault();
+            //     //         console.log('Fix the form!');
+            //     //         return;
+            //     //     }
+            //     // }
+            // });
         }
+
+        // listen for `invalid` events on all form inputs
+
+        // form.find(':input').on('invalid', function (event) {
+        //     var input = $(this)
+        //
+        //     // the first invalid element in the form
+        //     var first = form.find('.error').first()
+        //
+        //     // only handle if this is the first invalid input
+        //     if (input[0] === first[0]) {
+        //         // height of the nav bar plus some padding
+        //         var navbarHeight = navbar.height() + 50
+        //
+        //         // the position to scroll to (accounting for the navbar)
+        //         var elementOffset = input.offset().top - navbarHeight
+        //
+        //         // the current scroll position (accounting for the navbar)
+        //         var pageOffset = window.pageYOffset - navbarHeight
+        //
+        //         // don't scroll if the element is already in view
+        //         if (elementOffset > pageOffset && elementOffset < pageOffset + window.innerHeight) {
+        //             return true
+        //         }
+        //
+        //         // note: avoid using animate, as it prevents the validation message displaying correctly
+        //         $('html,body').scrollTop(elementOffset)
+        //     }
+        // });
     </script>
     {% js %}
         var getUrlParameter = function getUrlParameter(sParam) {
@@ -367,6 +464,8 @@
         };
 
         document.getElementById('Amount').value = getUrlParameter('amount');
+
+
     {% endjs %}
 
 

@@ -162,11 +162,15 @@
                                     quality: 75,
                                     position: 'center-center'
                                 } %}
-                            {% endif %}
+                          
+                            {%  set url = asset.url(thumb) %}
+                            {% else %}
+                                {%  set url = baseUrl ~ 'images/icon-thumb.png' %}
+                                {% endif %}
                             <div class="d-flex py-3 border-bottom">
                                 <div class="mr-4">
                                     <a href="{{ story.url }}">
-                                        <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
+                                        <img class="rounded" src="{{ url }}" alt="post-thumb">
                                     </a>
                                 </div>
                                 <div>

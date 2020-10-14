@@ -8,7 +8,7 @@ body.donate{
   padding-top:450px;
 }
 .donate .col-left{
-  margin-top: -300px;
+  margin-top: -220px;
   opacity:0.95;
 }
 .donate .col-lift{
@@ -117,11 +117,27 @@ a.btn-mgiftbox{
 .donate-fr .section-title{
   margin-bottom: 20px;
 }
-
 #accordion p{
   color:$white;
 }
 .coins{
   font-size:2.5rem;
   color:gray;
+}
+
+@media(max-width:768px){
+  .donate .col-lift{
+    margin-top:-10px;
+  }
+  .ti-line-double, .ti-angle-double-down{
+    font-size: 2rem;
+  }
+}
+@media(min-width:768px) {
+  .info-box .collapse {
+    display: block;
+  }
+  .donate .col-lift {
+    margin-top:-220px;
+  }
 }

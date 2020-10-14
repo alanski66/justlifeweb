@@ -147,6 +147,17 @@ img.ti-svg{
   border-radius: 20px;
 }
 
+//reduce fonnt n mobile
+@media(max-width: 720px){
+  h1{
+    font-size:2rem;
+  }
+  h2{
+    font-size:1.5rem;
+  }
+}
+
+
 //sidebox
 @media(max-width: 990px){
   .sidebar-box-shadow{

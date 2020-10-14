@@ -40,9 +40,9 @@
                         [
                             { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
                             { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
-                            { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
-                            { width: 2400, height:480, position: asset.getFocalPoint() },
-                            { width: 3400, height:680, position: asset.getFocalPoint(),ratio: 2/1 }
+                            { width: 1024, height:480, position: asset.getFocalPoint() ,jpegQuality: 95 },
+                            { width: 2000, height:580, position: asset.getFocalPoint(), mode:'crop' },
+                            { width: 3200, height:580, position: asset.getFocalPoint() }
                         ],
                         {
                             format: 'jpg',
@@ -60,8 +60,8 @@
                         <source media="(max-width: 768px)" sizes="100vw" srcset="{{ transformedBannerImages[1].url }}">
                         <source media="(max-width: 1024px)" sizes="100vw" srcset="{{ transformedBannerImages[2].url }}">
                         <source media="(max-width: 1800px)" sizes="100vw" srcset="{{ transformedBannerImages[3].url }}">
-                        <source media="(max-width: 3000px)" sizes="100vw" srcset="{{ transformedBannerImages[4].url }}">
-                        <img class="" src="{{ transformedBannerImages[4].url }}" alt="{{ asset.title }} {{ imgCredit }} {{ imgCaption }}">
+                        <source media="(max-width: 3000px)" sizes="100vw" srcset="{{ transformedBannerImages[3].url }}">
+                        <img class="img-fluid d-flex mx-auto" src="{{ transformedBannerImages[4].url }}" alt="{{ asset.title }} {{ imgCredit }} {{ imgCaption }}">
                         <figcaption class="position-relative">
                             {%  if imgCredit %}
                                 <span class="picture-credit">
