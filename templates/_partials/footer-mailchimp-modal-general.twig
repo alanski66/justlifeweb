@@ -39,12 +39,6 @@
                                 <label for="mce-LNAME">Last Name <span class="asterisk">*</span></label><br />
                                 <input class="form-control" type="text" value="" name="LNAME" class="" id="mce-LNAME" aria-required="true" required>
                             </div>
-
-                            <div class="mc-field-group form-group hide">
-                                <strong>Tick here for our newsletter and other updates </strong>
-                                <ul><li><input type="checkbox" value="1" name="group[22102][1]" id="mce-group[22102]-22102-0"><label for="mce-group[22102]-22102-0">Please keep me updated</label></li>
-                                </ul>
-                            </div>
                             <div id="mce-responses" class="clear">
                                 <div class="response" id="mce-error-response" style="display:none"></div>
                                 <div class="response" id="mce-success-response" style="display:none"></div>
@@ -68,7 +62,7 @@
 <!-- Modal Ends -->
 <!-- Begin Mailchimp JS Form -->
 
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js?ckcachebust=622744219'></script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js?ckcachebust=624383909'></script>
 <script type='text/javascript'>
     // (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);
     (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
@@ -88,7 +82,7 @@
         mutations.forEach(function(mutation) {
             if (target.innerHTML === "Thank you for subscribing!") {
                 //target.innerHTML = "Check your email for your free chapter!";
-                subbutton.value = "Check your email for your free chapters!";
+                subbutton.value = "You're done!";
             }
         });
     });
