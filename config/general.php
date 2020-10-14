@@ -39,6 +39,7 @@ return [
         ],
         'recaptcha_v3_public' => getenv('RECAPTCHAV3_PUBLIC'),
         'recaptcha_v3_private' => getenv('RECAPTCHAV3_PRIVATE'),
+        'errorTemplatePrefix' => "errors/"
     ],
 
     // Dev environment settings

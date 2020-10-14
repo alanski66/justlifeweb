@@ -73,5 +73,7 @@
 
     {# -- Any JavaScript that should be included before </body> -- #}
     {% block bodyJs %}
+        {% include "_partials/cookies.twig" %}
+
     {% endblock bodyJs %}
 {% endblock bodyContent %}

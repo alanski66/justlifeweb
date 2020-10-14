@@ -14,19 +14,23 @@
     </section>
 
     <!-- cta -->
+    {% if entry.subTitle | length %}
     <section class="cta py-50 overlay-white" style="background-image: url('images/background/cta.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 text-center text-lg-left mb-3 mb-lg-0">
 
-                    <h3 class="text-dark">From partners to volunteers, events and donors our supporters are the driving force of our work. </h3>
+                    <h3 class="text-dark">{{ entry.subTitle}}</h3>
                 </div>
+                {%  if entry.ctaButtonText | length %}
                 <div class="col-lg-3 text-lg-right text-center align-self-center">
-                    <a href="#" class="btn btn-sm btn-primary">Maybe a button link to somewhere or not</a>
+                    <a href="{{ entry.ctaLink.one().url }}" class="btn  btn-primary">{{ entry.ctaButtonText }}</a>
                 </div>
+                    {% endif %}
             </div>
         </div>
     </section>
+    {% endif %}
     <!-- /cta -->
 
     <!-- service -->
