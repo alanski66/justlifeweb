@@ -17,9 +17,11 @@
                                             { width: 360, height:230, position: asset.getFocalPoint(), jpegQuality:85},
                                         ]
                                         ) %}
-                                <div class="card-img-wrapper overlay-rounded-top">
+                                {% if block.cardLink.one() |  length %}<a htef="{{ block.cardLink.one().url }}">{% endif %}
+                                    <div class="card-img-wrapper overlay-rounded-top">
                                     <img class="card-img-top rounded-0" src="{{ img[0].url }}" alt="{{ entry.title}}">
                                 </div>
+                                    {% if block.cardLink.one() |  length %}</a>{% endif %}
                                 {% endif %}
                                 <div class="card-body p-0">
                                     <h4 class="card-title pt-3">{{ block.cardTitle }}</h4>

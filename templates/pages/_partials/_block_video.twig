@@ -1,0 +1,41 @@
+{% set image = block.videoThumb.one() %}
+
+{% set thumb = {
+    mode: 'crop',
+    width: 545,
+    height: 362,
+    quality: 85,
+    position: 'left-center'
+} %}
+{% set image = image.getUrl(thumb)  %}
+{% set vthumb = image ?? nullImage ?? null %}
+{# public_html/assets/images/landingpage/placeholder.png #}
+
+{% if block.alignment =='left' %}
+    {% set orderOne = 'order-1' %}
+    {% set orderTwo = 'order-2' %}
+{% endif %}
+
+{% if block.alignment == "right" %}
+    {% set orderOne = 'order-2' %}
+    {% set orderTwo = 'order-1' %}
+{% endif %}
+
+{% if block.alignment == "center" %}
+    {% set orderOne = 'order-0' %}
+    {% set orderTwo = 'order-0' %}
+{% endif %}
+
+<!-- block video -->
+<section class="section {{ block.type }} {{ block.alignment }} mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 align-self-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    {{ block.video.render }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- block video -->

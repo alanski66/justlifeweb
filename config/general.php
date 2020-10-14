@@ -39,7 +39,7 @@ return [
         ],
         'recaptcha_v3_public' => getenv('RECAPTCHAV3_PUBLIC'),
         'recaptcha_v3_private' => getenv('RECAPTCHAV3_PRIVATE'),
-        'errorTemplatePrefix' => "errors/"
+        'errorTemplatePrefix' => "/errors/"
     ],
 
     // Dev environment settings
@@ -48,7 +48,7 @@ return [
         'siteUrl' => null,
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
-        'devMode' => true,
+        'devMode' => false,
     ],
 
     // Staging environment settings

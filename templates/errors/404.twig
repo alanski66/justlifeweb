@@ -1,3 +1,53 @@
 {% set entry = craft.entries.section('errors').slug('error404').one() %}
 
 {% extends "_layouts/error-page-layout.twig" %}
+{% block content %}
+    <section class="error 404 {{entry.type | kebab }} page ">
+        <div class="container mt-5">
+
+            <div class="row ">
+
+                <div class="col-lg-8 pt-5">
+                    <div class="bg-whit rounded mb-40">
+                        <h1 class="mb-3">Page not found</h1>
+                        <p>{{ siteInfo.pageNotFound }}</p>
+                    </div>
+                    <div class=" search-drop">
+
+                        <div class="row justify-content-start">
+                            <div class="col-7  mt-5 mb-5 ">
+                                <div id="imaginary_container">
+                                    <h4>Search </h4>
+
+                                    <form action="{{ url('search/results') }}" id="404search" name="search">
+                                        <div class="input-group stylish-input-group">
+                                            <input type="search" name="q" type="text" class="form-control search-input"
+                                                   placeholder="type your search words here">
+
+                                            <div class="input-group-append">
+                                                <button type="submit" class="ml-0 btn btn-secondary search-submit"><span
+                                                            class="searchBtnText pr-2">SEARCH</span>
+                                                    <i class="icon-search ti-search "></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <!-- Sidebar -->
+                    <div class="bg-white px-4 py-4 sidebar-box-shadow h-100">
+                        {% switch entry.type %}
+                        {%  case "" %}
+                        {% endswitch %}
+                        {%  include '/pages/_partials/_side_subnav.twig' %}
+                        {%  include '/pages/_partials/_side_block_subscribe.twig' %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
