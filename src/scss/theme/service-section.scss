@@ -84,7 +84,7 @@
 
 img.arrow-top {
   position: absolute;
-  top: 220px;
+  top: 180px;
   right: 250px;
 }
 
@@ -96,13 +96,21 @@ img.arrow-top {
 
 img.arrow-bottom {
   position: absolute;
-  bottom: 100px;
-  left: 250px;
+  bottom: -10px;
+  left: 200px;
 }
 
 @media (max-width: 1199px) {
   img.arrow-bottom {
     display: none;
+  }
+}
+@media(min-width:1500px){
+  img.arrow-top{
+    left:45%;
+  }
+  img.arrow-bottom {
+    left: 22%;
   }
 }
 
