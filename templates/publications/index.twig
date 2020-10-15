@@ -15,7 +15,9 @@
                     <h1 class="section-title section-title-border">{{ entry.title }}</h1>
                 </div>
                 <div class="col-sm-12 col-lg-10  text-center ">
-                    <p class="lead">{{ entry.introText | striptags }}</p>
+
+                    <p class="lead">{{ entry.introText | replace("&amp;", "&") | striptags }}</p>
+
                 </div>
             </div>
         </div>
