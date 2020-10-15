@@ -1,0 +1,87 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+{%  set bodyClass = "jobs" %}
+{% block content %}
+    {%  set layout = null %}
+    <!--Join  Page Entry type Content -->
+    {%  if entry is defined %}
+
+        {% include '/_partials/hero-featured.twig' %}
+
+        <section class="generic {{entry.type | kebab }} page {%  if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="col-lg-8 pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h1 class="mb-3">{{ entry.title }}</h1>
+
+                            {% set entries = craft.entries({
+                                section: 'jobs',
+                                order: 'postDate desc'
+                            }) %}
+                        </div>
+
+                        {% for entry in entries %}
+
+                        <article class="bg-white rounded mb-40">
+                            <!-- Post Content -->
+                            <div>
+                                <div class="d-flex align-items-center border-bottom">
+                                    <!-- Published Date -->
+                                    <div class="text-center border-right p-4">
+                                        <h3 class="text-primary mb-0">
+                                           {{ entry.jobClosingDate |datetime('d') }} 
+                                            <span class="d-block paragraph">Nov<br><span class="ti-time"></span></span>
+
+                                        </h3>
+                                    </div>
+                                    <div class="px-4">
+                                        <!-- Post Title -->
+                                        <a class="h2 d-block mb-10 mt-3" href="{{ entry.url }}">{{ entry.title }}</a>
+                                        <!-- Post Meta -->
+                                        <ul class="post-meta list-inline">
+                                            <li class="list-inline-item paragraph mr-4">
+                                                <span class="ti-server"></span> {{ entry.jobSalary }}
+                                            </li>
+                                            <li class="list-inline-item paragraph mr-4"><span class="ti-location-pin"></span> {{ entry.jobLocation }}</li>
+                                            <li class="list-inline-item paragraph"><span class="ti-location-pin"></span>
+                                              {% set n = entry.type |length %}
+                                                {% for type in entry.jobType %}
+
+                                                    {{ type.value }} {% if n > '1'%},{% else %}{% endif %}
+                                                {% endfor %}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Post Excerpts -->
+                                <div class="p-4">
+                                    <p>
+                                        {{entry.introText }}
+                                    </p>
+                                    <a href="{{ entry.url }}" class="btn btn-sm btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </article>
+                        {% endfor %}
+
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Sidebar -->
+                        <div class="bg-white px-4 py-4 sidebar-box-shadow">
+                            {% switch entry.type %}
+                            {%  case "" %}
+                            {% endswitch %}
+                            {%  include '/pages/_partials/_side_subnav.twig' %}
+                            {%  include '/pages/_partials/_side_block_subscribe.twig' %}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%  endif %}
+
+{% endblock %}
