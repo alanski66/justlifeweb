@@ -9,21 +9,6 @@
     {% set pdfDocuments = entry.pdfDocument.offset(1) %}
     {% set thumbOrientation = macros.setOrientaton(pdfImage) %}
 <!-- publication entry -->
-    <section class="page-title overlay hide " style="background-image: url('images/background/page-title.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-white font-weight-bold">Service Single</h2>
-                    <ol class="breadcrumb">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>Service Single</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="blue heading mt-5 pt-3 pb-3">
         <div class="container">
             <div class="row ">
@@ -43,7 +28,7 @@
             <div class="col-12">
                 <h1 class="mt-4 mb-3">{{ entry.title }}</h1>
                 {% if entry.category | length  %}
-                <h6>{{  craft.app.request.getSegment(1) |lower }} / {{  entry.category.one().title | lower}}</h6>
+                <h6 class="text-gray-600">{{  craft.app.request.getSegment(1) |lower }} / {{  craft.app.request.getSegment(2) |lower }} / {{  entry.category.one().title | lower}}</h6>
                 {% endif %}
             </div>
 
@@ -99,7 +84,7 @@
                             {# landscape #}
                             <img class="img-fluid mb-4" src="{{ pdfImage.getUrl('pdfPortrait') }}">
 
-                            <h4>{{ pdfDocument.title | replace ('Ship', "") }}</h4>
+                            <h4>{{ pdfDocument.title }}</h4>
                             {% if pdfDocument |length %}
                                 <p class="text-center">
                                     <a target="_blank" href="{{ pdfDocument.url }}" class="btn btn-outline"><i
@@ -114,7 +99,7 @@
 
 
                     {% if entry.introText %}
-                        <div class=" mt-0  mb-5">
+                        <div class=" mt-0  mb-5 pb-5">
 
 
                             {% if entry.publicationDate %}
@@ -131,8 +116,9 @@
                             {% endif %}
 
 
-                            <hr class="">
+                            <hr class="d-flex mt-5 clearfix">
                         </div>
+
                     {% endif %}
 
                     <!-- tags -->
