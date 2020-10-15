@@ -78,7 +78,7 @@
                                             {{ block.preTitle }}</h4>
                                     {% endif %}
                                     {% if block.slideTitle |length %}
-                                        <h1 class="font-weight-bold mb-3 text-{{ block.textColor }} text-shadow {{ block.titleSize }}"
+                                        <h1 class="font-weight-bold mb-3 text-{{ block.textColor }} text-shadow {{ block.titleSize }} {{ block.titleTextAlign }}"
                                             data-duration-in=".2" data-animation-in="fadeInLeft"
                                             data-delay-in=".2"> {{ block.slideTitle|raw }}</h1>
                                     {% endif %}
