@@ -1,41 +1,15 @@
 
 {# featured #}
 {% if entry is defined %}
+
     {% set featuredEntry = '0' %}
-
     {% if entry.featureImage | length %}
+        {% cache %}
         <!-- hero featured -->
-
         <section class="hero featured">
-
             {% set asset = entry.featureImage[0] ?? null %}
             {% if asset %}
-                {#{% set transformedFeaturedImages = craft.imager.transformImage(fimage,#}
-                {#[#}
-                {#{ width: 1200, mode: 'crop', ratio: 2/1 },#}
-                {#{ width: 1024, ratio: 2/1 },#}
-                {#{ width: 768, ratio: 16/9, jpegQuality: 85 },#}
-                {#],#}
-                {#{#}
-                {#format: 'jpg',#}
-                {#allowUpscale: true,#}
-                {#mode: 'crop',#}
-                {#jpegQuality: 90,#}
-                {#position:  fimage.getFocalPoint(),#}
-                {#interlace: true#}
-                {#}#}
-                {#) %}#}
-
                 <figure class="image-holder mb-0">
-
-
-                    {#{% if asset.hasFocalPoint %}#}
-                    {#{% set focalPoint = asset.getFocalPoint() %}#}
-                    {#{% set position = focalPoint.x * 100 ~ '% ' ~ focalPoint.y * 100 ~ '%' %}#}
-                    {#{% else %}#}
-                    {#{% set position = 'center center' %}#}
-                    {#{% endif %}#}
-
                     {% set transformedBannerImages = craft.imager.transformImage(asset,
                         [
                             { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
@@ -113,6 +87,7 @@
             {% endif %}
 
         </section>
-
+    {% endcache %}
     {% endif %}
+
 {% endif %}

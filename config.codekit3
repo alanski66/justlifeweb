@@ -13615,14 +13615,6 @@
 		"oAP": "/templates/publications/index.twig",
 		"oF": 0
 		},
-	"/templates/publications/indexbk.twig": {
-		"cB": 1,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/publications/indexbk.twig",
-		"oF": 0
-		},
 	"/templates/search/_entry.twig": {
 		"cB": 1,
 		"ft": 8192,

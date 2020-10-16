@@ -14,15 +14,88 @@
                 <div class="row ">
 
                     <div class="col-lg-8 pt-3">
-                        <div class="bg-whit rounded mb-40">
-                            <h1 class="mb-3">{{ entry.title }}</h1>
+                        <article class="bg-white rounded mb-40">
+                            <!-- Post Content -->
+                            <div>
 
-                        </div>
+                                <!-- Post Excerpts -->
+                                <div class="p-4 shadow mb-4 container">
+                                    <h1 class="h2 d-block text-red">{{ entry.title }}</h1><hr>
+                                    <div class="row">
+                                    <div class="col-sm-6 ">
+                                        <ul class="d-block d-sm-inline-block pl-0 list-unstyled">
+                                            <li class="font-secondary mb-10  float-sm-left mr-sm-5">
+                                                <span class="ti-server"></span> {{ entry.jobSalary }}
+                                            </li>
+                                            <li class="font-secondary mb-10  ">
+                                                <span class="ti-location-pin"></span> {{ entry.jobLocation }}
+
+                                            </li>
+                                            <li class="font-secondary mb-10  ">
+                                                <span class="ti-time"></span>
+                                                {% set n = entry.type |length %}
+                                                {% for type in entry.jobType %}
+                                                    {{ type.value |replace({"," : ""}) }}
+                                                {% endfor %}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 ">
+                                        <ul class="d-block d-sm-inline-block pl-0 list-unstyled">
+                                            <li class="font-secondary mb-10  float-sm-left mr-sm-5 ">
+                                                <i class="fa fa-hourglass-o" aria-hidden="true"></i>
+                                                Closes: {{ entry.jobClosingDate | datetime('d-m-Y H:i A') }}
+                                            </li>
+                                            <li class="font-secondary mb-10  ">
+                                                <i class="fa fa-sign-in" aria-hidden="true"></i>
+                                                Interview week: {{ entry.jobInterviewDates | date }}
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    </div>
+
+                                    {{entry.introText }}
+                                    {{entry.jobDescription }}
+                                </div>
+
+
+
+
+                            </div>
+                        </article>
 
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 pt-3">
                         <!-- Sidebar -->
                         <div class="bg-white px-4 py-4 sidebar-box-shadow">
+
+                            <div class="mb-50">
+
+                                    <h4 class="mb-3">Downloads <span class="ti-cloud-down"></span></h4>
+                                    {%  set style = 'iconList' %}
+                                    <ul class="list-unstyled m-0 pl-0 ml-0">
+                                        {% for doc in entry.jobDocuments %}
+                                            {%  set fileExt = doc.filename|split('.')|last  %}
+
+                                            {%  if style == 'iconList' %}
+                                                {%  if fileExt == 'docx' or fileExt == 'doc' %}
+                                                    {%  set icon = "file-word-o" %}
+                                                {%  elseif fileExt == 'pdf' %}
+                                                    {%  set icon = "file-pdf-o" %}
+                                                {%  endif %}
+                                            {%  else %}
+                                                {%  set icon = "arrow-circle-down" %}
+                                            {%  endif %}
+                                            <li class="mb-3 pl-0">
+
+                                                <a class="btn d-flex pl-0 text-left text-red py-0" href="{{ doc.url }}">
+                                                    <i class="fa fa-2x fa-{{ icon }} pr-2"></i> {{ doc.title }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+<hr>
+                            </div>
+
                             {% switch entry.type %}
                             {%  case "" %}
                             {% endswitch %}

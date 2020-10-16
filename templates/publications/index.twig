@@ -1,5 +1,6 @@
 {% extends "_layouts/generic-page-layout.twig" %}
 {% block content %}
+    {% cache %}
     {%  set layout = null %}
     <!-- Page Content -->
     {%  if entry is defined %}
@@ -202,5 +203,5 @@
             </div>
         </div><!-- /.container -->
     </section>
-
+    {% endcache %}
 {% endblock %}
