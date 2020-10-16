@@ -50,7 +50,7 @@
                                               {% set n = entry.type |length %}
                                                 {% for type in entry.jobType %}
 
-                                                    {{ type.value }} {% if n > '1'%},{% else %}{% endif %}
+                                                    {{ type.value |replace({"," : ""}) }}
                                                 {% endfor %}
                                             </li>
                                         </ul>

@@ -7807,6 +7807,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/public_html/imager/bannerimages/6797/gary_head01_2db59eb92a79138d608659bd0d3b214a.jpg": {
+		"ft": 16384,
+		"iS": 74710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6797/gary_head01_2db59eb92a79138d608659bd0d3b214a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/bannerimages/6797/gary_head01_33c155d7c0f070c2ba48f89dbfb5f60f.jpg": {
+		"ft": 16384,
+		"iS": 646852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6797/gary_head01_33c155d7c0f070c2ba48f89dbfb5f60f.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/bannerimages/6797/gary_head01_83a1cb64e010e68990d83e81bda901d9.jpg": {
+		"ft": 16384,
+		"iS": 460524,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6797/gary_head01_83a1cb64e010e68990d83e81bda901d9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/bannerimages/6797/gary_head01_a622c74958c3cc20a3504f3224ab4fdb.jpg": {
+		"ft": 16384,
+		"iS": 34945,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6797/gary_head01_a622c74958c3cc20a3504f3224ab4fdb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/bannerimages/6797/gary_head01_c9b1ac8894a1e97ee6370f4e38d4dbb9.jpg": {
+		"ft": 16384,
+		"iS": 193572,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6797/gary_head01_c9b1ac8894a1e97ee6370f4e38d4dbb9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/public_html/imager/bannerimages/6802/manchester_2db59eb92a79138d608659bd0d3b214a.jpg": {
 		"ft": 16384,
 		"iS": 44203,
@@ -13427,6 +13482,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/templates/publications/_entry.twig",
+		"oF": 0
+		},
+	"/templates/publications/index-research.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/publications/index-research.twig",
 		"oF": 0
 		},
 	"/templates/publications/index.twig": {
