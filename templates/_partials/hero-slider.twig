@@ -59,7 +59,7 @@
 
                     {% endcss %}
                 {% endif %}
-
+            {% cache %}
                 <div class="slide-{{ block.id }} hero-slider-item  position-{{ block.position }} py-160 "
 {#                        {% if block.tabIcon| length %}#}
 {#                          {% if block.tabIcon | length %}{% endif %}#}
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-
+            {% endcache %}
             {% endswitch %}
         {% endfor %}
 
