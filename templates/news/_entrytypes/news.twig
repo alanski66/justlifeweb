@@ -33,6 +33,7 @@
 
 
 {% block content %}
+    {% cache %}
     {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
     <!-- blog single -->
     <section class="{{ entry.type }}">
@@ -232,9 +233,9 @@
 
 
 
-    
 
 
+    {% endcache %}
     <!-- Page Content -->
 
     <!-- /.container -->
