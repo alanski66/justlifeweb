@@ -152,7 +152,7 @@
         <div class="container">
             <div class="row ">
                 {% set layout = "n" %}
-
+                {% cache %}
                             {% for entry in therest %}
 
 
@@ -242,9 +242,7 @@
                                 </div>
 
                             {% endfor %}
-
-
-
+                {% endcache %}
             </div>
         </div>
 
