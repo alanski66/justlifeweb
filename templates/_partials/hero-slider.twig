@@ -59,7 +59,7 @@
 
                     {% endcss %}
                 {% endif %}
-            {% cache %}
+
                 <div class="slide-{{ block.id }} hero-slider-item  position-{{ block.position }} py-160 "
 {#                        {% if block.tabIcon| length %}#}
 {#                          {% if block.tabIcon | length %}{% endif %}#}
@@ -78,7 +78,7 @@
                                             {{ block.preTitle }}</h4>
                                     {% endif %}
                                     {% if block.slideTitle |length %}
-                                        <h1 class="font-weight-bold mb-3 text-{{ block.textColor }} text-shadow {{ block.titleSize }} {{ block.titleTextAlign }}"
+                                        <h1 class="font-weight-bold mb-3 text-{{ block.textColor }} text-shadow {{ block.titleSize }}"
                                             data-duration-in=".2" data-animation-in="fadeInLeft"
                                             data-delay-in=".2"> {{ block.slideTitle|raw }}</h1>
                                     {% endif %}
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-            {% endcache %}
+
             {% endswitch %}
         {% endfor %}
 
