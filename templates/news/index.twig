@@ -71,18 +71,14 @@
     {% set therest = pageEntries|slice(1,9) %}
 
     {% if pageInfo.currentPage == 1 %}
-
+        {% cache %}
         {% for entry in first %}
-
-
             {% switch entry.type %}
             {% case 'oldnews' %}
             {% set asset = entry.oldNewsImage.one() %}
             {% case 'news' %}
             {% set asset =  entry.image.one() %}
             {% endswitch %}
-
-
 
                 <section class="news top-story gray">
                     <div class="container">
@@ -110,7 +106,7 @@
                             }
                             ) %}
 
-                            
+
 
 
                             <div class="col pic mb-sm-3 pt-md-2">
@@ -147,7 +143,7 @@
                 </section>
 
         {% endfor %}
-
+    {% endcache %}
     {% endif %}
 
     {#{% include '_includes/subscribe-section.twig' %}#}

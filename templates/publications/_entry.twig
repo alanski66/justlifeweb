@@ -13,8 +13,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-md-10   ">
-                    <h2>{{ entry.section.handle | title }}</h2>
-
+                    {%  include ('publications/_partials/title.twig') %}
                 </div>
 
             </div>
@@ -27,9 +26,9 @@
             <!-- Page Heading/title breadcrumbs -->
             <div class="col-12">
                 <h1 class="mt-4 mb-3">{{ entry.title }}</h1>
-                {% if entry.category | length  %}
-                <h6 class="text-gray-600">{{  craft.app.request.getSegment(1) |lower }} / {{  craft.app.request.getSegment(2) |lower }} / {{  entry.category.one().title | lower}}</h6>
-                {% endif %}
+
+                <h6 class="text-gray-600">{{  craft.app.request.getSegment(1) |lower }} / {{  craft.app.request.getSegment(2) |lower }} </h6>
+
             </div>
 
         </div>
@@ -145,9 +144,16 @@
                     <div class="side-box">
                         <!-- Widget Recent Post -->
                         <div class="mb-50">
-                            <h4 class="mb-3">Other publications</h4>
+                            {%  switch entry.type.handle %}
+                            {% case 'publications' %}
+
+                            {% case 'research' %}
+
+                            {% endswitch %}
+                            <h4 class="mb-3">Other {{ entry.type }}</h4>
                             {% set entries = craft.entries()
                                 .section('publications')
+                                .type(entry.type)
                                 .limit('') %}
 
 

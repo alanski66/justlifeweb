@@ -1,0 +1,8 @@
+{%  switch entry.type.handle %}
+{% case 'publications' %}
+    <h2>Publications
+        {#                            {{ entry.type.handle | title }}#}
+    </h2>
+{% case 'research' %}
+    <h2>Research & Policy</h2>
+{% endswitch %}

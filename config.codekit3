@@ -8335,6 +8335,105 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/public_html/imager/pdfthumbs/9896/frontline-network-impact-report-2016-19_57802f7b167859dbab8639753fe8599a.jpg": {
+		"ft": 16384,
+		"iS": 3576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9896/frontline-network-impact-report-2016-19_57802f7b167859dbab8639753fe8599a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9902/full-survey-report-2018-pdf_57802f7b167859dbab8639753fe8599a.jpg": {
+		"ft": 16384,
+		"iS": 2968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9902/full-survey-report-2018-pdf_57802f7b167859dbab8639753fe8599a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9902/full-survey-report-2018-pdf_58108fbda8ce2caf201a2ff7fcc01747.jpg": {
+		"ft": 16384,
+		"iS": 20261,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9902/full-survey-report-2018-pdf_58108fbda8ce2caf201a2ff7fcc01747.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9902/full-survey-report-2018-pdf_e06a8138886b54ddd936a743429da967.jpg": {
+		"ft": 16384,
+		"iS": 33301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9902/full-survey-report-2018-pdf_e06a8138886b54ddd936a743429da967.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9907/frontline-network-summary-guide-universal-credit_57802f7b167859dbab8639753fe8599a.jpg": {
+		"ft": 16384,
+		"iS": 3243,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9907/frontline-network-summary-guide-universal-credit_57802f7b167859dbab8639753fe8599a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9912/arch-annual-report-2017-18-web_57802f7b167859dbab8639753fe8599a.jpg": {
+		"ft": 16384,
+		"iS": 3409,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9912/arch-annual-report-2017-18-web_57802f7b167859dbab8639753fe8599a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9912/arch-annual-report-2017-18-web_58108fbda8ce2caf201a2ff7fcc01747.jpg": {
+		"ft": 16384,
+		"iS": 22601,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9912/arch-annual-report-2017-18-web_58108fbda8ce2caf201a2ff7fcc01747.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9912/arch-annual-report-2017-18-web_e06a8138886b54ddd936a743429da967.jpg": {
+		"ft": 16384,
+		"iS": 37948,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9912/arch-annual-report-2017-18-web_e06a8138886b54ddd936a743429da967.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/pdfthumbs/9947/justlife-impact-report-fy16-17_57802f7b167859dbab8639753fe8599a.jpg": {
+		"ft": 16384,
+		"iS": 3260,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/pdfthumbs/9947/justlife-impact-report-fy16-17_57802f7b167859dbab8639753fe8599a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/public_html/imager/unsplashimages/6599/photo-1852769143_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
 		"ft": 16384,
 		"iS": 24131,
@@ -13482,6 +13581,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/templates/publications/_entry.twig",
+		"oF": 0
+		},
+	"/templates/publications/_partials/sidelist.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/publications/_partials/sidelist.twig",
+		"oF": 0
+		},
+	"/templates/publications/_partials/title.twig": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/publications/_partials/title.twig",
 		"oF": 0
 		},
 	"/templates/publications/index-research.twig": {
