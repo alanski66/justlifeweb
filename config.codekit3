@@ -8005,6 +8005,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/public_html/imager/images/8257/donate_248082b99567a623495455f8e0aa4a17.jpg": {
+		"ft": 16384,
+		"iS": 161171,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_248082b99567a623495455f8e0aa4a17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/8257/donate_2db59eb92a79138d608659bd0d3b214a.jpg": {
+		"ft": 16384,
+		"iS": 62079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_2db59eb92a79138d608659bd0d3b214a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/8257/donate_a622c74958c3cc20a3504f3224ab4fdb.jpg": {
+		"ft": 16384,
+		"iS": 33420,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_a622c74958c3cc20a3504f3224ab4fdb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/8257/donate_cb724c858f5cca8c09fe6d59c6e5eae9.jpg": {
+		"ft": 16384,
+		"iS": 259180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_cb724c858f5cca8c09fe6d59c6e5eae9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/public_html/imager/images/8257/donate_fd45629f92bdee38748ca460ad287caa.jpg": {
+		"ft": 16384,
+		"iS": 168028,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_fd45629f92bdee38748ca460ad287caa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/public_html/imager/images/8303/donate2_248082b99567a623495455f8e0aa4a17.jpg": {
 		"ft": 16384,
 		"iS": 93273,
@@ -13165,14 +13220,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/our-work/index.twig",
-		"oF": 0
-		},
-	"/templates/our-work/index1.twig": {
-		"cB": 1,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/our-work/index1.twig",
 		"oF": 0
 		},
 	"/templates/pages/_entry.twig": {
