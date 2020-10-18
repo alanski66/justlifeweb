@@ -1,0 +1,47 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+
+{% block content %}
+{% set tag = craft.tags.title(tag).one() %}
+
+
+{% if not tag %}
+{#    {% exit 404 %}#}
+{% endif %}
+
+    <section class="blue heading mt-5  pt-4" >
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-10  pb-2 ">
+                    <div class="page-heading mb-4"><h1>Topics</h1></div>
+                </div>
+                {{ tag }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Content tags entries -->
+    <div class="container mb-5 mt-5">
+
+
+    <div class="row">
+
+    <!-- Post Content Column -->
+    <div class="col-lg-8">
+    <h3>Entries tagged with “{{ tag.title }}”</h3>
+
+    {% set entries = craft.entries.relatedTo(tag).orderBy('title') %}
+
+        {% if entries | length %}
+        <ul>
+            {% for entry in entries.all() %}
+                <li>{{ entry.getLink() }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No entries could be found with that tag.</p>
+    {% endif %}
+</div>
+    </div>
+    </div>
+
+{% endblock %}

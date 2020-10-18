@@ -1,0 +1,55 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+
+{% block content %}
+
+    <section class="blue heading mt-5  pt-4" >
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-10  pb-2 ">
+                    <div class="page-heading mb-4"><h1>Topics</h1></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- topic list content -->
+    <div class="container">
+        <div class="row">
+            <!-- entry type item -->
+            <div class="col-8">
+                <h3 class="mt-4 mb-3">Browse by topic:</h3>
+                <p>Click a link to below to see content that is tagged with a specific topic name.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+
+        <div class="row">
+
+            <!-- Post Content Column -->
+            <div class="col-lg-8">
+
+
+
+                {% set tags = craft.tags()
+                    .group('topics')
+                    .all() %}
+
+                {% if tags | length %}
+                    <ul class="list-unstyled">
+                        {% for tag in tags %}
+                            <li class="pt-2 pb-2"><a href="{{ baseUrl }}tags/{{ tag.slug | url_encode | lower }}"><i class="fa fa-tag light"></i>  {{ tag.title | ucwords }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p>No entries could be found with that tag.</p>
+                {% endif %}
+
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

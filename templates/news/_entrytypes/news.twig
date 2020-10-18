@@ -81,7 +81,15 @@
                                 {#  actual author  {{entry.author}}#}
                                 <li class="list-inline-item text-color">Posted By admin</li>
                                 <li class="list-inline-item text-color">On {{entry.postDate.format('d F Y')}}</li>
-                                <li class="list-inline-item text-color">Tag: Jobs, Strategy</li>
+
+{#                                {% if relatedTags|length %}#}
+{#                                <li class="list-inline-item">#}
+{#                                {% for rel in relatedTags %}#}
+{#                                    <a href="{{ url('tags/'~rel.slug) }}">{{ rel.title }}</a>#}
+{#                                {% endfor %}#}
+{#                                </li>#}
+{#                                {% endif %}#}
+
                             </ul>
                             <div class="old-blog-body">{{ entry.body | replace({'<h1>':"<h3>",'</h1>':"</h3>"}) | raw }}</div>
 
@@ -118,8 +126,10 @@
 
                                 </div>
                             </div>
-                            <div class="col-lg-7">
+
+                            {% if relatedTags|length %}
                                 <!-- tags -->
+                                <div class="col-lg-7">
                                 <div class="d-flex">
                                     <span class="font-weight-light mt-2 mr-3">Tags:</span>
                                     <ul class="list-inline tag-list">
@@ -129,6 +139,7 @@
                                     </ul>
                                 </div>
                             </div>
+                            {% endif %}
                         </div>
                     </div>
 
@@ -203,7 +214,6 @@
 
                         </div>
                         <!-- Widget Tags -->
-
                         {% if relatedTags|length %}
                         <div class="mb-50">
                             <h4 class="mb-3">Tags</h4>

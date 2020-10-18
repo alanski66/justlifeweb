@@ -80,7 +80,15 @@
                                 {#  actual author  {{entry.author}}#}
                                 <li class="list-inline-item text-color">Posted By admin</li>
                                 <li class="list-inline-item text-color">On {{entry.postDate.format('d F Y')}}</li>
-                                <li class="list-inline-item text-color">Tag: Jobs, Strategy</li>
+{#                                {% if relatedTags|length %}#}
+
+{#                                        <li class="list-inline-item tag-list">#}
+{#                                            {% for rel in relatedTags %}#}
+{#                                                <a href="{{ url('tags/'~rel.slug) }}">{{ rel.title }}</a>#}
+{#                                            {% endfor %}#}
+{#                                        </li>#}
+{#                                    #}
+{#                                {% endif %}#}
                             </ul>
                             <div class="old-blog-body">{{ entry.body | replace({'<h1>':"<h3>",'</h1>':"</h3>"}) | raw }}</div>
 
