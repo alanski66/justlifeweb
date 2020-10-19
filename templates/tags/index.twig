@@ -18,9 +18,7 @@
         <div class="row">
             <!-- entry type item -->
             <div class="col-8">
-                <h3 class="mt-4 mb-3">Browse by topic:</h3>
-                <p>Click a link to below to see content that is tagged with a specific topic name.</p>
-            </div>
+               </div>
         </div>
     </div>
     <div class="container">
@@ -31,6 +29,8 @@
             <!-- Post Content Column -->
             <div class="col-lg-8">
 
+                <h3 class="mt-4 mb-3">Browse by topic:</h3>
+                <p>Click a link to below to see content that is tagged with a specific topic name.</p>
 
 
                 {% set tags = craft.tags()
@@ -46,7 +46,21 @@
                 {% else %}
                     <p>No entries could be found with that tag.</p>
                 {% endif %}
+                <hr>
+                <h3 class="mt-4 mb-3">Browse by location:</h3>
+                {% set tags = craft.tags()
+                    .group('location')
+                    .all() %}
 
+                {% if tags | length %}
+                    <ul class="list-unstyled">
+                        {% for tag in tags %}
+                            <li class="pt-2 pb-2"><a href="{{ baseUrl }}tags/{{ tag.slug | url_encode | lower }}"><i class="fa fa-tag light"></i>  {{ tag.title | ucwords }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p>No entries could be found with that tag.</p>
+                {% endif %}
 
             </div>
         </div>
