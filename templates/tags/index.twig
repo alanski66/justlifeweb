@@ -40,7 +40,7 @@
                 {% if tags | length %}
                     <ul class="list-unstyled">
                         {% for tag in tags %}
-                            <li class="pt-2 pb-2"><a href="{{ baseUrl }}tags/{{ tag.slug | url_encode | lower }}"><i class="fa fa-tag light"></i>  {{ tag.title | ucwords }}</a></li>
+                            <li class="pt-2 pb-2"><a href="{{ baseUrl }}tags/{{ tag.slug | url_encode | lower }}"><i class="fa fa-tag light"></i>  {{ tag.title | title }}</a></li>
                         {% endfor %}
                     </ul>
                 {% else %}
@@ -55,7 +55,7 @@
                 {% if tags | length %}
                     <ul class="list-unstyled">
                         {% for tag in tags %}
-                            <li class="pt-2 pb-2"><a href="{{ baseUrl }}tags/{{ tag.slug | url_encode | lower }}"><i class="fa fa-tag light"></i>  {{ tag.title | ucwords }}</a></li>
+                            <li class="pt-2 pb-2"><a href="{{ baseUrl }}tags/{{ tag.slug | url_encode | lower }}"><i class="fa fa-tag light"></i>  {{ tag.title | title }}</a></li>
                         {% endfor %}
                     </ul>
                 {% else %}

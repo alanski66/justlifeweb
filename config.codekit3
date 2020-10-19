@@ -9175,7 +9175,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_layouts/amp-base-html-layout.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9183,7 +9183,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_layouts/base-ajax-layout.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9191,7 +9191,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_layouts/base-html-layout.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9199,7 +9199,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_layouts/base-web-layout.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9207,7 +9207,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/amp-analytics.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9215,7 +9215,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/amp-boilerplate-css.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9223,7 +9223,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/amp-head-js.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9231,7 +9231,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/critical-css.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9239,7 +9239,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/head-js.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9247,7 +9247,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/head-meta.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9255,7 +9255,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/register-service-worker.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9263,7 +9263,7 @@
 		"oF": 0
 		},
 	"/templates/_boilerplate/_partials/tab-handler.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9302,7 +9302,7 @@
 		"tS": 0
 		},
 	"/templates/_layouts/amp-generic-page-layout.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9310,7 +9310,7 @@
 		"oF": 0
 		},
 	"/templates/_layouts/error-page-layout.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9318,7 +9318,7 @@
 		"oF": 0
 		},
 	"/templates/_layouts/generic-page-layout.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9326,7 +9326,7 @@
 		"oF": 0
 		},
 	"/templates/_layouts/global-variables.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9334,7 +9334,7 @@
 		"oF": 0
 		},
 	"/templates/_macros.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9342,7 +9342,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/amp-info-footer.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9350,7 +9350,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/amp-info-header.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9368,7 +9368,7 @@
 		"oS": 3
 		},
 	"/templates/_partials/amp-navbar.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9376,7 +9376,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/block-share-links.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9384,7 +9384,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/block_subscribe_frontlineNetwork.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9392,7 +9392,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/block_subscribe_generalNewsletter.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9400,7 +9400,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/cookies.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9408,7 +9408,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/cta-general.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9416,7 +9416,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/footer-mailchimp-modal-frontline-network.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9424,7 +9424,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/footer-mailchimp-modal-general.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9432,7 +9432,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/global-footer.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9440,7 +9440,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/hero-banner.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9448,7 +9448,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/hero-banneriswan.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9456,7 +9456,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/hero-featured.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9464,7 +9464,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/hero-slider.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9472,7 +9472,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/info-footer.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9480,7 +9480,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/info-header.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9488,7 +9488,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/macros.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9496,7 +9496,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/navbar.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9504,7 +9504,7 @@
 		"oF": 0
 		},
 	"/templates/_partials/share-entry-pop.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9512,7 +9512,7 @@
 		"oF": 0
 		},
 	"/templates/amp-index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9520,7 +9520,7 @@
 		"oF": 0
 		},
 	"/templates/donate/_dd.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9528,7 +9528,7 @@
 		"oF": 0
 		},
 	"/templates/donate/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9536,7 +9536,7 @@
 		"oF": 0
 		},
 	"/templates/donate/single.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9568,7 +9568,7 @@
 		"oF": 0
 		},
 	"/templates/email-newsletters/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9576,7 +9576,7 @@
 		"oF": 0
 		},
 	"/templates/email-newsletters/_entryNRespo.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9592,7 +9592,7 @@
 		"oF": 0
 		},
 	"/templates/email-newsletters/_partials/_block_emailCustomContent.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9600,7 +9600,7 @@
 		"oF": 0
 		},
 	"/templates/email-newsletters/_partials/_block_emailFromEntry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9668,7 +9668,7 @@
 		"q": 100
 		},
 	"/templates/errors/404.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9676,7 +9676,7 @@
 		"oF": 0
 		},
 	"/templates/errors/503.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9684,7 +9684,7 @@
 		"oF": 0
 		},
 	"/templates/errors/error.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9692,7 +9692,7 @@
 		"oF": 0
 		},
 	"/templates/errors/offline.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9700,7 +9700,7 @@
 		"oF": 0
 		},
 	"/templates/getinvolved/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9708,7 +9708,7 @@
 		"oF": 0
 		},
 	"/templates/home_blocks/_generic.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9716,7 +9716,7 @@
 		"oF": 0
 		},
 	"/templates/home_blocks/cards.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9724,7 +9724,7 @@
 		"oF": 0
 		},
 	"/templates/home_blocks/iconRow.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9732,7 +9732,7 @@
 		"oF": 0
 		},
 	"/templates/home_blocks/imageRow.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9740,7 +9740,7 @@
 		"oF": 0
 		},
 	"/templates/home_blocks/processStep.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9748,7 +9748,7 @@
 		"oF": 0
 		},
 	"/templates/home_blocks/quoteRow.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9756,7 +9756,7 @@
 		"oF": 0
 		},
 	"/templates/home_blocks/textRow.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9764,7 +9764,7 @@
 		"oF": 0
 		},
 	"/templates/icontest/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9772,7 +9772,7 @@
 		"oF": 0
 		},
 	"/templates/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9780,7 +9780,7 @@
 		"oF": 0
 		},
 	"/templates/jobs/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9788,7 +9788,7 @@
 		"oF": 0
 		},
 	"/templates/jobs/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9796,7 +9796,7 @@
 		"oF": 0
 		},
 	"/templates/news/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9804,7 +9804,7 @@
 		"oF": 0
 		},
 	"/templates/news/_entrytypes/news.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9812,7 +9812,7 @@
 		"oF": 0
 		},
 	"/templates/news/_entrytypes/oldnews.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9820,7 +9820,7 @@
 		"oF": 0
 		},
 	"/templates/news/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9828,7 +9828,7 @@
 		"oF": 0
 		},
 	"/templates/news/indexiswan.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9836,7 +9836,7 @@
 		"oF": 0
 		},
 	"/templates/news/search/results.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9844,7 +9844,7 @@
 		"oF": 0
 		},
 	"/templates/our-work/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9852,7 +9852,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9860,7 +9860,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/_styles/_layout_card.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9868,7 +9868,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/_styles/_layout_list.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9876,7 +9876,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/_styles/_layout_ship.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -9884,7 +9884,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/_styles/landingPage1.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9892,7 +9892,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/basic.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9900,7 +9900,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/donate.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9908,7 +9908,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/fundraising.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9916,7 +9916,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/getInvolved.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9924,7 +9924,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/joinpage.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9932,7 +9932,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/landingPage.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9940,7 +9940,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/landingPage1.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9948,7 +9948,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/landingpagerows.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9956,7 +9956,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/memberList.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9964,7 +9964,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/newsList.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9972,7 +9972,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/page.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9980,7 +9980,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/ship.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9988,7 +9988,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_entrytypes/staffIndex.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -9996,7 +9996,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_generic.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10004,7 +10004,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_downloads.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10012,7 +10012,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_form.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10020,7 +10020,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_image.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10028,7 +10028,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_promotion.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10036,7 +10036,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_quote.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10044,7 +10044,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_rowImage.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10052,7 +10052,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_rowText.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10060,7 +10060,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_rowVideo.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10068,7 +10068,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_shareRow.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10076,7 +10076,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_text.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10084,7 +10084,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_block_video.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10092,7 +10092,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_side_block_subscribe.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10100,7 +10100,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_side_subnav-get-involved.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10108,7 +10108,7 @@
 		"oF": 0
 		},
 	"/templates/pages/_partials/_side_subnav.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10116,7 +10116,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10124,7 +10124,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_entrytypes/networkProject.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10132,7 +10132,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_entrytypes/project.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10140,7 +10140,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_form.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10148,7 +10148,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_image.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10156,7 +10156,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_impact.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10164,7 +10164,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_news.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10172,7 +10172,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_promotion.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10180,7 +10180,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_publications.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10188,7 +10188,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_quote.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10196,7 +10196,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_stories.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10204,7 +10204,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_subscribe.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10212,7 +10212,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_text.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10220,7 +10220,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/_block_video.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10228,7 +10228,7 @@
 		"oF": 0
 		},
 	"/templates/projects/_partials/test.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10236,7 +10236,7 @@
 		"oF": 0
 		},
 	"/templates/projects/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10244,7 +10244,7 @@
 		"oF": 0
 		},
 	"/templates/publications/_category.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10252,7 +10252,7 @@
 		"oF": 0
 		},
 	"/templates/publications/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10260,7 +10260,7 @@
 		"oF": 0
 		},
 	"/templates/publications/_partials/sidelist.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10268,7 +10268,7 @@
 		"oF": 0
 		},
 	"/templates/publications/_partials/title.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10276,7 +10276,7 @@
 		"oF": 0
 		},
 	"/templates/publications/index-research.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10284,7 +10284,7 @@
 		"oF": 0
 		},
 	"/templates/publications/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10292,7 +10292,7 @@
 		"oF": 0
 		},
 	"/templates/search/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10300,7 +10300,7 @@
 		"oF": 0
 		},
 	"/templates/search/_form.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10308,7 +10308,7 @@
 		"oF": 0
 		},
 	"/templates/search/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10316,7 +10316,7 @@
 		"oF": 0
 		},
 	"/templates/search/results.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10324,7 +10324,7 @@
 		"oF": 0
 		},
 	"/templates/search/resultsbak.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10332,7 +10332,7 @@
 		"oF": 0
 		},
 	"/templates/staff/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10340,7 +10340,7 @@
 		"oF": 0
 		},
 	"/templates/staff/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10348,7 +10348,7 @@
 		"oF": 0
 		},
 	"/templates/stories/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10356,7 +10356,7 @@
 		"oF": 0
 		},
 	"/templates/supporters/_entry.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10364,7 +10364,7 @@
 		"oF": 0
 		},
 	"/templates/supporters/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10372,7 +10372,7 @@
 		"oF": 0
 		},
 	"/templates/tags/_tag.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10380,7 +10380,7 @@
 		"oF": 0
 		},
 	"/templates/tags/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -10388,7 +10388,7 @@
 		"oF": 0
 		},
 	"/templates/topics/_tag.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
@@ -10396,7 +10396,7 @@
 		"oF": 0
 		},
 	"/templates/topics/index.twig": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
@@ -12532,7 +12532,7 @@
 			"autoOutputPathReplace2": "",
 			"autoOutputPathStyle": 0,
 			"fileExtension": "twig",
-			"shouldRunCacheBuster": 1,
+			"shouldRunCacheBuster": 0,
 			"shouldRunHTMLMinifier": 0
 			}
 		],

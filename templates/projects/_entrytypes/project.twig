@@ -15,7 +15,7 @@
                     <h1 class="text-white font-weight-bold">{{ entry.title }}</h1>
                     <h2 class="text-white subtitle mb-5">{{ entry.subTitle }}</h2>
                     {% if entry.locationtags|length %}
-                        {% for rel in entry.locationtags %}
+                        {% for rel in entry.locationtags.all() %}
                             {% if rel.slug=='manchester' %}
                                 <span class="text-red ti-location-pin "></span>
                                 <span class="text-white text-shadow location pb-3"> Manchester</span>

@@ -75,7 +75,7 @@
                                     <h4 class="mb-3">Downloads <span class="ti-cloud-down"></span></h4>
                                     {%  set style = 'iconList' %}
                                     <ul class="list-unstyled m-0 pl-0 ml-0">
-                                        {% for doc in entry.jobDocuments %}
+                                        {% for doc in entry.jobDocuments.all() %}
                                             {%  set fileExt = doc.filename|split('.')|last  %}
 
                                             {%  if style == 'iconList' %}

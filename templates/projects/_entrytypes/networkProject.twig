@@ -18,7 +18,7 @@
                     locationtags
                     #}
                     {% if entry.locationtags|length %}
-                        {% for rel in entry.locationtags %}
+                        {% for rel in entry.locationtags.all() %}
 
                             {% if rel.slug=='manchester' %}
                                 <span class="text-red ti-location-pin "></span>

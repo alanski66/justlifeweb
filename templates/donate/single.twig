@@ -3,16 +3,16 @@
 {% block content %}
 
     <link type="text/css" rel="stylesheet"
-          href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css?ckcachebust=624369184"/>
+          href="https://az763204.vo.msecnd.net/wwcss/stripepayments.2015.1.css"/>
 
 
     <!--Make sure the correct version of the file is uncommented-->
     <script type="text/javascript"
-            src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js?ckcachebust=624369184"></script>
-    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=624369184"></script>-->
+            src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.js"></script>
+    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/stripepayments_2020.5.2.demo.js?ckcachebust=624801434"></script>-->
 
-    <script type="text/javascript" src="https://js.stripe.com/v3/?ckcachebust=624369184"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR&ckcachebust=624369184"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfmY9EZAAAAAB5vup71g-kwuqY1N7IS78Q7haRR"></script>
 
     {% set asset = entry.donateHeaderImage[0] ?? null %}
 
@@ -80,6 +80,7 @@
             .donate.overlay{
             background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
             height:753px;
+            background-position-y:-165px;
             }
             }
 
@@ -112,9 +113,9 @@
                         <div class="collapse" id="collapseExample">
 
                             {% if entry.donateInfoBoxList | length %}
-                                {% for block in entry.donateInfoBoxList %}
+                                {% for block in entry.donateInfoBoxList.all() %}
                                     <ul class="d-inline-block pl-0">
-                                        {% for block in block.listItem %}
+                                        {% for block in block.listItem.all() %}
 
                                                <li class="font-secondary mb-10 text-white {% if loop.first %}float-sm-left mr-sm-5{% endif %}">
                                                 <i class="text-primary mr-2 ti-arrow-circle-right"></i>{{ block.item }}
