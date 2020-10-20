@@ -26,6 +26,8 @@
 
             {% switch block.type %}
                 {%  case "cardRow" %}
+
+
                 <section class=" container mb-5">
                 <div class="row justify-content-center">
 
@@ -36,8 +38,7 @@
 
                 </div>
 
-                {% for card in block.cardItem.all() %}
-
+                {% for card in block.cardItem.hideCard('not 1').all() %}
                     {% if card.cardImage | length %}
                         {%  set image = card.cardImage[0] %}
                         {% set asset = craft.imager.transformImage(image, {

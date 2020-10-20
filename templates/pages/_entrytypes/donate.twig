@@ -56,8 +56,7 @@
                         <div class="pt-5 px-4" >
 
                             <p data-mh="giftbox">{{ block.text }}</p>
-
-                            <a href="{{ baseUrl }}get-involved/donate/monthly-gift?amount=10.00" class="btn btn-primary translateY-25 btn-mgiftbox">{{ block.buttonText | default("Donate") }}</a>
+                            <a href="{{ baseUrl }}get-involved/donate/monthly-gift?amount={{ block.amount }}" class="btn btn-primary translateY-25 btn-mgiftbox">{{ block.buttonText | default("Donate") }}</a>
                         </div>
                     </div>
                 </div>
@@ -88,8 +87,8 @@
                             <div class="form-group mx-sm-3 mb-2 d-flex flex-column flex-sm-row">
                                 <label for="amount" class="sr-only">Amount</label>
                                 <i class=" translateY-10 coins ti-server pr-sm-4 pt-3"></i>
-                                <input type="amount" class="form-control mb-0 text-center text-sm-left" id="amount" placeholder="amount">
-                                <a href="{{ baseUrl }}get-involved/donate/one-off-donation?amount=10.00" class="btn btn-primary mb-2 mt-2 ml-2">DONATE</a>
+                                <input type="amount" name="amount" class="form-control mb-0 text-center text-sm-left" id="amount" placeholder="amount">
+                                <a href="{{ baseUrl }}get-involved/donate/one-off-donation" onclick="location.href=this.href+'?amount='+amount;return false;" class="btn btn-primary mb-2 mt-2 ml-2">DONATE</a>
                             </div>
 
                         </form>
@@ -99,5 +98,12 @@
         </section>
     {% endif %}
 
-
 {% endblock %}
+{% js %}
+/* event listener for single amount */
+document.getElementsByName("amount")[0].addEventListener('change', doThingWithAmount);
+
+function doThingWithAmount(){
+amount = this.value;
+}
+{% endjs %}

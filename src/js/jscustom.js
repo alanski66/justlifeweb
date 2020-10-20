@@ -10,7 +10,4 @@
 //@codekit-prepend "prepend/vendor/syotimer/jquery.syotimer.js"
 //@codekit-prepend "prepend/vendor/aos/aos.js"
 //@codekit-prepend "prepend/vendor/match-height.js"
-
-
-
 //@codekit-prepend "prepend/custom/customjs.js"
