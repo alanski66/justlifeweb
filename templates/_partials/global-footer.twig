@@ -62,7 +62,6 @@
                         E: info@justlife.org.uk<br>
 <hr>
                         Justlife Brighton<br>
-                        Queen’s Square<br>
                         2 Dyke Road<br>
                         Brighton BN1 3FE<br>
                         T: 0300 123 1550  //  0800 328 1550<br>
@@ -77,9 +76,14 @@
                     <ul class="footer-links">
                         {% for block in footer.footerLinks.all() %}
                             {% for block in block.footerLeftLink.all() %}
-
+                                {% set link = "" %}
+                                {% if block.customLink | length %}
+                                {% set link = block.customLink %}
+                                    {% else %}
+                                        {% set link = block.url %}
+                                {% endif %}
                                 <li>
-                                    <a href="{{ block.url }}">{{ block.title }}</a>
+                                    <a href="{{ link }}">{{ block.title }}</a>
                                 </li>
                             {% endfor %}
                         {% endfor %}
@@ -90,7 +94,7 @@
                 <!-- subscribe form -->
                 <div class="col-lg-4 col-md-4 ffset-lg-1">
                     <div class="mt-5 mt-lg-0 text-center text-md-left mb-5">
-                        <h4 class="mb-2 text-white">Subscribe </h4>
+                        <h4 class="mb-2 text-white">{{ subscribe.subscribeBoxFooterHeading | default("Subscribe") }} </h4>
                         <p class="text-white mb-3">Join our email newsletter and stay up to date</p>
 
                             <form  id="" method="post" name="" class="chimpy validate position-relative"  novalidate="novalidate">
