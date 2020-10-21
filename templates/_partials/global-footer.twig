@@ -53,19 +53,16 @@
                         <img class="mb-30" src="{{baseUrl}}images/logo-footer.png" alt="logo">
                         <p class="text-white mb-30 hide">We work with people living in temporary accommodation in Manchester and Brighton & Hove and support others doing so across the UK through our network, research and campaigning</p>
 
-                       <div class="address text-white mb-30">Justlife Manchester
-                        <br>
-                        1479-1489 Ashton Old Road<br>
-                        Manchester M11 1HH<br>
-                        T: 0161 285 5888<br>
+                       <div class="address text-white mb-30">
+                           {{ organisationInfo.manchesterAddress }}
+
+                        T: {{ organisationInfo.manchesterTel }}<br>
                         F: 0161 285 7077<br>
-                        E: info@justlife.org.uk<br>
-<hr>
-                        Justlife Brighton<br>
-                        2 Dyke Road<br>
-                        Brighton BN1 3FE<br>
-                        T: 0300 123 1550  //  0800 328 1550<br>
-                        E: brighton@justlife.org.uk
+                        E: {{ organisationInfo.manchesterEmail }}
+                        <hr>
+                           {{ organisationInfo.brightonAddress }}
+                        T: {{ organisationInfo.brightonTelephone }}<br>
+                        E: {{ organisationInfo.brightonEmail }}
                        </div>
 
                     </div>

@@ -264,16 +264,65 @@
     </section>
 
     <!-- see also - list of other projects -->
-    <section class="section ">
+<section class="section">
+    <div class="container">
+        <h3 class="section-title section-title-border-half">See also</h3>
+{%  set location = entry.locationtags.one() %}
+    {% set entries = craft.entries.type('project').relatedTo(location).orderBy('title') %}
+
+        {% for card in entries %}
+            {% if card.projectImage | length %}
+                {% set image = card.projectImage[0] %}
+                {% set asset = craft.imager.transformImage(image, {
+                    width: 350,
+                    height:275,
+                    position: image.getFocalPoint(),
+                    cropZoom: 1.5
+                }) %}
+                {% set imgUrl = asset.getUrl() %}
+            {% else %}
+
+                {% set imgUrl = "https://via.placeholder.com/350x275" %}
+            {% endif %}
+            <!-- regional item col -->
+            <div class="row">
+            <div class="col-8">
+
+            <div class="card mb-3" >
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="{{ entry.url }}">
+                            <img class="card-img rounded-0" src="{{ imgUrl }}">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="{{ entry.url }}">{{ card.title }}</a></h5>
+                            <p class="card-text">{{ card.subTitle }}</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+        {% endfor %}
+    </div>
+</section>
+
+
+    <section class="section hide">
         <div class="container">
+            <hr>
             <div class="row justify-content-center">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12  text-center">
                     <h3 class="section-title-sm">See also</h3>
                 </div>
 
                 {% set entry = craft.entries.id(104).one() %}
 
-                {% for block in entry.cards.offset(1).all() %}
+                {% for block in entry.cards.offset(0).all() %}
 
 
                     {% switch block.type %}

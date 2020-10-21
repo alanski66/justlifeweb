@@ -1,4 +1,18 @@
 {% block content %}
-general
+    <section class="cta overlay-primary p-4 text-center text-lg-left" >
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-12 col-lg-7">
+                    <h5 class="text-white">{{ block.subscribeText}}</h5>
+                </div>
+                <div class="col-lg-5 text-lg-right align-self-center">
+
+                    <button class="btn btn-primary" type="reset" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >
+                        <i class="ti-email"></i>  {{ block.subscribeButton}}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
 {% endblock %}

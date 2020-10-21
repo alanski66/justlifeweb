@@ -22,17 +22,32 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline text-left text-lg-right ">
-                        <li class="list-inline-item">
-                            <a href="{{baseUrl}}our-work/agencies-referral">Agencies Referral</a>
-                        </li>
-                        {# organisationInfo.xxxx #}
-                        <li class="list-inline-item text-white">
-                            <i class="text-white ti-mobile pr-1 pl-2"></i>
-                            <a class="border-right-0 p-0 mr-3" href="tel:03001231550">Brighton: 0300 123 1550</a>
-                            <span class=" d-none px-1">-</span>
-                            <i class="text-white ti-mobile pr-1"></i>
-                            <a class="pl-0 border-right-0" href="tel:0161 285 5888">Manchester: 0161 285 5888</a>
-                        </li>
+
+                        {% set menu = craft.entries.section('topNav').hidePage('0').all()  %}
+                        {%  set link = null %}
+                        {%  set phone = null %}
+                        {% for item in menu %}
+                            {% if item.entryLink | length %}
+                            <li class="list-inline-item">
+                                <a href="{{ item.entryLink.one().url }}">{{ item.title }}</a>
+                            </li>
+                            {% else %}
+                                <li class="list-inline-item">
+                                {% if item.brightonTelephone | length %}
+                                    <i class="text-white ti-mobile pr-1 pl-2"></i>
+                                    <a class="border-right-0 p-0 mr-3" href="tel:{{ item.brightonTelephone }}">
+                                        {{ item.title }}: {{ item.brightonTelephone }}</a>
+                                    <span class=" d-none px-1">-</span>
+                                {% elseif item.manchesterTel | length %}
+                                    <i class="text-white ti-mobile pr-1"></i>
+                                    <a class="pl-0 border-right-0" href="tel:0161 285 5888">{{ item.title }}: {{ item.manchesterTel }}</a>
+                                {% endif %}
+                                </li>
+                            {% endif %}
+
+
+                        {%  endfor %}
+
                         <li class="list-inline-item">
                             <a href="#" class="search" id="searchOpen">
                                 <i id="searchicon" class="ti-search"></i>
