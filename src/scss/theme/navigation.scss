@@ -51,6 +51,9 @@
   padding-right: 0;
   border-right: 0;
 }
+.top-header .list-inline-item:not(:last-child){
+  margin-right:0;
+}
 
 .navigation .navbar {
   padding: 0;
