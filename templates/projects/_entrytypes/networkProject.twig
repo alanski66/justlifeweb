@@ -54,37 +54,39 @@
                 <aside class="col-lg-4 order-lg-2 order-2">
 
                     <!-- referal block -->
-                    {% if entry.ctaBlock|length %}
-                        {% for block in entry.ctaBlock.all() %}
-                            {% set image = block.image.one() %}
+                    {% include('/projects/_partials/_block_side_referral.twig') %}
 
-                            <div class="rounded bg-gray border py-3 px-4 mb-4 ">
-                                <i class="d-inline-block mr-1 text-dark ti-files" style="font-size: 20px;"></i>
+{#                    {% if entry.ctaBlock|length %}#}
+{#                        {% for block in entry.ctaBlock.all() %}#}
+{#                            {% set image = block.image.one() %}#}
 
-                                <h4 class="mb-1 d-inline-block">{{ block.heading }}</h4>
-                                {% if block.text | length %}
-                                    <p>{{ block.text }}</p>
-                                {% endif %}
+{#                            <div class="rounded bg-gray border py-3 px-4 mb-4 ">#}
+{#                                <i class="d-inline-block mr-1 text-dark ti-files" style="font-size: 20px;"></i>#}
 
-                                {% if image %}
-                                    {% set imgCredit = image.imageCredit ?? null %}
-                                    {% set imgCaption =  image.imageCaption ?? null %}
-                                    {% set imgBlockCaption =  block.caption ?? null %}
-                                    <img class="img-fluid mb-3" src="{{ image.getUrl() }}">
-                                {% endif %}
+{#                                <h4 class="mb-1 d-inline-block">{{ block.heading }}</h4>#}
+{#                                {% if block.text | length %}#}
+{#                                    <p>{{ block.text }}</p>#}
+{#                                {% endif %}#}
 
-                                {% set assets = block.download.all() %}
-                                {% for asset in assets %}
-                                    {% if block.buttonText | length %}
-                                        <a class="btn btn-outline" href="{{ asset.getUrl }}"><span
-                                                    class="ti-arrow-circle-down"></span> {{ block.buttonText }}</a>
-                                    {% endif %}
-                                {% endfor %}
+{#                                {% if image %}#}
+{#                                    {% set imgCredit = image.imageCredit ?? null %}#}
+{#                                    {% set imgCaption =  image.imageCaption ?? null %}#}
+{#                                    {% set imgBlockCaption =  block.caption ?? null %}#}
+{#                                    <img class="img-fluid mb-3" src="{{ image.getUrl() }}">#}
+{#                                {% endif %}#}
+
+{#                                {% set assets = block.download.all() %}#}
+{#                                {% for asset in assets %}#}
+{#                                    {% if block.buttonText | length %}#}
+{#                                        <a class="btn btn-outline" href="{{ asset.getUrl }}"><span#}
+{#                                                    class="ti-arrow-circle-down"></span> {{ block.buttonText }}</a>#}
+{#                                    {% endif %}#}
+{#                                {% endfor %}#}
 
 
-                            </div>
-                        {% endfor %}
-                    {% endif %}
+{#                            </div>#}
+{#                        {% endfor %}#}
+{#                    {% endif %}#}
 
                     <!-- ################################   side related   ########################### -->
                     <div class="mb-4 hide">

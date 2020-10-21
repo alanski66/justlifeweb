@@ -10217,6 +10217,14 @@
 		"oAP": "/templates/projects/_partials/_block_quote.twig",
 		"oF": 0
 		},
+	"/templates/projects/_partials/_block_side_referral.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/projects/_partials/_block_side_referral.twig",
+		"oF": 0
+		},
 	"/templates/projects/_partials/_block_stories.twig": {
 		"cB": 0,
 		"ft": 8192,

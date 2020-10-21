@@ -1,0 +1,37 @@
+{% if entry.ctaBlock|length %}
+    {% for block in entry.ctaBlock.all() %}
+
+        {% switch block.type %}
+        {%  case 'ctaBlock' %}
+            <div class="rounded bg-gray border py-3 px-4 mb-4 ">
+                <i class="d-inline-block mr-1 text-dark ti-files" style="font-size: 20px;"></i>
+                <h4 class="mb-1 d-inline-block">{{ block.heading }}</h4>
+                {% if block.text | length %}
+                    <p>{{ block.text }}</p>
+                {% endif %}
+
+                {% set assets = block.download.all() %}
+                {% for asset in assets %}
+                    {% if block.buttonText | length %}
+                        <a class="btn btn-outline btn-sm" href="{{ asset.getUrl}}"><span class="ti-arrow-circle-down"></span> {{ block.buttonText }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {%  case 'contact' %}
+            <div class="rounded bg-gray border py-3 px-4 mb-4 ">
+                <i class="d-inline-block mr-1 text-dark ti-hand-open" style="font-size: 20px;"></i>
+                <h4 class="mb-1 d-inline-block">{{ block.heading }}</h4>
+                {% if block.text | length %}
+                    <p>{{ block.text }}</p>
+                {% endif %}
+
+
+                {% if block.linkto | length %}
+                    {% if block.buttonText | length %}
+                        <a class="btn btn-outline btn-sm" href="{{ block.linkto.one().url }}"><span class="ti-arrow-circle-down"></span> {{ block.buttonText }}</a>
+                    {% endif %}
+                {% endif %}
+            </div>
+        {% endswitch %}
+    {% endfor %}
+{% endif %}
