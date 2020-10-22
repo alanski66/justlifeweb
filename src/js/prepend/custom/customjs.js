@@ -21,14 +21,13 @@ $("form.chimpy").submit(function(e){
     $('#subscribeModal').modal('show');
     return false;
 });
-
 function extendMagnificIframe(){
 
     var $start = 0;
     var $iframe = {
         markup: '<div class="mfp-iframe-scaler">' +
             '<div class="mfp-close"></div>' +
-            '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+            '<iframe class="mfp-iframe" frameborder="0" allow="autoplay" allowfullscreen></iframe>' +
             '</div>' +
             '<div class="mfp-bottom-bar">' +
             '<div class="mfp-title"></div>' +
