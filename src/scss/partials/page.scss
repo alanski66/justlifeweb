@@ -114,10 +114,16 @@ promo a{
 }
 
 .story-subtitle{
-
+  font-style: italic;
 }
 .stories.page iframe{
   width:100%!important;
   min-height:320px!important;
   height:320px;
+}
+
+@media(min-width:990px){
+  .stories.page iframe{
+    height:420px!important;
+  }
 }
