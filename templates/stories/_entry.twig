@@ -13,7 +13,12 @@
 
                     <div class="col-lg-8 pt-3">
                         <div class="bg-whit rounded mb-40">
-                            <h1 class="mb-5">{{ entry.title }}</h1>
+                            <h1 class="mb-2">{{ entry.title }}</h1>
+                                {% if entry.subTitle %}
+                                    <p class="story-subtitle">{{ entry.subTitle }}</p>
+                                {% endif %}
+
+                            {% if story.introText | length %}
                             {%  if entry.body | length %}
                                 {{ entry.body }}
                             {% endif %}

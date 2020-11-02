@@ -112,3 +112,12 @@ promo a{
 .jobs article .post-meta span[class^="ti-"]{
   //font-family: $font-family-base
 }
+
+.story-subtitle{
+
+}
+.stories.page iframe{
+  width:100%!important;
+  min-height:320px!important;
+  height:320px;
+}
