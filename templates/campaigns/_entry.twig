@@ -1,0 +1,175 @@
+{#{% extends "_layouts/generic-page-layout.twig" %}#}
+{% extends "_layouts/campaign-noheader-page-layout.twig" %}
+{% set bodyClass = " campaign" %}
+{% block content %}
+
+    {% set asset = entry.bannerImage[0] ?? null %}
+
+    {% if asset | length %}
+        {% set transformedBannerImages = craft.imager.transformImage(asset,
+            [
+                { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
+                { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
+                { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
+                { width: 1200, height:580, position: asset.getFocalPoint() },
+                { width: 2400, height:530, position: asset.getFocalPoint(),ratio: 2/1 }
+            ],
+            {
+                format: 'jpg',
+                allowUpscale: true,
+                mode: 'crop',
+                jpegQuality: 90,
+                interlace: true
+            }
+            ) %}
+        {% css %}
+            @media(min-width: 0px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[0].url }}');
+            height:380px;
+            background-position-y:-48px;
+            background-position-x:0px;
+            padding:200px 0 0 ;
+            }
+            }
+            @media(min-width: 550px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[1].url }}');
+            height:380px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 768px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[2].url }}');
+            height:480px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 990px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
+            {#                        height:593px;#}
+            }
+            }
+
+            @media(min-width: 1200px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:593px;
+            }
+            }
+            @media(min-width: 1400px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:653px;
+            }
+            }
+            @media(min-width: 1600px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:753px;
+            background-position-y:-165px;
+            }
+            }
+
+
+        {% endcss %}
+    {% endif %}
+
+
+    <header class="w-100">
+
+        <!-- nav bar -->
+        <div class="navigation w-100">
+            <div class="container justfy-content-center">
+                <div class="row">
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    {% if asset | length %}
+        <section class="campaign page-title overlay h-100 shadow" style="background-image: url('{{ asset.url }}');">
+            <a class="navbar-brand mr-0 position-absolute" href="{{ baseUrl }}">
+                <img
+                        src="https://192.168.1.150:5757/images/logo.png" alt="logo"
+                        class="d-none d-lg-block mx-auto">
+                <img
+                        src="https://192.168.1.150:5757/images/logo-icon-sq@3x.png" alt="logo" height="40"
+                        width="40" class="d-sm-block d-md-none block d-lg-none d-xl-none my-2">
+                <img
+                        src="https://192.168.1.150:5757/images/logo-mobile.png" alt="logo" height="40"
+                        width="151" class="d-none d-sm-none d-md-block d-lg-none d-xl-none my-2">
+            </a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+
+                       <h1 class="text-white text-shadow">{{ entry.title }}</h1>
+                        <h2>During the Big Give, donations to Justlife are doubled. If you donate £20, we’ll receive £40 to fund services for people without a home, at no extra cost to you.</h2>
+                    </div>
+                </div>
+            </div>
+
+
+                <!-- formstuff-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 " style="background-color: #ffffff">
+
+
+                            <div class="row justify-content-start">
+                                <div class="col-sm-12 col-md-6 ">
+
+                                    <div class="rounded p-sm-5 p-3 bg- shadow ">
+                                        <h3 class="section-title mb-4 section-title-border-half text-white">{{ entry.donateInfoBoxTitle }}</h3>
+
+                                        <p class="hide text-white mb-1 mb-md-3">{{ entry.body }}</p>
+                                        <div class="mx-auto text-center ">
+                                            <i class=" ti-angle-double-down text-white" data-toggle="collapse"
+                                               href="#collapseExample"></i></div>
+
+                                        {#                                {% if entry.body| length %}#}
+                                        {#                                    <div id="accordion">#}
+                                        {#                                        <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"#}
+                                        {#                                           href="#collapseOne">#}
+                                        {#                                            <i class="ti-plus text-primary mr-2"></i> More#}
+                                        {#                                        </a>#}
+                                        {#                                        <div id="collapseOne" class="collapse"#}
+                                        {#                                             data-parent="#accordion">#}
+                                        {#                                            <div class="card-body font-secondary text-white pl-0 pb-0">#}
+                                        {#                                                {{ entry.body }}#}
+                                        {#                                            </div>#}
+                                        {#                                        </div>#}
+                                        {#                                    </div>#}
+                                        {#                                {% endif %}#}
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 donorfy ">
+                                    <div class="p-3 shadow">
+                                    <p class="text-white mb-1 mb-md-3">{{ entry.introText }}</p>
+                                    <div id="mc_embed_signup">
+                                        {{ entry.subscribeForm | raw }}
+                                    </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+    {% endif %}
+
+    <!-- title -->
+
+
+
+
+{% endblock %}

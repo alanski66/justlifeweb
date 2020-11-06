@@ -7,7 +7,7 @@
 		"uuidString": "DD17DC38-3A6D-4895-86C1-DAA03889ABF4"
 		}
 	],
-"creatorBuild": "33070",
+"creatorBuild": "33081",
 "files": {
 	"/.env": {
 		"cB": 0,
@@ -3926,6 +3926,136 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/imager/bannerimages/6796/fundraising_248082b99567a623495455f8e0aa4a17.jpg": {
+		"ft": 16384,
+		"iS": 130044,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6796/fundraising_248082b99567a623495455f8e0aa4a17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6796/fundraising_2db59eb92a79138d608659bd0d3b214a.jpg": {
+		"ft": 16384,
+		"iS": 57336,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6796/fundraising_2db59eb92a79138d608659bd0d3b214a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6796/fundraising_a622c74958c3cc20a3504f3224ab4fdb.jpg": {
+		"ft": 16384,
+		"iS": 29267,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6796/fundraising_a622c74958c3cc20a3504f3224ab4fdb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6796/fundraising_cb724c858f5cca8c09fe6d59c6e5eae9.jpg": {
+		"ft": 16384,
+		"iS": 209995,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6796/fundraising_cb724c858f5cca8c09fe6d59c6e5eae9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6796/fundraising_fd45629f92bdee38748ca460ad287caa.jpg": {
+		"ft": 16384,
+		"iS": 146470,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6796/fundraising_fd45629f92bdee38748ca460ad287caa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6802/manchester_248082b99567a623495455f8e0aa4a17.jpg": {
+		"ft": 16384,
+		"iS": 105017,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6802/manchester_248082b99567a623495455f8e0aa4a17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6802/manchester_2db59eb92a79138d608659bd0d3b214a.jpg": {
+		"ft": 16384,
+		"iS": 46418,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6802/manchester_2db59eb92a79138d608659bd0d3b214a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6802/manchester_a622c74958c3cc20a3504f3224ab4fdb.jpg": {
+		"ft": 16384,
+		"iS": 20270,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6802/manchester_a622c74958c3cc20a3504f3224ab4fdb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6802/manchester_cb724c858f5cca8c09fe6d59c6e5eae9.jpg": {
+		"ft": 16384,
+		"iS": 170887,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6802/manchester_cb724c858f5cca8c09fe6d59c6e5eae9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/bannerimages/6802/manchester_fd45629f92bdee38748ca460ad287caa.jpg": {
+		"ft": 16384,
+		"iS": 123936,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/bannerimages/6802/manchester_fd45629f92bdee38748ca460ad287caa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/public_html/imager/bannerimages/6939/jonathan-rados-Sbxt82CsMxA-unsplash_2020-10-02-164104_c71264d46c9059d1e0fbb678251e5c85.jpg": {
 		"ft": 16384,
 		"iS": 11097,
@@ -3945,6 +4075,71 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/images/7975/nick-cooper-k7lWhRlO53U-unsplash_94c2c53cb9c2eb328f3977584c5873a3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/8257/donate_248082b99567a623495455f8e0aa4a17.jpg": {
+		"ft": 16384,
+		"iS": 161110,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_248082b99567a623495455f8e0aa4a17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/8257/donate_2db59eb92a79138d608659bd0d3b214a.jpg": {
+		"ft": 16384,
+		"iS": 67312,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_2db59eb92a79138d608659bd0d3b214a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/8257/donate_a622c74958c3cc20a3504f3224ab4fdb.jpg": {
+		"ft": 16384,
+		"iS": 36448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_a622c74958c3cc20a3504f3224ab4fdb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/8257/donate_cb724c858f5cca8c09fe6d59c6e5eae9.jpg": {
+		"ft": 16384,
+		"iS": 238163,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_cb724c858f5cca8c09fe6d59c6e5eae9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/8257/donate_fd45629f92bdee38748ca460ad287caa.jpg": {
+		"ft": 16384,
+		"iS": 183375,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/8257/donate_fd45629f92bdee38748ca460ad287caa.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7719,6 +7914,19 @@
 		"oS": 3,
 		"sct": 0
 		},
+	"/src/scss/partials/campaign.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 14,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/src/public_html/assets/css/style.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
 	"/src/scss/partials/donate.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -8434,6 +8642,14 @@
 		"oAP": "/templates/_layouts/amp-generic-page-layout.twig",
 		"oF": 0
 		},
+	"/templates/_layouts/campaign-noheader-page-layout.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/_layouts/campaign-noheader-page-layout.twig",
+		"oF": 0
+		},
 	"/templates/_layouts/error-page-layout.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -8604,6 +8820,14 @@
 		"oAP": "/templates/_partials/info-footer.twig",
 		"oF": 0
 		},
+	"/templates/_partials/info-header-campaign.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/_partials/info-header-campaign.twig",
+		"oF": 0
+		},
 	"/templates/_partials/info-header.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -8642,6 +8866,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/amp-index.twig",
+		"oF": 0
+		},
+	"/templates/campaigns/_entry.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/templates/campaigns/_entry.twig",
+		"oF": 0
+		},
+	"/templates/campaigns/comming-soon.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/campaigns/comming-soon.twig",
 		"oF": 0
 		},
 	"/templates/donate/_dd.twig": {
