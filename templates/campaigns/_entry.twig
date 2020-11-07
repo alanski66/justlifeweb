@@ -1,5 +1,6 @@
-{#{% extends "_layouts/generic-page-layout.twig" %}#}
-{% extends "_layouts/campaign-noheader-page-layout.twig" %}
+{% extends "_layouts/generic-page-layout.twig" %}
+
+{#{% extends "_layouts/campaign-noheader-page-layout.twig" %}#}
 {% set bodyClass = " campaign" %}
 {% block content %}
 
@@ -93,24 +94,33 @@
 
 
     {% if asset | length %}
-        <section class="campaign page-title overlay h-100 shadow" style="background-image: url('{{ asset.url }}');">
-            <a class="navbar-brand mr-0 position-absolute" href="{{ baseUrl }}">
-                <img
-                        src="https://192.168.1.150:5757/images/logo.png" alt="logo"
-                        class="d-none d-lg-block mx-auto">
-                <img
-                        src="https://192.168.1.150:5757/images/logo-icon-sq@3x.png" alt="logo" height="40"
-                        width="40" class="d-sm-block d-md-none block d-lg-none d-xl-none my-2">
-                <img
-                        src="https://192.168.1.150:5757/images/logo-mobile.png" alt="logo" height="40"
-                        width="151" class="d-none d-sm-none d-md-block d-lg-none d-xl-none my-2">
-            </a>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
+        <section class="campaign overlay h-100  " style="background-image: url('{{ asset.url }}');">
 
-                       <h1 class="text-white text-shadow">{{ entry.title }}</h1>
-                        <h2>During the Big Give, donations to Justlife are doubled. If you donate £20, we’ll receive £40 to fund services for people without a home, at no extra cost to you.</h2>
+            <div class="wrapper shadow ">
+            <div class="container bg-light trans">
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-4">
+
+                        {%  set asset = entry.campaignImage.one() ?? null  %}
+                        {%  if asset | length %}
+                            {% set thumb = {
+                                mode: 'crop',
+                                width: 400,
+
+                                quality: 75,
+                                position: 'top-center'
+                            } %}
+                            <img class="mx-auto img-fluid py-3 pt-4"
+                                 src="{{ asset.getUrl() }}"
+                                width="{{ asset.getWidth(thumb) }}"
+                                height="{{ asset.getHeight(thumb) }}"
+                            >
+                        {% endif %}
+                       <h1 class=" text-hide {%  if entry.titleDisplay == 1 %} d-block{% endif %}">{{ entry.title }}</h1>
+                        {% if entry.campaignSubtitleText | length %}
+                           <h2>{{ entry.campaignSubtitleText }}</h2>
+                        {% endif %}
+
                     </div>
                 </div>
             </div>
@@ -119,15 +129,16 @@
                 <!-- formstuff-->
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 " style="background-color: #ffffff">
+                        <div class="col-12 shadow" style="background-color: #ffffff">
 
 
                             <div class="row justify-content-start">
                                 <div class="col-sm-12 col-md-6 ">
 
-                                    <div class="rounded p-sm-5 p-3 bg- shadow ">
-                                        <h3 class="section-title mb-4 section-title-border-half text-white">{{ entry.donateInfoBoxTitle }}</h3>
-
+                                    <div class="rounded py-4 px-3 ">
+                                        {%  if entry.mainTextTitle | length %}
+                                        <h3 class=" mb-4 section-title-border-half text-dark">{{ entry.mainTextTitle }}</h3>
+                                        {% endif %}
                                         <p class="hide text-white mb-1 mb-md-3">{{ entry.body }}</p>
                                         <div class="mx-auto text-center ">
                                             <i class=" ti-angle-double-down text-white" data-toggle="collapse"
@@ -150,8 +161,19 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 donorfy ">
-                                    <div class="p-3 shadow">
-                                    <p class="text-white mb-1 mb-md-3">{{ entry.introText }}</p>
+                                    <div class="py-4 px-3">
+                                        {%  if entry.formTitle | length %}
+                                            {% css %}
+                                            #mc_embed_signup h2{
+                                                display:none;
+                                            }
+                                            {% endcss %}
+                                            <h3 class=" mb-4 section-title-border-half text-dark">{{ entry.formTitle }}</h3>
+                                        {% endif %}
+                                        {%  if entry.formIntro | length %}
+                                            <p class="text-white mb-1 mb-md-3">{{ entry.formIntro }}</p>
+                                        {% endif %}
+
                                     <div id="mc_embed_signup">
                                         {{ entry.subscribeForm | raw }}
                                     </div>
@@ -162,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
 
         </section>
     {% endif %}

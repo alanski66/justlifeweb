@@ -5,14 +5,19 @@ body.campaign{
   top:0;
   padding:30px;
 }
+.trans{
+  opacity:0.8;
+}
 .campaign h1{
   font-size:4rem;
 font-weight: 700;
+  text-shadow: none;
+
 }
 .campaign h2 {
-  color:$white;
+  //color:$white;
   font-weight: 700;
-  text-shadow: 1px 1px 1px #333
+  //text-shadow: 1px 1px 1px #333
 }
 #mc_embed_signup h2{
   color:$black;
@@ -38,6 +43,39 @@ font-weight: 700;
   border-radius: 2px;
 }
 //.ElementsApp input,
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: $red;
+  box-shadow: 0 1px 1px rgba(208, 15,56, 0.075) inset, 0 0 8px rgba(208, 15,56, 0.6);
+  outline: 0 none;
+}
+.mc-field-group{
+  margin-bottom: 15px;
+}
+.mc-field-group label{
+  font-weight:600;
+}
+.mc-field-group label.checkbox input{
+  margin-top: 5px;
+}
+.mc-field-group label.checkbox span{
+  margin-left:10px;
+}
 .donorfy form input{
   border-radius: 5px!important;
   padding: 0 15px 2px!important;
@@ -55,7 +93,7 @@ font-weight: 700;
   width:99px!important;
 }
 .donorfy form input:focus {
-  border-color: #D00E38;
+  border-color: #D00E38!important;
   box-shadow: none !important;
 }
 .donorfy .table th, .table td {
@@ -104,6 +142,9 @@ font-weight: 700;
   height:50px!important;
 }
 
+.donorfy form input.button{
+  outline:none;
+}
 //strip / domorfy error table tweaks
 .donorfy form#CreditCardForm table{
   width:100%;
@@ -123,7 +164,11 @@ a.btn-mgiftbox{
   display:none!important;
   //background-color:red;
 }
-.campaign .page-title.overlay::before{
+.campaign .overlay{
+  background-repeat: no-repeat;
+}
+
+.campaign .overlay::before{
   opacity: 0!important;
 }
 .campaign .overlay{
