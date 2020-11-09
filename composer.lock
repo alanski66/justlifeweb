@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ae42f16ef2bca459981e21b0c885eeb",
+    "content-hash": "0481928f2015bd5d26d82fa83695e1a8",
     "packages": [
+        {
+            "name": "adigital/eventbrite",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a-digital/eventbrite/zipball/a2fd69ebdaad280abde7fb31db4a52527bd2ec08",
+                "reference": "a2fd69ebdaad280abde7fb31db4a52527bd2ec08",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Eventbrite",
+                "handle": "eventbrite",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/a-digital/eventbrite/master/CHANGELOG.md",
+                "components": {
+                    "eventbriteEvents": "adigital\\eventbrite\\services\\EventbriteEvents"
+                },
+                "class": "adigital\\eventbrite\\Eventbrite"
+            },
+            "autoload": {
+                "psr-4": {
+                    "adigital\\eventbrite\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark @ A Digital",
+                    "homepage": "https://adigital.agency/"
+                }
+            ],
+            "description": "Integration with Eventbrite API",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "eventbrite"
+            ],
+            "support": {
+                "docs": "https://github.com/a-digital/eventbrite/blob/master/README.md",
+                "issues": "https://github.com/a-digital/eventbrite/issues"
+            },
+            "time": "2020-10-30T16:50:57+00:00"
+        },
         {
             "name": "aelvan/imager",
             "version": "v2.4.0",
