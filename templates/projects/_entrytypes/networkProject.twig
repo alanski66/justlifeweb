@@ -89,67 +89,71 @@
 {#                    {% endif %}#}
 
                     <!-- ################################   side related   ########################### -->
-                    <div class="mb-4 hide">
-                        <h4 class="mb-3">Life stories</h4>
-                        {% for story in entry.relatedStories.all() %}
-                            {% if story.image.exists() %}
-                                {% set asset = story.image.one() %}
-                                {% set thumb = {
-                                    mode: 'crop',
-                                    width: 70,
-                                    height: 70,
-                                    quality: 75,
-                                    position: 'center-center'
-                                } %}
-                            {% endif %}
-                            <div class="d-flex py-3 border-bottom">
-                                <div class="mr-4">
-                                    <a href="{{ story.url }}">
-                                        <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
-                                    </a>
+                    {%  if entry.relatedStories | length %}
+                        <div class="mb-4">
+                            <h4 class="mb-3">Life stories</h4>
+                            {% for story in entry.relatedStories.all() %}
+                                {% if story.image.exists() %}
+                                    {% set asset = story.image.one() %}
+                                    {% set thumb = {
+                                        mode: 'crop',
+                                        width: 70,
+                                        height: 70,
+                                        quality: 75,
+                                        position: 'center-center'
+                                    } %}
+                                {% endif %}
+                                <div class="d-flex py-3 border-bottom">
+                                    <div class="mr-4">
+                                        <a href="{{ story.url }}">
+                                            <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">
+                                            <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
+                                        </h6>
+                                        <p>{{ story.introText|truncateOnWord(60) }}</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h6 class="mb-1">
-                                        <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
-                                    </h6>
-                                    <p>{{ story.introText|truncateOnWord(60) }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+
+                    {%  if entry.relatedPublications | length %}
+                        <div class="mb-4">
+                            <h4>Related publications</h4>
+                            {% for story in entry.relatedPublications.all() %}
+
+                                {% if story.pdfThumbnailImage | length %}
+                                    {% set asset = story.pdfThumbnailImage.one() %}
+                                    {% set thumb = {
+                                        mode: 'crop',
+                                        width: 70,
+                                        height: 100,
+                                        quality: 75,
+                                        position: 'center-center'
+                                    } %}
+                                {% endif %}
+                                <div class="d-flex py-3 mb-2 border-bottom">
+                                    <div class="mr-4">
+                                        <a href="{{ story.url }}">
+                                            <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h4 class="mb-1">
+                                            <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
+                                        </h4>
+                                        <p class="meta">{{ story.introText |truncateOnWord(90) |raw }}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        {% endfor %}
-                    </div>
 
 
-                    <div class="mb-4">
-                        <h4>Related publications</h4>
-                        {% for story in entry.relatedPublications.all() %}
-
-                            {% if story.pdfThumbnailImage | length %}
-                                {% set asset = story.pdfThumbnailImage.one() %}
-                                {% set thumb = {
-                                    mode: 'crop',
-                                    width: 70,
-                                    height: 100,
-                                    quality: 75,
-                                    position: 'center-center'
-                                } %}
-                            {% endif %}
-                            <div class="d-flex py-3 mb-2 border-bottom">
-                                <div class="mr-4">
-                                    <a href="{{ story.url }}">
-                                        <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
-                                    </a>
-                                </div>
-                                <div>
-                                    <h6 class="mb-1">
-                                        <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
-                                    </h6>
-
-                                </div>
-                            </div>
-
-
-                        {% endfor %}
-                    </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
 
 
                     {#  get related news by tags yuck #}

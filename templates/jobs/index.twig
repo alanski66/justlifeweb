@@ -22,8 +22,9 @@
                                 order: 'postDate desc'
                             }) %}
                         </div>
-
+                        {{ entries | length }}
                         {% for entry in entries.all() %}
+
 
                         <article class="bg-white rounded mb-40">
                             <!-- Post Content -->
