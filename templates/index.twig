@@ -5,8 +5,12 @@
 {% endblock headLinks %}
 
 {% block content %}
-    
-    {% include "_partials/hero-slider.twig" %}
+
+    {% if entry.featureContent %}
+        {% include "_partials/hero-featured.twig" %}
+        {%  else %}
+        {% include "_partials/hero-slider.twig" %}
+    {%  endif %}
 
 {% endblock %}
 

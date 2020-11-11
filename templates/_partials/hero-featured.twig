@@ -6,17 +6,25 @@
     {% if entry.featureImage | length %}
         {% cache %}
         <!-- hero featured -->
-        <section class="hero featured">
+
+        <section class="hero featured position-relative">
+            {% set asset = entry.partnerImage.one() ?? null %}
+            {% if asset | length %}
+            <div class="container position-relative d-flex">
+                <div class="">
+                    <img src="{{ asset.getUrl()}}" class="position-absolute partner-image {{ entry.partnerOverlayPosition|default("left-top") }} img-fluid">
+                </div>
+            </div>
+            {% endif %}
             {% set asset = entry.featureImage[0] ?? null %}
             {% if asset %}
                 <figure class="image-holder mb-0">
                     {% set transformedBannerImages = craft.imager.transformImage(asset,
                         [
-                            { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
-                            { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
-                            { width: 1024, height:480, position: asset.getFocalPoint() ,jpegQuality: 95 },
-                            { width: 2000, height:580, position: asset.getFocalPoint(), mode:'crop' },
-                            { width: 3200, height:580, position: asset.getFocalPoint() }
+                            { width: 550, height:380, position: asset.getFocalPoint(), mode:'crop', jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
+                            { width: 1575, height:775, position: asset.getFocalPoint() },
+                            { width: 2200, height:1082, position: asset.getFocalPoint() },
+                            { width: 3200, height:1382, position: asset.getFocalPoint() }
                         ],
                         {
                             format: 'jpg',
@@ -31,11 +39,11 @@
 
                     <picture>
                         <source media="(max-width: 550px)" sizes="100vw" srcset="{{ transformedBannerImages[0].url }}">
-                        <source media="(max-width: 768px)" sizes="100vw" srcset="{{ transformedBannerImages[1].url }}">
-                        <source media="(max-width: 1024px)" sizes="100vw" srcset="{{ transformedBannerImages[2].url }}">
-                        <source media="(max-width: 1800px)" sizes="100vw" srcset="{{ transformedBannerImages[3].url }}">
-                        <source media="(max-width: 3000px)" sizes="100vw" srcset="{{ transformedBannerImages[3].url }}">
-                        <img class="img-fluid d-flex mx-auto" src="{{ transformedBannerImages[4].url }}" alt="{{ asset.title }} {{ imgCredit }} {{ imgCaption }}">
+                        <source media="(max-width: 990px)" sizes="100vw" srcset="{{ transformedBannerImages[1].url }}">
+                        <source media="(max-width: 1575px)" sizes="100vw" srcset="{{ transformedBannerImages[2].url }}">
+                        <source media="(max-width: 2200px)" sizes="100vw" srcset="{{ transformedBannerImages[3].url }}">
+                        <source media="(max-width: 2200px)" sizes="100vw" srcset="{{ transformedBannerImages[3].url }}">
+                        <img class="img-fluid d-flex mx-auto" src="{{ transformedBannerImages[3].url  }}" alt="{{ asset.title }} {{ imgCredit }} {{ imgCaption }}">
                         <figcaption class="position-relative">
                             {%  if imgCredit %}
                                 <span class="picture-credit">
@@ -48,41 +56,26 @@
                             {% endif %}
                         </figcaption>
                     </picture>
-
-
-                    <div class="text-box hide">
-                        <div class="container rel-v-middle">
-                            <div class="row">
-                                <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-6">
-                                    <div class="text-inner ml-auto right">
-
-                                        <span class="cat">Our work</span>
-                                        <h1>
-                                            {% if  entry.featureLink | length  %}<a class="" href="{{ entry.featureLink.one().url }}">{% endif %}
-                                                {{ entry.featureTitle }}
-                                                {% if  entry.featureLink | length  %}</a>{% endif %}
-
-                                        </h1>
-                                        <p class="slide-intro">
-                                            {{ entry.featureIntroText }}
-                                        </p>
-
-                                        {% if not entry.featureButtonHide  %}
-
-                                            {% if  entry.featureLink | length  %}
-
-                                                <a class="btn btn-blue remslide-button" href="{{ entry.featureLink.one().url }}">{{ entry.featureLink.one().title }}</a>
-
-                                            {% endif %}
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
                 </figure>
+                <div class="container position-relative">
+                    <div class="text-box-overlay {{ entry.textOverlayPosition | default("left-bottom") }}">
+                        <h1 class="m-0">
+                            {% for block in entry.featureSplitLines %}
+                                {% for line in block.splitLine %}
+                            <span class="d-block"><span class="px-2 d-inline block-stripe">{{ line.line}}</span></span>
+                                {% endfor %}
+
+                            {% endfor %}
+                            {{ entry.featureIntroText |nl2br }}
+                        </h1>
+                    </div>
+                    {% if not entry.featureButtonHide  %}
+                        {% if  entry.featureLink | length  %}
+                            <a class="position-absolute btn btn-outline-light shadow {{ entry.buttonPosition|default("drop-right") }}" href="{{ entry.featureLink.one().url }}">{{ entry.featureLink.one().title }}</a>
+                        {% endif %}
+                    {% endif %}
+                </div>
+
 
             {% endif %}
 
