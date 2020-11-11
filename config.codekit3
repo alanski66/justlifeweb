@@ -101,58 +101,6 @@
 		"oAP": "/build/plugins",
 		"oF": 0
 		},
-	"/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Horisonal-Black-Details.png": {
-		"ft": 32768,
-		"iS": 142708,
-		"oA": 0,
-		"oAP": "/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Horisonal-Black-Details.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Horisonal-Red-Details.png": {
-		"ft": 32768,
-		"iS": 162076,
-		"oA": 0,
-		"oAP": "/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Horisonal-Red-Details.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Sqaure-Black-Details.png": {
-		"ft": 32768,
-		"iS": 174082,
-		"oA": 0,
-		"oAP": "/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Sqaure-Black-Details.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Sqaure-Red-Details.png": {
-		"ft": 32768,
-		"iS": 190373,
-		"oA": 0,
-		"oAP": "/public_html/$ASSET_BASE_PATH/campaignimages/TBG-Logo-Sqaure-Red-Details.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
 	"/public_html/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
