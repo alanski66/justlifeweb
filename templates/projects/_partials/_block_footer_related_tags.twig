@@ -4,7 +4,7 @@
         {%  set location = entry.locationtags.one() %}
         {% set entries = craft.entries.type('project').relatedTo(location).orderBy('title') %}
 
-        {% for card in entries %}
+        {% for card in entries.all() %}
             {% if card.projectImage | length %}
                 {% set image = card.projectImage[0] %}
                 {% set asset = craft.imager.transformImage(image, {

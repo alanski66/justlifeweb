@@ -23,7 +23,7 @@
                 <div class="col-lg-12">
                     <ul class="list-inline text-left text-lg-right ">
 
-                        {% set menu = craft.entries.section('topNav').hidePage('0').all()  %}
+                        {% set menu = craft.entries.section('topNav').all()  %}
                         {%  set link = null %}
                         {%  set phone = null %}
                         {% for item in menu %}

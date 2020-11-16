@@ -17,7 +17,7 @@
             </div>
             {% endif %}
             {% set asset = entry.featureImage[0] ?? null %}
-            {% if asset %}
+            {% if asset | length %}
                 <figure class="image-holder mb-0">
                     {% set transformedBannerImages = craft.imager.transformImage(asset,
                         [
@@ -60,7 +60,7 @@
                 <div class="container position-relative">
                     <div class="text-box-overlay {{ entry.textOverlayPosition | default("left-bottom") }}">
                         <h1 class="m-0">
-                            {% for block in entry.featureSplitLines %}
+                            {% for block in entry.featureSplitLines.all() %}
                                 {% for line in block.splitLine %}
                             <span class="d-block"><span class="px-2 d-inline block-stripe">{{ line.line}}</span></span>
                                 {% endfor %}
