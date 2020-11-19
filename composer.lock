@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45b095dc2268c8a4df8b4f6b3f9a5966",
+    "content-hash": "34fa3b75fa2eb8e7863c12ceecace956",
     "packages": [
         {
             "name": "adigital/eventbrite",
@@ -3795,11 +3795,11 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "3.3.22",
+            "version": "3.3.23",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/3d9113e9a407d797da9a794883c494e199a12f33",
-                "reference": "3d9113e9a407d797da9a794883c494e199a12f33",
+                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/b908f4ea4389e86bc1cd8977d88f2659f10a504c",
+                "reference": "b908f4ea4389e86bc1cd8977d88f2659f10a504c",
                 "shasum": ""
             },
             "require": {
@@ -3863,7 +3863,7 @@
                 "docs": "https://nystudio107.com/plugins/seomatic/documentation",
                 "issues": "https://nystudio107.com/plugins/seomatic/support"
             },
-            "time": "2020-10-20T16:34:40+00:00"
+            "time": "2020-11-18T16:51:42+00:00"
         },
         {
             "name": "nystudio107/craft-typogrify",
