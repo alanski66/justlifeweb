@@ -4740,6 +4740,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/imager/images/features/10709/DSC09756_2db59eb92a79138d608659bd0d3b214a.jpg": {
+		"ft": 16384,
+		"iS": 72033,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/features/10709/DSC09756_2db59eb92a79138d608659bd0d3b214a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/public_html/imager/images/features/10709/DSC09756_79edbb1e818e1567f55f06111acfa883.jpg": {
 		"ft": 16384,
 		"iS": 615034,
@@ -4805,6 +4818,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/imager/images/features/10709/DSC09756_adbade22333b1973f9cfd92fd6ea341b.jpg": {
+		"ft": 16384,
+		"iS": 187436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/features/10709/DSC09756_adbade22333b1973f9cfd92fd6ea341b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/public_html/imager/images/features/10709/DSC09756_c05d71bbfb0f0f9bb8d085aa05ab6cf5.jpg": {
 		"ft": 16384,
 		"iS": 635984,
@@ -4837,6 +4863,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/images/features/10709/DSC09756_c5174dc2a3e50109460caa37c8d94dec.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/features/10709/DSC09756_c5aa062152cdad497f17015d2420908b.jpg": {
+		"ft": 16384,
+		"iS": 447774,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/features/10709/DSC09756_c5aa062152cdad497f17015d2420908b.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4889,6 +4928,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/images/features/10709/DSC09756_fd30355c09965c05f5087edf709d3be3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/features/10709/DSC09756_fdb619efa150f535bc0932b3e274f826.jpg": {
+		"ft": 16384,
+		"iS": 31433,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/features/10709/DSC09756_fdb619efa150f535bc0932b3e274f826.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -9608,6 +9660,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/_partials/hero-banneriswan.twig",
+		"oF": 0
+		},
+	"/templates/_partials/hero-featured-home.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/_partials/hero-featured-home.twig",
 		"oF": 0
 		},
 	"/templates/_partials/hero-featured.twig": {
