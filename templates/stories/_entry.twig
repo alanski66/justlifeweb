@@ -6,18 +6,33 @@
     <!--Join  Page Entry type Content -->
     {%  if entry is defined %}
 
-        <section class="bg-gra {{entry.type }} page {%  if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+        <section class="bg-gra {{entry.type }} page {% if entry.featureImage | length < '1' %} no-featured-image{% endif %} ">
             <div class="container">
 
                 <div class="row ">
 
                     <div class="col-lg-8 pt-3">
                         <div class="bg-whit rounded mb-40">
-                            <h1 class="mb-2">{{ entry.title }}</h1>
+                            <h1 class="mb-2 mb-md-4">{{ entry.title }}</h1>
                                 {% if entry.subTitle %}
                                     <p class="story-subtitle">{{ entry.subTitle }}</p>
                                 {% endif %}
 
+{% if entry.quote |length %}
+<section class="block quote mt-3 mb-4 mb-md-5">
+    <blockquote class="quote-card shadow p-5">
+    <p class="mb-0">{{ entry.quote }}</p>
+
+    {% if entry.quoteSource |length %}
+    <footer class="blockquote-footer">
+       
+       {{entry.quoteSource}}
+       
+    </footer>
+    {% endif %}
+</blockquote>
+</section>
+{% endif %}
 
                             {%  if entry.body | length %}
                                 {{ entry.body }}
