@@ -15,11 +15,14 @@
                         quality: 75,
                         position: 'center-center'
                     } %}
+                      {% set assetUrl = asset.url(thumb) %} 
+                    {% else %}
+                    {% set assetUrl = baseUrl ~ 'images/logo-icon-sq@2x.png' %} 
                 {% endif %}
                 <div class="d-flex py-3 mb-2 border-bottom">
                     <div class="mr-4">
                         <a href="{{ story.url }}">
-                            <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
+                            <img class="rounded" src="{{ assetUrl}}" width="70" height="70" alt="post-thumb">
                         </a>
                     </div>
                     <div>
