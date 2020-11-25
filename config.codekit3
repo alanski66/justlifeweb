@@ -4740,6 +4740,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/imager/images/book-portraits/5565/Copy-of-irLtHeng_2020-09-15-154642_48443c632168af899fb3f47de87b9656.jpeg": {
+		"ft": 16384,
+		"iS": 14613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/book-portraits/5565/Copy-of-irLtHeng_2020-09-15-154642_48443c632168af899fb3f47de87b9656.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/public_html/imager/images/features/10709/DSC09756_2db59eb92a79138d608659bd0d3b214a.jpg": {
 		"ft": 16384,
 		"iS": 72033,
@@ -5039,6 +5052,58 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/imager/landingpages/10879/0ed68ee6f5b05f8940e126745379cd4d_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 12448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/10879/0ed68ee6f5b05f8940e126745379cd4d_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/11370/Screenshot-2020-11-20-at-10.53.22_a62dd584e8321eb64e54f25c51cc66e0.png": {
+		"ft": 32768,
+		"iS": 80184,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/11370/Screenshot-2020-11-20-at-10.53.22_a62dd584e8321eb64e54f25c51cc66e0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/11672/outreach-picture_a62dd584e8321eb64e54f25c51cc66e0.JPG": {
+		"ft": 16384,
+		"iS": 14533,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/11672/outreach-picture_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/11716/water-sea-group-of-people-men-sky-railing-real-people_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 19637,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/11716/water-sea-group-of-people-men-sky-railing-real-people_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/public_html/imager/landingpages/144/IMG_20180418_150736640_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
 		"ft": 16384,
 		"iS": 18379,
@@ -5162,6 +5227,32 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/pdfthumbs/6184/justlife_tab_report_final_57802f7b167859dbab8639753fe8599a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/unsplashimages/6641/photo-162774461_94c2c53cb9c2eb328f3977584c5873a3.jpg": {
+		"ft": 16384,
+		"iS": 20319,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/unsplashimages/6641/photo-162774461_94c2c53cb9c2eb328f3977584c5873a3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/unsplashimages/6924/photo-1619567990_2020-10-02-163908_4b31c1f0f4c94996d30d76117d209afb.jpg": {
+		"ft": 16384,
+		"iS": 27535,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/unsplashimages/6924/photo-1619567990_2020-10-02-163908_4b31c1f0f4c94996d30d76117d209afb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -10189,6 +10280,14 @@
 		"oAP": "/templates/news/search/results.twig",
 		"oF": 0
 		},
+	"/templates/our-impact/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/our-impact/index.twig",
+		"oF": 0
+		},
 	"/templates/our-work/index.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -10715,6 +10814,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/templates/stories/_entry.twig",
+		"oF": 0
+		},
+	"/templates/stories/_entrytypes/stories.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/stories/_entrytypes/stories.twig",
+		"oF": 0
+		},
+	"/templates/stories/_entrytypes/storiesBlockLayout.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/stories/_entrytypes/storiesBlockLayout.twig",
 		"oF": 0
 		},
 	"/templates/supporters/_entry.twig": {

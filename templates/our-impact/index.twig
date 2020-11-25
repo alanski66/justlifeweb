@@ -1,0 +1,199 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% block content %}
+    {%  set layout = null %}
+    <!-- Page Content -->
+    {%  if entry is defined %}
+
+{% cache %}
+<!-- service -->
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+                
+                <h1 class="section-title section-title-border">{{entry.title}}</h1>
+                
+            </div>
+            <div class="row ">
+                <div class="col-sm-12 col-md-10 offset-md-1 text-center pb-5">
+                    <p class="lead">{{entry.introText | striptags | raw}}</p>
+                </div>
+            </div>
+
+            {% for block in entry.impact.all() %}
+
+
+                {% switch block.type %}
+                    
+                    {%  case "text" %}
+                      {% if block.text %}
+                       <div class="container">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                        {{block.text}}
+                        </div>
+                        </div>
+                        </div>
+                    {% endif %}
+                    {%  case "stats" %}
+                    <!-- icon row -->
+                    <section class="section {{ block.type| lower }}">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                    
+                                            {% if block.heading %}
+                                            <div class="hedding mb-4">
+                                                {%  set heading = block.heading |replace({'[': "<span>", ']': "</span>"})  %}
+                                                <h2 class="mb-2">{{ heading | raw }}</h2>
+                                                 {% if block.subtitle %}
+                                                <p>{{ block.subtitle }}</p>
+                                                {% endif %}
+                                            </div>
+                                            {% endif %}
+                                            {# supertable#}
+                                            <div class="row">
+                                                <div class="card-group d-flex justify-content-between">
+                                                    {% for item in block.stat.all() %}
+
+                                                        <div class="col-lg-4 mb-3">
+                                                            <div class="card px-2 py-4 text-center d-flex justify-content-center">
+                                                                
+                                                                    <img class="ti-svg mx-auto align-content-between" src="{{ item.icon.url }}" >
+                                                                
+                                                                {% if item.stat |length %}
+                                                                    <div class="stat">{{ item.stat }}</div>
+                                                                {% endif %}
+                                                                <h4>{{ item.statisticType }}</h4>
+                                                                <p>{{ item.text }}</p>
+                                                            </div>
+                                                        </div>
+
+                                                    {% endfor %}
+                                                </div>
+                                            
+                                            </div>
+                                            {%  if block.buttonText |length %}
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="get-involved">{{ block.icons.buttonText }}
+                                                        <a href="{{ block.buttonLink.one().url }}">Get involved</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                                            
+                    {%  case "quote" %}
+
+                    
+                      {% if block.heading %}
+                      <div class="col-12 text-center mb-3">
+                                    <h2>{{ block.heading | raw }}</h2>
+                                    {% if block.subtitle %}
+                                    {{ block.subtitle }}
+                                    {% endif %}
+                        </div>
+                        {% endif %}
+                        
+                    {% for block in block.quote.all() %}
+                        {% if block.quote |length %}
+                        <section class="block w-50 quote mb-5 p-3">
+                            <blockquote class="quote-card shadow p-5">
+                            <p class="mb-0">{{ block.quote }}</p>
+
+                            {% if block.citationIntro |length %}
+                            <footer class="blockquote-footer">
+                                {{ block.citationIntro }}
+                                {% endif %}
+
+                                {% if block.citation |length %}
+                                    <cite title="Source Title">
+                                        {% if block.citationLink |length %}<a href="{{ block.citationLink }}"> {% endif %}
+                                        {{ block.citation }}
+                                        {% if block.citationLink |length %}</a>{% endif %}
+                                    </cite>
+                                {% endif %}
+                                {% if block.citationIntro |length %}
+                            </footer>
+                            {% endif %}
+                        </blockquote>
+                        </section>
+                        {% endif %}
+                        {% endfor %}
+
+
+                    {%  case "button" %}
+                    {% if block.buttonLink | length %}
+                    <section class="section  {{ block.type| lower }}">
+                            <div class="row ">
+                        <div class="col-sm-12 col-md-10 offset-md-1 text-center ">
+                            <a  class="btn btn-primary " href="{{ block.buttonLink.one().url }}">{{block.buttonText}}</a>
+                        </div>
+                    </div>
+                    </section>
+                    {% endif %}
+
+                    {%  case "cards" %}
+
+                    <!-- cards row -->
+                    <section class="section mb-5 {{ block.type| lower }}">
+                        <div class="container">
+                            <div class="row">
+                                {% if block.heading %}
+                                    <div class="col-12 text-center mb-3">
+                                                    <h2>{{ block.heading | raw }}</h2>
+                                                    {% if block.subtitle %}
+                                                    {{ block.subtitle }}
+                                                    {% endif %}
+                                        </div>
+                                {% endif %}
+                      
+                                {# supertable#}
+                                    <div class="card-group mb-5">
+                                        {% for block in block.cardWithImage.all() %}
+                                            {% set asset = block.cardImage.one() %}
+                                            <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                                                <div class="card text-center ">
+                                                    {%  if asset | length %}
+                                                        {% set img = craft.imager.transformImage(asset,
+                                                            [
+                                                                { width: 360, height:230, position: asset.getFocalPoint(), jpegQuality:85},
+                                                            ]
+                                                            ) %}
+                                                    {% if block.cardLink.one() |  length %}<a htef="{{ block.cardLink.one().url }}">{% endif %}
+                                                        <div class="card-img-wrapper overlay-rounded-top">
+                                                        <img class="card-img-top rounded-0" src="{{ img[0].url }}" alt="{{ entry.title}}">
+                                                    </div>
+                                                        {% if block.cardLink.one() |  length %}</a>{% endif %}
+                                                    {% endif %}
+                                                    <div class="card-body p-0">
+                                                        <h4 class="card-title pt-3">{{ block.cardTitle }}</h4>
+                                                        <p class="card-text mx-2 mb-0" data-mh="cardtext">{{ block.cardText }}.</p>
+                                                        {% if block.cardLink.one() |  length %}
+                                                            <a class="btn btn-primary translateY-25" href="{{ block.cardLink.one().url }}">{{ block.linkText| default("read more") }}</a>
+                                                        {% endif %}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        {% endfor %}
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+                    </section>
+                {% endswitch %}
+
+            {% endfor %}
+        </div>
+    </div><!-- /.container -->
+</section>
+{% endcache %}
+    {%  endif %}
+
+
+{% endblock %}

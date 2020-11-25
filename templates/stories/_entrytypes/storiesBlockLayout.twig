@@ -1,0 +1,94 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+{% set bodyClass = " story" %}
+{% block content %}
+    {%  set layout = null %}
+    <!--Join  Page Entry type Content -->
+    {%  if entry is defined %}
+
+        <section class="bg-gra {{entry.type }} page {% if entry.featureImage | length < '1' %} no-featured-image{% endif %} ">
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="col-lg-8 pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h1 class="mb-2 mb-md-4">{{ entry.title }}</h1>
+                                {% if entry.subTitle %}
+                                    <p class="story-subtitle">{{ entry.subTitle }}</p>
+                                {% endif %}
+                               
+                                                        {% set lazyImage = false %}
+                                                        {% set blockPrefix = "" %}
+                                                        {% for block in entry.contentBlock.all() %}
+                                                            {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}
+                                                            {% if block.type.handle == "image" %}
+                                                                {% set lazyImage = true %}
+                                                            {% endif %}
+                                                        {% endfor %}
+                                               
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Sidebar -->
+                        <div class="bg-white px-4 py-4 sidebar-box-shadow">
+                            <!-- categories -->
+
+                                <div class="mb-4">
+                                    <h4 class="mb-3">Life stories</h4>
+                                    {% set entries = craft.entries({
+                                        section: 'stories'
+                                    }).orderBy('title') %}
+                                    {% for story in entries.all() %}
+                                        {% if story.image | length %}
+                                            {% set asset = story.image.one() %}
+                                            {% set thumb = {
+                                                mode: 'crop',
+                                                width: 70,
+                                                height: 70,
+                                                quality: 75,
+                                                position: 'center-center'
+                                            } %}
+                                           {% set assetUrl = asset.url(thumb) %} 
+                                           {% else %}
+                                           {% set assetUrl = baseUrl ~ 'images/logo-icon-sq@2x.png' %} 
+                                        {% endif %}
+                                        <div class="d-flex py-3 border-bottom">
+                                            <div class="mr-4">
+                                                <a href="{{ story.url }}">
+                                                    <img class="rounded" src="{{ assetUrl}}" width="70" height="70" alt="post-thumb">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1">
+                                                    <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
+                                                </h6>
+                                                {% if story.introText | length %}
+                                                <p>{{ story.introText|truncateOnWord(60) }}</p>
+                                                {%  else %}
+                                                    <p>{{ story.body|truncateOnWord(60) }}</p>
+                                                    {% endif %}
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+
+
+                            <!-- global subscribe newsletter -->
+                            <div class="newsletter">
+                                <h4 class="mb-3">Stay Updated</h4>
+
+
+                                <input type="email" name="email" id="email" class="form-control pass-email" placeholder="Email">
+                                <button type="submit" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#subscribeModal">Subscribe</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%  endif %}
+
+{% endblock %}
