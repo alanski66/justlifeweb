@@ -10280,6 +10280,14 @@
 		"oAP": "/templates/news/search/results.twig",
 		"oF": 0
 		},
+	"/templates/our-impact/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/our-impact/index.twig",
+		"oF": 0
+		},
 	"/templates/our-work/index.twig": {
 		"cB": 0,
 		"ft": 8192,

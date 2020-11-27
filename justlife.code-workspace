@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../Dropbox/SiteCode/thebrightontherapist/themes/material-kit-master"
 		}
 	]
 }
