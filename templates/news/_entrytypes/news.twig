@@ -79,7 +79,7 @@
                             <h3>{{entry.title}}</h3>
                             <ul class="list-inline d-block pb-4 border-bottom mb-3">
                                 {#  actual author  {{entry.author}}#}
-                                <li class="list-inline-item text-color">Posted By admin</li>
+                                <li class="list-inline-item text-color">Posted By {{ entry.articleAuthor | default("Justlife") }}</li>
                                 <li class="list-inline-item text-color">On {{entry.postDate.format('d F Y')}}</li>
 
 {#                                {% if relatedTags|length %}#}
