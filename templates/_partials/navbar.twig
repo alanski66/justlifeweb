@@ -36,7 +36,7 @@
                     <!-- add mobile parent link to drop down -->
                     {% if isMobile == 1 %}
 
-                        <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}"
+                        <a id="{{ entry.title }}" href="{{ navlink }}"
                            class="dropdown-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }}">{{ entry.title }}</a>
 
                     {% endif %}
@@ -48,9 +48,9 @@
                             {% if child.entryLink.one()|length %}
                             {% set childlink = child.entryLink.one().uri %}
                             {% else %}
-                            {% set childlink = child.uri %}
+                            {% set childlink = child.customLink %}
                             {% endif %}
-                            <a id="{{ entry.title }}" href="{{ siteUrl }}{{ childlink }}"
+                            <a id="{{ entry.title }}" href="{{ childlink }}"
                                class="dropdown-item level {{ child.level }}">{{ child.title }}</a>
 
                         {% endif %}
@@ -76,7 +76,7 @@
 
     {# add top nav for mobile #}
 
-   
+
 
 
 </ul>
