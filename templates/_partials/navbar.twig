@@ -15,7 +15,11 @@
         {% if entry.entryLink.one()|length %}
             {% set navlink = entry.entryLink.one().url %}
         {% else %}
-            {% set navlink = entry.customLink %}
+            {% if 'http' in entry.customLink %}
+                {% set navlink = entry.customLink %}
+                {% else %}
+                {% set navlink = alias('@web') ~ '/' ~ entry.customLink %}
+                {% endif %}
         {% endif %}
 
         {% if entry.level == 1 and entry.children|length %}
@@ -67,7 +71,8 @@
             {% if loop.last %}
                 {% set btnnav = "btn btn-primary btn-sm" %}
             {% endif %}
-            <li class="nav-item hhh{{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }} {{ entry.title |lower }}">
+
+            <li class="nav-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }} {{ entry.title |lower }}">
                 <a id="{{ entry.title }}" href="{{ navlink }}"
                    class="nav-link {{ macros.activeLinkClass(navlink, entry.level) |trim }} level{{ entry.level }} {{ btnnav }}">{{ entry.title }}</a>
             </li>
