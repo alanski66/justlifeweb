@@ -13,7 +13,7 @@
         {#{% endif %}#}
 
         {% if entry.entryLink.one()|length %}
-            {% set navlink = entry.entryLink.one().uri %}
+            {% set navlink = entry.entryLink.one().url %}
         {% else %}
             {% set navlink = entry.customLink %}
         {% endif %}
@@ -27,7 +27,7 @@
                        data-length="{{ entry.title|length }}" aria-haspopup="true"
                        aria-expanded="false">{{ entry.title }}<span class="caret"></span></a>
                 {% else %}
-                    <a id="{{ entry.title }}" href="{{ siteUrl }}{{ navlink }}"
+                    <a id="{{ entry.title }}" href="{{ navlink }}"
                        class="nav-link  notmob  dropdown-toggle"
                        data-length="{{ entry.title|length }}" aria-haspopup="true"
                        aria-expanded="false">{{ entry.title }} <span class="caret"></span></a>
@@ -67,7 +67,7 @@
             {% if loop.last %}
                 {% set btnnav = "btn btn-primary btn-sm" %}
             {% endif %}
-            <li class="nav-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }} {{ entry.title |lower }}">
+            <li class="nav-item hhh{{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }} {{ entry.title |lower }}">
                 <a id="{{ entry.title }}" href="{{ navlink }}"
                    class="nav-link {{ macros.activeLinkClass(navlink, entry.level) |trim }} level{{ entry.level }} {{ btnnav }}">{{ entry.title }}</a>
             </li>
