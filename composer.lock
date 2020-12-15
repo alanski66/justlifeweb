@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29e8f930dbbb3c625a3ae23831ada92c",
+    "content-hash": "a6dc1708f509df5fe7e5bbc981ac4a93",
     "packages": [
         {
             "name": "adigital/eventbrite",
@@ -788,11 +788,11 @@
         },
         {
             "name": "craftcms/feed-me",
-            "version": "4.3.1",
+            "version": "4.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/feed-me/zipball/db8581dde3d19e9e01c55400d261f58e2ca4e681",
-                "reference": "db8581dde3d19e9e01c55400d261f58e2ca4e681",
+                "url": "https://api.github.com/repos/craftcms/feed-me/zipball/93ef499c112b4ee94adb273d5101a914f04d20cf",
+                "reference": "93ef499c112b4ee94adb273d5101a914f04d20cf",
                 "shasum": ""
             },
             "require": {
@@ -843,7 +843,7 @@
                 "docs": "https://docs.craftcms.com/feed-me/v4/",
                 "rss": "https://github.com/craftcms/feed-me/commits/master.atom"
             },
-            "time": "2020-11-09T20:29:29+00:00"
+            "time": "2020-12-11T04:28:13+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -929,11 +929,11 @@
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.8.4",
+            "version": "2.8.5",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/73113daea0541ee53036a4129428ddcf8e056ba0",
-                "reference": "73113daea0541ee53036a4129428ddcf8e056ba0",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/baa05090b17b9b631ed3eb9f0687f48947d7dbc2",
+                "reference": "baa05090b17b9b631ed3eb9f0687f48947d7dbc2",
                 "shasum": ""
             },
             "require": {
@@ -974,7 +974,7 @@
                 "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
                 "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
             },
-            "time": "2020-11-30T15:20:16+00:00"
+            "time": "2020-12-08T12:55:30+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -3678,11 +3678,11 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.41.5",
+            "version": "2.42.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c4a9caf97cfc53adfc219043bcecf42bc663acee",
-                "reference": "c4a9caf97cfc53adfc219043bcecf42bc663acee",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d0463779663437392fe42ff339ebc0213bd55498",
+                "reference": "d0463779663437392fe42ff339ebc0213bd55498",
                 "shasum": ""
             },
             "require": {
@@ -3737,7 +3737,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2020-10-23T06:02:30+00:00"
+            "time": "2020-11-28T14:25:28+00:00"
         },
         {
             "name": "nystudio107/craft-minify",
@@ -3795,11 +3795,11 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "3.3.24",
+            "version": "3.3.26",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/35bf58761613bf40c71d80a973f875ff41c0ab7c",
-                "reference": "35bf58761613bf40c71d80a973f875ff41c0ab7c",
+                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/94080ab57cf0509f22630abe12061ebcffd2ac0f",
+                "reference": "94080ab57cf0509f22630abe12061ebcffd2ac0f",
                 "shasum": ""
             },
             "require": {
@@ -3863,7 +3863,7 @@
                 "docs": "https://nystudio107.com/plugins/seomatic/documentation",
                 "issues": "https://nystudio107.com/plugins/seomatic/support"
             },
-            "time": "2020-11-23T17:11:27+00:00"
+            "time": "2020-12-08T20:42:00+00:00"
         },
         {
             "name": "nystudio107/craft-typogrify",
@@ -6513,11 +6513,11 @@
         },
         {
             "name": "verbb/icon-picker",
-            "version": "1.1.9",
+            "version": "1.1.10",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/icon-picker/zipball/8d41c146b594e38099be2e515bcc22807df391b9",
-                "reference": "8d41c146b594e38099be2e515bcc22807df391b9",
+                "url": "https://api.github.com/repos/verbb/icon-picker/zipball/d536355eca527a9fe1e891387c1742175dc10147",
+                "reference": "d536355eca527a9fe1e891387c1742175dc10147",
                 "shasum": ""
             },
             "require": {
@@ -6564,7 +6564,7 @@
                 "docs": "https://github.com/verbb/icon-picker",
                 "rss": "https://github.com/verbb/icon-picker/commits/v2.atom"
             },
-            "time": "2020-08-11T02:51:53+00:00"
+            "time": "2020-12-06T23:38:52+00:00"
         },
         {
             "name": "verbb/smith",
