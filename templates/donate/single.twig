@@ -65,16 +65,16 @@
             }
 
             @media(min-width: 1200px){
-                .donate.overlay{
-                background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
-                height:593px;
-                }
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:593px;
+            }
             }
             @media(min-width: 1400px){
-                .donate.overlay{
-                background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
-                height:653px;
-                }
+            .donate.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:653px;
+            }
             }
             @media(min-width: 1600px){
             .donate.overlay{
@@ -117,7 +117,7 @@
                                     <ul class="d-inline-block pl-0">
                                         {% for block in block.listItem.all() %}
 
-                                               <li class="font-secondary mb-10 text-white {% if loop.first %}float-sm-left mr-sm-5{% endif %}">
+                                            <li class="font-secondary mb-10 text-white {% if loop.first %}float-sm-left mr-sm-5{% endif %}">
                                                 <i class="text-primary mr-2 ti-arrow-circle-right"></i>{{ block.item }}
                                             </li>
 
@@ -240,10 +240,9 @@
                             <tr>
                                 <td>
                                     <label class="" for="Amount">Amount*</label><br>
-                                    <span id="AmountPrefix">&pound;</span><input type="text" name="Amount"
-                                                                                 class="required numberOnly" id="Amount"
-                                                                                 maxlength="10"
-                                                                                 title="Please enter the amount you want to give - don't include the pound sign">
+                                    <span id="AmountPrefix">&pound;</span>
+                                    <input value="" type="text" name="Amount" class="required number amount" id="Amount"
+                                              title="Please enter the amount you want to give - don't include the pound sign">
                                 </td>
                             </tr>
                             <tr>
@@ -278,9 +277,10 @@
                             <tr id="PaymentScheduleRow" style="display: none;">
                                 <td>
                                     <label class="" for="MonthlyPayment">I would like to donate*</label><br>
-                                    <label><span>Monthly</span><input type="radio" id="MonthlyPayment"
-                                                                      name="PaymentSchedule" value="Monthly"
-                                                                      checked="checked"></label><label><span>Quarterly</span><input
+                                    <label><span>Monthly</span>
+                                        <input type="radio" id="MonthlyPayment"
+                                               name="PaymentSchedule" value="Monthly"
+                                               checked="checked"></label><label><span>Quarterly</span><input
                                                 type="radio" id="QuarterlyPayment" name="PaymentSchedule"
                                                 value="Quarterly"></label><label><span>Annually</span><input
                                                 type="radio" id="AnnualPayment" name="PaymentSchedule" value="Annually"></label>
@@ -450,25 +450,33 @@
     </script>
     {% js %}
         var getUrlParameter = function getUrlParameter(sParam) {
-        var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
+            var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
 
-        for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
+            for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
 
-        if (sParameterName[0] === sParam) {
-        return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-        }
-        }
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+            }
         };
 
-        document.getElementById('Amount').value = getUrlParameter('amount');
+        var myamount = (getUrlParameter('amount')*1).toFixed(2);
 
 
+        document.getElementById('Amount').value = myamount;
+        document.getElementById('Amount').setAttribute('value', myamount);
+
+        document.getElementById('Amount').addEventListener('change', doThingWithAmount);
+        function doThingWithAmount(){
+        var don = (this.value*1).toFixed(2);
+        //this.setAttribute = this.value;
+        document.getElementById('Amount').value = don;
+        document.getElementById('Amount').setAttribute('value', don);
+        }
     {% endjs %}
-
-
 
 {% endblock %}
