@@ -91,8 +91,15 @@
 {#                                {% endif %}#}
 
                             </ul>
-                            <div class="old-blog-body">{{ entry.body | replace({'<h1>':"<h3>",'</h1>':"</h3>"}) | raw }}</div>
-
+                            <div class="">{{ entry.body | replace({'<h1>':"<h3>",'</h1>':"</h3>"}) | raw }}</div>
+{#                            {% set lazyImage = false %}#}
+{#                            {% set blockPrefix = "" %}#}
+{#                            {% for block in entry.contentBlock.all() %}#}
+{#                                {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}#}
+{#                                {% if block.type.handle == "image" %}#}
+{#                                    {% set lazyImage = true %}#}
+{#                                {% endif %}#}
+{#                            {% endfor %}#}
                         </div>
                     </div>
                     <!-- share -->

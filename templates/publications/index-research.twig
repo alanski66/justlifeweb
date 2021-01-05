@@ -34,7 +34,7 @@
         {% set entries = craft.entries({
             section: 'publications',
             relatedTo:categories
-        }).limit('10').orderBy('title') %}
+        }).limit('10') %}
 
         {% paginate entries as pageInfo, pageEntries %}
         {# card based layout #}
@@ -88,7 +88,7 @@
                 {% set entry = craft.entries.id(104).one() %}
 
                 {% for block in entry.cards.offset(1).all()  %}
-                    
+
                     {% switch block.type %}
                     {%  case "cardRow" %}
                         <section class=" container mb-5">
