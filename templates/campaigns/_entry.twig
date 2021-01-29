@@ -93,8 +93,8 @@
     </header>
 
 
-    {% if asset | length %}
-        <section class="campaign overlay h-100  " style="background-image: url('{{ asset.url }}');">
+
+        <section class="campaign overlay h-100 " {% if asset | length %}style="background-image: url('{{ asset.url }}');"{% endif %}>
 
             <div class="wrapper shadow ">
             <div class="container bg-light trans">
@@ -114,6 +114,7 @@
                                  src="{{ asset.getUrl() }}"
                                 width="{{ asset.getWidth(thumb) }}"
                                 height="{{ asset.getHeight(thumb) }}"
+                                 alt="{{ asset.title }}"
                             >
                         {% endif %}
                        <h1 class=" text-hide {%  if entry.titleDisplay == 1 %} d-block{% endif %}">{{ entry.title }}</h1>
@@ -187,7 +188,7 @@
             </div>
 
         </section>
-    {% endif %}
+
 
     <!-- title -->
 
