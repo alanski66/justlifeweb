@@ -158,7 +158,7 @@
                     <div class="bg-white px-4 py-100 sidebar-box-shadow">
                         <!-- Search Widget -->
                         <div class="mb-50">
-                            <h4 class="mb-3">Search Here</h4>
+                            <h4 class="mb-3">Search here</h4>
                             <div class="search-wrapper">
                                 <form action="{{ url('news/search/results') }}">
                                     <input type="text" class="form-control" name="q" placeholder="Type Here...">
@@ -169,7 +169,7 @@
 
                         <!-- Widget Recent Post -->
                         <div class="mb-50">
-                            <h4 class="mb-3">Recent News</h4>
+                            <h4 class="mb-3">Recent news</h4>
                             {% set entries = craft.entries()
                                 .section('news')
                                 .limit('5') %}
@@ -234,7 +234,7 @@
                         {% endif %}
                         <!-- Widget Newsletter -->
                         <div class="newsletter">
-                            <h4 class="mb-3">Stay Updated</h4>
+                            <h4 class="mb-3">Stay updated</h4>
                             <form action="#" class="chimpy">
                                 <input type="email" name="email" id="email" class="pass-email form-control" placeholder="Email">
                                 <button class="btn btn-primary btn-sm" type="reset" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >
