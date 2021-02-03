@@ -106,30 +106,33 @@
                     <!-- share -->
                     <div class="py-4  mb-100">
                         <div class="row">
-                            <div class="col-lg-5 mb-4 mb-lg-0">
+                            <div class="col-12">
                                 <!-- share-icons -->
                                 <div class="d-flex">
                                     <span class="font-weight-light mt-2 mr-3">Share:</span>
-                                    <ul class="list-inline d-inline-block">
-                                        <li class="list-inline-item">
+                                    <ul class="list-inline d-inline-block NOrrssb-buttons ">
+                                        <li class="list-inline-item NOrrssb-facebook">
 
-                                            <a class="share-icon bg-facebook" target="_blank" href="#" onClick="shareOnFB();">
+                                            <a class="share-icon bg-facebook popup " target="_blank"
+                                               href="#" onclick="shareOnFBook();">
+
                                                 <i class="ti-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="share-icon bg-twitter" target="_blank"  href="#" onclick="shareOntwitter();">
+                                            <a class="share-icon bg-twitter popup"  target="_blank"
+                                               href="#" onclick="shareOnTwitter();">
                                                 <i class="ti-twitter-alt"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="share-icon bg-linkedin" href="#" onclick="shareOnLinkedIn();">
+                                            <a class="share-icon bg-linkedin popup" href="#" onclick="shareOnLinkedIn();">
                                                 <i class="ti-linkedin"></i>
                                             </a>
                                         </li>
                                     </ul>
 
-                                    {%  include('_partials/share-entry-pop.twig') %}
+
 
                                 </div>
                             </div>
@@ -147,6 +150,11 @@
                                 </div>
                             </div>
                             {% endif %}
+                            <div class="col-12">
+
+                                {%  include('_partials/share-entry-pop.twig') %}
+{#                                {%  include('_partials/social-share.twig') %}#}
+                            </div>
                         </div>
                     </div>
 

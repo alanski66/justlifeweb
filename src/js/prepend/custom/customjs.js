@@ -1,6 +1,7 @@
 var passEmail = null;
 var amount = null;
 var chimpEmail = null;
+var socialUrl = null;
 
 $('input.pass-email').keyup(function () {
     // $chimpEmail = ($(this).val());
@@ -21,6 +22,27 @@ $("form.chimpy").submit(function(e){
     $('#subscribeModal').modal('show');
     return false;
 });
+
+function shareOnFB(socialUrl){
+
+    var url = "https://www.facebook.com/sharer/sharer.php?u="+socialUrl+"&t=your message";
+    window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+    return false;
+}
+
+
+function shareOntwitter(socialUrl){
+    var url = 'https://twitter.com/intent/tweet?url=URL_HERE&via=getboldify&text=yourtext';
+    TwitterWindow = window.open(url, 'TwitterWindow',width=600,height=300);
+    return false;
+}
+
+
+function shareOnLinkedIn(){
+    var url = "https://plus.google.com/share?url=https://yoururl.com";
+    window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=350,width=480');
+    return false;
+}
 function extendMagnificIframe(){
 
     var $start = 0;

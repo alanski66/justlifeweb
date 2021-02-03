@@ -1,21 +1,66 @@
 {% js %}
-    function shareOnFB(){
-    var url = "https://www.facebook.com/sharer/sharer.php?u={{ entry.url| url_encode(true) }}&t={{ entry.title }}";
-    window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
-    return false;
+    
+    function shareOnFBook(){
+        console.log("fbookshare");
+        this.preventDefault;
+        var url = "https://www.facebook.com/sharer/sharer.php?u=https://www.google.co.uk| url_encode(true)&t={{ entry.title }}";
+    {#    window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');#}
+
+        openPopupCenter(url, '{{ entry.title }}', 600, 300)
+        return false;
     }
 
-
-    function shareOntwitter(){
-    var url = 'https://twitter.com/intent/tweet?url={{ entry.url| url_encode(true) }}&text={{entry.title}}';
-    TwitterWindow = window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
-    return false;
+    function shareOnTwitter(){
+        alert("twit");
+        // href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.seafarerswelfare.org%2Fnews%2F2021%2Fnew-research-highlights-benefits-of-regular-social-interaction-on-board-and-common-obstacles-to-overcome"
+        this.preventDefault;
+        var url = 'https://twitter.com/intent/tweet?text={{ entry.url| url_encode(true) }}';
+        // TwitterWindow = window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+            console.log("twshare");
+            openPopupCenter(url, '{{ entry.title }}', 600, 300)
+            return false;
     }
 
     function shareOnLinkedIn(){
+    this.preventDefault;
     var url = 'https://www.linkedin.com/shareArticle?mini=true&url={{ entry.url| url_encode(true) }}';
-
-    LinkedInWindow = window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');
-    return false;
+    // LinkedInWindow = window.open(url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');
+        openPopupCenter(url, '{{ entry.title }}', 600, 300)
+        return false;
     }
-{% endjs %}
+
+    const openPopupCenter = (url, title, w, h) => {
+        const getSpecs = (w, h, top, left) => {
+        return `scrollbars=yes, width=${w}, height=${h}, top=${top}, left=${left}`;
+        };
+
+        const getFirstNumber = (potentialNumbers) => {
+        for(let i = 0; i < potentialNumbers.length; i++) {
+        const value = potentialNumbers[i];
+
+        if (typeof value === 'number') {
+        return value;
+        }
+        }
+        };
+
+        // Fixes dual-screen position
+        // Most browsers use window.screenLeft
+        // Firefox uses screen.left
+        const dualScreenLeft = getFirstNumber([window.screenLeft, screen.left]);
+        const dualScreenTop = getFirstNumber([window.screenTop, screen.top]);
+        const width = getFirstNumber([window.innerWidth, document.documentElement.clientWidth, screen.width]);
+        const height = getFirstNumber([window.innerHeight, document.documentElement.clientHeight, screen.height]);
+        const left = ((width / 2) - (w / 2)) + dualScreenLeft;
+        const top = ((height / 2) - (h / 2)) + dualScreenTop;
+        const newWindow = window.open(url, title, getSpecs(w, h, top, left));
+
+        // Puts focus on the newWindow
+        if (window.focus) {
+        newWindow.focus();
+        }
+
+        return newWindow;
+    }
+
+    {% endjs %}
