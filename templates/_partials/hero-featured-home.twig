@@ -61,7 +61,7 @@
                     <div class="text-box-overlay {{ entry.textOverlayPosition | default("left-bottom") }}">
                         <h1 class="m-0">
                             {% for block in entry.featureSplitLines.all() %}
-                                {% for line in block.splitLine %}
+                                {% for line in block.splitLine.all() %}
                             <span class="d-block"><span class="px-2 d-inline block-stripe">{{ line.line}}</span></span>
                                 {% endfor %}
 

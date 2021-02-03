@@ -1,16 +1,15 @@
 {
   "require": {
-    "craftcms/cms": "3.5.18",
+    "craftcms/cms": "3.6.2",
     "vlucas/phpdotenv": "^2.4.0",
     "craftcms/redactor": "2.8.5",
     "topshelfcraft/environment-label": "3.2.0",
     "ether/seo": "3.6.7",
     "wrav/oembed": "1.3.6",
     "xpertbot/craft-wheelform": "2.5.6",
-    "pennebaker/craft-architect": "2.4.0",
-    "verbb/super-table": "2.6.5",
+    "verbb/super-table": "2.6.6",
     "charliedev/section-field": "1.1.0",
-    "studioespresso/craft-splashingimages": "2.1.4",
+    "studioespresso/craft-splashingimages": "2.1.7",
     "rias/craft-schema": "1.0.3",
     "nystudio107/craft-minify": "1.2.10",
     "nystudio107/craft-typogrify": "1.1.18",
@@ -24,9 +23,10 @@
     "superbig/craft3-mobiledetect": "1.0.2",
     "hybridinteractive/craft-position-fieldtype": "1.0.16",
     "xpertbot/wheelformhelper": "*",
-    "nystudio107/craft-seomatic": "3.3.29",
+    "nystudio107/craft-seomatic": "3.3.30",
     "dolphiq/redirect": "1.1.1",
-    "adigital/eventbrite": "1.0.5"
+    "adigital/eventbrite": "1.0.5",
+    "pennebaker/craft-architect": "2.4.1"
   },
   "repositories": [
     {
@@ -52,7 +52,7 @@
   "config": {
     "optimize-autoloader": true,
     "platform": {
-      "php": "7.2"
+      "php": "7.3"
     }
   },
   "scripts": {
