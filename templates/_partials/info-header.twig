@@ -23,30 +23,64 @@
                 <div class="col-lg-12">
                     <ul class="list-inline text-left text-lg-right ">
 
-                        {% set menu = craft.entries.section('topNav').all()  %}
-                        {%  set link = null %}
-                        {%  set phone = null %}
+                        {% set menu = craft.entries.section('topNav').hidePage('0').all() %}
+                        {% set link = null %}
+                        {% set phone = null %}
                         {% for item in menu %}
                             {% if item.entryLink | length %}
-                            <li class="list-inline-item">
-                                <a href="{{ item.entryLink.one().url }}">{{ item.title }}</a>
-                            </li>
-                            {% else %}
                                 <li class="list-inline-item">
-                                {% if item.brightonTelephone | length %}
-                                    <i class="text-white ti-mobile pr-1 pl-2"></i>
-                                    <a class="border-right-0 p-0 mr-3" href="tel:{{ item.brightonTelephone }}">
-                                        {{ item.title }}: {{ item.brightonTelephone }}</a>
-                                    <span class=" d-none px-1">-</span>
-                                {% elseif item.manchesterTel | length %}
-                                    <i class="text-white ti-mobile pr-1"></i>
-                                    <a class="pl-0 border-right-0" href="tel:0161 285 5888">{{ item.title }}: {{ item.manchesterTel }}</a>
+                                    <a href="{{ item.entryLink.one().url }}">{{ item.title }}</a>
+                                </li>
+                            {% else %}
+                                {% if item.slug == "subscribe" %}
+                                    <li class="list-inline-item">
+                                        <a href="#" data-toggle="modal" data-target="#subscribeModal">
+                                            <i class="ti-email pr-1"></i>Subscribe</a>
+                                    </li>
                                 {% endif %}
+                                <li class="list-inline-item">
+                                    {% if item.brightonTelephone | length %}
+                                        <i class="text-white ti-mobile pr-1 pl-2"></i>
+                                        <a class="border-right-0 p-0 mr-3" href="tel:{{ item.brightonTelephone }}">
+                                            {{ item.title }}: {{ item.brightonTelephone }}</a>
+                                        <span class=" d-none px-1">-</span>
+                                    {% elseif item.manchesterTel | length %}
+                                        <i class="text-white ti-mobile pr-1"></i>
+                                        <a class="pl-0 border-right-0" href="tel:0161 285 5888">{{ item.title }}
+                                            : {{ item.manchesterTel }}</a>
+                                    {% endif %}
+                                </li>
+                                
+                                <!-- social links -->
+                                <li class="list-inline-item">
+                                    <a class="social-icon-outline" href="{{ social.facebook }}">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="social-icon-outline" href="{{ social.twitter }}">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li class="hide list-inline-item">
+                                    <a class="social-icon-outline" href="#">
+                                        <i class="ti-vimeo-alt"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="social-icon-outline" href="{{ social.linkedin }}">
+                                        <i class="ti-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="social-icon-outline" href="{{ social.instagram }}">
+                                        <i class="ti-instagram"></i>
+                                    </a>
                                 </li>
                             {% endif %}
 
 
-                        {%  endfor %}
+                        {% endfor %}
 
                         <li class="list-inline-item">
                             <a href="#" class="search" id="searchOpen">
@@ -64,16 +98,21 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand mr-0" href="{{ alias('@web') }}">
                     <img src="{{ baseUrl }}images/logo.png" alt="logo" class="d-none d-lg-block mx-auto">
-                    <img src="{{ baseUrl }}images/logo-icon-sq@3x.png" alt="logo" height="40" width="40" class="d-sm-block d-md-none block d-lg-none d-xl-none my-2">
-                    <img src="{{ baseUrl }}images/logo-mobile.png" alt="logo" height="40" width="151" class="d-none d-sm-none d-md-block d-lg-none d-xl-none my-2">
+                    <img src="{{ baseUrl }}images/logo-icon-sq@3x.png" alt="logo" height="40" width="40"
+                         class="d-sm-block d-md-none block d-lg-none d-xl-none my-2">
+                    <img src="{{ baseUrl }}images/logo-mobile.png" alt="logo" height="40" width="151"
+                         class="d-none d-sm-none d-md-block d-lg-none d-xl-none my-2">
                 </a>
                 <div class="call-locale">
-                    <a class=" text-left text-dark" href="tel:0300 123 1550">Brighton<br><i class="text-red ti-mobile pr-1"></i>0300 123 1550</a></div>
+                    <a class=" text-left text-dark" href="tel:0300 123 1550">Brighton<br><i
+                                class="text-red ti-mobile pr-1"></i>0300 123 1550</a></div>
                 <div class="call-locale man text-left">
 
-                    <a class="border-right-0 text-left text-dark" href="tel:0161 285 5888">Manchester<br><i class="text-red ti-mobile pr-1"></i>0161 285 5888</a></div>
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    <a class="border-right-0 text-left text-dark" href="tel:0161 285 5888">Manchester<br><i
+                                class="text-red ti-mobile pr-1"></i>0161 285 5888</a></div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -86,7 +125,7 @@
     </div>
 </header>
 {#-- Global cta --#}
-{%  if callsToAction.ctaShowSitewide and callsToAction.ctaPosition =='top' %}
+{% if callsToAction.ctaShowSitewide and callsToAction.ctaPosition =='top' %}
     {% include('_partials/cta-general') %}
 {% endif %}
 <!-- Search Form hidden dropdown-->
@@ -95,12 +134,14 @@
         <i class="ti-close"></i>
     </a>
     <div class="container">
-            <form action="{{ url('search/results') }}" class="row" id="dropsearch" name="search">
+        <form action="{{ url('search/results') }}" class="row" id="dropsearch" name="search">
             <div class="col-lg-10 mx-auto">
-                <img class="pb-1 mb-3 d-inline" src="{{baseUrl}}images/logo-footer.png" alt="logo"><h3 class="d-inline">Search here</h3>
+                <img class="pb-1 mb-3 d-inline" src="{{ baseUrl }}images/logo-footer.png" alt="logo">
+                <h3 class="d-inline">Search here</h3>
                 <div class="input-wrapper">
 
-                    <input type="text" class="form-control" name="q" id="search" placeholder="Enter search words..." required>
+                    <input type="text" class="form-control" name="q" id="search" placeholder="Enter search words..."
+                           required>
                     <button>
                         <i class="ti-search"></i>
                     </button>

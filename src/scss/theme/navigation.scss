@@ -29,7 +29,7 @@
   display: inline-block;
   padding: 0 15px;
   border-right: 1px solid #777777;
-  color: #bcbcbd;
+  color: $gray-400;//#bcbcbd;
   font-size: 14px;//$font-size-xs;
 }
 .top-header ul li {
@@ -52,7 +52,7 @@
   border-right: 0;
 }
 .top-header .list-inline-item:not(:last-child){
-  margin-right:0;
+  //margin-right:0;
 }
 
 .navigation .navbar {
