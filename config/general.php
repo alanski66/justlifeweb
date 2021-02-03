@@ -56,6 +56,7 @@ return [
     'staging' => [
         // Base site URL
         'siteUrl' => null,
+        'enableTemplateCaching' => false
     ],
 
     // Production environment settings
