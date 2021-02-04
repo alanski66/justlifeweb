@@ -333,7 +333,8 @@
                                         There is a problem with your donation
                                         <div id="Errors"></div>
                                     </div>
-                                    <input type="submit" value="Donate Now" id="submitButton">
+
+                                    <input type="submit" value="{{ entry.donateButtonText |default("Donate now") }}" id="submitButton">
                                     <div id="PleaseWait" style="display: none; color: darkblue">Processing your donation
                                         - please wait ...
                                     </div>
@@ -449,7 +450,8 @@
         // });
     </script>
     {% js %}
-        var getUrlParameter = function getUrlParameter(sParam) {
+
+var getUrlParameter = function getUrlParameter(sParam) {
             var sPageURL = window.location.search.substring(1),
             sURLVariables = sPageURL.split('&'),
             sParameterName,
@@ -459,13 +461,22 @@
             sParameterName = sURLVariables[i].split('=');
 
             if (sParameterName[0] === sParam) {
-                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                console.log(typeof sParameterName[1]);
+                if(sParameterName[1] === NaN){
+                     sParameterName[1] = "";
+                }else {
+                    return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                }
             }
             }
         };
 
         var myamount = (getUrlParameter('amount')*1).toFixed(2);
 
+        // deal with null NaN
+        if(myamount === "NaN"){
+            myamount = "";
+        }
 
         document.getElementById('Amount').value = myamount;
         document.getElementById('Amount').setAttribute('value', myamount);
@@ -473,10 +484,11 @@
         document.getElementById('Amount').addEventListener('change', doThingWithAmount);
         function doThingWithAmount(){
         var don = (this.value*1).toFixed(2);
-        //this.setAttribute = this.value;
+
         document.getElementById('Amount').value = don;
         document.getElementById('Amount').setAttribute('value', don);
         }
+
     {% endjs %}
 
 {% endblock %}

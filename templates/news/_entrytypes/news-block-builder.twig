@@ -13,20 +13,15 @@
  # http://craftcms.com/docs/routing
  #}
  {#{% set asset = "fart" %}#}
-{% set wordTextCount = "" %}
-    {% switch entry.type %}
-        {% case 'oldnews' %}
 
-            {% set asset = entry.oldNewsImage.one() %}
-
-            {% set date = "" %}
-
-        {% case 'news' %}
-
-            {% set asset =  entry.image.one() %}
-            {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
-
-    {% endswitch %}
+{#{% set wordTextCount = "" %}#}
+{% set wordTextCount = ""%}
+{% js %}
+    var ReadingTime = '0';
+    var ReadingTimeMins = '0';
+{% endjs %}
+{% set asset =  entry.image.one() %}
+{% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
 
  {% set relatedTags = entry.tags.all() %}
 
@@ -80,10 +75,11 @@
                             <h1>{{entry.title}}</h1>
                             <ul class="list-inline d-block pb-4 border-bottom mb-3">
                                 {#  actual author  {{entry.author}}#}
-                                count = {{ entry.body | readTime('min') }}
-                                {%  if entry.readingTime | length %}
-                                <li class="list-inline-item text-color"><i class="ti-time"></i> {{ entry.readingTime }} min read | </li>
-                                {% endif %}
+
+                                <li class="list-inline-item text-color">
+                                    <i class="ti-time pr-1"></i>
+                                    <span id="readtime"> {{ entry.readingTime }}</span> min read | </li>
+
                                 <li class="list-inline-item text-color">Posted by {{ entry.articleAuthor | default("Justlife") }}</li>
                                 <li class="list-inline-item text-color">On {{entry.postDate.format('d F Y')}}</li>
 
@@ -96,15 +92,15 @@
 {#                                {% endif %}#}
 
                             </ul>
-                            <div class="">{{ entry.body | replace({'<h1>':"<h3>",'</h1>':"</h3>"}) | raw }}</div>
-{#                            {% set lazyImage = false %}#}
-{#                            {% set blockPrefix = "" %}#}
-{#                            {% for block in entry.contentBlock.all() %}#}
-{#                                {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}#}
-{#                                {% if block.type.handle == "image" %}#}
-{#                                    {% set lazyImage = true %}#}
-{#                                {% endif %}#}
-{#                            {% endfor %}#}
+
+                            {% set lazyImage = false %}
+                            {% set blockPrefix = "" %}
+                            {% for block in entry.contentBlock.all() %}
+                                {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}
+                                {% if block.type.handle == "image" %}
+                                    {% set lazyImage = true %}
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                     <!-- share -->
@@ -261,13 +257,14 @@
         </div>
     </section>
     <!-- /blog-single -->
-
-
-
-
-
     {% endcache %}
     <!-- Page Content -->
+    {% js %}
+        document.addEventListener('DOMContentLoaded', function () {
+        var t = document.getElementById("readtime");
+        t.innerText = ReadingTimeMins
+        });
 
+    {% endjs %}
     <!-- /.container -->
 {% endblock %}

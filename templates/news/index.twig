@@ -78,6 +78,8 @@
             {% set asset = entry.oldNewsImage.one() %}
             {% case 'news' %}
             {% set asset =  entry.image.one() %}
+            {% case 'newsBlockBuilder' %}
+                {% set asset =  entry.image.one() %}
             {% endswitch %}
 
                 <section class="news top-story gray">

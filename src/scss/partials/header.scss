@@ -28,7 +28,8 @@ padding-top:3rem;
   border: none;
 }
 .top-header .ti-email:before{
-  padding-top:6px;
+  position: relative;
+  top: 1px;
 }
 .top-header  .list-inline-item:not(:last-child){
   margin-right:0;

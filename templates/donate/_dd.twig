@@ -81,7 +81,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- title -->
     <section class=" title " >
         <div class="container">
@@ -273,7 +273,8 @@
                                         <div id="Errors"></div>
                                     </div>
                                     <div id="PleaseWait" style="display:none">Please wait ...</div>
-                                    <input type="submit" value="Setup Direct Debit ..." id="submitButton">
+
+                                    <input type="submit" value="{{ entry.donateButtonText | default('Setup Direct Debit') }}" id="submitButton">
                                 </td>
                             </tr>
                             </tbody>

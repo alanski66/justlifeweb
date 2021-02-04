@@ -12,6 +12,14 @@
     </h3>
 
 {% endif %}
+{#{%  set TextCount = block.text | wordCount %}#}
+    {%  set ReadingTime = block.text | readTime('min') %}
+
+
+    {% js %}
+        ReadingTime = {{ ReadingTime }}
+        ReadingTimeMins = ReadingTime++
+    {% endjs %}
 <div class="{{ block.type.handle }}">{{ block.text }}</div>
 </section>
 {% endif %}

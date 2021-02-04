@@ -36,7 +36,7 @@
             <h2 class="mb-2">{{ entry.regularGivingHeading }}</h2>
         {% endif %}
         {% if entry.regularGivingSubtitle | length %}
-            <p class="mb-5">{{ entry.regularGivingSubtitle }}</p>
+            <p class="mb-5 lead">{{ entry.regularGivingSubtitle }}</p>
         {% endif %}
     </div>
 
@@ -88,7 +88,7 @@
                                 <label for="amount" class="sr-only">Amount</label>
                                 <i class=" translateY-10 coins ti-server pr-sm-4 pt-3"></i>
                                 <input type="number" placeholder="0.00"  pattern="^\d+(?:\.\d{1,2})?$" title="donate amount" name="amount" class="form-control mb-0 text-center text-sm-left" id="amount" placeholder="amount">
-                                <a href="{{ baseUrl }}get-involved/donate/one-off-donation" onclick="location.href=this.href+'?amount='+amount;return false;" class="btn btn-primary mb-2 mt-2 ml-2">DONATE</a>
+                                <a href="{{ baseUrl }}get-involved/donate/one-off-donation" onclick="location.href=this.href+'?amount='+amount;return false;" class="btn btn-primary mb-2 mt-2 ml-2">{{ entry.donateButtonText |default("Donate now") }}</a>
                             </div>
 
                         </form>
