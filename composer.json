@@ -26,6 +26,7 @@
     "nystudio107/craft-seomatic": "3.3.30",
     "dolphiq/redirect": "1.1.1",
     "adigital/eventbrite": "1.0.5",
+    "pennebaker/craft-architect": "2.4.1",
     "indigoviking/liquid-letters": "1.2"
   },
   "repositories": [
