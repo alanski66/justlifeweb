@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40067a36548ab5ffeff597c07698351c",
+    "content-hash": "8ab76d26707513b1463a093841d033d5",
     "packages": [
         {
             "name": "adigital/eventbrite",
@@ -691,11 +691,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.6.2",
+            "version": "3.6.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/c2f628aba73d09b0b600e6566a7e91d65a52e713",
-                "reference": "c2f628aba73d09b0b600e6566a7e91d65a52e713",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/9f30481ca26a3c951cd5b295559f80cf8d3ed0f4",
+                "reference": "9f30481ca26a3c951cd5b295559f80cf8d3ed0f4",
                 "shasum": ""
             },
             "require": {
@@ -773,7 +773,7 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2021-01-29T20:51:22+00:00"
+            "time": "2021-02-03T19:20:22+00:00"
         },
         {
             "name": "craftcms/feed-me",

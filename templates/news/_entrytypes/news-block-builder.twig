@@ -12,12 +12,8 @@
  # See this page for more details on how Craft routes requests:
  # http://craftcms.com/docs/routing
  #}
- {#{% set asset = "fart" %}#}
-
-{#{% set wordTextCount = "" %}#}
-{% set wordTextCount = ""%}
 {% js %}
-    var ReadingTime = '0';
+    var ReadingTime = '';
     var ReadingTimeMins = '0';
 {% endjs %}
 {% set asset =  entry.image.one() %}
