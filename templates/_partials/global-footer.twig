@@ -47,7 +47,7 @@
     <div class="py-5 border-bottom" style="border-color: #454547 !important">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4">
+                <div class=" col-lg-4 col-md-4">
                     <div class="mb-5 mb-md-0 text-center text-md-left">
                         <!-- logo -->
                         <img class="mb-30" src="{{baseUrl}}images/logo-footer.png" alt="logo">
@@ -57,9 +57,8 @@
                            {{ organisationInfo.manchesterAddress }}
 
                         T: {{ organisationInfo.manchesterTel }}<br>
-                        F: 0161 285 7077<br>
                         E: {{ organisationInfo.manchesterEmail }}
-                        <hr>
+                        <hr class="w-100">
                            {{ organisationInfo.brightonAddress }}
                         T: {{ organisationInfo.brightonTelephone }}<br>
                         E: {{ organisationInfo.brightonEmail }}
@@ -68,9 +67,12 @@
                     </div>
                 </div>
                 <!-- footer links -->
-                <div class="col-lg-4 col-md-4 col-6">
-                    <h4 class="text-white mb-4">Quick links</h4>
-                    <ul class="footer-links">
+
+                <div class=" col-lg-4 col-md-4 d-flex align-items-center flex-column">
+
+                        <h4 class="flex-row text-center text-md-left text-white mr-5 p-0" >Quick links</h4>
+
+                    <ul class="footer-links list-unstyled ml-md-2 d-flex flex-column">
                         {% for block in footer.footerLinks.all() %}
                             {% for block in block.footerLeftLink.all() %}
                                 {% set link = "" %}
@@ -90,7 +92,7 @@
 
                 <!-- subscribe form -->
                 <div class="col-lg-4 col-md-4 ffset-lg-1">
-                    <div class="mt-5 mt-lg-0 text-center text-md-left mb-5">
+                    <div class="mt-lg-0 text-center text-md-left mb-5">
                         <h4 class="mb-2 text-white">{{ subscribe.subscribeBoxFooterHeading | default("Subscribe") }} </h4>
                         <p class="text-white mb-3">Join our email newsletter and stay up to date</p>
 

@@ -16,7 +16,7 @@
 }
 
 .top-header ul li {
-  margin: 15px 0;
+  margin: 8px 0;
 }
 
 @media (max-width: 575px) {
@@ -64,9 +64,9 @@
 .navigation .navbar-brand {
   position: absolute;
   left: 0;
-  top: -55px;
+  top: -44px; //top: -55px;
   height: 190px;
-  width: 220px;
+  width: 215px; //width: 220px;
   background: #fff;
   text-align: center;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
@@ -93,7 +93,7 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  max-width:150px;
+  max-width:170px;
 }
 
 .navigation .navbar .nav-item {
@@ -303,4 +303,47 @@
 
 .search-form .input-wrapper button i {
   color: #fff;
+}
+
+
+// navbar shrink
+.navbar-brand img,
+.navigation .navbar ,
+.navigation .navbar .nav-item
+{
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+}
+
+.shrink .navbar-brand {
+  //height: 0 !important;
+  //line-height: 0 !important;
+  //top: -55px;
+  //height: 170px;
+  //width: 180px;
+  top: -60px;
+  height: 137px;
+  width: 155px;
+  box-shadow: none;
+}
+.shrink .navbar-brand img{
+  max-width:140px;
+  top:47%;
+}
+
+.shrink .nav-item .nav-link{
+
+}
+.navigation .navbar.shrink .nav-item{
+  padding-top:13px;
+  padding-bottom: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navigation .navbar.shrink .nav-item:last-child{
+  padding-top:15px;
+  padding-right:0;
+  padding-left: 30px;
+  padding-bottom: 11px;
 }

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="143px" height="123px" viewBox="0 0 143 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Vertical Logo</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Vertical-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group">
-            <rect id="Rectangle" fill="#D00E38" x="33" y="0" width="77" height="76"></rect>
-            <path d="M75,18 L83.1290546,18 C83.1290546,30.3741007 83.1290546,38.4623801 83.1290546,42.2648381 C83.1290546,44.9716727 83.0891089,51.3520683 87.6980198,56.2823741 C90.0181518,58.602518 92.1188119,60.1492806 94,60.9226619 C88.8267611,61.1804556 85.0693024,60.793765 82.727624,59.7625899 C77.6180769,57.5125638 75.0422022,52.9367245 75,46.0350719 L75,18 Z" id="Rectangle" fill="#FFFFFF"></path>
-            <path d="M51,18 L59.1290546,18 C59.1290546,30.3741007 59.1290546,38.4623801 59.1290546,42.2648381 C59.1290546,44.9716727 59.0891089,51.3520683 63.6980198,56.2823741 C66.0181518,58.602518 68.1188119,60.1492806 70,60.9226619 C64.8267611,61.1804556 61.0693024,60.793765 58.727624,59.7625899 C53.6180769,57.5125638 51.0422022,52.9367245 51,46.0350719 L51,18 Z" id="Rectangle" fill="#FFFFFF" transform="translate(60.500000, 39.500000) scale(-1, 1) translate(-60.500000, -39.500000) "></path>
-            <text id="Just" fill="#3C3C3B" font-family="Raleway-Bold, Raleway" font-size="41.3650926" font-weight="bold" line-spacing="35.6926643" letter-spacing="-2.2">
-                <tspan x="0" y="121">Just</tspan>
-            </text>
-            <text id="life" fill="#3C3C3B" font-family="Raleway-Medium, Raleway" font-size="40" font-weight="400" letter-spacing="2.617768">
-                <tspan x="77" y="115">life</tspan>
-            </text>
+<svg width="2500px" height="2244px" viewBox="0 0 2500 2244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Justlife vertical red SVG shrinkable</title>
+    <g id="Justlife-vertical-red-SVG-shrinkable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(688.622754, 269.461078)">
+            <rect id="Rectangle" fill="#D00E38" x="0" y="0" width="1152.69461" height="1137.72455" rx="69.9300699"></rect>
+            <path d="M628.742515,269.461078 L750.434949,269.461078 C750.434949,454.702107 750.434949,575.784133 750.434949,632.707158 C750.434949,673.228633 749.83696,768.743538 818.832632,842.55051 C853.565147,877.283203 885.012154,900.438332 913.173653,912.015896 C835.729956,915.875084 779.480575,910.086302 744.425509,894.64955 C667.935283,860.966524 629.374285,792.465936 628.742515,689.147784 L628.742515,269.461078 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <path d="M269.461078,269.461078 L391.153512,269.461078 C391.153512,454.702107 391.153512,575.784133 391.153512,632.707158 C391.153512,673.228633 390.555523,768.743538 459.551195,842.55051 C494.28371,877.283203 525.730717,900.438332 553.892216,912.015896 C476.448519,915.875084 420.199138,910.086302 385.144072,894.64955 C308.653846,860.966524 270.092848,792.465936 269.461078,689.147784 L269.461078,269.461078 Z" id="Rectangle" fill="#FFFFFF" transform="translate(411.676647, 591.317365) scale(-1, 1) translate(-411.676647, -591.317365) "></path>
         </g>
+        <text id="Just" fill="#3C3C3B" fill-rule="nonzero" font-family="Raleway-Bold, Raleway" font-size="619.237913" font-weight="bold" line-spacing="530.30303">
+            <tspan x="239.520958" y="2083.02427">Just</tspan>
+        </text>
+        <text id="life" fill="#3C3C3B" fill-rule="nonzero" font-family="Raleway-Regular, Raleway" font-size="571.095571" font-weight="normal" letter-spacing="-2.60180197">
+            <tspan x="1511.97605" y="2080.2683">life</tspan>
+        </text>
     </g>
 </svg>
