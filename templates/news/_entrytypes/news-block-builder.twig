@@ -72,10 +72,7 @@
                             <ul class="list-inline d-block pb-4 border-bottom mb-3">
                                 {#  actual author  {{entry.author}}#}
 
-                                <li class="list-inline-item text-color">
-                                    <i class="ti-time pr-1"></i>
-                                    <span id="readtime"> {{ entry.readingTime }}</span> min read | </li>
-
+                                <li class="list-inline-item text-color"><i class="ti-time"></i> {{ entry.body | readTime('min') }} min read | </li>
                                 <li class="list-inline-item text-color">Posted by {{ entry.articleAuthor | default("Justlife") }}</li>
                                 <li class="list-inline-item text-color">On {{entry.postDate.format('d F Y')}}</li>
 

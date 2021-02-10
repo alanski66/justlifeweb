@@ -15,46 +15,9 @@
 
 {% block content %}
 
-    <!-- list content -->
-
-{#    <section class="news blue pt-lg-5 pb-lg-3 pt-sm-4 pb-sm-2">#}
-{#        <div class="container">#}
-{#            <div class="row ">#}
-{#                <div class="col-xs-12 col-sm-1">#}
-{#                    <div class="page-heading">News</div>#}
-{#                </div>#}
-{#                <div class="col-xs-12 col-sm-11">#}
-{#                    {%  set btnColor = "btn-" ~ subscribe.ctaButtonColor ?? "btn-gray" %}#}
-
-{#                    <div class="text-xs-center text-sm-right text-lg-right cta-intro pt-md-3">#}
-{#                        <span class="cta-subscribe-text pb-sm2 pb-md-0 d-md-inline d-lg-none">Stay up to date</span>#}
-{#                        <span class="cta-subscribe-text d-none d-md-none d-lg-inline">{{ subscribe.ctaText }}</span>#}
-{#                        <a class="ml-md-3 btn {{ btnColor }} " id="top-subscribe"#}
-{#                           data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseForm">#}
-{#                            <i class="fa fa-envelope"></i>#}
-{#                            {{ subscribe.ctaButtonText }}</a>#}
-{#                    </div>#}
-{#                </div>#}
-
-{#            </div>#}
-{#        </div>#}
-
-{#    </section>#}
-
-
-{#    {% include '_includes/subscribe-section-top.twig' %}#}
-
-
-
-
-{#    {% set entries = craft.entries()#}
-{#    .section('news')#}
-{#    .limit('10') %}#}
-
     {% set queryParams = {
         section: 'news',
-
-        orderBy: 'postDate desc',
+        orderBy: 'sticky desc, postDate desc',
         limit: '10'
     } %}
 
@@ -81,7 +44,7 @@
             {% case 'newsBlockBuilder' %}
                 {% set asset =  entry.image.one() %}
             {% endswitch %}
-
+{{ asset.url }}
                 <section class="news top-story gray">
                     <div class="container">
                         <div class=" row mt-5">
@@ -156,31 +119,33 @@
                 {% set layout = "n" %}
                 {% cache %}
                             {% for entry in therest %}
-
+                                {% set date = '<span class="date  d-inline-block mb-1">' ~ entry.postDate.format('F d, Y') ~ '</span>'  %}
 
                                 {% switch entry.type %}
                                 {% case 'oldnews' %}
-                                    {% set date = '<span class="date  d-inline-block mb-1">' ~ entry.postDate.format('F d, Y') ~ '</span>'  %}
+
                                     {% set asset = entry.oldNewsImage.one() %}
                                     {% set introText = entry.body | striptags | wordLimit(40)   %}
 
                                 {% case 'news' %}
                                     {% set asset =  entry.image.one() %}
-                                    {% set date = '<span class="date d-inline-block mb-1">' ~ entry.postDate.format('F d, Y') ~ '</span>'  %}
-                                    {% set introText = entry.newsIntro  %}
+{#                                    {% set introText = entry.newsIntro  %}#}
                                     {# get promo block pdf image if exists EXPENSIVE!!! #}
-                                        {% for block in entry.contentBlock.type('promotion').all() %}
-                                            {% if block.entryToPromote |length  %}
-                                                {#{% if loop.index == 1 %}#}
+{#                                        {% for block in entry.contentBlock.type('promotion').all() %}#}
+{#                                            {% if block.entryToPromote |length  %}#}
+{#                                                #}{#{% if loop.index == 1 %}#}
 
-                                                {%  set asset = block.entryToPromote.one().pdfThumbnailImage[0] ?? null  %}
+{#                                                {%  set asset = block.entryToPromote.one().pdfThumbnailImage[0] ?? null  %}#}
 
 
-                                                {#{% endif %}#}
-                                                {% else %}
-                                                    {% set asset =  entry.image.one() %}
-                                                {% endif %}
-                                            {% endfor %}
+{#                                                #}{#{% endif %}#}
+{#                                                {% else %}#}
+{#                                                    {% set asset =  entry.image.one() %}#}
+{#                                                {% endif %}#}
+{#                                            {% endfor %}#}
+                                {% case 'newsBlockBuilder' %}
+                                    {% set asset =  entry.image.one() %}
+                                    {% set introText = entry.newsIntro  %}
                                 {% endswitch %}
 
                                 {#{% switch entry.type %}#}
@@ -236,7 +201,9 @@
                                                     <p class="mb-0">{{ entry.postDate.format('M') }}</p>
                                                 </div>
                                                 <div class="p-3">
-                                                    <a href="{{entry.url}}" class="h4 font-primary text-dark">{{entry.title}}</a>
+                                                    <a href="{{entry.url}}" class="h4 font-primary text-dark">
+                                                        {{entry.title}}
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
