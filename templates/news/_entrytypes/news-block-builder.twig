@@ -18,10 +18,6 @@
 {% endjs %}
 
 
-{% for block in entry.contentBlock.type('text').all %}
-
-{% endfor %}
-
 
 {% set asset =  entry.image.one() %}
 {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
@@ -32,6 +28,13 @@
 
 
 {% block content %}
+
+    {# get reading time for matrix text blocks  to pass to reading time plugin #}
+    {%  set textBlocks = null %}
+    {% for block in entry.contentBlock.type('text').all %}
+        {%  set textBlocks = textBlocks ~ " " ~ block.text %}
+    {% endfor %}
+
     {% cache %}
     {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
     <!-- blog single -->
@@ -79,7 +82,7 @@
                             <ul class="list-inline d-block pb-4 border-bottom mb-3">
                                 {#  actual author  {{entry.author}}#}
 
-                                <li class="list-inline-item text-color"><i class="ti-time"></i> {{ entry.body | readTime('min') }} min read | </li>
+                                <li class="list-inline-item text-color"><i class="ti-time"></i> {{ textBlocks | readTime('min') }} min read | </li>
                                 <li class="list-inline-item text-color">Posted by {{ entry.articleAuthor | default("Justlife") }}</li>
                                 <li class="list-inline-item text-color">On {{entry.postDate.format('d F Y')}}</li>
 
