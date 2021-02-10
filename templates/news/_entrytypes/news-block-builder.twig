@@ -16,6 +16,13 @@
     var ReadingTime = '';
     var ReadingTimeMins = '0';
 {% endjs %}
+
+
+{% for block in entry.contentBlock.type('text').all %}
+
+{% endfor %}
+
+
 {% set asset =  entry.image.one() %}
 {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
 
