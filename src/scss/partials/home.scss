@@ -1,4 +1,20 @@
-@media(max-width:590px){
+@media(max-width:768px) {
+
+}
+@media(max-width:990px){
+  .homepage .textrow ul li{
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    float:left;
+    padding-left:25px;
+  }
+  .homepage .textrow ul li:before{
+    //position:absolute;
+    //left:2%
+    float: left;
+    display: block;
+    margin-left: -25px;
+  }
   .hero-slider-item .hero-content h4{
     font-size: $font-size-xs;
   }
@@ -19,9 +35,21 @@
     padding:0;
   }
 
-  .homepage section.section{
-    margin: 0 0 3rem 0;
+  .homepage section.section.cards .card-group.mb-5{
+    margin-bottom:2rem!important;
   }
+  .homepage section.section{
+    //margin: 0 0 3rem 0;
+  }
+
+  .homepage section.processstep{
+    margin: 0;
+    padding: 0;
+  }
+  .homepage section.processstep .mb-md-50:last-of-type{
+    margin-bottom:0;
+  }
+
   .homepage section.section.iconrow{
     margin:0 0 0 0 ;
   }
@@ -34,13 +62,20 @@
   section.processstep img.arrow-bottom{
     bottom:-20px!important;
   }
-  .homepage section.textrow p:first-of-type,
+  .homepage section.textrow h3 {
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
   .homepage section.textrow h3:first-of-type{
-    font-size: 2rem;
-    line-height: 2;
+    //font-size: 2rem;
+    //line-height: 2;
     font-weight: 400;
   }
 
+
+  .homepage section.textrow p:first-of-type{
+
+  }
   .homepage section.textrow h3:first-of-type{
     font-size:1.4rem;
   }

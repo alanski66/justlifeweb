@@ -1,6 +1,6 @@
 <!-- process steps -->
 {% if block.steps | length %}
-    <section class="section position-relative mb-5 {{ block.type| lower }}">
+    <section class="section position-relative  {{ block.type| lower }}">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 {% if block.heading | length %}
@@ -9,7 +9,7 @@
                     </div>
                 {% endif %}
                 {% if block.subheading | length %}
-                    <div class="col-12 text-center mb-5 pb-lg-5">
+                    <div class="col-12 text-center mb-2 pb-lg-5">
                         {{ block.subheading }}</div>
                 {% endif %}
             </div>
