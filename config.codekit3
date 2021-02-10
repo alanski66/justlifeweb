@@ -3947,6 +3947,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/imager/events/6419/JM-running_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 19554,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/events/6419/JM-running_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/public_html/imager/images/10516/IMG_20180913_125046_204_7d98e97c7d5a0c91cfdd4831603ea37b.jpg": {
 		"ft": 16384,
 		"iS": 19466,
@@ -4194,6 +4207,22 @@
 		"q": 100,
 		"rq": 75
 		},
+<<<<<<< Updated upstream
+=======
+	"/public_html/imager/images/12789/Screenshot-2020-12-21-at-14.34.59_dcc2a189e60cd34cab44458d458679f9.jpg": {
+		"ft": 16384,
+		"iS": 73237,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/12789/Screenshot-2020-12-21-at-14.34.59_dcc2a189e60cd34cab44458d458679f9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+>>>>>>> Stashed changes
 	"/public_html/imager/images/12850/Copy-of-Report-Launch-Twitter-Graphic_234787f0082358ae77911d661a5c35b1.jpg": {
 		"ft": 16384,
 		"iS": 22558,
@@ -4285,6 +4314,22 @@
 		"q": 100,
 		"rq": 75
 		},
+<<<<<<< Updated upstream
+=======
+	"/public_html/imager/images/13080/Blog-header-1_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg": {
+		"ft": 16384,
+		"iS": 11996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/13080/Blog-header-1_2bfd6a7c5c53cbb29f4ccd9bc10e9dd1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+>>>>>>> Stashed changes
 	"/public_html/imager/images/13080/Blog-header-1_8c98f9e16529114e5f45cca68f9ebcb5.jpg": {
 		"ft": 16384,
 		"iS": 2331,
@@ -4324,12 +4369,80 @@
 		"q": 100,
 		"rq": 75
 		},
+<<<<<<< Updated upstream
+=======
+	"/public_html/imager/images/13080/Blog-header-1_dcc2a189e60cd34cab44458d458679f9.jpg": {
+		"ft": 16384,
+		"iS": 118701,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/13080/Blog-header-1_dcc2a189e60cd34cab44458d458679f9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+>>>>>>> Stashed changes
 	"/public_html/imager/images/7975/nick-cooper-k7lWhRlO53U-unsplash_94c2c53cb9c2eb328f3977584c5873a3.jpg": {
 		"ft": 16384,
 		"iS": 21126,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/public_html/imager/images/7975/nick-cooper-k7lWhRlO53U-unsplash_94c2c53cb9c2eb328f3977584c5873a3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/9668/adam-birkett-TLomZTHsIqg-unsplash_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 6017,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/9668/adam-birkett-TLomZTHsIqg-unsplash_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/9721/josh-appel-NeTPASr-bmQ-unsplash_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 13512,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/9721/josh-appel-NeTPASr-bmQ-unsplash_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/creativestudio/159/IMG_20190418_162813_761_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 15184,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/creativestudio/159/IMG_20190418_162813_761_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg": {
+		"ft": 16384,
+		"iS": 15973,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/images/publications/270/lifting-the-lid-thumb_2c82617f768038fb81b3cbe873100c47.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4350,6 +4463,100 @@
 		"q": 100,
 		"rq": 75
 		},
+<<<<<<< Updated upstream
+=======
+	"/public_html/imager/landingpages/10879/0ed68ee6f5b05f8940e126745379cd4d_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 12448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/10879/0ed68ee6f5b05f8940e126745379cd4d_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/11370/Screenshot-2020-11-20-at-10.53.22_a62dd584e8321eb64e54f25c51cc66e0.png": {
+		"ft": 32768,
+		"iS": 80184,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/11370/Screenshot-2020-11-20-at-10.53.22_a62dd584e8321eb64e54f25c51cc66e0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/11672/outreach-picture_a62dd584e8321eb64e54f25c51cc66e0.JPG": {
+		"ft": 16384,
+		"iS": 14533,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/11672/outreach-picture_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/11844/human-friends-men-portrait_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 23805,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/11844/human-friends-men-portrait_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/144/IMG_20180418_150736640_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 18379,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/144/IMG_20180418_150736640_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/8737/Screenshot-2020-10-08-at-11.42.22_a62dd584e8321eb64e54f25c51cc66e0.png": {
+		"ft": 32768,
+		"iS": 91322,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/8737/Screenshot-2020-10-08-at-11.42.22_a62dd584e8321eb64e54f25c51cc66e0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/public_html/imager/landingpages/8758/DSC03306-copy_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 19143,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/landingpages/8758/DSC03306-copy_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+>>>>>>> Stashed changes
 	"/public_html/imager/oldnewsimages/6812/Screenshot-2020-10-02-at-11.36.25_234787f0082358ae77911d661a5c35b1.jpg": {
 		"ft": 16384,
 		"iS": 26180,
@@ -4467,6 +4674,22 @@
 		"q": 100,
 		"rq": 75
 		},
+<<<<<<< Updated upstream
+=======
+	"/public_html/imager/unsplashimages/6599/photo-1852769143_a62dd584e8321eb64e54f25c51cc66e0.jpg": {
+		"ft": 16384,
+		"iS": 27531,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/public_html/imager/unsplashimages/6599/photo-1852769143_a62dd584e8321eb64e54f25c51cc66e0.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+>>>>>>> Stashed changes
 	"/public_html/images/about/about-1.jpg": {
 		"ft": 16384,
 		"iS": 74625,
