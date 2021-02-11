@@ -93,9 +93,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/justlife.code-workspace",
-		"oF": 0
+		"oF": 1
 		},
 	"/modules": {
 		"ft": 65536,
@@ -5673,6 +5673,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/images/jl_logo_long_white_for_screen.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/images/jl_logo_long_white_for_screen.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/public_html/images/loading.gif": {
 		"ft": 4194304,
 		"iS": 88496,
@@ -6760,7 +6770,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6773,7 +6783,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6786,7 +6796,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6799,7 +6809,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6812,7 +6822,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6825,7 +6835,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6838,7 +6848,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6851,7 +6861,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6864,7 +6874,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6877,7 +6887,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6890,7 +6900,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6903,7 +6913,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6916,7 +6926,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6929,7 +6939,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6942,7 +6952,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6955,7 +6965,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6968,7 +6978,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6981,7 +6991,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -6994,7 +7004,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7007,7 +7017,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7020,7 +7030,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7033,7 +7043,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7046,7 +7056,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7059,7 +7069,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7072,7 +7082,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7085,7 +7095,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7098,7 +7108,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7111,7 +7121,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7124,7 +7134,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7137,7 +7147,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7150,7 +7160,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7163,7 +7173,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7176,7 +7186,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7189,7 +7199,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7202,7 +7212,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7215,7 +7225,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7228,7 +7238,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7241,7 +7251,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7254,7 +7264,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7267,7 +7277,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7280,7 +7290,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7293,7 +7303,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7306,7 +7316,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7319,7 +7329,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7332,7 +7342,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7345,7 +7355,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7358,7 +7368,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7371,7 +7381,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7384,7 +7394,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7397,7 +7407,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7410,7 +7420,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7423,7 +7433,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7436,7 +7446,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7449,7 +7459,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7462,7 +7472,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7475,7 +7485,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7488,7 +7498,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7501,7 +7511,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7514,7 +7524,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7527,7 +7537,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7540,7 +7550,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7553,7 +7563,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7566,7 +7576,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7579,7 +7589,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7592,7 +7602,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7605,7 +7615,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7618,7 +7628,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7631,7 +7641,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7644,7 +7654,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7657,7 +7667,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7670,7 +7680,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7683,7 +7693,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7696,7 +7706,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7709,7 +7719,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7722,7 +7732,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7735,7 +7745,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7748,7 +7758,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7761,7 +7771,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7774,7 +7784,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7787,7 +7797,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7800,7 +7810,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7813,7 +7823,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7826,7 +7836,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7839,7 +7849,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7852,7 +7862,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7865,7 +7875,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7878,7 +7888,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7891,7 +7901,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7904,7 +7914,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/scss/public_html/assets/css/styles.css",
+		"oAP": "/src/scss/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7917,7 +7927,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/public_html/assets/css/styles.css",
+		"oAP": "/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7930,7 +7940,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7943,7 +7953,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7956,7 +7966,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7969,7 +7979,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7982,7 +7992,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -7995,7 +8005,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8008,7 +8018,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8021,7 +8031,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8034,7 +8044,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8047,7 +8057,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8060,7 +8070,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8073,7 +8083,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8086,7 +8096,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8099,7 +8109,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8112,7 +8122,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8125,7 +8135,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8138,7 +8148,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8151,7 +8161,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8164,7 +8174,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8177,7 +8187,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8190,7 +8200,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8203,7 +8213,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8216,7 +8226,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8229,7 +8239,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8242,7 +8252,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8255,7 +8265,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8268,7 +8278,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8281,7 +8291,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8294,7 +8304,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8307,7 +8317,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8320,7 +8330,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8333,7 +8343,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8346,7 +8356,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8359,7 +8369,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8372,7 +8382,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8385,7 +8395,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8398,7 +8408,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8411,7 +8421,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8424,7 +8434,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8437,7 +8447,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8450,7 +8460,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8463,7 +8473,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8476,7 +8486,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8489,7 +8499,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8502,7 +8512,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8515,7 +8525,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8528,7 +8538,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8541,7 +8551,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8554,7 +8564,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8567,7 +8577,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8580,7 +8590,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8593,7 +8603,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8606,7 +8616,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8619,7 +8629,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8632,7 +8642,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8645,7 +8655,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8658,7 +8668,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8671,7 +8681,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8684,7 +8694,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8707,7 +8717,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8720,7 +8730,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8743,7 +8753,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8766,7 +8776,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8779,7 +8789,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8792,7 +8802,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8805,7 +8815,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8818,7 +8828,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8831,7 +8841,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8844,7 +8854,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8857,7 +8867,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8870,7 +8880,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8883,7 +8893,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8896,7 +8906,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -8951,7 +8961,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/src/public_html/assets/css/styles.css",
+		"oAP": "/src/public_html/assets/css/styles.min.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -12374,7 +12384,7 @@
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "styles.css",
+		"autoOutputPathFilenamePattern": "styles.min.css",
 		"autoOutputPathRelativePath": "../../public_html/assets/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
