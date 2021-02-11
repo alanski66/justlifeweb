@@ -5673,6 +5673,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public_html/images/jl-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/images/jl-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/public_html/images/jl_logo_long_white_for_screen.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -5757,6 +5767,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/public_html/images/logo-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public_html/images/logo-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/public_html/images/logo-signup.png": {
 		"ft": 32768,
