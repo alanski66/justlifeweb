@@ -9012,14 +9012,6 @@
 		"oAP": "/templates/news/_entrytypes/news-block-builder.twig",
 		"oF": 0
 		},
-	"/templates/news/_entrytypes/news-block-builderbak.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/news/_entrytypes/news-block-builderbak.twig",
-		"oF": 0
-		},
 	"/templates/news/_entrytypes/news.twig": {
 		"cB": 0,
 		"ft": 8192,
