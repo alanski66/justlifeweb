@@ -6,7 +6,7 @@
 //@codekit-prepend "prepend/vendor/magnific-popup/jquery.magnific-popup.js"
 //@codekit-prepend "prepend/vendor/slick/slick.min.js"
 //@codekit-prepend "prepend/vendor/mixitup/mixitup.min.js"
-//@codekit-prepend "prepend/vendor/google-map/gmap.js"
+
 //@codekit-prepend "prepend/vendor/syotimer/jquery.syotimer.js"
 //@codekit-prepend "prepend/vendor/aos/aos.js"
 //@codekit-prepend "prepend/vendor/match-height.js"

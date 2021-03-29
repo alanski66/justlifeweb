@@ -62,9 +62,9 @@
 <!-- Modal Ends -->
 <!-- Begin Mailchimp JS Form -->
 <!-- fugly solution to stop loading jquery 1.9  a d validate as it clashes with donate validation from 3rd party dropin -->
-{% if craft.app.request.getSegment(2) not in ['donate'] %}
+
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-{% endif %}
+
 <script type='text/javascript'>
     // (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);
     (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);

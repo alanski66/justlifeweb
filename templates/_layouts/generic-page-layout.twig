@@ -81,11 +81,18 @@
 
 {% endblock bodyHtml %}
     {% block bodyJs %}
+
         <script  src="{{ baseUrl }}assets/js/dist-min.js"></script>
+
         <script  src="{{ baseUrl }}assets/js/script.js"></script>
+
+        {#  serous conflict with chimp and gocardless and jwuery validate versions #}
+        {% if craft.app.request.getSegment(2) not in ['donate'] %}
             {# -- Mailchimp Footer -- #}
         {% include('_partials/footer-mailchimp-modal-general.twig') %}
+      {% endif %}
         {# cookie include - set in globals #}
         {% include('_partials/cookies.twig') %}
+
     {% endblock bodyJs %}
 
