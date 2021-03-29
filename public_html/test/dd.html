@@ -1,0 +1,164 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link type="text/css" rel="stylesheet" href="https://az763204.vo.msecnd.net/wwcss/gocardlesspayments.2015.1.css" />
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/gocardlesspayments.2017.1.js"></script>
+<!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/gocardlesspayments.2017.1.demo.js"></script>-->
+
+
+<form method="post" id="DirectDebitForm">
+    <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
+    <h3>Your details</h3>
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <label class="" for="Title">Title*</label><br>
+                <input type="text" name="Title" class="required" id="Title" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="FirstName">First Name*</label><br>
+                <input type="text" name="FirstName" class="required" id="FirstName" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="LastName">Last Name*</label><br>
+                <input type="text" name="LastName" class="required" id="LastName" maxlength="50">
+            </td>
+        </tr>
+        <tr style=" display:none;">
+            <td>
+                <label class="" for="AddressSearch">Address Search</label><br>
+                <input type="text" class="" id="AddressSearch" maxlength="50" placeholder="Use Postcode or Address">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="Address1">Address</label><br>
+                <input type="text" name="Address1" class="" id="Address1" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="Address2" class="" id="Address2" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="Town">Town</label><br>
+                <input type="text" name="Town" class="" id="Town" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="County">County</label><br>
+                <input type="text" name="County" class="" id="County" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="Postcode">Postcode</label><br>
+                <input type="text" name="Postcode" class="" id="Postcode" maxlength="10">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="Phone">Phone</label><br>
+                <input type="text" name="Phone" class="" id="Phone" maxlength="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="Email">Email*</label><br>
+                <input type="text" name="Email" class="required" type="email" id="Email" maxlength="50">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3>Payment details</h3>
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <label class="" for="Amount">Amount I would like to give each month*</label><br>
+                <span id="AmountPrefix">&pound;</span><input type="text" name="Amount" class="required numberOnly" id="Amount" maxlength="10" title="Please enter the amount you want to give - don't include the pound sign">
+            </td>
+        </tr>
+        <tr style="display:none;">
+            <td>
+                <label class="" for="SortCode1">Sort Code*</label><br>
+                <input type="text" id="SortCode1" name="SortCode1" class="digits numberOnly" maxlength="2" size="2" title="Sort Code is required" /><span>-</span><input type="text" id="SortCode2" name="SortCode2" class="digits numberOnly" maxlength="2" size="2" title="Sort Code is required" /><span>-</span><input type="text" id="SortCode3" name="SortCode3" class="digits numberOnly" maxlength="2" size="2" title="Sort Code is required" />
+            </td>
+        </tr>
+        <tr style="display:none;">
+            <td>
+                <label class="" for="AccountNumber">Account Number*</label><br>
+                <input type="text" id="AccountNumber" name="AccountNumber" class="digits numberOnly" value="" maxlength="8" size="10" title="Account Number is required" />
+            </td>
+        </tr>
+        <tr id="PaymentScheduleRow" style="display:none;">
+            <td>
+                <label class="" for="MonthlyPayment">I would like to donate*</label><br>
+                <label><span>Monthly</span><input type="radio" id="MonthlyPayment" name="PaymentSchedule" value="Monthly" checked="checked"></label><label><span>Quarterly</span><input type="radio" id="QuarterlyPayment" name="PaymentSchedule" value="Quarterly"></label><label><span>Annually</span><input type="radio" id="AnnualPayment" name="PaymentSchedule" value="Annually"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="" for="Comment">Comments</label><br>
+                <textarea rows="3" cols="40" class="" name="Comment" id="Comment" title="Optional comments you may wish to make regarding this payment"></textarea>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- insert your gift aid logo here -->
+    <h3>Gift Aid</h3>
+    <div>
+        <label>Yes I would like you to claim Gift Aid on my donation</label> <input id="GiftAid" type="checkbox" />
+        <p>
+            I want all donations I've made to you in the past four years and all donations in future to be treated as Gift Aid donations until I notify you otherwise.<br />
+            I am a UK taxpayer and understand that if I pay less Income Tax and/or Capital Gains Tax than
+            the amount of Gift Aid claimed on all my donations in that tax year it is my responsibility to pay any
+            difference.<br />
+            We will claim 25p on every &pound;1 you donate.
+        </p>
+    </div>
+    <div>
+        <label>
+            I would like to be kept up to date with your projects and activities by the methods I choose below<br />
+            <input type="checkbox" value="2" class="KeepInTouch">&nbsp;Email<br />
+            <input type="checkbox" value="4" class="KeepInTouch">&nbsp;Post<br />
+            <input type="checkbox" value="8" class="KeepInTouch">&nbsp;Sms<br />
+            <input type="checkbox" value="16" class="KeepInTouch">&nbsp;Phone<br />
+        </label>
+    </div>
+
+
+
+    <table>
+        <tbody>
+        <tr>
+            <td style="text-align: right;" >
+                <div id="ErrorContainer" style="display:none" class="ErrorContainer">
+                    There is a problem with your payment -
+                    <div id="Errors"></div>
+                </div>
+                <div id="PleaseWait" style="display:none">Please wait ...</div>
+                <input type="submit" value="Setup Direct Debit ..." id="submitButton">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- Hidden fields for tags --->
+    <input type="hidden" id="ActiveTags" value="" />
+    <input type="hidden" id="BlockedTags" value="" />
+    <!-- Do not change these values --->
+    <input type="hidden" id="TenantCode" value="2CQ425IEX8" />
+    <input type="hidden" id="WidgetId" value="70c05916-72fe-ea11-b5d9-501ac580925b" />
+</form>
+
+<div id="spinner" style="display:none;">
+    <img id="img-spinner" src="http://cdn.donorfy.com/wwimages/loading.gif" alt="Loading" />
+</div>
+

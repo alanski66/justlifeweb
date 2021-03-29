@@ -1,6 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "3.6.8",
+    "craftcms/cms": "3.6.11.1",
     "vlucas/phpdotenv": "^2.4.0",
     "craftcms/redactor": "2.8.5",
     "topshelfcraft/environment-label": "3.2.0",
@@ -13,20 +13,20 @@
     "rias/craft-schema": "1.0.3",
     "nystudio107/craft-minify": "1.2.10",
     "nystudio107/craft-typogrify": "1.1.18",
-    "craftcms/feed-me": "4.3.5.1",
+    "craftcms/feed-me": "4.3.6",
     "joomkit/pdfthumbnailer": "1.0.0",
     "verbb/icon-picker": "1.1.10",
     "ether/tags": "1.0.7",
-    "verbb/smith": "1.1.12",
+    "verbb/smith": "1.1.13",
     "aelvan/imager": "v2.4.0",
     "dolphiq/iconpicker": "1.0.5",
     "superbig/craft3-mobiledetect": "1.0.2",
     "hybridinteractive/craft-position-fieldtype": "1.0.17",
     "xpertbot/wheelformhelper": "*",
-    "nystudio107/craft-seomatic": "3.3.35",
+    "nystudio107/craft-seomatic": "3.3.36",
     "dolphiq/redirect": "1.1.1",
     "adigital/eventbrite": "1.0.5",
-    "pennebaker/craft-architect": "2.4.1",
+    "pennebaker/craft-architect": "2.4.2",
     "indigoviking/liquid-letters": "1.2"
   },
   "repositories": [
