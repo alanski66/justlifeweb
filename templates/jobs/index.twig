@@ -34,7 +34,7 @@
                                     <div class="text-center border-right p-4">
                                         <h3 class="text-primary mb-0">
                                            {{ entry.jobClosingDate |datetime('d') }}
-                                            <span class="d-block paragraph">Nov<br><span class="fa fa-hourglass-end"></span></span>
+                                            <span class="d-block paragraph">{{ entry.jobClosingDate |datetime('M') }}<br><span class="fa fa-hourglass-end"></span></span>
 
                                         </h3>
                                     </div>
