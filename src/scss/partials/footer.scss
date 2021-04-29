@@ -12,7 +12,7 @@ footer div.address p{
   color:$white;
   margin-bottom: 0;
 }
-div.address hr{
+footer hr{
   border-top: #999 .5px solid;
   width: 100px;
   text-align: left;
@@ -21,6 +21,10 @@ div.address hr{
   /* float: left; */
   /* clear: both; */
   margin: 15px 0;
+}
+
+footer .additional p{
+  font-size:14px;
 }
 //slick slider project
 //@media(min-width: 990px){

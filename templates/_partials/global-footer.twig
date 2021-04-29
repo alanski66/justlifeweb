@@ -44,16 +44,16 @@
 
 <!-- footer -->
 <footer class="bg-secondary">
-    <div class="py-5 border-bottom" style="border-color: #454547 !important">
+    <div class="pt-5 border-bottom" style="border-color: #454547 !important">
         <div class="container">
             <div class="row">
                 <div class=" col-lg-4 col-md-4">
-                    <div class="mb-5 mb-md-0 text-center text-md-left">
+                    <div class="mb-0 mb-md-3 text-center text-md-left">
                         <!-- logo -->
                         <img class="mb-30 footer-brand" src="{{baseUrl}}images/jl_logo_long_white_for_screen.svg" alt="just life logo">
                         <p class="text-white mb-30 hide">We work with people living in temporary accommodation in Manchester and Brighton & Hove and support others doing so across the UK through our network, research and campaigning</p>
 
-                       <div class="address text-white mb-30">
+                       <div class="address text-white mb-lg-3">
                            {{ organisationInfo.manchesterAddress }}
 
                         T: {{ organisationInfo.manchesterTel }}<br>
@@ -63,8 +63,12 @@
                         T: {{ organisationInfo.brightonTelephone }}<br>
                         E: {{ organisationInfo.brightonEmail }}
                        </div>
-
                     </div>
+                    <div class="d-lg-none additional text-white small">
+                        {{ organisationInfo.additionalContactInfo }}
+                        <hr class="w-100">
+                    </div>
+
                 </div>
                 <!-- footer links -->
 
@@ -138,6 +142,10 @@
                     <div class="fr pt-4 w-75">
                         <img src="{{ baseUrl }}images/fr-logo.svg">
                     </div>
+                </div>
+                <div class="col-12 d-none d-lg-block additional text-white small mb-4">
+                    {{ organisationInfo.additionalContactInfo }}
+
                 </div>
             </div>
         </div>
