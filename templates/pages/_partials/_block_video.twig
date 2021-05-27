@@ -38,7 +38,7 @@
 {#        https://youtube.com/embed/{{- block.video.media.url|split('v=')[1]|default(false) -}}#}
         {%- set url = 'https://youtube.com/embed/'~videoCode -%}
     {%- endif -%}
-    
+
     <div class="embed-responsive embed-responsive-16by9">
 {#        {{ block.video.render }}#}
         {{ craft.oembed.render(url) }}
