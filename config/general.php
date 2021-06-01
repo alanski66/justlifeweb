@@ -21,6 +21,7 @@ return [
         // Whether generated URLs should omit "index.php"
         'omitScriptNameInUrls' => true,
 
+        'permissionsPolicyHeader' => null,
         // Control Panel trigger word
         'cpTrigger' => 'admin',
 

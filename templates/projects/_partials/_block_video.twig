@@ -1,18 +1,17 @@
 <!-- block video -->
 <section class=" {{ block.type }} {{ block.alignment }} mb-5">
-
-    {%- if 'consent' in block.video.media.url -%}
-        {#-  If new YouTube EU consent redirect exists, split the string to grab the video ID using this code -#}
-        {%- set videoCode = block.video.media.url|split('v%3D')[1]|split('&')[0]|default(false) -%}
-        {%- set url = 'https://youtube.com/embed/'~videoCode -%}
-    {%- else -%}
-        {%- set videoCode = block.video.media.url|split('v=')[1]|default(false) -%}
-        {#        https://youtube.com/embed/{{- block.video.media.url|split('v=')[1]|default(false) -}}#}
-        {%- set url = 'https://youtube.com/embed/'~videoCode -%}
-    {%- endif -%}
+{#    {%- if 'consent' in block.video.media.url -%}#}
+{#        #}{#-  If new YouTube EU consent redirect exists, split the string to grab the video ID using this code -#}
+{#        {%- set videoCode = block.video.media.url|split('v%3D')[1]|split('&')[0]|default(false) -%}#}
+{#        {%- set url = 'https://youtube.com/embed/'~videoCode -%}#}
+{#    {%- else -%}#}
+{#        {%- set videoCode = block.video.media.url|split('v=')[1]|default(false) -%}#}
+{#        #}{#        https://youtube.com/embed/{{- block.video.media.url|split('v=')[1]|default(false) -}}#}
+{#        {%- set url = 'https://youtube.com/embed/'~videoCode -%}#}
+{#    {%- endif -%}#}
 
     <div class="embed-responsive embed-responsive-16by9">
-        {#        {{ block.video.render }}#}
-        {{ craft.oembed.render(url) }}
+                {{ block.video.render }}
+{#        {{ craft.oembed.render(url) }}#}
     </div>
 </section>

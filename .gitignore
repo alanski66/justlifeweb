@@ -1,6 +1,5 @@
 # Craft 2 Storage (https://craftcms.com/support/craft-storage-gitignore)
 # not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)
-config.codekit3
 /config/project
 /config/project/
 /config/icon-picker.php
@@ -28,3 +27,4 @@ config.codekit3
 !/craft/storage/rebrand
 /sql/*
 /templatesold/*
+*.codekit3
