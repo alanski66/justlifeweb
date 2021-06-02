@@ -275,44 +275,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public_html\/__cpresources\/5a227830\/velocity.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/5a227830\/velocity.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/5a227830\/velocity.js.map",
-      "oF" : 0
-    },
-    "\/public_html\/__cpresources\/6d98d6e1\/table.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/6d98d6e1\/table.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/6d98d6e1\/table.js.map",
-      "oF" : 0
-    },
     "\/public_html\/__cpresources\/7a7c322f\/deprecator.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2179,45 +2141,6 @@
       "oAP" : "\/public_html\/__cpresources\/40b1669\/js\/Craft.min.js.map",
       "oF" : 0
     },
-    "\/public_html\/__cpresources\/45ffdcd3\/dashboard.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/45ffdcd3\/dashboard-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/public_html\/__cpresources\/45ffdcd3\/dashboard.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/45ffdcd3\/dashboard.css.map",
-      "oF" : 0
-    },
-    "\/public_html\/__cpresources\/45ffdcd3\/Dashboard.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/45ffdcd3\/Dashboard.min.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/45ffdcd3\/Dashboard.min.js.map",
-      "oF" : 0
-    },
     "\/public_html\/__cpresources\/61e73155\/css\/verbb-ui.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2247,25 +2170,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public_html\/__cpresources\/61e73155\/js\/verbb-ui.js.map",
-      "oF" : 0
-    },
-    "\/public_html\/__cpresources\/83a4427a\/RecentEntriesWidget.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/83a4427a\/RecentEntriesWidget.min.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/83a4427a\/RecentEntriesWidget.min.js.map",
       "oF" : 0
     },
     "\/public_html\/__cpresources\/148be395\/jquery-ui.js" : {
@@ -2538,37 +2442,6 @@
       "oAP" : "\/public_html\/__cpresources\/65591ed3\/EntryTypeSwitcher.min.js.map",
       "oF" : 0
     },
-    "\/public_html\/__cpresources\/93799e4e\/selectize.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/93799e4e\/selectize-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/public_html\/__cpresources\/93799e4e\/selectize.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/93799e4e\/selectize.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/93799e4e\/selectize.js.map",
-      "oF" : 0
-    },
     "\/public_html\/__cpresources\/102567ed\/Vertical Logo.png" : {
       "ft" : 32768,
       "iS" : 10309,
@@ -2609,107 +2482,6 @@
       "oA" : 0,
       "oAP" : "\/public_html\/__cpresources\/17817301\/fonts\/themify.ttf",
       "oF" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/css\/icon-picker-redactor.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/43607892\/css\/icon-picker-redactor-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/css\/icon-picker.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/43607892\/css\/icon-picker-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/js\/icon-picker-cache.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/js\/icon-picker-cache.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/43607892\/js\/icon-picker-cache.js.map",
-      "oF" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/js\/icon-picker-redactor.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/js\/icon-picker-redactor.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/43607892\/js\/icon-picker-redactor.js.map",
-      "oF" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/js\/icon-picker.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 1,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/public_html\/assets\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 0,
-      "tS" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/js\/icon-picker.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public_html\/__cpresources\/43607892\/js\/icon-picker.js.map",
-      "oF" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/svg\/icon-blank.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/public_html\/__cpresources\/43607892\/svg\/icon-blank.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/public_html\/__cpresources\/43607892\/svg\/icon-mask.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/public_html\/__cpresources\/43607892\/svg\/icon-mask.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/public_html\/__cpresources\/a6ea82b1\/jquery.timepicker.js" : {
       "bF" : 0,
