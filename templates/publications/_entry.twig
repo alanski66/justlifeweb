@@ -45,7 +45,8 @@
                         [
                         { width: 320,  ratio: 1/1 },
                         { width: 320,  ratio: 1/1 },
-                        { width: 450,  ratio: 1/1 }
+                        { width: 450,  ratio: 1/1 },
+                            { width: 750,  ratio: 1/1 }
                         ],
                         {
                         format: 'jpg',
@@ -81,7 +82,7 @@
                             </div>
                         {% elseif pdfImage.getWidth() > pdfImage.getHeight() %}
                             {# landscape #}
-                            <img class="img-fluid mb-4" src="{{ pdfImage.getUrl('pdfPortrait') }}">
+                            <img class="img-fluid mb-4" src="{{ pdfThumbImages[4].url }}">
 
                             <h4>{{ pdfDocument.title }}</h4>
                             {% if pdfDocument |length %}
