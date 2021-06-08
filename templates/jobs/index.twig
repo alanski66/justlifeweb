@@ -30,16 +30,21 @@
                             <!-- Post Content -->
                             <div>
                                 <div class="d-flex align-items-center border-bottom">
-                                    <!-- Published Date -->
-                                    <div class="text-center border-right p-4">
+
+                                    {%  set padding = "" %}
+                                    {%  if entry.jobClosingDate | length %}
+                                        {%  set padding = "4" %}
+                                    <!-- Closing Date -->
+                                    <div class="text-center border-right p-{{ padding }}">
                                         <h3 class="text-primary mb-0">
                                            {{ entry.jobClosingDate |datetime('d') }}
                                             <span class="d-block paragraph">{{ entry.jobClosingDate |datetime('M') }}<br><span class="fa fa-hourglass-end"></span></span>
 
                                         </h3>
                                     </div>
-                                    <div class="px-4">
-                                        <!-- Post Title -->
+                                    {%  endif %}
+                                    <div class=" {%  if entry.jobClosingDate | length %}px-4{% endif %}">
+                                        <!-- Job Title -->
                                         <a class="h2 d-block mb-10 mt-3" href="{{ entry.url }}">{{ entry.title }}</a>
                                         <!-- Post Meta -->
                                         <ul class="post-meta list-inline">
@@ -58,7 +63,7 @@
                                     </div>
                                 </div>
                                 <!-- Post Excerpts -->
-                                <div class="p-4">
+                                <div class="{%  if entry.jobClosingDate | length %}{% endif %}">
                                     <p>
                                         {{entry.introText }}
                                     </p>
