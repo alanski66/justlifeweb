@@ -64,7 +64,7 @@ $(document).on("scroll", function(){
 
     // Preloader js
     $(window).on('load', function () {
-        $('.preloader').fadeOut(200);
+        $('.preloader').fadeOut(75);
     });
 
     //  Search Form Open
