@@ -26,6 +26,9 @@ footer hr{
 footer .additional p{
   font-size:14px;
 }
+footer > .footer  .text-primary{
+  color:$white!important;
+}
 //slick slider project
 //@media(min-width: 990px){
 //  .slick-track, .slick-slide{
