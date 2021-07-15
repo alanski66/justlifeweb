@@ -1,1 +1,29 @@
-@font-face{font-family:'Operator Mono';font-display:swap;src:url("{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.eot");src:url("{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.eot?#iefix") format("embedded-opentype"),url("{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.woff2") format("woff2"),url("{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.woff") format("woff"),url("{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.ttf") format("truetype");font-weight:normal;font-style:normal}
+/* -- Site fonts */
+
+/*@font-face {*/
+/*  font-family: 'themify';*/
+/*  src: url('{{ baseUrl }}fonts/themify--fvbane.eot');*/
+/*  src: url('{{ baseUrl }}fonts/themify-.eot#iefix-fvbane') format('embedded-opentype'),*/
+/*  url('{{ baseUrl }}fonts/themify--fvbane.woff') format('woff'),*/
+/*  url('{{ baseUrl }}fonts/themify--fvbane.ttf') format('truetype'),*/
+/*  url('{{ baseUrl }}fonts/themify--fvbane.svg#themify') format('svg');*/
+/*  font-weight: normal;*/
+/*  font-style: normal;*/
+/*}*/
+
+
+/*{% do view.registerAssetBundle("plugins\\dolphiq\\iconpicker\\assets\\sharedAsset") %}*/
+
+/*!* -- Operator Mono normal *!*/
+
+/*@font-face {*/
+/*    font-family: 'Operator Mono';*/
+/*    font-display: swap;*/
+/*    src: url('{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.eot');*/
+/*    src: url('{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.eot?#iefix') format('embedded-opentype'),*/
+/*    url('{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.woff2') format('woff2'),*/
+/*    url('{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.woff') format('woff'),*/
+/*    url('{{ baseUrl }}dist/fonts/OperatorMonoSSm-Book.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
