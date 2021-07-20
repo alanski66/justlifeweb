@@ -1,5 +1,4 @@
 // 1. BASE
-//
 //     1.1. Typography
 //     1.2. Common Styles
 //         1.2.1 Page Title
@@ -40,7 +39,6 @@ h1, h2, h3, h4, h5, h6 {
   //font-family: "Raleway", sans-serif;
   margin-bottom: 10px;
 }
-
 h1, .h1 {
   font-size: 2.5rem;
 }
@@ -73,27 +71,22 @@ h4, .h4 {
 h5, .h5 {
   font-size: 18px;
 }
-
 h6, .h6 {
   font-size: 14px;
 }
-
 /* 1.2 common style */
 body {
   background-color: #fff;
   overflow-x: hidden;
 }
-
 ::-moz-selection {
   background: #ee7171;
   color: #fff;
 }
-
 ::selection {
   background: #ee7171;
   color: #fff;
 }
-
 /* preloader */
 .preloader {
   position: fixed;
