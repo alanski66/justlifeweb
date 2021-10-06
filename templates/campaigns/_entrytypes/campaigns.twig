@@ -1,0 +1,198 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+
+{#{% extends "_layouts/campaign-noheader-page-layout.twig" %}#}
+{% set bodyClass = " campaign" %}
+{% block content %}
+
+    {% set asset = entry.bannerImage[0] ?? null %}
+
+    {% if asset | length %}
+        {% set transformedBannerImages = craft.imager.transformImage(asset,
+            [
+                { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
+                { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
+                { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
+                { width: 1200, height:580, position: asset.getFocalPoint() },
+                { width: 2400, height:530, position: asset.getFocalPoint(),ratio: 2/1 }
+            ],
+            {
+                format: 'jpg',
+                allowUpscale: true,
+                mode: 'crop',
+                jpegQuality: 90,
+                interlace: true
+            }
+            ) %}
+        {% css %}
+            @media(min-width: 0px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[0].url }}');
+            height:380px;
+            background-position-y:-48px;
+            background-position-x:0px;
+            padding:200px 0 0 ;
+            }
+            }
+            @media(min-width: 550px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[1].url }}');
+            height:380px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 768px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[2].url }}');
+            height:480px;
+            background-position-y:-75px;
+            }
+            }
+            @media(min-width: 990px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
+            {#                        height:593px;#}
+            }
+            }
+
+            @media(min-width: 1200px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:593px;
+            }
+            }
+            @media(min-width: 1400px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:653px;
+            }
+            }
+            @media(min-width: 1600px){
+            .campaign.overlay{
+            background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+            height:753px;
+            background-position-y:-165px;
+            }
+            }
+
+
+        {% endcss %}
+    {% endif %}
+
+
+    <header class="w-100">
+
+        <!-- nav bar -->
+        <div class="navigation w-100">
+            <div class="container justfy-content-center">
+                <div class="row">
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+        <section class="campaign overlay h-100 " {% if asset | length %}style="background-image: url('{{ asset.url }}');"{% endif %}>
+
+            <div class="wrapper shadow ">
+            <div class="container bg-light trans">
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-4">
+
+                        {%  set asset = entry.campaignImage.one() ?? null  %}
+                        {%  if asset | length %}
+                            {% set thumb = {
+                                mode: 'crop',
+                                width: 400,
+
+                                quality: 75,
+                                position: 'top-center'
+                            } %}
+                            <img class="mx-auto img-fluid py-3 pt-4"
+                                 src="{{ asset.getUrl() }}"
+                                width="{{ asset.getWidth(thumb) }}"
+                                height="{{ asset.getHeight(thumb) }}"
+                                 alt="{{ asset.title }}"
+                            >
+                        {% endif %}
+                       <h1 class=" text-hide {%  if entry.titleDisplay == 1 %} d-block{% endif %}">{{ entry.title }}</h1>
+                        {% if entry.campaignSubtitleText | length %}
+                           <h2>{{ entry.campaignSubtitleText }}</h2>
+                        {% endif %}
+
+                    </div>
+                </div>
+            </div>
+
+
+                <!-- formstuff-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 shadow" style="background-color: #ffffff">
+
+
+                            <div class="row justify-content-start">
+                                <div class="col-sm-12 col-md-6 ">
+
+                                    <div class="rounded py-4 px-3 ">
+                                        {%  if entry.mainTextTitle | length %}
+                                        <h3 class=" mb-4 section-title-border-half text-dark">{{ entry.mainTextTitle }}</h3>
+                                        {% endif %}
+                                        <p class="hide text-white mb-1 mb-md-3">{{ entry.body }}</p>
+                                        <div class="mx-auto text-center ">
+                                            <i class=" ti-angle-double-down text-white" data-toggle="collapse"
+                                               href="#collapseExample"></i></div>
+
+                                        {#                                {% if entry.body| length %}#}
+                                        {#                                    <div id="accordion">#}
+                                        {#                                        <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"#}
+                                        {#                                           href="#collapseOne">#}
+                                        {#                                            <i class="ti-plus text-primary mr-2"></i> More#}
+                                        {#                                        </a>#}
+                                        {#                                        <div id="collapseOne" class="collapse"#}
+                                        {#                                             data-parent="#accordion">#}
+                                        {#                                            <div class="card-body font-secondary text-white pl-0 pb-0">#}
+                                        {#                                                {{ entry.body }}#}
+                                        {#                                            </div>#}
+                                        {#                                        </div>#}
+                                        {#                                    </div>#}
+                                        {#                                {% endif %}#}
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 donorfy ">
+                                    <div class="py-4 px-3">
+                                        {%  if entry.formTitle | length %}
+                                            {% css %}
+                                            #mc_embed_signup h2{
+                                                display:none;
+                                            }
+                                            {% endcss %}
+                                            <h3 class=" mb-4 section-title-border-half text-dark">{{ entry.formTitle }}</h3>
+                                        {% endif %}
+                                        {%  if entry.formIntro | length %}
+                                            <div class="form-intro">{{ entry.formIntro }}</div>
+                                        {% endif %}
+
+                                    <div id="mc_embed_signup">
+                                        {{ entry.subscribeForm | raw }}
+                                    </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    <!-- title -->
+
+
+
+
+{% endblock %}
