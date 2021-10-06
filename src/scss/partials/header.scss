@@ -45,3 +45,12 @@ padding-top:3rem;
 .top-header [class^=ti-]{
   color: $gray-400;//#bcbcbd;
 }
+
+.top-header a.ytube{
+  width: auto;
+  height: auto;
+  padding: 0 7px;
+}
+.top-header a img.youtube{
+  vertical-align: top;
+}
