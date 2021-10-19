@@ -37,7 +37,7 @@
                             <h1 class="section-title section-title-border-half mb-4">{{ entry.title }}</h1>
                             <h4 class="mt-0">{{ entry.title }} <span>: {{ jobtitle }}</span></h4>
                             <div class="description">
-                                {% set text = entry.staffRoleDescription ?? 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.' %}
+                                {% set text = entry.staffRoleDescription ?? '' %}
 
                                 {{ text }}
                             </div>
