@@ -116,6 +116,9 @@
                     </div>
                 </div>
                 {% case 'countdown' %}
+                {%  js at head %}
+                var countdowndeadline = '{{ block.countdownDate|date('D M d Y H:i:s')  }}';
+                {% endjs %}
                 <div class="slide-{{ block.id }} hero-slider-item  position-{{ block.position }} py-160 "
                      {% if block.tabTitle |length %}data-text="{{ block.tabTitle }}{% endif %}">
                     <div class="container d-flex justify-content-center">
@@ -156,7 +159,7 @@
                                     </div>
 
                                     {% if block.intro |length %}
-                                        <p class="text-white mb-50 text-{{ block.textColor }} text-shadow {{ block.textColor }}"
+                                        <p class="slide-intro text-white mb-3 mb-md-4 mb-lg-5 text-{{ block.textColor }} text-shadow {{ block.textColor }}"
                                            data-duration-in=".5" data-animation-in="fadeIn" data-delay-in=".9">
                                             {{ block.intro |raw }} </p>
                                     {% endif %}
@@ -221,47 +224,55 @@
         autoplaySpeed: 8000
         }, true);
 
-        function getTimeRemaining(endtime) {
-        const total = Date.parse(endtime) - Date.parse(new Date());
-        const seconds = Math.floor((total / 1000) % 60);
-        const minutes = Math.floor((total / 1000 / 60) % 60);
-        const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-        const days = Math.floor(total / (1000 * 60 * 60 * 24));
 
-        return {
-        total,
-        days,
-        hours,
-        minutes,
-        seconds
-        };
+
+
+    {% endjs %}
+{% endfor %}
+<script>
+    document.addEventListener('DOMContentLoaded', function (event) {
+        function getTimeRemaining(endtime) {
+            const total = Date.parse(endtime) - Date.parse(new Date());
+            const seconds = Math.floor((total / 1000) % 60);
+            const minutes = Math.floor((total / 1000 / 60) % 60);
+            const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+            const days = Math.floor(total / (1000 * 60 * 60 * 24));
+
+            return {
+                total,
+                days,
+                hours,
+                minutes,
+                seconds
+            };
         }
 
         function initializeClock(id, endtime) {
-        const clock = document.getElementById(id);
-        const daysSpan = clock.querySelector('.days');
-        const hoursSpan = clock.querySelector('.hours');
-        const minutesSpan = clock.querySelector('.minutes');
-        const secondsSpan = clock.querySelector('.seconds');
+            const clock = document.getElementById(id);
+            const daysSpan = clock.querySelector('.days');
+            const hoursSpan = clock.querySelector('.hours');
+            const minutesSpan = clock.querySelector('.minutes');
+            const secondsSpan = clock.querySelector('.seconds');
 
-        function updateClock() {
-        const t = getTimeRemaining(endtime);
+            function updateClock() {
+                const t = getTimeRemaining(endtime);
 
-        daysSpan.innerHTML = t.days;
-        hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-        minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-        secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+                daysSpan.innerHTML = t.days;
+                hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
-        if (t.total <= 0) {
-        clearInterval(timeinterval);
-        }
-        }
+                if (t.total <= 0) {
+                    clearInterval(timeinterval);
+                }
+            }
 
-        updateClock();
-        const timeinterval = setInterval(updateClock, 1000);
+            updateClock();
+            const timeinterval = setInterval(updateClock, 1000);
         }
 
         const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-        initializeClock('clockdiv', deadline);
-    {% endjs %}
-{% endfor %}
+
+        initializeClock('clockdiv', countdowndeadline);
+    });
+</script>
