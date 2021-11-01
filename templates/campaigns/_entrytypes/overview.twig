@@ -206,9 +206,9 @@
                                                 </a>
                                             {% endif %}
                                             <div class="card-body p-0">
-                                                <h4 class="card-title pt-3">{{ story.title }}</h4>
-                                                <p class="card-text mx-2 mb-0" data-mh="cardtext">{{ story.introText| striptags }}.</p>
-                                                <a class="btn btn-primary translateY-25" href="{{ story.url }}">{{ story.title| default("read more") }}</a>
+                                                <h4 class="card-title pt-3"> <a href="{{ story.url }}">{{ story.title }}</a></h4>
+                                                <p class="card-text mx-2 mb-3" data-mh="cardtext">{{ story.introText| striptags }}.</p>
+
 
                                             </div>
                                         </div>
