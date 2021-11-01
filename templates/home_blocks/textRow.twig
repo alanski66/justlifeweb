@@ -9,8 +9,17 @@
                     </div>
                 {% endif %}
                 {% if block.text | length %}
-                    <div class="col-12 text-center btext">
+                    <div class="col-12 text-center btext mb-4">
                         {{ block.text }}</div>
+                {% endif %}
+                {%  if block.buttonText |length %}
+
+                        <div class="col-12 text-center">
+
+                                <a class="btn btn-primary" href="{{ block.buttonLink.one().url }}">{{ block.buttonText }}</a>
+
+                        </div>
+
                 {% endif %}
             </div>
         </div>

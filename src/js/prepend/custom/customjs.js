@@ -49,11 +49,11 @@ function shareOnLinkedIn(){
 
 
 //shrink nav
-$(document).on("scroll", function(){
-
-    if ($(document).scrollTop() > 100){
+$(window).on("scroll", function(){
+    if ($(this).scrollTop() >= 100){
         $(".navbar").addClass("shrink");
-    } else {
+    }
+    if ($(this).scrollTop() <= 99){
         $(".navbar").removeClass("shrink");
     }
 
@@ -417,13 +417,13 @@ $(document).on("scroll", function(){
     // AOS
     AOS.init();
 
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-            $('nav').addClass('shrink');
-        } else {
-            $('nav').removeClass('shrink');
-        }
-    });
+    // $(window).scroll(function() {
+    //     if ($(document).scrollTop() > 50) {
+    //         $('nav').addClass('shrink');
+    //     } else {
+    //         $('nav').removeClass('shrink');
+    //     }
+    // });
 
 
 

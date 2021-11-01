@@ -1,8 +1,7 @@
 {% extends "_layouts/generic-page-layout.twig" %}
 
-{# {% extends "_layouts/campaign-noheader-page-layout.twig" %} #}
+{#{% extends "_layouts/campaign-noheader-page-layout.twig" %}#}
 {% set bodyClass = " campaign" %}
-{% css "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" %}
 {% block content %}
 
     {% set asset = entry.bannerImage[0] ?? null %}
@@ -23,7 +22,7 @@
                 jpegQuality: 90,
                 interlace: true
             }
-        ) %}
+            ) %}
         {% css %}
             @media(min-width: 0px){
             .campaign.overlay{
@@ -31,7 +30,7 @@
             height:380px;
             background-position-y:-48px;
             background-position-x:0px;
-
+            padding:200px 0 0 ;
             }
             }
             @media(min-width: 550px){
@@ -51,7 +50,7 @@
             @media(min-width: 990px){
             .campaign.overlay{
             background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
-            {# height:593px; #}
+            {#                        height:593px;#}
             }
             }
 
@@ -90,30 +89,30 @@
     {% endif %}
 
 
+    <header class="w-100">
 
-    {%  set campaignId = entry.id %}
-    {% set relatedTo = [
-        'and',
-        {
-            field: 'campaignName',
-            targetElement:  campaignId
-        }
-    ] %}
-    {% set entries = craft.entries()
-        .section('campaignStories')
-        .with(['campaignName']).relatedTo(relatedTo)
-        .all() %}
+        <!-- nav bar -->
+        <div class="navigation w-100">
+            <div class="container justfy-content-center">
+                <div class="row">
 
 
-    <section class="campaign overlay h-100 "
-             {% if asset | length %}style="background-image: url('{{ asset.url }}');"{% endif %}>
-        <div class="wrapper shadow ">
-            <div class="container bg-light ">
-                <div class="row pt-100">
-                    <div class="col-lg-8 offset-lg-2 text-center mb-4">
+                </div>
+            </div>
+        </div>
+    </header>
 
-                        {% set asset = entry.campaignImage.one() ?? null %}
-                        {% if asset | length %}
+
+
+        <section class="campaign overlay h-100 " {% if asset | length %}style="background-image: url('{{ asset.url }}');"{% endif %}>
+
+            <div class="wrapper shadow ">
+            <div class="container bg-light trans">
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-4">
+
+                        {%  set asset = entry.campaignImage.one() ?? null  %}
+                        {%  if asset | length %}
                             {% set thumb = {
                                 mode: 'crop',
                                 width: 400,
@@ -123,114 +122,88 @@
                             } %}
                             <img class="mx-auto img-fluid py-3 pt-4"
                                  src="{{ asset.getUrl() }}"
-                                 width="{{ asset.getWidth(thumb) }}"
-                                 height="{{ asset.getHeight(thumb) }}"
+                                width="{{ asset.getWidth(thumb) }}"
+                                height="{{ asset.getHeight(thumb) }}"
                                  alt="{{ asset.title }}"
                             >
                         {% endif %}
-                        <h1 class=" text-hide {% if entry.titleDisplay == 1 %} d-block{% endif %}">{{ entry.title }}</h1>
+                       <h1 class=" text-hide {%  if entry.titleDisplay == 1 %} d-block{% endif %}">{{ entry.title }}</h1>
                         {% if entry.campaignSubtitleText | length %}
-                            <h2>{{ entry.campaignSubtitleText }}</h2>
+                           <h2>{{ entry.campaignSubtitleText }}</h2>
                         {% endif %}
 
                     </div>
                 </div>
             </div>
-            <!-- total-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 shadow" style="background-color: #ffffff">
 
 
-                        <div class="row justify-content-start">
-                            <div class="col-sm-12 col-md-8 ">
+                <!-- formstuff-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 shadow" style="background-color: #ffffff">
 
-                                <div class="rounded py-4 px-3 ">
-                                    {% if entry.mainTextTitle | length %}
+
+                            <div class="row justify-content-start">
+                                <div class="col-sm-12 col-md-6 ">
+
+                                    <div class="rounded py-4 px-3 ">
+                                        {%  if entry.mainTextTitle | length %}
                                         <h3 class=" mb-4 section-title-border-half text-dark">{{ entry.mainTextTitle }}</h3>
-                                    {% endif %}
-                                    <p class="hide text-white mb-1 mb-md-3">{{ entry.body }}</p>
-                                    <div class="mx-auto text-center ">
-                                        <i class=" ti-angle-double-down text-white" data-toggle="collapse"
-                                           href="#collapseExample"></i></div>
+                                        {% endif %}
+                                        <p class="hide text-white mb-1 mb-md-3">{{ entry.body }}</p>
+                                        <div class="mx-auto text-center ">
+                                            <i class=" ti-angle-double-down text-white" data-toggle="collapse"
+                                               href="#collapseExample"></i></div>
 
-                                    {# {% if entry.body| length %} #}
-                                    {# <div id="accordion"> #}
-                                    {# <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" #}
-                                    {# href="#collapseOne"> #}
-                                    {# <i class="ti-plus text-primary mr-2"></i> More #}
-                                    {# </a> #}
-                                    {# <div id="collapseOne" class="collapse" #}
-                                    {# data-parent="#accordion"> #}
-                                    {# <div class="card-body font-secondary text-white pl-0 pb-0"> #}
-                                    {# {{ entry.body }} #}
-                                    {# </div> #}
-                                    {# </div> #}
-                                    {# </div> #}
-                                    {# {% endif %} #}
+                                        {#                                {% if entry.body| length %}#}
+                                        {#                                    <div id="accordion">#}
+                                        {#                                        <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"#}
+                                        {#                                           href="#collapseOne">#}
+                                        {#                                            <i class="ti-plus text-primary mr-2"></i> More#}
+                                        {#                                        </a>#}
+                                        {#                                        <div id="collapseOne" class="collapse"#}
+                                        {#                                             data-parent="#accordion">#}
+                                        {#                                            <div class="card-body font-secondary text-white pl-0 pb-0">#}
+                                        {#                                                {{ entry.body }}#}
+                                        {#                                            </div>#}
+                                        {#                                        </div>#}
+                                        {#                                    </div>#}
+                                        {#                                {% endif %}#}
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex col-12 col-md-4 text-center mb-4 align-items-center ">
-                                <div class="card border-danger mx-sm-1 p-3">
-                                    <div class=" text-danger p-3 total"><span class="fa fa-3x fa-heart"
-                                                                              aria-hidden="true"></span></div>
+                                <div class="col-sm-12 col-md-6 donorfy ">
+                                    <div class="py-4 px-3">
+                                        {%  if entry.formTitle | length %}
+                                            {% css %}
+                                            #mc_embed_signup h2{
+                                                display:none;
+                                            }
+                                            {% endcss %}
+                                            <h3 class=" mb-4 section-title-border-half text-dark">{{ entry.formTitle }}</h3>
+                                        {% endif %}
+                                        {%  if entry.formIntro | length %}
+                                            <div class="form-intro">{{ entry.formIntro }}</div>
+                                        {% endif %}
 
-                                    <div class="text-danger text-center mt-3"><h4>Raised so far</h4></div>
-                                    <div class="text-danger text-center mt-2"><h1>£346.00</h1></div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <!-- story row -->
-                        <div class="row">
-                            <div class="col-12 col-md-10 offset-md-1">
-                                <div class="card-group mb-5">
-                                {% for story in entries %}
-                                    {% if story.image.exists() %}
-                                        {% set asset = story.image.one() %}
-                                    {% endif %}
-
-                                    <div class="col-lg-6 col-sm-6 mb-5 mb-lg-3">
-                                        <div class="card text-center mb-4">
-                                            {%  if asset | length %}
-                                                {% set img = craft.imager.transformImage(asset,
-                                                    [
-                                                        { width: 360, height:230, position: asset.getFocalPoint(), jpegQuality:85},
-                                                    ]
-                                                ) %}
-                                                <a href="{{ story.url }}">
-                                                    <div class="card-img-wrapper overlay-rounded-top">
-                                                        <img class="card-img-top rounded-0" src="{{ img[0].url }}" alt="{{ entry.title}}">
-                                                    </div>
-                                                </a>
-                                            {% endif %}
-                                            <div class="card-body p-0">
-                                                <h4 class="card-title pt-3">{{ story.title }}</h4>
-                                                <p class="card-text mx-2 mb-0" data-mh="cardtext">{{ story.introText| striptags }}.</p>
-                                                <a class="btn btn-primary translateY-25" href="{{ story.url }}">{{ story.title| default("read more") }}</a>
-
-                                            </div>
-                                        </div>
+                                        {%  if entry.donorfyEmbedLink | length %}
+                                            <iframe id="donorfyFrame" style="overflow:hidden;height:100vh;width:100%; border:0" class="donorfy-embed " src="{{ entry.donorfyEmbedLink }}"></iframe>
+                                        {% endif %}
+{#                                    <div id="mc_embed_signup">#}
+{#                                        {{ entry.subscribeForm | raw }}#}
+{#                                    </div>#}
                                     </div>
 
-                                {% endfor %}
-                            </div>
+                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
 
+        </section>
 
 
-
-        </div>
-    </section>
-
-
+    <!-- title -->
 
 
 
