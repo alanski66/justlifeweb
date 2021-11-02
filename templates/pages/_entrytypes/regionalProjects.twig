@@ -29,11 +29,13 @@
                 <h5 class="section-title-sm">Our work</h5>
                 <h1 class="section-title section-title-border">{{ entry.title }}</h1>
             </div>
+            {%  if entry.introText | length %}
             <div class="row ">
                 <div class="col-sm-12 col-md-10 offset-md-1 text-center pb-5">
                     <p class="lead">{{entry.introText | striptags | raw}}</p>
                 </div>
             </div>
+            {% endif %}
 
             <div class="row">
                 <div class="col-12 col-md-10 offset-md-1">
@@ -60,7 +62,7 @@
                                     <div class="card-body p-0">
                                         <h4 class="card-title pt-3"> <a href="{{ entry.url }}">{{ entry.title }}</a></h4>
                                         <p class="card-text mx-2 mb-3" data-mh="cardtext">{{ entry.subTitle| striptags }}.</p>
-                                        <a href="{{ entry.url }}" class="btn btn-secondary translateY-25">{{ entry.title ? entry.title: 'Read more'}} </a>
+                                        <a href="{{ entry.url }}" class="btn btn-secondary translateY-25">Read more</a>
 
                                     </div>
                                 </div>
