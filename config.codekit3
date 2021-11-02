@@ -10354,6 +10354,22 @@
       "oAP" : "\/templates\/campaign-stories\/_entrybak.twig",
       "oF" : 0
     },
+    "\/templates\/campaign-stories\/_entryorig.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_entryorig.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_entrytypes\/blockLayout.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/campaign-stories\/_entrytypes\/blockLayout.twig",
+      "oF" : 0
+    },
     "\/templates\/campaign-stories\/_entrytypes\/campaigns.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10368,6 +10384,118 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/campaign-stories\/_entrytypes\/donorfyCampaign.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_downloads.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_downloads.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_form.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_form.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_image.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_image.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_promotion.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_promotion.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_quote.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_quote.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_rowImage.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_rowImage.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_rowText.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_rowText.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_rowVideo.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_rowVideo.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_shareRow.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_shareRow.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_text.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_text.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_block_video.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_block_video.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_side_block_subscribe.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_side_block_subscribe.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_side_subnav-get-involved.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_side_subnav-get-involved.twig",
+      "oF" : 0
+    },
+    "\/templates\/campaign-stories\/_partials\/_side_subnav.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/campaign-stories\/_partials\/_side_subnav.twig",
       "oF" : 0
     },
     "\/templates\/campaign-stories\/comming-soon.twig" : {

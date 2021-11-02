@@ -1,0 +1,195 @@
+
+
+        {% extends "_layouts/generic-page-layout.twig" %}
+
+        {# {% extends "_layouts/campaign-noheader-page-layout.twig" %} #}
+        {% set bodyClass = " campaign" %}
+        {% css "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" %}
+        {% block content %}
+
+            {# get campaign header for reuse #}
+            {% set campaignId = entry.campaignName.one().id %}
+
+            {% set campaignEntry = craft.entries().id(campaignId).one() %}
+
+            {# original campaign header banner image #}
+            {% set asset = campaignEntry.bannerImage[0] ?? null %}
+
+            {# story image as banner header image #}
+            {% set asset = entry.image[0] ?? null %}
+
+
+            {% if asset | length %}
+                {% set transformedBannerImages = craft.imager.transformImage(asset,
+                    [
+                        { width: 550, height:380, position: asset.getFocalPoint(), jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
+                        { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
+                        { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
+                        { width: 1200, height:580, position: asset.getFocalPoint() },
+                        { width: 2400, height:730, position: asset.getFocalPoint(),ratio: 2/1 }
+                    ],
+                    {
+                        format: 'jpg',
+                        allowUpscale: true,
+                        mode: 'crop',
+                        jpegQuality: 90,
+                        interlace: true
+                    }
+                ) %}
+                {% css %}
+
+                    @media(min-width: 0px){
+                    .campaign.overlay{
+                    background-image: url('{{ baseUrl ~ transformedBannerImages[0].url }}');
+                    height:380px;
+                    background-position-y:-48px;
+                    background-position-x:0px;
+                    background-size:cover;
+                    max-height:300px;
+                    height:194px;
+                    {# padding-top:200px; #}
+                    }
+                    .campaign.overlay h1{
+                        font-size:2.4rem;
+                        transform: translateY(-43px);
+                    }
+                    }
+                    @media(min-width: 550px){
+                    .campaign.overlay{
+                    background-image: url('{{ baseUrl ~ transformedBannerImages[1].url }}');
+                    height:200px;
+                    background-position-y:-75px;
+                    }
+                    }
+                    @media(min-width: 768px){
+                    .campaign.overlay{
+                    background-image: url('{{ baseUrl ~ transformedBannerImages[2].url }}');
+{#                    height:200px;#}
+                    background-position-y:-75px;
+                    }
+
+                    @media(min-width: 990px){
+                    .campaign.overlay{
+                    background-image: url('{{ baseUrl ~ transformedBannerImages[3].url }}');
+                    height:593px;
+                    }
+                    .campaign.overlay h1{
+                    font-size: 3.4rem;
+                    transform: translateY(0px);
+                    }
+                    }
+
+                    @media(min-width: 1200px){
+                    .campaign.overlay{
+                    background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+{#                    height:593px;#}
+                    height:300px;
+                    }
+                    }
+                    @media(min-width: 1400px){
+                    .campaign.overlay{
+                    background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+                    height:653px;
+                    }
+                    }
+                    @media(min-width: 1600px){
+                    .campaign.overlay{
+                    background-image: url('{{ baseUrl ~ transformedBannerImages[4].url }}');
+                    height:753px;
+                    background-position-y:-165px;
+                    }
+                    }
+                    /* iframe embed css*/
+                    iframe#donorfyFrame > span, input  body, p {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    font-family: "Open Sans",sans-serif;
+                    }
+                    iframe#donorfyFrame html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postmessage.no-websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.no-cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths body#bodyIdF8adb2386e2ad4709ba00af953c188521.desktop-detected div#bodyDivIdF8adb2386e2ad4709ba00af953c188521.padding-5 div.row.padding-10 div#formContainerF8adb2386e2ad4709ba00af953c188521.col.col-xs-12.col-sm-6 div#formPreviewContainerF8adb2386e2ad4709ba00af953c188521 form#F8adb2386e2ad4709ba00af953c188521 div.formPanel div.row div.col.col-xs-12 p span
+                    {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    font-family: "Open Sans",sans-serif;
+                    }
+                {% endcss %}
+            {% endif %}
+
+
+
+            {# video only header #}
+            <section class="campaign overlay  container-fluid">
+                <div class="container wrapper  ">
+                    <div class="row header-h align-items-center">
+                        <div class="col-12 col-md-8 offset-md-2 text-cente mb-0 ">
+
+
+                            <h1 class="text-white px-md-4 translateY-33">{{ entry.title }}</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="">
+                        <div class="col-12 shadow" style="background-color: #ffffff">
+
+
+                            <div class="row justify-content-start py-3">
+                                <div class="col-12 col-md-8 offset-md-2 ">
+
+                                    <div class="rounded py-4 px-3 ">
+                                        {% set lazyImage = false %}
+                                        {% set blockPrefix = "" %}
+                                        {% for block in entry.contentBlock.all() %}
+                                            {% include ('campaign-stories/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}
+                                            {% if block.type.handle == "image" %}
+                                                {% set lazyImage = true %}
+                                            {% endif %}
+                                        {% endfor %}
+
+{#                                        {% if entry.pdfThumbnailImage | length %}#}
+{#                                            {% set pdfDocument = entry.pdfDocument.one() ?? null %}#}
+
+{#                                            {% set asset = entry.pdfThumbnailImage.one() %}#}
+{#                                            {% set thumb = {#}
+{#                                                mode: 'crop',#}
+{#                                                width: 220,#}
+{#                                                height: 315,#}
+{#                                                quality: 75,#}
+{#                                                position: 'center-center'#}
+{#                                            } %}#}
+{#                                        {% endif %}#}
+{#                                        <div class="d-none text-center text-sm-left">#}
+{#                                            <a href="{{ pdfDocument.url }}">#}
+{#                                                <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">#}
+{#                                            </a>#}
+{#                                        </div>#}
+                                        <div class="d-flex col-12 text-center mb-4 justify-content-center  pt-4">
+                                            <div class="card border-danger mx-sm-1 p-3 w-75">
+                                                <div class=" text-danger p-3 total">
+                                                    <span class="fa fa-5x fa-heart" aria-hidden="true"></span>
+                                                </div>
+                                                <div class="text-danger text-center mt-3"><h4>Raised so far</h4></div>
+                                                <div class="text-danger text-center mt-2 amount">
+                                                    £{{ campaignEntry.fundraisingTotal ?? "" }}</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex col-12 text-center mb-4 justify-content-center  pt-4">
+                                            <div class="story-donate">
+                                                <a href="{{ entry.ctaCustom ?? "" }}"
+                                                   class="btn btn-primary btn-lg storydonate text-white">{{ entry.donateButtonText ?? "Donate" }}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- side col -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+{% endblock %}

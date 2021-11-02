@@ -1,0 +1,31 @@
+<div class="py-4  mb-50">
+    <div class="row">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+            <!-- share-icons -->
+            <div class="d-flex">
+                <span class="font-weight-light mt-2 mr-3">Share:</span>
+                <ul class="list-inline d-inline-block">
+                    <li class="list-inline-item">
+
+                        <a class="share-icon bg-facebook" target="_blank" href="#" onClick="shareOnFB();">
+                            <i class="ti-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="share-icon bg-twitter" target="_blank"  href="#" onclick="shareOntwitter();">
+                            <i class="ti-twitter-alt"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="share-icon bg-linkedin" href="#" onclick="shareOnLinkedIn();">
+                            <i class="ti-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                {%  include('_partials/share-entry-pop.twig') %}
+
+            </div>
+        </div>
+    </div>
+</div>
