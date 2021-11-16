@@ -141,7 +141,6 @@
                 <div class="row">
                     <div class="col-12 shadow" style="background-color: #ffffff">
 
-
                         <div class="row justify-content-start">
                             <div class="col-sm-12 col-md-8 ">
 
@@ -172,11 +171,21 @@
                             </div>
                             <div class="d-flex col-12 col-md-4 text-center mb-4 align-items-center ">
                                 <div class="card border-danger mx-sm-1 p-3">
-                                    <div class=" text-danger p-3 total"><span class="fa fa-5x fa-heart"
-                                                                              aria-hidden="true"></span></div>
+                                    <div class=" text-danger p-3 total">
+                                        <span class="fa fa-5x fa-heart" aria-hidden="true"></span>
+                                    </div>
 
-                                    <div class="text-danger text-center mt-3"><h4>Raised so far</h4></div>
-                                    <div class="text-danger text-center mt-2 amount">£{{ entry.fundraisingTotal }}</div>
+                                    {% if entry.campaignBoxText | length %}
+                                    <div class="text-danger text-center mt-3">
+                                        <h4>{{ entry.campaignBoxText }}</h4>
+                                    </div>
+                                    {% endif %}
+                                    {% if entry.fundraisingTotal | length %}
+                                        <div class="text-danger text-center mt-2 amount">£{{ entry.fundraisingTotal }}</div>
+                                    {% endif %}
+                                    {% if entry.donateButtonText | length %}
+                                    <a href="{{ entry.ctaCustom ?? "" }}" class="btn btn-primary btn-lg mb-3 storydonate text-white">{{ entry.donateButtonText ?? "Donate" }}</a>
+                                    {% endif %}
                                 </div>
 
                             </div>

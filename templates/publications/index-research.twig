@@ -23,7 +23,7 @@
             </div>
         </div>
         </section>
-        <section class="section publications mb-5">
+        <section class="section publications ">
                 <div class="container">
                     <div class="row justify-content-center">
 
@@ -52,7 +52,7 @@
                                 height: 358
 
                             } %}
-                            <div class="col-lg-3 col-sm-6 col-xs-12 mb-5 ">
+                            <div class="col-lg-3 col-sm-6 col-xs-12 mb-1 ">
                                 <div class="card text-center mb-5" >
                                     <a href="{{ entry.url }}">
                                     <div class="card-img-wrapper">
@@ -61,9 +61,9 @@
                                         {% endif %}
                                     </div>
                                     </a>
-                                    <div class="card-body p-0"  >
-                                        <h4 class="card-title pt-3" data-mh="title">{{ entry.title }}</h4>
-                                        <a href="{{ entry.url }}" class="btn btn-secondary translateY-25">Read More</a>
+                                    <div class="card-body p-2"  >
+                                        <h4 class="card-title pt-3" data-mh="title"><a class="text-black" href="{{ entry.url }}">{{ entry.title }}</a></h4>
+
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
 
 
     <!-- see also - list of other projects -->
-    <section class="section ">
+    <section class="section d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">
@@ -117,7 +117,7 @@
                                         {% set imgUrl = "https://via.placeholder.com/350x190" %}
                                     {% endif %}
                                     <!-- regional item col -->
-                                    <div class="col-lg-4 col-sm-6 col-xs-12 mb-5 pb-5">
+                                    <div class="col-lg-4 col-sm-6 col-xs-12 mb-3">
                                         <div class="card text-center" >
                                             <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}">
                                                 <div class="card-img-wrapper">
@@ -132,14 +132,13 @@
                                                     <img  class="card-img-top rounded-0"  src="{{ imgUrl }}" >
                                                 </div>
                                             </a>
-                                            <div class="card-body p-0" >
-                                                <h4 class="card-title pt-3" data-mh="mh-title">{{card.cardTitle}}</h4>
-
-
-                                                <p class="card-text mx-2" data-mh="mh-text">{{card.cardBody}}</p>
-
-                                                <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}" class="btn btn-secondary translateY-25">{{ card.cardButtonTitle ? card.cardButtonTitle: 'Read more'}} </a>
-
+                                            <div class="card-body py-3 px-2" >
+                                                <h4 class="card-title pt-3" data-mh="mh-title">
+                                                    <a href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}">
+                                                    {{card.cardTitle}}
+                                                    </a>
+                                                </h4>
+                                                <p class="card-text mx-2 pb-3" data-mh="mh-text">{{card.cardBody}}</p>
                                             </div>
                                         </div>
                                     </div>
