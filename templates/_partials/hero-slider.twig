@@ -127,8 +127,7 @@
                                 <div class="hero-content text-{{ block.position }} justify-content-center">
                                     {% if block.slideTitle |length %}
                                         <h4 class="text-uppercase mb-1 text-white {{ block.textColor }}"
-                                            data-duration-in=".5"
-                                            data-animation-in="fadeInLeft" data-delay-in=".1">
+                                            >
                                             {{ block.preTitle }}</h4>
                                     {% endif %}
                                     {% if block.slideTitle |length %}
@@ -158,12 +157,12 @@
                                     </div>
 
                                     {% if block.intro |length %}
-                                        <p class="d-none d-md-block slide-intro text-white mb-3 mb-md-4 mb-lg-5 text-{{ block.textColor }} text-shadow {{ block.textColor }}"
-                                           data-duration-in=".5" data-animation-in="fadeIn" data-delay-in=".9">
+                                        <p class="d-none d-md-block slide-intro text-white mb-0 mb-xl-5 text-{{ block.textColor }} text-shadow {{ block.textColor }}"
+                                           >
                                             {{ block.intro |raw }} </p>
                                     {% endif %}
                                     {% if block.buttonLink | length %}
-                                        <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3"
+                                        <a data-duration-in=".2" data-animation-in="fadeInDown" data-delay-in=".3"
                                            href="{{ block.buttonLink.one().url }}"
                                            class="btn btn-secondary text-uppercase text-{{ block.textColor }}"> {{ block.buttonText | default("more") }}</a>
                                     {% endif %}
