@@ -93,27 +93,32 @@
                         <div class="mb-4">
                             <h4 class="mb-3">Life stories</h4>
                             {% for story in entry.relatedStories.all() %}
-                                {% if story.image.exists() %}
-                                    {% set asset = story.image.one() %}
-                                    {% set thumb = {
-                                        mode: 'crop',
-                                        width: 70,
-                                        height: 70,
-                                        quality: 75,
-                                        position: 'center-center'
-                                    } %}
-                                {% endif %}
+
+
                                 <div class="d-flex py-3 border-bottom">
-                                    <div class="mr-4">
-                                        <a href="{{ story.url }}">
-                                            <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
-                                        </a>
-                                    </div>
+                                    {% if story.image | length %}
+                                        {% set asset = story.image.one()  %}
+                                        {% set thumb = {
+                                            mode: 'crop',
+                                            width: 70,
+                                            height: 70,
+                                            quality: 75,
+                                            position: 'center-center'
+                                        } %}
+
+                                        <div class="mr-4">
+                                            <a href="{{ story.url }}">
+                                                <img class="rounded" src="{{ asset.url(thumb) }}" alt="post-thumb">
+                                            </a>
+                                        </div>
+                                    {% endif %}
                                     <div>
                                         <h6 class="mb-1">
                                             <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
                                         </h6>
-                                        <p>{{ story.introText|truncateOnWord(60) }}</p>
+                                        {% if story.introText|length %}
+                                            <p>{{ story.introText|truncateOnWord(60) }}</p>
+                                        {% endif %}
                                     </div>
                                 </div>
                             {% endfor %}
