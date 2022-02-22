@@ -28,7 +28,7 @@
     {#limit:     2#}
     {#}) %}#}
 
-    {% paginate craft.entries(queryParams).limit(10) as pageInfo, pageEntries %}
+    {% paginate craft.entries(queryParams).limit(11).orderBy('postDate desc') as pageInfo, pageEntries %}
 
     {% set first = pageEntries|slice(0,1) %}
     {% set therest = pageEntries|slice(1,9) %}
