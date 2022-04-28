@@ -25,11 +25,15 @@
 
                                 {% if entry.introText | length %}
                                     <div class="description">{{ entry.introText |raw }}</div>
+                                    {% if entry.websiteUrl | length %}
+                                    <a href="{{ entry.websiteUrl }}">Visit gamely <i class="fa fa-external-link"></i> </a>{% endif %}
                                 {% endif %}
                             </div>
                             {% if asset %}
+                                {% if entry.websiteUrl | length %}<a href="{{ entry.websiteUrl }}">{% endif %}
                                 <img class="rounded-image mr-3" src="{{ asset.getUrl('supporterLogo') }}"
                                      alt="logo for {{ entry.title }}">
+                            {% if entry.websiteUrl | length %}</a>{% endif %}
                             {% else %}
                                 <img class="mr-3" src="https://placehold.it/200x200" alt="Generic placeholder image">
                             {% endif %}
@@ -81,7 +85,7 @@
 
                                 {% for sentry in entries.all() %}
 
-                                    {% set asset = sentry.supporterLogo.One() ?? null %}
+                                    {% set asset = sentry.supporterLogo ?? null %}
 
                                     {# start card layout #}
                                     <div class="col-lg-3 col-sm-6 sponsor-item p-3">
@@ -91,9 +95,8 @@
                                                 {% if asset |length %}
 
 
-                                                    <img class="img-fluid" src="{{ asset.getUrl }}"
-                                                         width="{{ asset.getWidth('sponsorLogoGrid') }}"
-                                                         height="{{ asset.getHeight('sponsorLogoGrid') }}"
+                                                    <img class="img-fluid" src="{{ asset[0].getUrl('supporterLogo') }}"
+
                                                          alt="{{ sentry.title }}">
                                                 {% else %}
                                                     <img class="card-img-top" src="https://picsum.photos/150/100"
