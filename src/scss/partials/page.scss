@@ -137,3 +137,9 @@ promo a{
 .vacancies-index a.h2{
   font-size:1.6rem;
 }
+
+
+//supporters
+.supporters .card:hover>.card-body{
+  color:$white;
+}
