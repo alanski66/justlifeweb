@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-8 pt-3">
+                    <div class="col-12 col-sm-12 col-md-8 offset-2 pt-3">
                         <div class="media mb-5">
                             <div class="media-body">
                                 <h1 class="mt-0">{{ entry.title }}</h1>
@@ -52,13 +52,7 @@
                             {% endfor %}
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <!-- Sidebar -->
-                        <div class="bg-white px-4 py-4 sidebar-box-shadow">
-                            {% include '/pages/_partials/_side_subnav.twig' %}
-                            {% include '/pages/_partials/_side_block_subscribe.twig' %}
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
