@@ -1,6 +1,6 @@
 
 .quote-card {
-  background: #fafafa; //rgba(229, 227, 227, 0.43);
+  background: $white; //rgba(229, 227, 227, 0.43);
   color: #222222;
   padding: 20px;
   padding-left: 50px;
@@ -29,7 +29,7 @@
   content: "“";
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 0px;
   font-size: 5em;
   color: rgba(238, 238, 238, 0.8);
   font-weight: normal;
