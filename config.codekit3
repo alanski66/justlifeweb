@@ -57,9 +57,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/composer.lock",
-      "oF" : 0
+      "oF" : 1
     },
     "\/config" : {
       "ft" : 65536,
