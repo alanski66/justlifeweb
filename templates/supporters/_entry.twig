@@ -31,7 +31,7 @@
                             </div>
                             {% if asset %}
                                 {% if entry.websiteUrl | length %}<a href="{{ entry.websiteUrl }}">{% endif %}
-                                <img class="rounded-image mr-3" src="{{ asset.getUrl('supporterLogo') }}"
+                                <img class="rounded-image mr-3" src="{{ asset.getUrl('supporterLogoSmall') }}"
                                      alt="logo for {{ entry.title }}">
                             {% if entry.websiteUrl | length %}</a>{% endif %}
                             {% else %}
@@ -61,7 +61,8 @@
                 <div class="container">
                     <div class="row ">
 
-
+<div class="col-12 col-sm-12 col-md-8 offset-md-2">
+    <div class="row ">
                         <div class="col-lg-12 mt-5">
                             <h3><a href="{{ baseUrl }}about-us/our-supporters">Our supporters</a></h3>
                         </div>
@@ -83,7 +84,7 @@
 
                                     {# start card layout #}
                                     <div class="col-lg-3 col-sm-6 sponsor-item p-3">
-                                        <div class="card d-table-cell align-middle text-center">
+                                        <div class="card d-table-cell align-middle text-center border-0">
 
                                             <a href="{{ sentry.url }}">
                                                 {% if asset |length %}
@@ -105,8 +106,8 @@
                                 {% endfor %}
                             </div>
                         </div>
-
-
+    </div>
+</div>
                     </div>
                 </div>
             </div><!-- /.container -->
