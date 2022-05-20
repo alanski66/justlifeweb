@@ -28,7 +28,8 @@
     "adigital/eventbrite": "1.0.5",
     "pennebaker/craft-architect": "2.4.3",
     "indigoviking/liquid-letters": "1.2",
-    "verbb/cloner": "1.2.2"
+    "verbb/cloner": "1.2.2",
+    "mmikkel/cp-field-inspect": "1.4.4"
   },
   "repositories": [
     {

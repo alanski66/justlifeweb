@@ -54,12 +54,17 @@
                                     <img class="card-img-top p-5 " src="{{ imgurl }}" alt="{{ entry.title }}">
                                 </a>
 
-                                <div class="card-body card-body-2 pb-0 px-4" data-mh="titles">
+                                <div class="card-body  pb-0 px-4" data-mh="titles">
                                     <h5 class="card-title">{{entry.title}}</h5>
                                     {% if entry.introText | length %}
-                                        <div class="card-body ">{{ entry.introText |raw }}</div>
+                                        <div class="card-body mb-3">{{ entry.introText |raw }}</div>
                                     {% endif %}
+                                    <div class="d-flex justify-content-between p-3 hide">
+                                        <div class="w-50 text-black"><a href="{{ entry.websiteUrl ?? null }}">Visit <i class="d-inline fa fa-external-link"></i></a></div>
+                                        <div class="w-50 text-black"><a href="{{ entry.url ?? null }}">Read more</a></div>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     {% endfor %}
