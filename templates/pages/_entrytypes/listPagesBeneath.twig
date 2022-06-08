@@ -1,0 +1,112 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+{% set bodyClass =  " page" %}
+{% block content %}
+    {% set layout = null %}
+    <!--Join  Page Entry type Content -->
+    {% if entry is defined %}
+
+        {% include '/_partials/hero-featured.twig' %}
+
+        <section
+                class="ala {{ entry.type }} page {% if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-sm-8 col-sm-offset-2 pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h2 class="mx-auto text-center mb-5 section-title section-title-border ">{{ entry.title }}</h2>
+                            {# {% set lazyImage = false %} #}
+                            {# {% set blockPrefix = "" %} #}
+                            {# {% for block in entry.contentBlock.all() %} #}
+                            {# {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %} #}
+                            {# {% if block.type.handle == "image" %} #}
+                            {# {% set lazyImage = true %} #}
+                            {# {% endif %} #}
+                            {# {% endfor %} #}
+                        </div>
+                    </div>
+                </div>
+
+                {# this page entry type will list all sub pages beneath if of type 'page' #}
+                {% set subPages = craft.entries.descendantOf(entry.id) %}
+
+
+                {# Get entries to build the sub-page list #}
+                {% for sentry in subPages.all() %}
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-4">
+                            {% set asset = sentry.featureImage[0] ?? null %}
+                            {% if asset | length %}
+                                <figure class="image-holder mb-0">
+
+                                    {% set imgCredit =  asset.imageCredit ?? null %}
+                                    {% set imgCaption =  asset.imageCaption ?? null %}
+
+                                    <picture>
+
+                                      <a href="{{ sentry.url }}">
+                                          <img class="img-fluid d-flex mx-auto" src="{{ asset.getUrl('cardLandscape') }}"
+                                             width="{{ asset.getWidth('cardLandscape') }}"
+                                             height="{{ asset.getHeight('cardLandscape') }}"
+
+                                             alt="{{ asset.title }} {{ imgCredit }} {{ imgCaption }}">
+                                      </a>
+                                        <figcaption class="position-relative">
+                                            {% if imgCredit %}
+                                                <span class="picture-credit">
+                                                {% if imgCaption %}
+                                                    <span class="picture-caption">
+                                                        {{ imgCaption }}
+                                                </span>
+                                                {% endif %}
+                                                &copy; {{ asset.imageCredit }}</span>
+                                            {% endif %}
+                                        </figcaption>
+                                    </picture>
+                                </figure>
+                            {% endif %}
+                        </div>
+                        <div class="col-8">
+                            <h3><a href="{{ sentry.url }}">{{ sentry.title }}</a></h3>
+                            {% if sentry.introText | length %}
+                                {{ sentry.introText }}
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+
+
+                <div class="row justify-content-center">
+
+
+                    <div class="col--12 col-md-8 col-md-offset-2">
+                        <div class="mb-50">
+                            <h4 class="mb-3"></h4>
+                            <ul class="pl-0 mb-0">
+
+
+                                {# Output the sub menu #}
+                                {% for sentry in subPages.all() %}
+                                    {% if sentry.entryLink|length %}
+                                        {% set navlink = sentry.entryLink.one().url %}
+                                    {% else %}
+                                        {% set navlink = sentry.customLink %}
+                                    {% endif %}
+                                    <li class="border-bottom {{ macros.isActiveChildClass(sentry.slug)|trim }} level{{ sentry.level }}">
+                                        <a href="{{ navlink }}"
+                                           class="{{ macros.isActiveChildClass(sentry.slug) |trim }} d-block text-color py-10">{{ sentry.title }}</a>
+                                    </li>
+
+                                {% endfor %}
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+{% endblock %}
