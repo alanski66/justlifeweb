@@ -7,8 +7,8 @@ li.nav-item.donate{
   outline:inherit;
 }
 .navigation .navbar li.nav-item{
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .navigation .navbar .nav-item .nav-link.active{
   color: $red;
@@ -107,5 +107,14 @@ li.nav-item.donate{
   }
   .top-header{
     display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .navigation .navbar .nav-item .nav-link.btn.btn-sm {
+    margin-top:0px;
+  }
+  .navigation .navbar li.nav-item{
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }

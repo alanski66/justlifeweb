@@ -49,15 +49,15 @@ function shareOnLinkedIn(){
 
 
 //shrink nav
-$(window).on("scroll", function(){
-    if ($(this).scrollTop() >= 100){
-        $(".navbar").addClass("shrink");
-    }
-    if ($(this).scrollTop() <= 99){
-        $(".navbar").removeClass("shrink");
-    }
-
-});
+// $(window).on("scroll", function(){
+//     if ($(this).scrollTop() >= 100){
+//         $(".navbar").addClass("shrink");
+//     }
+//     if ($(this).scrollTop() <= 99){
+//         $(".navbar").removeClass("shrink");
+//     }
+//
+// });
 
 (function ($) {
     'use strict';

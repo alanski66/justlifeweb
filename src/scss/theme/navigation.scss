@@ -59,17 +59,23 @@
   padding: 0;
   background: #fff !important;
   position: relative;
+  height:85px;
 }
 
 .navigation .navbar-brand {
   position: absolute;
   left: 0;
-  top: -46px; //
-  //top: -56px;
+  //top: -46px; //
+  ////top: -56px;
+  //height: 190px;
+  //height: 200px;
+  //width: 215px;
+  //width: 220px;
+  top: -39px;
   height: 190px;
-  height: 200px;
+  height: 162px;
   width: 215px;
-  width: 220px;
+  width: 169px;
   background: #fff;
   text-align: center;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
@@ -96,7 +102,7 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  max-width:150px;
+  max-width:110px;
 }
 
 .navigation .navbar .nav-item {
@@ -110,7 +116,7 @@
 }
 
 .navigation .navbar .nav-item .nav-link {
-  padding: 15px;
+  padding: 5px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #222;
@@ -139,7 +145,7 @@
 }
 
 .navigation .navbar .nav-item:last-child {
-  padding: 28px 0 28px 30px;
+  padding: 28px 0 28px 0px;
 }
 
 @media (max-width: 991px) {
@@ -147,11 +153,23 @@
     padding: 0;
     margin-bottom: 20px;
   }
+  .navigation .navbar .nav-item a.btn {
+    max-width: 100px;
+  }
+  .navigation .navbar .nav-item{
+    text-align: center;
+  }
 }
 
-.navigation .navbar .nav-item:last-child .nav-link {
+.navigation .navbar .nav-item .nav-link.btn {
   color: #fff;
+
 }
+.navigation .navbar .nav-item .nav-link.btn.btn-sm{
+  padding: 5px 15px !important;
+  margin-top:10px;
+}
+
 
 .navigation .navbar .nav-item.active .nav-link {
   //color: #D00E38;
