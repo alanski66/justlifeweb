@@ -7,7 +7,7 @@
         {% cache %}
         <!-- hero featured -->
 
-        <section class="hero featured position-relative">
+        <section class="hero featured position-relative mb-4">
             {% set asset = entry.partnerImage.one() ?? null %}
             {% if asset | length %}
             <div class="container position-relative d-flex">
