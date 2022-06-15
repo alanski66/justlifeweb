@@ -11840,6 +11840,14 @@
       "oAP" : "\/templates\/pages\/_partials\/_block_downloads.twig",
       "oF" : 0
     },
+    "\/templates\/pages\/_partials\/_block_embed.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/templates\/pages\/_partials\/_block_embed.twig",
+      "oF" : 0
+    },
     "\/templates\/pages\/_partials\/_block_form.twig" : {
       "cB" : 0,
       "ft" : 8192,
