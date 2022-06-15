@@ -100,6 +100,7 @@
                         {% set imgCredit =  asset.imageCredit ?? null %}
                         {% set imgCaption =  asset.imageCaption ?? null %}
 
+                        {% set listTitle =  sentry.listTitle ? sentry.listTitle : sentry.title  %}
 
 
                         {% set asset = craft.imager.transformImage(asset, {
@@ -124,7 +125,7 @@
                             <div class="card-body py-3 px-2" data-mh="mh-card">
                                 <h4 class="card-title pt-3" data-mh="mh-title">
 
-                                    <a href="{{ sentry.url }}">{{ sentry.title }} </a>
+                                    <a href="{{ sentry.url }}">{{ listTitle }} </a>
 
                                 </h4>
                                 <p class="card-text mx-2 " data-mh="mh-text">
