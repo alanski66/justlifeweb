@@ -6,9 +6,10 @@
 //     25.4 copyright
 //     25.5 back to top
     /* 25.1 social link */
-.social-icon-outline {
+.top-header .social-icon-outline {
   height: 40px;
-  width: 40px;
+  width: 34px;
+  padding: 0 0 0 0;
   border-radius: 50%;
   background: transparent;
   border: 1px solid #fff;
@@ -16,7 +17,10 @@
   transition: .2s ease;
   display: inline-block;
 }
-
+.top-header a.social-icon-outline.ytube
+{
+  padding-left:10px;
+}
 .social-icon-outline i {
   line-height: 40px;
   color: #fff;

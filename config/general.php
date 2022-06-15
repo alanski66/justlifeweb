@@ -32,6 +32,7 @@ return [
 //        'baseUrl'   => getenv('CRAFTENV_BASE_URL'),
         'aliases' => [
             '@web' => getenv('CRAFTENV_BASE_URL'),
+            '@webroot' => getenv('CRAFTENV_BASE_PATH'),
             '@assetsUrl' => getenv('ASSET_BASE_URL'),
             '@assetBaseUrl' => getenv('ASSET_BASE_URL'),
             '@assetBasePath' => getenv('ASSET_BASE_PATH'),

@@ -73,12 +73,12 @@
                 {% set btnnav = "btn btn-primary btn-sm" %}
             {% endif %}
             {% if entry.menuClass | length %}
-                {% set mnuClass = entry.menuClass ~ " btn-sm mx-auto" %}
+                {% set mnuClass = entry.menuClass ~ "btn btn-primary btn-sm mx-auto" %}
             {% endif %}
 
             <li class="nav-item {{ macros.activeLinkClass(navlink, entry.level)|trim }} level{{ entry.level }} {{ entry.title |lower }}">
                 <a id="{{ entry.title }}" href="{{ navlink }}"
-                   class="nav-link {{ macros.activeLinkClass(navlink, entry.level) |trim }} level{{ entry.level }} {{ mnuClass }}">{{ entry.title }}</a>
+                   class="nav-link {{ macros.activeLinkClass(navlink, entry.level) |trim }} level{{ entry.level }} {{ mnuClass }}">{{ entry.title }} </a>
             </li>
 
 
