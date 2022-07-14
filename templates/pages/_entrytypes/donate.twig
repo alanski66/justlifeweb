@@ -6,89 +6,52 @@
     <!-- Page Content -->
     {% if entry is defined %}
 
-    {#        {% include '/_includes/hero-featured.twig' %}#}
+        {# {% include '/_includes/hero-featured.twig' %} #}
 
 
-    <!-- service -->
-    <section class="mt-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center">
-
-                    <h1 class="section-title section-title-border">Donate</h1>
-                </div>
-                <div class="row ">
-                    <div class="col-sm-12 col-md-10 offset-md-1 text-center pb-5">
-                        <p class="lead">{{ entry.introText | striptags }}</p>
-                    </div>
-                </div>
-
-
-            </div>
-        </div><!-- /.container -->
-    </section>
-    <!-- pricing -->
-    <section class="mt-2 mb-5">
-    <div class="container">
-    <div class="row justify-content-center">
-    <div class="col-lg-12 text-center">
-        {% if entry.regularGivingHeading | length %}
-            <h2 class="mb-2">{{ entry.regularGivingHeading }}</h2>
-        {% endif %}
-        {% if entry.regularGivingSubtitle | length %}
-            <p class="mb-5 lead">{{ entry.regularGivingSubtitle }}</p>
-        {% endif %}
-    </div>
-
-    {% if entry.regularGivingAmountBoxes | length %}
-
-        {% for block in entry.regularGivingAmountBoxes.all() %}
-
-            {% for block in block.amountBox.all() %}
-                <!-- pricing item -->
-                <div class="col-lg-4 col-sm-6 mb-md-50 mb-5">
-                    <div class="rounded border">
-                        <div class="p-4 border-bottom">
-                            <h2 class="font-weight-bold mb-0 mb-sm-3">£{{ block.amount }}<span class="h5">/month</span>
-                            </h2>
-                            <i class="square-icon translateY-10 float-right ti-gift"></i>
-                        </div>
-                        <div class="pt-5 px-4" >
-
-                            <p data-mh="giftbox">{{ block.text }}</p>
-                            <a href="{{ baseUrl }}get-involved/donate/monthly-gift?amount={{ block.amount }}" class="btn btn-primary translateY-25 btn-mgiftbox">{{ block.buttonText | default("Donate") }}</a>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
-        {% endfor %}
-        {% endif %}
-
-
-
-
-        </div>
-        </div>
-        </section>
-        <!-- /pricing -->
-
-        <section class="cta bg-gray py-50 text-center text-lg-left">
+        <!-- service -->
+        <section class="mt-5">
             <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+
+                        <h1 class="section-title section-title-border">Donate</h1>
+                    </div>
+                    <div class="row ">
+                        <div class="col-sm-12 col-md-10 offset-md-1 text-center pb-5">
+                            <p class="lead">{{ entry.introText | striptags }}</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div><!-- /.container -->
+        </section>
+
+        <!-- single -->
+        <section class="cta bg-gray py-50 text-center text-lg-left mb-5">
+            <div class="container mb-5">
 
                 <div class="row justify-content-between">
                     <div class="col-lg-12 text-center">
-                        {%  if entry.oneOfHeading | length %}<h2 class="mb-2">{{ entry.oneOfHeading }}</h2>{% endif %}
-                        {%  if entry.oneOffSubtitle | length %}<p class="mb-5">{{ entry.oneOffSubtitle }}</p>{% endif %}
-                         </div>
+                        {% if entry.oneOfHeading | length %}<h2 class="mb-2">{{ entry.oneOfHeading }}</h2>{% endif %}
+                        {% if entry.oneOffSubtitle | length %}<p class="mb-5">{{ entry.oneOffSubtitle }}</p>{% endif %}
+                    </div>
 
                     <div class="col-lg-12 ">
 
-                        <form class="form-inline justify-content-center" method="get" action="" onsubmit="event.preventDefault();">
+                        <form class="form-inline justify-content-center" method="get" action=""
+                              onsubmit="event.preventDefault();">
                             <div class="form-group mx-sm-3 mb-2 d-flex flex-column flex-sm-row">
                                 <label for="amount" class="sr-only">Amount</label>
                                 <i class=" translateY-10 coins ti-server pr-sm-4 pt-3"></i>
-                                <input type="number" placeholder="0.00"  pattern="^\d+(?:\.\d{1,2})?$" title="donate amount" name="amount" class="form-control mb-0 text-center text-sm-left" id="amount" placeholder="amount">
-                                <a href="{{ baseUrl }}get-involved/donate/one-off-donation" onclick="location.href=this.href+'?amount='+amount;return false;" class="btn btn-primary mb-2 mt-2 ml-2">{{ entry.donateButtonText |default("Donate now") }}</a>
+                                <input type="number" placeholder="0.00" pattern="^\d+(?:\.\d{1,2})?$"
+                                       title="donate amount" name="amount"
+                                       class="form-control mb-0 text-center text-sm-left" id="amount"
+                                       placeholder="amount">
+                                <a href="{{ baseUrl }}get-involved/donate/one-off-donation"
+                                   onclick="location.href=this.href+'?amount='+amount;return false;"
+                                   class="btn btn-primary mb-2 mt-2 ml-2">{{ entry.donateButtonText |default("Donate now") }}</a>
                             </div>
 
                         </form>
@@ -96,26 +59,80 @@
                 </div>
             </div>
         </section>
+        <!-- /single -->
+
+        <!-- pricing dd -->
+        <section class="mt-5 mb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        {% if entry.regularGivingHeading | length %}
+                            <h2 class="mb-2">{{ entry.regularGivingHeading }}</h2>
+                        {% endif %}
+                        {% if entry.regularGivingSubtitle | length %}
+                            <p class="mb-5 lead">{{ entry.regularGivingSubtitle }}</p>
+                        {% endif %}
+                    </div>
+
+                    {% if entry.regularGivingAmountBoxes | length %}
+
+                        {% for block in entry.regularGivingAmountBoxes.all() %}
+
+                            {% for block in block.amountBox.all() %}
+                                <!-- pricing item -->
+                                <div class="col-lg-4 col-sm-6 mb-md-50 mb-5">
+                                    <div class="rounded border mb-5">
+                                        <div class="p-4 border-bottom">
+                                            <h2 class="font-weight-bold mb-0 mb-sm-3">£{{ block.amount }}<span
+                                                        class="h5">/month</span>
+                                            </h2>
+                                            <i class="square-icon translateY-10 float-right ti-gift"></i>
+                                        </div>
+                                        <div class="pt-5 px-4">
+
+                                            <p data-mh="giftbox">{{ block.text }}</p>
+                                            <a href="{{ baseUrl }}get-involved/donate/monthly-gift?amount={{ block.amount }}"
+                                               class="btn btn-primary translateY-25 btn-mgiftbox d-flex w-50  mx-auto"><span class="w-100">{{ block.buttonText | default("Donate") }}</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                    {% endif %}
+
+
+                </div>
+            </div>
+        </section>
+        <!-- /pricing -->
+
+
+
+        <!-- justgiving -->
         <section class="cta bg-gray bg-oat py-50 text-center text-lg-left">
             <div class="container">
 
                 <div class="row justify-content-between">
                     <div class="col-lg-12 text-center">
-                        {%  if entry.justgivingHeading | length %}<h2 class="mb-2">{{ entry.justgivingHeading }}</h2>{% endif %}
-                        {%  if entry.justgivingSubtext | length %}<p class="mb-5">{{ entry.justgivingSubtext }}</p>{% endif %}
+                        {% if entry.justgivingHeading | length %}<h2
+                                class="mb-2">{{ entry.justgivingHeading }}</h2>{% endif %}
+                        {% if entry.justgivingSubtext | length %}<p
+                                class="mb-5">{{ entry.justgivingSubtext }}</p>{% endif %}
                     </div>
 
                     <div class="col-lg-12 justify-content-center">
-                    {%  if entry.justgivingImage | length %}
-                        {%  if entry.justgivingLink | length %}<a href="{{ entry.justgivingLink }}">{% endif %}
-                        <img class="d-flex mx-auto" src="{{ entry.justgivingImage[0].url }}" alt="Donate via Justgiving platform">
-                            {%  if entry.justgivingLink | length %}</a>{% endif %}
+                        {% if entry.justgivingImage | length %}
+                            {% if entry.justgivingLink | length %}<a href="{{ entry.justgivingLink }}">{% endif %}
+                            <img class="d-flex mx-auto" src="{{ entry.justgivingImage[0].url }}"
+                                 alt="Donate via Justgiving platform">
+                            {% if entry.justgivingLink | length %}</a>{% endif %}
                         {% endif %}
 
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /justgiving -->
     {% endif %}
     <script>
         var num = 5;
@@ -123,13 +140,13 @@
     </script>
 {% endblock %}
 {% js %}
-/* event listener for single amount */
-document.getElementsByName("amount")[0].addEventListener('change', doThingWithAmount);
+    /* event listener for single amount */
+    document.getElementsByName("amount")[0].addEventListener('change', doThingWithAmount);
 
-function doThingWithAmount(){
+    function doThingWithAmount(){
     this.value = (this.value*1).toFixed(2);
     amount = this.value;
-}
+    }
 
 {% endjs %}
 
