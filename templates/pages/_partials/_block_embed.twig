@@ -8,8 +8,22 @@
         .bg-white #mc_embed_signup {
         background:#ffffff;
         }
-        .content {
-        color: {{ entry.textColor }};
+
+
+        #mc_embed_signup #mce-success-response{
+        color: #212529
+        }
+        #mc_embed_signup div#mce-responses {
+            float: left;
+            top: -1.4em;
+            padding: 0!important;
+            overflow: hidden;
+            width: 100%!important;
+            margin:0!important;
+        }
+        #mce-error-response,
+        #mce-success-response {
+            background: #f9d481!important;
         }
     {% endcss %}
 {% endif %}
