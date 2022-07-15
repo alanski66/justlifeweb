@@ -114,7 +114,7 @@
 
                         {% set imgUrl = "https://via.placeholder.com/350x190" %}
                     {% endif %}
-                    <!-- regional item col -->
+                    <!-- list page beneath page col -->
                     <div class="col-lg-4 col-sm-6 col-xs-12 mb-4">
                         <div class="card text-center" >
                             <a href="{{ sentry.url }}">
@@ -138,6 +138,13 @@
                         </div>
                     </div>
                 {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 py-4 text-center">
+                    {% if entry.contentFooter | length %}
+                        {{ entry.contentFooter }}
+                    {% endif %}
+                </div>
             </div>
         </section>
     {% endif %}

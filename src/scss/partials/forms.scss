@@ -32,3 +32,22 @@ ul.errors li{
   font-style: italic;
   margin-top: -10px;
 }
+
+// mailchimp overrides
+
+#mc_embed_signup .mc-field-group label{
+  font-family: $font-family-base;
+}
+
+#mc_embed_signup .content__gdpr p{
+  margin-bottom:0.5rem;
+
+}
+
+#mc_embed_signup .button{
+  background-color: #d00e38 !important;
+  border-radius: 35px!important;
+  text-transform: uppercase!important;
+  font-family: $font-family-base!important;
+  font-weight:bold!important;
+}
