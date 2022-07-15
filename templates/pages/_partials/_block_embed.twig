@@ -1,15 +1,22 @@
-
-<section class="block embed mb-4 mt-4  p-3">
-
-                {% if block.embed |length %}
-
-                        {{ block.embed |raw }}
-
-                {% endif %}
-
-
-
-
+{%  set bgcolor = null %}
+{% if block.backgroundColor |length %}
+{%  set bgcolor = block.backgroundColor %}
+    {% css %}
+        .bg-gray #mc_embed_signup {
+            background:#f5f5f5!important
+        }
+        .bg-white #mc_embed_signup {
+        background:#ffffff;
+        }
+        .content {
+        color: {{ entry.textColor }};
+        }
+    {% endcss %}
+{% endif %}
+{% if block.embedCode |length %}
+<section class="block embed mb-4 mt-4  p-3 {{ block.backgroundColor }}">
+{{ block.embedCode |raw }}
 </section>
+{% endif %}
 
 
