@@ -28,11 +28,11 @@
     {#limit:     2#}
     {#}) %}#}
 
-    {% paginate craft.entries(queryParams).limit(11).orderBy('postDate desc') as pageInfo, pageEntries %}
+    {% paginate craft.entries(queryParams).limit(10).orderBy('postDate desc') as pageInfo, pageEntries %}
 
     {% set first = pageEntries|slice(0,1) %}
-    {% set therest = pageEntries|slice(1,9) %}
-
+{#    {% set therest = pageEntries|slice(1,9) %}#}
+    {% set therest = pageEntries %}
     {% if pageInfo.currentPage == 1 %}
         {% cache %}
         {% for entry in first %}
@@ -109,10 +109,19 @@
     {% endif %}
 
     {#{% include '_includes/subscribe-section.twig' %}#}
-
     <section class="newslist white pt-5">
         <div class="container">
             <div class="row ">
+                {% if pageInfo.currentPage > 1 %}
+                <div class="container">
+                    <div class=" row mt-0">
+                        <div class="col-lg-12 text-center">
+
+                            <h2 class="section-title section-title-border ">News</h2>
+                        </div>
+                    </div>
+                </div>
+                {%  endif %}
                 {% set layout = "n" %}
                 {% cache %}
                             {% for entry in therest %}
@@ -155,7 +164,7 @@
 
 
                                 <!-- blog-item -->
-                                <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="col-lg-4 col-sm-6 mb-4 {% if loop.first and pageInfo.currentPage == 1 %} hide first-item{% endif %}">
                                     <div class="card">
                                         {% if asset | length %}
 
