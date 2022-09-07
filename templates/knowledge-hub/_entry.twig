@@ -1,0 +1,78 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+{% set bodyClass =  " page" %}
+{% block content %}
+    {% set mainLayout = "col-lg-8 " %}
+    {% set sideLayout = "col-lg-4 " %}
+    {# set the layout based on email hide settings and presence of entry in menu item #}
+    {% set navEntry = craft.entries.section('mainMenu').relatedTo({
+        targetElement: entry,
+        field: 'entryLink'
+    }).one() %}
+    {% set rootEntry = navEntry ? craft.entries.ancestorOf(navEntry).level(1).one() : null %}
+
+    {% set hideEmail = null %}
+    {% if entry.hideEmailSubscribe and rootEntry is null %}
+        {% set mainLayout = "col-lg-8 offset-lg-2" %}
+        {% set sideLayout = "hide" %}
+    {% endif %}
+    <!-- Page Entry type Content -->
+    {% if entry is defined %}
+
+        {% include '/_partials/hero-featured.twig' %}
+
+        <section
+                class="ala {{ entry.type }} page {% if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="{{ mainLayout }}  pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h1 class="mb-5">{{ entry.title }}</h1>
+                            {% set lazyImage = false %}
+                            {% set blockPrefix = "" %}
+                            {% for block in entry.contentBlock.all() %}
+                                {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}
+                                {% if block.type.handle == "image" %}
+                                    {% set lazyImage = true %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="{{ sideLayout }}">
+
+                        <div class="bg-white px-4 py-4 sidebar-box-shadow">
+                            {% include '/pages/_partials/_side_subnav.twig' %}
+                            {% include '/pages/_partials/_side_block_subscribe.twig' %}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    {% endif %}
+
+    <section class="cta py-50 overlay-white bg-oat" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-3 mb-lg-0">
+                    <h3>Knowledge hub</h3>
+                    {% set entries = craft.entries({
+                        section: 'knowledgeHub',
+                        orderBy: 'postDate desc'
+                    }) %}
+                    <ol class="">
+                    {% for entry in entries %}
+                        <li><a href="{{ entry.url }}"><h4 class="text-dark ">{{ entry.title }}</h4></a></li>
+                    {% endfor %}
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
