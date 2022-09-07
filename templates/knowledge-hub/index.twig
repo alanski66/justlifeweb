@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row pt-5">
                     <div class="col-12 col-md-8 offset-md-2 text-center">
-                        <h1 class="text-whie font-weight-bold mb-5 section-title section-title-border ">Knowledge hub</h1>
+                        <h1 class="text-whie font-weight-bold mb-5 section-title section-title-border ">{{ entry.title }}</h1>
                         
     {{ entry.introText }}
 
@@ -66,8 +66,8 @@
 
                                 {% set imgUrl = "https://via.placeholder.com/350x190" %}
                             {% endif %}
-                            <!-- regional item col -->
-                            <div class="col-lg-4 col-sm-6 col-xs-12 mb-5 pb-5">
+                            <!-- hub item col -->
+                            <div class="col-lg-4 col-sm-6 col-xs-12 mb-4">
                                 <div class="card text-cente px-3">
                                     <h4 class="card-title pt-3" data-mh="mh-title">
                                         <a class="text-black" href="{% if card.cardButtonLink|length %}{{ card.cardButtonLink.one().url }}{% endif %}">
