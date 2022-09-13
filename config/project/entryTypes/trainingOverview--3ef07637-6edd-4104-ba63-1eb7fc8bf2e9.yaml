@@ -4,6 +4,10 @@ fieldLayouts:
       -
         elements:
           -
+            style: tip
+            tip: 'This page simply lists all the intro and module pages beneath automatically'
+            type: craft\fieldlayoutelements\Tip
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
