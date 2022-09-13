@@ -16,10 +16,13 @@
                     <div class="col-sm-8 col-sm-offset-2 pt-3">
                         <div class="bg-whit rounded mb-40">
                             <h3 class="mx-auto text-center mb-5 section-title section-title-border ">
-                            {% if entry.introText | length %}
+                            {{ entry.title }}
+                            </h3>
+                            <div class="text-center">
+                                {% if entry.introText | length %}
                                 {{ entry.introText | striptags }}
                             {% endif %}
-                            </h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -33,39 +36,7 @@
                     <div class="row justify-content-center mb-4">
                         <div class="col-sm-8 col-sm-offset-2 pt-3">
                             <div class="row">
-                                <div class="col-4">
-                                    {% set asset = sentry.featureImage[0] ?? null %}
-                                    {% if asset | length %}
-                                        <figure class="image-holder mb-0">
 
-                                            {% set imgCredit =  asset.imageCredit ?? null %}
-                                            {% set imgCaption =  asset.imageCaption ?? null %}
-
-                                            <picture>
-
-                                                <a href="{{ sentry.url }}">
-                                                    <img class="img-fluid d-flex mx-auto"
-                                                         src="{{ asset.getUrl('cardLandscape') }}"
-                                                         width="{{ asset.getWidth('cardLandscape') }}"
-                                                         height="{{ asset.getHeight('cardLandscape') }}"
-
-                                                         alt="{{ asset.title }} {{ imgCredit }} {{ imgCaption }}">
-                                                </a>
-                                                <figcaption class="position-relative">
-                                                    {% if imgCredit %}
-                                                        <span class="picture-credit">
-                                                {% if imgCaption %}
-                                                    <span class="picture-caption">
-                                                        {{ imgCaption }}
-                                                </span>
-                                                {% endif %}
-                                                &copy; {{ asset.imageCredit }}</span>
-                                                    {% endif %}
-                                                </figcaption>
-                                            </picture>
-                                        </figure>
-                                    {% endif %}
-                                </div>
                                 <div class="col-8">
                                     <h3><a href="{{ sentry.url }}">{{ sentry.title }}</a></h3>
                                     {% if sentry.introText | length %}
@@ -94,38 +65,15 @@
                 {% for sentry in subPages.all() %}
 
 {#                {% for card in block.cardItem.hideCard('not 1').all() %}#}
-                    {% set asset = sentry.featureImage[0] ?? null %}
 
-                    {% if asset | length %}
-                        {% set imgCredit =  asset.imageCredit ?? null %}
-                        {% set imgCaption =  asset.imageCaption ?? null %}
-
-                        {% set listTitle =  sentry.listTitle ? sentry.listTitle : sentry.title  %}
-
-
-                        {% set asset = craft.imager.transformImage(asset, {
-                            width: 350,
-                            height:190,
-                            position: asset.getFocalPoint(),
-                            cropZoom: 1.5
-                        }) %}
-                        {% set imgUrl = asset.getUrl() %}
-                    {% else %}
-
-                        {% set imgUrl = "https://via.placeholder.com/350x190" %}
-                    {% endif %}
                     <!-- list page beneath page col -->
                     <div class="col-lg-4 col-sm-6 col-xs-12 mb-4">
                         <div class="card text-center" >
-                            <a href="{{ sentry.url }}">
-                                <div class="card-img-wrapper">
-                                    <img  class="card-img-top rounded-0"  src="{{ imgUrl }}" alt="{{ imgCredit }} {{ imgCaption }}">
-                                </div>
-                            </a>
+
                             <div class="card-body py-3 px-2" data-mh="mh-card">
                                 <h4 class="card-title pt-3" data-mh="mh-title">
 
-                                    <a href="{{ sentry.url }}">{{ listTitle }} </a>
+                                    <a href="{{ sentry.url }}">{{ sentry.title }} </a>
 
                                 </h4>
                                 <p class="card-text mx-2 " data-mh="mh-text">
