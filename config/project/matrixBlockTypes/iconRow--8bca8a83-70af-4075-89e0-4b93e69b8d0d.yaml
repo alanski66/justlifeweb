@@ -1,0 +1,218 @@
+field: 3d10d985-092b-4e66-976f-b2ef9a74e210 # Section row
+fieldLayouts:
+  a8c5e247-93bf-4ddc-aa68-334f563f6e29:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7ece6dd1-43a7-43e2-954d-618c49371c0d # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c55409dc-addd-4b2f-ab1a-00287e90a340 # Sub title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 489f013c-c054-4552-b965-94911c2bae90 # Icons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7cc9469f-f82a-4189-9666-cf37ac075b86 # Button text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8667f163-2e8c-4ba4-b519-f5dd8699a955 # Button link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7cc9469f-f82a-4189-9666-cf37ac075b86: # Button text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: ''
+    name: 'Button text'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7ece6dd1-43a7-43e2-954d-618c49371c0d: # Heading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  489f013c-c054-4552-b965-94911c2bae90: # Icons
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: icons
+    instructions: ''
+    name: Icons
+    searchable: true
+    settings:
+      columns:
+        __assoc__:
+          -
+            - b85bb62b-0b4e-42d9-a1b0-7b962a4ef491 # Category
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 363cf021-aee1-4c33-a240-4cee24ffc96a # Text
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 08a7e56e-2483-4fe2-a651-649f8423c463 # Icon
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - c376e0b9-b7ff-43d9-90b3-708f9e817bf2 # Custom icon
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - a8fb4007-f9b2-4386-8444-4c3f8e561b86 # Icon color
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - f55508fe-d5c8-43dc-b831-c7369df9e8f7 # Icon size
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 608492a4-e765-45ee-a9f5-6ad3aeb2d1e0 # Button link
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - f63717c3-d525-4118-8d12-eca209c31c95 # Button text
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_15_icons}}'
+      fieldLayout: row
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: 'Add icon column'
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  8667f163-2e8c-4ba4-b519-f5dd8699a955: # Button link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonLink
+    instructions: ''
+    name: 'Button link'
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  c55409dc-addd-4b2f-ab1a-00287e90a340: # Sub title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: subTitle
+    instructions: ''
+    name: 'Sub title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: iconRow
+name: 'Icon row'
+sortOrder: 1

@@ -1,0 +1,58 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 6aa2582a-f09c-43e9-96bf-6287ebf48a25 # Jobs
+handle: jobType
+instructions: ''
+name: 'Job type'
+searchable: false
+settings:
+  multi: true
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Full-time
+        -
+          - value
+          - Full-time
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Part-time
+        -
+          - value
+          - Part-time
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Permanent
+        -
+          - value
+          - Permanent
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Temporary
+        -
+          - value
+          - Temporary
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\MultiSelect

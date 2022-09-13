@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e001e685-5f71-409f-88bf-0a4c333d9520 # Default
+handle: iconPicker
+instructions: ''
+name: 'Icon picker'
+searchable: false
+settings:
+  columnType: text
+  iconSets: ''
+  remoteSets:
+    - font-awesome-all
+  showLabels: ''
+translationKeyFormat: null
+translationMethod: none
+type: verbb\iconpicker\fields\IconPickerField

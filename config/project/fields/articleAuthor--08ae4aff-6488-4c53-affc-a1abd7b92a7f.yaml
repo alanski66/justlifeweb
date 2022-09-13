@@ -1,0 +1,19 @@
+columnSuffix: null
+contentColumnType: text
+fieldGroup: f8f993ed-1301-42d7-92b2-acb531dbe101 # News
+handle: articleAuthor
+instructions: 'Defaults to Justlife - add a different author here to show their name'
+name: Author
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

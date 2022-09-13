@@ -1,0 +1,19 @@
+columnSuffix: null
+contentColumnType: text
+fieldGroup: 57e17ebd-5a65-4486-a175-645b52fcf8e5 # Global site info
+handle: charityOrganisationStatement
+instructions: 'eg Justlife is a Registered Charity in England and Wales'
+name: 'Charity organisation statement'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,566 @@
+field: 9abbaee7-cb0e-4e11-b58f-88ba10242b3b # Hero Carousel
+fieldLayouts:
+  2447f050-c1cd-4cb3-8a56-9205b4da989b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 37c9de1f-e807-4d76-a88e-c1804d2e7cca # Countdown date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c0d688a4-964a-4025-90fd-8f319d333a48 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 11d8508b-9912-42bc-81d4-dac09aa3dcd7 # Pre-title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c42a68e6-1a8f-4928-b002-1f5d77a78997 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 34d9cf3e-9829-4bf6-89ad-637703f16f65 # Title text align
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7fa0304f-61a3-4e99-95f3-ac0fc3c51134 # Text color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2abd9fa2-beb8-447e-99cb-4175e151ee78 # Main text position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 43daa16d-f8ce-4ef1-9162-44f9ef031e26 # Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 795851b2-87d0-48b6-9edc-e3e030eda9a0 # Button text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a2dca2d0-ebf7-4da4-ab01-c4688c3297c1 # Button Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ef70e872-2140-4f17-8113-52bdea91f512 # Button hover color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 30f36e66-d512-4283-890c-8b8a6421e879 # Custom Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5b4bcffb-3e69-4755-8a21-3d728dda5681 # Tab title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4f86c2ed-a210-4c97-b817-27950aab46ed # Tab icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 75e06343-8b95-47c5-9fa7-4da190a91232 # Clock background color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 71d088a9-79a2-47e9-96cf-223c47a65c73 # Clock inset color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2abd9fa2-beb8-447e-99cb-4175e151ee78: # Main text position
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: ''
+    name: 'Main text position'
+    searchable: false
+    settings:
+      default: ''
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - '1'
+          -
+            - right
+            - '1'
+          -
+            - full
+            - ''
+          -
+            - drop-left
+            - '1'
+          -
+            - drop-right
+            - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: rias\positionfieldtype\fields\Position
+  4f86c2ed-a210-4c97-b817-27950aab46ed: # Tab icon
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: tabIcon
+    instructions: ''
+    name: 'Tab icon'
+    searchable: false
+    settings:
+      columnType: text
+      iconSets: ''
+      remoteSets: ''
+      showLabels: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\iconpicker\fields\IconPickerField
+  5b4bcffb-3e69-4755-8a21-3d728dda5681: # Tab title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: tabTitle
+    instructions: 'Text to display in navigation tab under each slide'
+    name: 'Tab title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7fa0304f-61a3-4e99-95f3-ac0fc3c51134: # Text color
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: textColor
+    instructions: ''
+    name: 'Text color'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - White
+            -
+              - value
+              - white
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Black
+            -
+              - value
+              - black
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Red
+            -
+              - value
+              - red
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  11d8508b-9912-42bc-81d4-dac09aa3dcd7: # Pre-title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: preTitle
+    instructions: ''
+    name: Pre-title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  30f36e66-d512-4283-890c-8b8a6421e879: # Custom Link
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: customLink
+    instructions: ''
+    name: 'Custom Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  34d9cf3e-9829-4bf6-89ad-637703f16f65: # Title text align
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: titleTextAlign
+    instructions: ''
+    name: 'Title text align'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Text left'
+            -
+              - value
+              - text-left
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Text center'
+            -
+              - value
+              - text-center
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Text right'
+            -
+              - value
+              - text-right
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  37c9de1f-e807-4d76-a88e-c1804d2e7cca: # Countdown date
+    columnSuffix: null
+    contentColumnType: datetime
+    fieldGroup: null
+    handle: countdownDate
+    instructions: 'Set the deadline time here including minutes'
+    name: 'Countdown date'
+    searchable: false
+    settings:
+      max: null
+      min: null
+      minuteIncrement: '30'
+      showDate: true
+      showTime: true
+      showTimeZone: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Date
+  43daa16d-f8ce-4ef1-9162-44f9ef031e26: # Intro
+    columnSuffix: null
+    contentColumnType: string(640)
+    fieldGroup: null
+    handle: intro
+    instructions: ''
+    name: Intro
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 160
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  71d088a9-79a2-47e9-96cf-223c47a65c73: # Clock inset color
+    columnSuffix: null
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: clockInsetColor
+    instructions: 'The inset background color of the countdown'
+    name: 'Clock inset color'
+    searchable: false
+    settings:
+      defaultColor: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  75e06343-8b95-47c5-9fa7-4da190a91232: # Clock background color
+    columnSuffix: null
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: clockBackgroundColor
+    instructions: ''
+    name: 'Clock background color'
+    searchable: false
+    settings:
+      defaultColor: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  795851b2-87d0-48b6-9edc-e3e030eda9a0: # Button text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: ''
+    name: 'Button text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a2dca2d0-ebf7-4da4-ab01-c4688c3297c1: # Button Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonLink
+    instructions: 'For external offsite links use customLink'
+    name: 'Button Link'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: 'Add an entry to link to'
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  c0d688a4-964a-4025-90fd-8f319d333a48: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:8efd0c0c-fba0-499f-a93e-1b57ff148494' # Banner images
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c42a68e6-1a8f-4928-b002-1f5d77a78997: # Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideTitle
+    instructions: ''
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ef70e872-2140-4f17-8113-52bdea91f512: # Button hover color
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonHoverColor
+    instructions: 'If your background image is red change default hover colour to white'
+    name: 'Button hover color'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - White
+            -
+              - value
+              - white
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Red
+            -
+              - value
+              - red
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Black
+            -
+              - value
+              - black
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: countdown
+name: Countdown
+sortOrder: 2

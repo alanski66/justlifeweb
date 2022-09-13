@@ -1,0 +1,35 @@
+columnSuffix: gzsckmka
+contentColumnType: string
+fieldGroup: ac99d94b-1a00-40be-97ab-c2fce40d1100 # Menu
+handle: menuClass
+instructions: ''
+name: 'Menu class'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - None
+        -
+          - value
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Red button'
+        -
+          - value
+          - 'btn btn-primary '
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

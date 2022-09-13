@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 1
+template: donate/_dd.twig
+uriParts:
+  1: donate-regularly
+uriPattern: donate-regularly

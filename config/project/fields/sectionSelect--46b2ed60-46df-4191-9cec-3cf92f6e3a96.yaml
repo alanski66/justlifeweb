@@ -1,0 +1,13 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 95a13bbd-3401-43e3-84b1-479984da84ec # Banner
+handle: sectionSelect
+instructions: 'Choose a section'
+name: Section
+searchable: false
+settings:
+  allowMultiple: ''
+  whitelistedSections: ''
+translationKeyFormat: null
+translationMethod: none
+type: charliedev\sectionfield\fields\SectionField

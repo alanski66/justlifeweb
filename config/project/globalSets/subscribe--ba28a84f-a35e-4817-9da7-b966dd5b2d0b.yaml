@@ -1,0 +1,48 @@
+fieldLayouts:
+  6b90017b-25b5-4ed5-ad0f-7f6925d06df4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7d6ec98f-bb87-4408-93f6-ad7ae62c24fd # Subscribe popup header image general newsletter
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 771ad81b-2de9-4a5b-82cc-7fde45549190 # Subscribe popup header image Frontline network audience
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 006364a7-67cc-490c-989c-142591887980 # Subscribe box footer heading 
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 354207df-5483-4b57-a568-b4e8b38651d1 # Subscribe box side heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Subscribe
+        sortOrder: 1
+handle: subscribe
+name: Subscribe
+sortOrder: 7

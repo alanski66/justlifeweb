@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: staff
+name: Staff
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  dda3b550-c778-4d47-86b0-11543ac8053a: # Justlife
+    enabledByDefault: true
+    hasUrls: true
+    template: staff/_entry
+    uriFormat: '{% if object.level == 1 %}about/staff/{slug}{% else %}{parent.uri}/{slug}{% endif %}'
+structure:
+  maxLevels: null
+  uid: f16e4680-e6d5-48b9-9ba5-8fb2cfbb0ad4
+type: structure

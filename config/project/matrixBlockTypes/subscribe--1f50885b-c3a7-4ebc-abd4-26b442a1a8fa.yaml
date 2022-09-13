@@ -1,0 +1,115 @@
+field: 7382c89d-f041-4b2a-a12b-1b73543ff4fc # Project content
+fieldLayouts:
+  6a187152-4cd7-4825-8411-cd55c4b07596:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c28d3a0c-aa57-4cde-aa83-1e3bfd23e15c # Subscribe button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4a0d9da4-6f1f-4768-980b-54b8f88bf715 # Subscribe text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 31abaacf-5114-460e-b464-172dd63e07c7 # Sign up list
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4a0d9da4-6f1f-4768-980b-54b8f88bf715: # Subscribe text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: subscribeText
+    instructions: ''
+    name: 'Subscribe text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  31abaacf-5114-460e-b464-172dd63e07c7: # Sign up list
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: signUpList
+    instructions: ''
+    name: 'Sign up list'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'General Newsletter'
+            -
+              - value
+              - generalNewsletter
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'Frontline network'
+            -
+              - value
+              - frontlineNetwork
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  c28d3a0c-aa57-4cde-aa83-1e3bfd23e15c: # Subscribe button
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: subscribeButton
+    instructions: ''
+    name: 'Subscribe button'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: subscribe
+name: Subscribe
+sortOrder: 4

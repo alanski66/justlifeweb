@@ -1,0 +1,14 @@
+columnSuffix: null
+contentColumnType: boolean
+fieldGroup: e28a8bb8-82a0-4f13-a087-8b404ad4662c # Campaign
+handle: titleDisplay
+instructions: 'If using a campaign logo you might want this to replace the title with the campaign image which may contain the same content / text'
+name: 'Title Display'
+searchable: false
+settings:
+  default: true
+  offLabel: Hide
+  onLabel: Show
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
