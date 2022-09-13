@@ -1,0 +1,25 @@
+
+{% if block.heading |length or block.text | length %}
+<section class="text mb-5">
+{% if block.heading |length %}
+
+    <h3 class="mb-3">
+                        <span class="page-headline-link">
+                            <a id="{{ block.heading |kebab }}" href="#{{ block.heading |kebab }}"> <i
+                                        class="icon-link"></i></a>
+                        </span>
+        {{ block.heading |smartypants }}
+    </h3>
+
+{% endif %}
+{#{%  set TextCount = block.text | wordCount %}#}
+    {%  set ReadingTime = block.text | readTime('min') %}
+
+
+    {% js %}
+        ReadingTime = {{ ReadingTime }}
+        ReadingTimeMins = ReadingTime++
+    {% endjs %}
+<div class="{{ block.type.handle }}">{{ block.text }}</div>
+</section>
+{% endif %}

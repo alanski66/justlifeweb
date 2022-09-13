@@ -31,7 +31,7 @@ fieldLayouts:
 handle: generalInfo
 hasTitleField: true
 name: 'General info'
-section: c6617536-a252-4fe9-8993-84687e0f21e0 # Volunteers
+section: c6617536-a252-4fe9-8993-84687e0f21e0 # Volunteer pages
 sortOrder: 3
 titleFormat: null
 titleTranslationKeyFormat: null

@@ -31,7 +31,7 @@ fieldLayouts:
 handle: modulePage
 hasTitleField: true
 name: 'Module page'
-section: c6617536-a252-4fe9-8993-84687e0f21e0 # Volunteers
+section: c6617536-a252-4fe9-8993-84687e0f21e0 # Volunteer pages
 sortOrder: 5
 titleFormat: null
 titleTranslationKeyFormat: null

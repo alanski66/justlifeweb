@@ -1,0 +1,49 @@
+{% set style = null %}
+{%  set icon = null %}
+{% if block.colorStyle | length %}
+    {% set style = block.colorStyle %}
+{% endif %}
+<section class="block download mb-4 mt-4  p-3 {{ style }}">
+
+                {% if block.heading |length %}
+                    <h5 class="{{ style }}">
+                        <span class="blog-headline-link">
+                            <a id="{{ block.heading |kebab }}" href="#{{ block.heading |kebab }}"> <i class="icon-link"></i></a>
+                        </span>
+                        {{ block.heading |smartypants }}
+                    </h5>
+                {% endif %}
+
+                {% if block.subline |length %}
+                    <p>{{ block.subline }}</p>
+                {% endif %}
+
+                  {% if block.download |length %}
+                      <ul class="list-unstyled {{ style }}">
+                        {% for doc in block.download.all() %}
+                            {%  set fileExt = doc.filename|split('.')|last  %}
+
+                            {%  if style == 'iconList' %}
+                                {%  if fileExt == 'docx' %}
+                                    {%  set icon = "file-word" %}
+                                {%  elseif fileExt == 'pdf' %}
+                                    {%  set icon = "file-pdf" %}
+                                {%  endif %}
+                            {%  else %}
+                                {%  set icon = "arrow-circle-down" %}
+                            {%  endif %}
+                           <li class="mb-3">
+                               <a class="btn btn-outline" href="{{ doc.url }}">
+                                   <i class="fa fa-{{ icon }}"></i> {{ doc.title }}
+                               </a>
+                           </li>
+                        {% endfor %}
+                      </ul>
+                  {% endif %}
+
+
+
+
+</section>
+
+

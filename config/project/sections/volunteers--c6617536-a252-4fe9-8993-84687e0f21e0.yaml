@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 handle: volunteers
-name: Volunteers
+name: 'Volunteer pages'
 previewTargets:
   -
     __assoc__:
