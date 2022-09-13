@@ -1,0 +1,65 @@
+fieldLayouts:
+  2a9c0f8c-8d89-4a82-8254-381d81cc73a7:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 727edbaa-4674-4a82-bc49-28a722425891 # Banner image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 98b30784-0bde-4938-928a-6bf154a806a9 # Intro text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 589bc11f-b900-4df7-81b8-f4984a38762e # Content footer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: listPagesBeneath
+hasTitleField: true
+name: 'List pages beneath'
+section: d92c03cb-0d89-4034-a675-4c44d44df257 # Pages
+sortOrder: 13
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

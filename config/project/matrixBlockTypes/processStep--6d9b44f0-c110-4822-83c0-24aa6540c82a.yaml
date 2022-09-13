@@ -1,0 +1,123 @@
+field: 3d10d985-092b-4e66-976f-b2ef9a74e210 # Section row
+fieldLayouts:
+  d6514878-e1df-4ae6-989c-5ec0dfa1bfb9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: df836d2f-bcb9-4671-810a-86ae499ad70b # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 186b1957-8a97-45df-af6e-01c6c907c5bd # Subheading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 87854a77-5940-4f76-aad3-2348b85aeb55 # Steps
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  186b1957-8a97-45df-af6e-01c6c907c5bd: # Subheading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: subheading
+    instructions: ''
+    name: Subheading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  87854a77-5940-4f76-aad3-2348b85aeb55: # Steps
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: steps
+    instructions: ''
+    name: Steps
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - a0273f4c-1e9a-4678-9226-1dadcfb87bf2 # Step no
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 5ea8f6a0-b15a-47b0-b520-ad611adb946f # Heading
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - c4d9d5fd-801e-4c89-a1a1-99208d4d455e # Text
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_39_steps}}'
+      fieldLayout: row
+      maxRows: '3'
+      minRows: ''
+      placeholderKey: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: 'Add step'
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  df836d2f-bcb9-4671-810a-86ae499ad70b: # Heading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: processStep
+name: 'Process steps'
+sortOrder: 6

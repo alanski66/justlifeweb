@@ -1,0 +1,37 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b0271536-52a9-46ee-8122-425017ee9f4d # Projects
+handle: projectImage
+instructions: 'Add a large full width image for use in the header'
+name: 'Project image'
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: ''
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+    - 'volume:e64ccb15-e61c-41a3-84f8-e9c3a375a142' # Unsplash images
+    - 'volume:8efd0c0c-fba0-499f-a93e-1b57ff148494' # Banner images
+    - 'volume:2004cf85-89b4-43cc-8c92-7cfe1ed5ebb0' # Old news images
+    - 'volume:65b046c4-d946-472f-9eb0-5c845aabedda' # Landing pages
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

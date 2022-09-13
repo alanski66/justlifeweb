@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b0271536-52a9-46ee-8122-425017ee9f4d # Projects
+handle: relatedProjects
+instructions: ''
+name: 'Related projects'
+searchable: true
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: 'Add multiple related projects'
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:b64f51ec-21e9-4f29-a1d2-468e90ed13f8' # Projects
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

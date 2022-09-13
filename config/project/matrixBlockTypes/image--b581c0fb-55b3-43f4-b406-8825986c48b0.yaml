@@ -1,0 +1,88 @@
+field: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9 # Content block
+fieldLayouts:
+  58570555-4052-4224-8f1e-fc5b9e2894f6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 822a0bde-24d3-42f2-9906-cf07f152c444 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f7591436-faac-437c-95b1-d644495a3f34 # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  822a0bde-24d3-42f2-9906-cf07f152c444: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+        - 'volume:e64ccb15-e61c-41a3-84f8-e9c3a375a142' # Unsplash images
+        - 'volume:5755ea95-9453-4c72-ad18-15102ce35069' # Staff images
+        - 'volume:65b046c4-d946-472f-9eb0-5c845aabedda' # Landing pages
+        - 'volume:3dcd4130-a19f-4afe-b979-339b59e9558d' # Events
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  f7591436-faac-437c-95b1-d644495a3f34: # Caption
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: ''
+    name: Caption
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: image
+name: Image
+sortOrder: 2

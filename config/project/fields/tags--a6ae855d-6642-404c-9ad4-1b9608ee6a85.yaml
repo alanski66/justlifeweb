@@ -1,0 +1,23 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f8f993ed-1301-42d7-92b2-acb531dbe101 # News
+handle: tags
+instructions: 'Tags can be used to help group certain content together that might live in different sections of the site. Eg a news item about an event might be tagged ''event'' as well as the fundraising page promoting it'
+name: 'Topic Tags'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add a topic tag'
+  showSiteMenu: true
+  source: 'taggroup:b8fcf5e7-b419-4c32-a733-25a8b9c149c2' # Topics
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Tags

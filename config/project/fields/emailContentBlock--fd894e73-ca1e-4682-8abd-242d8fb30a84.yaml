@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 2d92916c-c74c-4dec-aa83-2f95c7899790 # Email newsletters
+handle: emailContentBlock
+instructions: ''
+name: 'Email Content block'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_emailcontentblock_6}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
