@@ -1,0 +1,59 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+
+{% block content %}
+    {%  set layout = null %}
+    <!--Join  Page Entry type Content -->
+    {%  if entry is defined %}
+
+        {% include '/_partials/hero-featured.twig' %}
+
+        <section class="generic {{entry.type | kebab }} page {%  if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="col-lg-8 pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h1 class="mb-3">{{ entry.title }}:  {{ entry.subTitle }}</h1>
+                            {% set lazyImage = false %}
+                            {% set blockPrefix = "" %}
+                            {% for block in entry.contentBlock.all() %}
+                                {% include ('pages/_partials/_' ~ blockPrefix ~ 'block_' ~ block.type.handle) %}
+                                {% if block.type.handle == "image" %}
+                                    {% set lazyImage = true %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Sidebar -->
+                        <div class="bg-white px-4 py-4 sidebar-box-shadow">
+                            {%  set currentEntry = entry %}
+                            {% set rootEntry = currentEntry ? craft.entries.ancestorOf(currentEntry).level(1).first() : null %}
+
+                            {% set subPages = craft.entries.descendantOf(rootEntry.id) %}
+
+
+                            <ul id="subnav">
+                                <li><a href="{{ rootEntry.url }}">{{ rootEntry.title }}</a></li>
+                                {% nav entry in subPages.all()  %}
+                                    <li class="border-top level-{{ entry.level }}">
+                                        <a class="d-block text-color py-10" href="{{ entry.url }}">{{ entry.title }}</a>
+                                        {% ifchildren %}
+                                            <ul>
+                                                {% children %}
+                                            </ul>
+                                        {% endifchildren %}
+                                    </li>
+                                {% endnav %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%  endif %}
+
+{% endblock %}
