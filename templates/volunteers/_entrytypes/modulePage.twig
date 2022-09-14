@@ -34,6 +34,7 @@
                             {% set rootEntry = currentEntry ? craft.entries.ancestorOf(currentEntry).level(1).first() : null %}
 
                             {% set subPages = craft.entries.descendantOf(rootEntry.id) %}
+
                             
                             <ul id="subnav">
                                 <li><a href="{{ rootEntry.url }}">{{ rootEntry.title }}</a></li>
