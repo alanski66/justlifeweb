@@ -20,7 +20,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: volunteers/_entry
-    uriFormat: 'volunteer/{parent.uri ?? ''''}/{slug}'
+    uriFormat: '{parent.uri ?? ''''}/{slug}'
 structure:
   maxLevels: null
   uid: 991e4aca-a530-4fd2-9460-f7a77fb08437

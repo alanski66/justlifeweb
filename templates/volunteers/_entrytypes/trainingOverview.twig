@@ -8,7 +8,8 @@
 
         {% include '/_partials/hero-banner.twig' %}
 
-        <section class="ala {{ entry.type }} page {% if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+        <section
+                class="{{ entry.type | lower }} page {% if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
             <div class="container">
 
                 <div class="row justify-content-center mb-5">
@@ -16,74 +17,69 @@
                     <div class="col-sm-8 col-sm-offset-2 pt-3">
                         <div class="bg-whit rounded mb-40">
                             <h3 class="mx-auto text-center mb-5 section-title section-title-border ">
-                            {{ entry.title }}
+                                {{ entry.title }}
                             </h3>
                             <div class="text-center">
                                 {% if entry.introText | length %}
-                                {{ entry.introText | striptags }}
-                            {% endif %}
+                                    {{ entry.introText | striptags }}
+                                {% endif %}
                             </div>
                         </div>
                     </div>
                 </div>
 
                 {# this page entry type will list all sub pages beneath if of type 'page' #}
-                {% set subPages = craft.entries.descendantOf(entry.id) %}
+
 
                 {# Get entries to build the sub-page list #}
-                <div class="mb-5 hide" >
-                {% for sentry in subPages.all() %}
-                    <div class="row justify-content-center mb-4">
-                        <div class="col-sm-8 col-sm-offset-2 pt-3">
-                            <div class="row">
+                <div class="mb-5 hide">
+                    {% set subPages = craft.entries.descendantOf(entry.id) %}
 
-                                <div class="col-8">
-                                    <h3><a href="{{ sentry.url }}">{{ sentry.title }}</a></h3>
-                                    {% if sentry.introText | length %}
-                                        {{ sentry.introText }}
-                                    {% endif %}
+                    {% for sentry in subPages.all() %}
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-sm-8 col-sm-offset-2 pt-3">
+                                <div class="row">
+
+                                    <div class="col-8">
+                                        <h3><a href="{{ sentry.url }}">{{ sentry.title }}</a></h3>
+                                        {% if sentry.introText | length %}
+                                            {{ sentry.introText }}
+                                        {% endif %}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                {% endfor %}
+                    {% endfor %}
                 </div>
             </div>
         </section>
 
-        <section class=" container mb-5">
+        <section class="modules container mb-5">
             <div class="row justify-content-center">
 
-{#                <!-- regional item row header-->#}
-{#                <div class="col-lg-12 text-center ">#}
-
-{#                    <h2 class="section-title section-title-border text-center" "> {% if entry.introText | length %}#}
-{#                            {{ entry.introText }}#}
-{#                        {% endif %}</h2>#}
-
-{#                </div>#}
                 {% for sentry in subPages.all() %}
 
-{#                {% for card in block.cardItem.hideCard('not 1').all() %}#}
+                    {# {% for card in block.cardItem.hideCard('not 1').all() %} #}
 
                     <!-- list page beneath page col -->
                     <div class="col-lg-4 col-sm-6 col-xs-12 mb-4">
-                        <div class="card text-center" >
 
-                            <div class="card-body py-3 px-2" data-mh="mh-card">
-                                <h4 class="card-title pt-3" data-mh="mh-title">
+                        <a class="fullcard" href="{{ sentry.url }}">
+                            <div class="card text-center">
 
-                                    <a href="{{ sentry.url }}">{{ sentry.title }} </a>
+                                <div class="card-body py-3 px-2" data-mh="mh-card">
+                                    <h4 class="card-title pt-3" >
+                                        {{ sentry.title }}
+                                    </h4>
+                                    <p class="card-text mx-2 " data-mh="mh-text">
+                                        {% if sentry.subTitle | length %}
+                                            {{ sentry.subTitle }}
+                                        {% endif %}</p>
 
-                                </h4>
-                                <p class="card-text mx-2 " data-mh="mh-text">
-                                    {% if sentry.introText | length %}
-                                        {{ sentry.introText }}
-                                    {% endif %}</p>
 
-
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 {% endfor %}
             </div>

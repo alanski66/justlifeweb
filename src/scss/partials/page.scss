@@ -143,3 +143,8 @@ promo a{
 .supporters .card:hover>.card-body{
   color:$white;
 }
+
+//volunteers
+a.fullcard > .card:hover{
+  background-color: $gray-100;
+}
