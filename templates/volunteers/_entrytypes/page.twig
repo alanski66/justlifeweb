@@ -18,12 +18,13 @@
     {% endif %}
     <!-- Page Entry type Content -->
     {% if entry is defined %}
-
+        {% set currentEntry = entry %}
         {% include '/_partials/hero-featured.twig' %}
 
         <section
                 class="ala {{ entry.type }} page {% if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
             <div class="container">
+                {% include '/volunteers/partials/_offcanvas-button.twig' %}
 
                 <div class="row ">
 
@@ -53,6 +54,8 @@
 
             </div>
         </section>
+        {%  include '/volunteers/partials/_offcanvas-menu.twig' with {currentEntry} %}
+
     {% endif %}
 
 {% endblock %}

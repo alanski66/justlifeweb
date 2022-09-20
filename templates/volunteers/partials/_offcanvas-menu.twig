@@ -1,0 +1,35 @@
+
+        {% set rootEntry = currentEntry ? craft.entries.ancestorOf(currentEntry).level(1).one() : null %}
+
+        {%  if rootEntry == null %} {# we are at the top assumed here #}
+        {%  set rootEntry = currentEntry %}
+        {% endif %}
+        {% set subPages = craft.entries.descendantOf(rootEntry.id) %}
+
+<div class="bs-canvas-overlay bg-dark position-fixed w-100 h-100"></div>
+<div id="bs-canvas-right" class="bs-canvas bs-canvas-right position-fixed bg-ligh h-100 sidebar-box-shadow">
+    <header class="bs-canvas-header p-3 bg-danger overflow-auto">
+        <button type="button" class="bs-canvas-close float-left close" aria-label="Close" aria-expanded="false">
+            <span aria-hidden="true" class="text-light">&times;</span></button>
+        <h4 class="d-inline-block text-light mb-0 float-right">{{ rootEntry.title }}</h4>
+    </header>
+    <div class="bs-canvas-content px-2 py-5 ">
+        <div class="py-4 ">
+<ul id="subnav" class="pl-2">
+    <li><a href="{{ rootEntry.url }}">{{ rootEntry.title }}</a></li>
+
+    {%  nav entry in rootEntry.getDescendants() %}
+
+        <li class="border-top level-{{ entry.level }}">
+            <a class="d-block text-color py-10" href="{{ entry.url }}">{{ entry.title }}</a>
+            {% ifchildren %}
+                <ul>
+                    {% children %}
+                </ul>
+            {% endifchildren %}
+        </li>
+    {% endnav %}
+</ul>
+        </div>
+    </div>
+</div>

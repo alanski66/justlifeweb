@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "16cf6c4dbefd91da5fef7149e84aef90",
+    "content-hash": "8c0dbdb64b4c3a1d960c29eb591e26ed",
     "packages": [
         {
             "name": "adigital/eventbrite",
@@ -870,11 +870,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.7.53.1",
+            "version": "3.7.54",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/e38ee6014119c7eadf886f303a736e1b79ac7d81",
-                "reference": "e38ee6014119c7eadf886f303a736e1b79ac7d81",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/91c1f51b14b11776587db0635f643c120fb1e844",
+                "reference": "91c1f51b14b11776587db0635f643c120fb1e844",
                 "shasum": ""
             },
             "require": {
@@ -957,7 +957,7 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2022-08-26T15:02:29+00:00"
+            "time": "2022-09-13T18:31:19+00:00"
         },
         {
             "name": "craftcms/feed-me",
@@ -8110,16 +8110,11 @@
         },
         {
             "name": "verbb/super-table",
-            "version": "2.7.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/verbb/super-table.git",
-                "reference": "41d420675bcc04e8db08eacc69b10c5bbff6cf54"
-            },
+            "version": "2.7.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/super-table/zipball/41d420675bcc04e8db08eacc69b10c5bbff6cf54",
-                "reference": "41d420675bcc04e8db08eacc69b10c5bbff6cf54",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/85e279220c17b007418b37c407ed556d583df830",
+                "reference": "85e279220c17b007418b37c407ed556d583df830",
                 "shasum": ""
             },
             "require": {
@@ -8140,7 +8135,6 @@
                     "verbb\\supertable\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8152,26 +8146,20 @@
             ],
             "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
             "keywords": [
-                "Craft",
                 "cms",
+                "craft",
                 "craft-plugin",
                 "craftcms",
                 "super table"
             ],
             "support": {
-                "docs": "https://github.com/verbb/super-table",
                 "email": "support@verbb.io",
                 "issues": "https://github.com/verbb/super-table/issues?state=open",
-                "rss": "https://github.com/verbb/super-table/commits/v2.atom",
-                "source": "https://github.com/verbb/super-table"
+                "source": "https://github.com/verbb/super-table",
+                "docs": "https://github.com/verbb/super-table",
+                "rss": "https://github.com/verbb/super-table/commits/v2.atom"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/verbb",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-05-15T00:47:23+00:00"
+            "time": "2022-09-13T22:47:18+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
