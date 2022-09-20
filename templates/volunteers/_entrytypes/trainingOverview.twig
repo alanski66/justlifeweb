@@ -8,89 +8,91 @@
 
         {% include '/_partials/hero-banner.twig' %}
 
+        {% set currentEntry = entry %}
+        {% set rootEntry = currentEntry ? craft.entries.ancestorOf(currentEntry).level(1).first() : null %}
+
+        {% set subPages = craft.entries.descendantOf(rootEntry.id) %}
+
         <section
-                class="{{ entry.type | lower }} page {% if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
-            <div class="container">
+                class="modules {{ entry.type | lower }} page">
 
-                <div class="row justify-content-center mb-5">
-
-                    <div class="col-sm-8 col-sm-offset-2 pt-3">
-                        <div class="bg-whit rounded mb-40">
-                            <h3 class="mx-auto text-center mb-5 section-title section-title-border ">
-                                {{ entry.title }}
-                            </h3>
-                            <div class="text-center">
-                                {% if entry.introText | length %}
-                                    {{ entry.introText | striptags }}
-                                {% endif %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {# this page entry type will list all sub pages beneath if of type 'page' #}
+            <div class="container py-2 py-md-5 ">
+                <button class="mr-auto ml-sm-auto navbar-light navbar-toggler d-block " type="button"  data-toggle="canvas" data-target="#bs-canvas-right"
+                        aria-expanded="false" aria-controls="bs-canvas-right"><span class="vol-mnu-btn">Menu </span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 
-                {# Get entries to build the sub-page list #}
-                <div class="mb-5 hide">
+
+                <div class="row justify-content-c position-relative">
                     {% set subPages = craft.entries.descendantOf(entry.id) %}
 
-                    {% for sentry in subPages.all() %}
-                        <div class="row justify-content-center mb-4">
-                            <div class="col-sm-8 col-sm-offset-2 pt-3">
-                                <div class="row">
-
-                                    <div class="col-8">
-                                        <h3><a href="{{ sentry.url }}">{{ sentry.title }}</a></h3>
-                                        {% if sentry.introText | length %}
-                                            {{ sentry.introText }}
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="offcanvas-content col-12 ">
+                        <h3 class="mx-auto text-center mb-5 section-title section-title-border ">
+                            {{ entry.title }}
+                        </h3>
+                        <div class="text-cente mb-5">
+                            {% if entry.introText | length %}
+                                {{ entry.introText | striptags }}
+                            {% endif %}
                         </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
+                        <div class="row">
+                            {% for sentry in subPages.all() %}
 
-        <section class="modules container mb-5">
-            <div class="row justify-content-center">
+                                {# {% for card in block.cardItem.hideCard('not 1').all() %} #}
 
-                {% for sentry in subPages.all() %}
+                                <!-- list page beneath page col -->
+                                <div class="col-lg-4 col-sm-6 col-xs-12 mb-4">
 
-                    {# {% for card in block.cardItem.hideCard('not 1').all() %} #}
+                                    <a class="fullcard" href="{{ sentry.url }}">
+                                        <div class="card text-center">
 
-                    <!-- list page beneath page col -->
-                    <div class="col-lg-4 col-sm-6 col-xs-12 mb-4">
-
-                        <a class="fullcard" href="{{ sentry.url }}">
-                            <div class="card text-center">
-
-                                <div class="card-body py-3 px-2" data-mh="mh-card">
-                                    <h4 class="card-title pt-3" >
-                                        {{ sentry.title }}
-                                    </h4>
-                                    <p class="card-text mx-2 " data-mh="mh-text">
-                                        {% if sentry.subTitle | length %}
-                                            {{ sentry.subTitle }}
-                                        {% endif %}</p>
+                                            <div class="card-body py-3 px-2" data-mh="mh-card">
+                                                <h4 class="card-title pt-3">
+                                                    {{ sentry.title }}
+                                                </h4>
+                                                <p class="card-text mx-2 " data-mh="mh-text">
+                                                    {% if sentry.subTitle | length %}
+                                                        {{ sentry.subTitle }}
+                                                    {% endif %}</p>
 
 
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
-                        </a>
+                            {% endfor %}
+                        </div>
                     </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-8 offset-md-2 py-4 text-center">
-                    {% if entry.contentFooter | length %}
-                        {{ entry.contentFooter }}
-                    {% endif %}
+
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2 py-4 text-center">
+                        {% if entry.contentFooter | length %}
+                            {{ entry.contentFooter }}
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </section>
+
+
+        <div class="bs-canvas-overlay bg-dark position-fixed w-100 h-100"></div>
+        <div id="bs-canvas-right" class="bs-canvas bs-canvas-right position-fixed bg-ligh h-100 sidebar-box-shadow">
+            <header class="bs-canvas-header p-3 bg-danger overflow-auto">
+                <button type="button" class="bs-canvas-close float-left close" aria-label="Close" aria-expanded="false">
+                    <span aria-hidden="true" class="text-light">&times;</span></button>
+                <h4 class="d-inline-block text-light mb-0 float-right">{{ rootEntry.title }}</h4>
+            </header>
+            <div class="bs-canvas-content px-2 py-5 ">
+                <div class="py-4 ">
+
+                 {%  include('/volunteers/partials/_offcanvas-menu.twig') %}
+
+
+                </div>
+            </div>
+        </div>
     {% endif %}
 
 {% endblock %}

@@ -56,7 +56,7 @@
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="msapplication-config" content="{{ baseUrl }}favicons/browserconfig.xml">
     <meta name="theme-color" content="#d00e38">
-    <link rel="stylesheet" href="{{ baseUrl }}assets/css/styles.min.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/css/style.min.css">
 {% endblock headLinks %}
 
 {# -- Any CSS that should be included before </head> -- #}
@@ -92,9 +92,9 @@
 {% endblock bodyHtml %}
     {% block bodyJs %}
 
-        <script  src="{{ baseUrl }}assets/js/dist-min.js"></script>
+        <script  src="{{ baseUrl }}js/dist-min.js"></script>
 
-        <script  src="{{ baseUrl }}assets/js/script.js"></script>
+
 
         {#  serous conflict with chimp and gocardless and jwuery validate versions #}
         {% if craft.app.request.getSegment(2) not in ['donate'] %}

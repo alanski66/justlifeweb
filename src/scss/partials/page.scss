@@ -148,3 +148,9 @@ promo a{
 a.fullcard > .card:hover{
   background-color: $gray-100;
 }
+
+.trainingoverview .sidebar-box-shadow ul#subnav{
+  padding-inline-start:0;
+  padding-left: 0;
+
+}

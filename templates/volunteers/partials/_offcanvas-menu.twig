@@ -1,0 +1,15 @@
+<ul id="subnav" class="pl-2">
+    <li><a href="{{ rootEntry.url }}">{{ rootEntry.title }}</a></li>
+
+    {%  nav entry in rootEntry.getDescendants() %}
+
+        <li class="border-top level-{{ entry.level }}">
+            <a class="d-block text-color py-10" href="{{ entry.url }}">{{ entry.title }}</a>
+            {% ifchildren %}
+                <ul>
+                    {% children %}
+                </ul>
+            {% endifchildren %}
+        </li>
+    {% endnav %}
+</ul>

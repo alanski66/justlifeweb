@@ -119,3 +119,64 @@ li.nav-item.donate{
     padding-left: 15px;
   }
 }
+
+
+//offcanvass
+
+.navbar-toggler:focus{
+  outline:none;
+}
+/* bs off-canvas */
+.bs-canvas-overlay {
+  opacity: 0;
+  z-index: -1;
+  position: absolute!important;
+  top:0;
+}
+
+.bs-canvas-overlay.show {
+  opacity: 0.35;
+  z-index: 1100;
+  position: absolute!important;
+  top:0;
+}
+
+.bs-canvas-overlay
+{
+  transition: top .4s ease-out;
+}
+.bs-canvas {
+  transition: all .4s ease-out;
+}
+
+.bs-canvas {
+  top: 0;
+  z-index: 1110;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 330px;
+  background-color:rgba(255,255,255,.95) !important;
+}
+
+.bs-canvas-left {
+  left: 0;
+  margin-left: -330px;
+}
+
+.bs-canvas-right {
+  right: 0;
+  margin-right: -330px;
+}
+body.bs-canvas-open{
+  //margin-right:330px;
+  transition: all .4s ease-out;
+}
+
+.vol-mnu-btn{
+  font-size:15px;
+  color:$gray-600;
+}
+
+.bs-canvas-content ul#subnav{
+
+}
