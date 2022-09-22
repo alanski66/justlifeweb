@@ -17,9 +17,9 @@
                     {% set subPages = craft.entries.descendantOf(entry.id) %}
 
                     <div class="offcanvas-content col-12 ">
-                        <h3 class="mx-auto text-center mb-5 section-title section-title-border ">
+                        <h1 class="mx-auto text-center mb-5 section-title section-title-border ">
                             {{ entry.title }}
-                        </h3>
+                        </h1>
                         <div class="text-cente mb-5">
                             {% if entry.introText | length %}
                                 {{ entry.introText | striptags }}
