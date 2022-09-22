@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c0dbdb64b4c3a1d960c29eb591e26ed",
+    "content-hash": "c70f3f1ff01fcbbf65ad818ce5e6705d",
     "packages": [
         {
             "name": "adigital/eventbrite",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/a-digital/eventbrite/zipball/8244004843bcf58ddf391cf7f94417c9e59bf5da",
-                "reference": "8244004843bcf58ddf391cf7f94417c9e59bf5da",
+                "url": "https://api.github.com/repos/a-digital/eventbrite/zipball/136caba528258e172727003265f4110eec2f6714",
+                "reference": "136caba528258e172727003265f4110eec2f6714",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.0.0-RC1"
+                "craftcms/cms": "^3.1.0"
             },
             "type": "craft-plugin",
             "extra": {
@@ -56,7 +56,7 @@
                 "docs": "https://github.com/a-digital/eventbrite/blob/master/README.md",
                 "issues": "https://github.com/a-digital/eventbrite/issues"
             },
-            "time": "2022-08-05T14:31:06+00:00"
+            "time": "2022-09-20T11:34:01+00:00"
         },
         {
             "name": "aelvan/imager",
@@ -870,11 +870,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.7.54",
+            "version": "3.7.55.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/cms.git",
+                "reference": "7139213dbd9e177a3528aac8e2db8de91830f118"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/91c1f51b14b11776587db0635f643c120fb1e844",
-                "reference": "91c1f51b14b11776587db0635f643c120fb1e844",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/7139213dbd9e177a3528aac8e2db8de91830f118",
+                "reference": "7139213dbd9e177a3528aac8e2db8de91830f118",
                 "shasum": ""
             },
             "require": {
@@ -902,7 +907,6 @@
                 "pixelandtonic/imagine": "~1.2.4.1",
                 "seld/cli-prompt": "^1.0.4",
                 "symfony/yaml": "^5.2.1",
-                "true/punycode": "^2.1.1",
                 "twig/twig": "~2.14.3",
                 "voku/stringy": "^6.4.0",
                 "webonyx/graphql-php": "~14.11.5",
@@ -912,7 +916,8 @@
                 "yiisoft/yii2-swiftmailer": "^2.1.2"
             },
             "conflict": {
-                "league/oauth2-client": "2.4.0"
+                "league/oauth2-client": "2.4.0",
+                "webonyx/graphql-php": "14.11.7"
             },
             "provide": {
                 "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
@@ -920,6 +925,18 @@
                 "bower-asset/punycode": "1.3.*",
                 "bower-asset/yii2-pjax": "~2.0.1",
                 "yii2tech/ar-softdelete": "1.0.4"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.0.0",
+                "codeception/module-asserts": "^1.0.0",
+                "codeception/module-datafactory": "^1.0.0",
+                "codeception/module-phpbrowser": "^1.0.0",
+                "codeception/module-rest": "^1.0.0",
+                "codeception/module-yii2": "^1.0.0",
+                "craftcms/ecs": "dev-main",
+                "fzaninotto/faker": "^1.8",
+                "league/factory-muffin": "^3.0",
+                "vlucas/phpdotenv": "^3.0"
             },
             "suggest": {
                 "ext-iconv": "Adds support for more character encodings than PHP’s built-in mb_convert_encoding() function, which Craft will take advantage of when converting strings to UTF-8.",
@@ -933,6 +950,7 @@
                     "yii2tech\\ar\\softdelete\\": "lib/ar-softdelete/src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -950,14 +968,14 @@
                 "yii2"
             ],
             "support": {
-                "email": "support@craftcms.com",
-                "issues": "https://github.com/craftcms/cms/issues?state=open",
-                "forum": "https://craftcms.stackexchange.com/",
-                "source": "https://github.com/craftcms/cms",
                 "docs": "https://craftcms.com/docs/3.x/",
-                "rss": "https://github.com/craftcms/cms/releases.atom"
+                "email": "support@craftcms.com",
+                "forum": "https://craftcms.stackexchange.com/",
+                "issues": "https://github.com/craftcms/cms/issues?state=open",
+                "rss": "https://github.com/craftcms/cms/releases.atom",
+                "source": "https://github.com/craftcms/cms"
             },
-            "time": "2022-09-13T18:31:19+00:00"
+            "time": "2022-09-22T14:47:59+00:00"
         },
         {
             "name": "craftcms/feed-me",
@@ -1734,24 +1752,30 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.14.0",
+            "version": "v4.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
-                "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/523407fb06eb9e5f3d59889b3978d5bfe94299c8",
+                "reference": "523407fb06eb9e5f3d59889b3978d5bfe94299c8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2"
+                "php": "~5.6.0 || ~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0"
+            },
+            "suggest": {
+                "cerdic/css-tidy": "If you want to use the filter 'Filter.ExtractStyleBlocks'.",
+                "ext-bcmath": "Used for unit conversion and imagecrash protection",
+                "ext-iconv": "Converts text to and from non-UTF-8 encodings",
+                "ext-tidy": "Used for pretty-printing HTML"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "HTMLPurifier": "library/"
-                },
                 "files": [
                     "library/HTMLPurifier.composer.php"
                 ],
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
                 "exclude-from-classmap": [
                     "/library/HTMLPurifier/Language/"
                 ]
@@ -1771,7 +1795,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2021-12-25T01:21:49+00:00"
+            "time": "2022-09-18T07:06:19+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -4825,11 +4849,11 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "3.4.37",
+            "version": "3.4.38",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/7222ea76230fcf1cf74ab6c9980d49aac594a02a",
-                "reference": "7222ea76230fcf1cf74ab6c9980d49aac594a02a",
+                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/d6bfdb7f68dbd29b9430f19ef3781939d1b2f29e",
+                "reference": "d6bfdb7f68dbd29b9430f19ef3781939d1b2f29e",
                 "shasum": ""
             },
             "require": {
@@ -4880,7 +4904,7 @@
                 "docs": "https://nystudio107.com/plugins/seomatic/documentation",
                 "issues": "https://nystudio107.com/plugins/seomatic/support"
             },
-            "time": "2022-07-23T21:01:02+00:00"
+            "time": "2022-09-17T19:51:30+00:00"
         },
         {
             "name": "nystudio107/craft-twigfield",
@@ -7686,42 +7710,6 @@
             "time": "2020-01-07T04:47:29+00:00"
         },
         {
-            "name": "true/punycode",
-            "version": "v2.1.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/true/php-punycode/zipball/a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
-                "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "symfony/polyfill-mbstring": "^1.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "TrueBV\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Renan Gonçalves",
-                    "email": "renan.saddam@gmail.com"
-                }
-            ],
-            "description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
-            "homepage": "https://github.com/true/php-punycode",
-            "keywords": [
-                "idna",
-                "punycode"
-            ],
-            "time": "2016-11-16T10:37:54+00:00"
-        },
-        {
             "name": "tubalmartin/cssmin",
             "version": "v4.1.1",
             "source": {
@@ -8675,11 +8663,11 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.6",
+            "version": "v14.11.8",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/6070542725b61fc7d0654a8a9855303e5e157434",
-                "reference": "6070542725b61fc7d0654a8a9855303e5e157434",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/04a48693acd785330eefd3b0e4fa67df8dfee7c3",
+                "reference": "04a48693acd785330eefd3b0e4fa67df8dfee7c3",
                 "shasum": ""
             },
             "require": {
@@ -8706,7 +8694,7 @@
                 "api",
                 "graphql"
             ],
-            "time": "2022-04-13T16:25:32+00:00"
+            "time": "2022-09-21T15:35:03+00:00"
         },
         {
             "name": "wrav/oembed",

@@ -1,6 +1,6 @@
 {
     "require": {
-        "craftcms/cms": "3.7.54",
+        "craftcms/cms": "3.7.55.2",
         "vlucas/phpdotenv": "^2.4.0",
         "craftcms/redactor": "2.10.10",
         "topshelfcraft/environment-label": "3.2.0",
@@ -21,9 +21,9 @@
         "superbig/craft3-mobiledetect": "1.0.2",
         "hybridinteractive/craft-position-fieldtype": "1.0.17",
         "xpertbot/wheelformhelper": "*",
-        "nystudio107/craft-seomatic": "3.4.37",
+        "nystudio107/craft-seomatic": "3.4.38",
         "dolphiq/redirect": "1.1.1",
-        "adigital/eventbrite": "1.0.6",
+        "adigital/eventbrite": "1.0.7",
         "pennebaker/craft-architect": "2.4.3",
         "indigoviking/liquid-letters": "1.2",
         "verbb/cloner": "1.2.2",
