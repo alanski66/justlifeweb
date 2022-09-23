@@ -1,0 +1,59 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+{% set bodyClass =  " page" %}
+{% block content %}
+    {% set mainLayout = "col-lg-8 " %}
+    {% set sideLayout = "col-lg-4 " %}
+    {# set the layout based on email hide settings and presence of entry in menu item #}
+    {% set navEntry = craft.entries.section('mainMenu').relatedTo({
+        targetElement: entry,
+        field: 'entryLink'
+    }).one() %}
+    {% set rootEntry = navEntry ? craft.entries.ancestorOf(navEntry).level(1).one() : null %}
+
+    {% set hideEmail = null %}
+    {% if entry.hideEmailSubscribe and rootEntry is null %}
+        {% set mainLayout = "col-lg-8 offset-lg-2" %}
+        {% set sideLayout = "hide" %}
+    {% endif %}
+    <!-- Page Entry type Content -->
+    {% if entry is defined %}
+        {% set currentEntry = entry %}
+        {% include '/_partials/hero-featured.twig' %}
+
+        <section
+                class="ala {{ entry.type }} page {% if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+            <div class="container">
+                {% include '/volunteers/partials/_offcanvas-button.twig' %}
+
+                <div class="row ">
+
+                    <div class="{{ mainLayout }}  pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h1 class="mb-5">{{ entry.title }}</h1>
+
+                            {% if entry.linkList| length %}
+
+                                {% for block in  entry.linkList %}
+                                    <div class="link-list">
+                                        <h3 class="mb-3">{{ block.listHeading }}</h3>
+                                        <ul class="list-unstyled">
+                                        {% for link in block.listOfLinks %}
+                                            <li class="mb-4"><h4><a href="{{ link.linkUrl }}">{{ link.linkTitle }} <i class="fa fa-external-link" aria-hidden="true"></i></a></h4>{{ link.linkDescription }}</li>
+                                        {% endfor %}
+                                        </ul>
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        {% include '/volunteers/partials/_offcanvas-menu.twig' with {currentEntry} %}
+
+    {% endif %}
+
+{% endblock %}
