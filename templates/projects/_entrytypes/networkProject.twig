@@ -151,7 +151,10 @@
                                         <h4 class="mb-1">
                                             <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
                                         </h4>
-                                        <p class="meta">{{ story.introText |truncateOnWord(90) |raw }}</p>
+                                        {% if story.introText|length %}
+                                            <p class="meta">{{ story.introText |truncateOnWord(90) |raw }}</p>
+                                        {% endif %}
+
                                     </div>
                                 </div>
 

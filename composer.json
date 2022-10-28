@@ -1,6 +1,6 @@
 {
     "require": {
-        "craftcms/cms": "3.7.55.2",
+        "craftcms/cms": "3.7.59",
         "vlucas/phpdotenv": "^2.4.0",
         "craftcms/redactor": "2.10.10",
         "topshelfcraft/environment-label": "3.2.0",
@@ -21,7 +21,7 @@
         "superbig/craft3-mobiledetect": "1.0.2",
         "hybridinteractive/craft-position-fieldtype": "1.0.17",
         "xpertbot/wheelformhelper": "*",
-        "nystudio107/craft-seomatic": "3.4.38",
+        "nystudio107/craft-seomatic": "3.4.40",
         "dolphiq/redirect": "1.1.1",
         "adigital/eventbrite": "1.0.7",
         "pennebaker/craft-architect": "2.4.3",
