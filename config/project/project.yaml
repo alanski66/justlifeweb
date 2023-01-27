@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 dateModified: 1663154009
+=======
+dateModified: 1667222736
+>>>>>>> Stashed changes
 email:
   fromEmail: info@justlife.org.uk
   fromName: Justlife
@@ -507,6 +511,7 @@ meta:
     dbed8e46-7a59-47c1-95c6-13a422fe1df8: Quote # Quote
     dc4e0571-dfe1-4b0b-8b14-612254b1d006: 'Hero mobile' # Hero mobile
     dc8a3ad4-ee07-4f09-9300-5e4149852824: 'Button text' # Button text
+    dc539c4d-32c5-4790-a7ed-4e7fd19df662: 'Offcanvas menu title' # Offcanvas menu title
     dcab0869-0f43-4fb4-973e-26062eaa1dca: 'Block Body' # Block Body
     dcbbf3e5-f3ed-4fca-8e8b-d434b738727b: SEO # SEO
     dcc8af56-c34c-423e-b070-2c22a3dbd270: 'Email Footer message' # Email Footer message

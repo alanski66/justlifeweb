@@ -97,6 +97,8 @@ function shareOnLinkedIn(){
             }
         }]
     });
+
+
     $('.hero-slider').slickAnimation();
 
     // hero slider without pagination
