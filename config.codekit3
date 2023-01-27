@@ -7,7 +7,7 @@
       "uuidString" : "DD17DC38-3A6D-4895-86C1-DAA03889ABF4"
     }
   ],
-  "creatorBuild" : "34418",
+  "creatorBuild" : "34434",
   "files" : {
     "\/.env" : {
       "cB" : 0,
@@ -516,17 +516,6 @@
       "oAP" : "\/src\/js\/prepend\/public_html\/js\/dist-min.js",
       "oF" : 0,
       "sC" : 0,
-      "tS" : 0
-    },
-    "\/src\/js\/public_html\/js\/dist-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/src\/js\/public_html\/js\/dist-min.js",
-      "oF" : 0,
-      "sC" : 3,
       "tS" : 0
     },
     "\/src\/scss\/bootstrap\/_alert.scss" : {
@@ -4891,6 +4880,14 @@
       "oAP" : "\/templates\/volunteers\/_entrytypes\/fundraising.twig",
       "oF" : 0
     },
+    "\/templates\/volunteers\/_entrytypes\/generalResources.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/volunteers\/_entrytypes\/generalResources.twig",
+      "oF" : 0
+    },
     "\/templates\/volunteers\/_entrytypes\/getInvolved.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -8220,7 +8217,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0

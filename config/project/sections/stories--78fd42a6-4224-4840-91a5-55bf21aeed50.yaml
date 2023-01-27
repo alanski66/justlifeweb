@@ -1,4 +1,3 @@
-defaultPlacement: end
 enableVersioning: true
 handle: stories
 name: Stories
@@ -16,7 +15,7 @@ previewTargets:
         - '1'
 propagationMethod: all
 siteSettings:
-  dda3b550-c778-4d47-86b0-11543ac8053a: # Justlife
+  dda3b550-c778-4d47-86b0-11543ac8053a:
     enabledByDefault: true
     hasUrls: true
     template: stories/_entry
