@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 1bbbe75e-abba-46a9-9d94-19d1c0f10dac # Carousel
+handle: heroCarouselSettings
+instructions: ''
+name: 'Hero carousel settings'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_herocarouselsettings}}'
+  maxBlocks: '1'
+  minBlocks: '1'
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

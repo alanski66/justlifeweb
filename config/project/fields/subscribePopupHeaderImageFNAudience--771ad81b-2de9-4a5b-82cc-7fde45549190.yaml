@@ -1,0 +1,32 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f5174c3f-c106-4d5c-a957-e1df328899e9 # Global subscribe
+handle: subscribePopupHeaderImageFNAudience
+instructions: 'Add a 600 px wide image for use in pop up email subscribe for TAAG'
+name: 'Subscribe popup header image Frontline network audience'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: ''
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 68349303-5e9e-491c-b7e4-8dfe02a59fd8 # Sponsorships
+handle: sponsorships
+instructions: ''
+name: Sponsorships
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_sponsorships}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

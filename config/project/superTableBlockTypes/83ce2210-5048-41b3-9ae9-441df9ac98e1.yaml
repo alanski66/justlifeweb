@@ -1,0 +1,169 @@
+field: 4773fd30-c977-49ed-8659-8b002c7f3aa1 # Card with image
+fieldLayouts:
+  8c97fea9-f91e-4888-a357-f9ca6ec432ca:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a1b4a8eb-c8fc-4b44-8bab-91f71bf4c0b7 # title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7e327019-ae4f-4f33-b61a-e8ef6f66e1ba # text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a6aa3016-e379-4266-84c0-53ea4611cb21 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0192c06e-eae9-4ce0-8c7a-a24a440b74e1 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b94f815e-58cb-4f8e-aad7-0d786e713536 # Link text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7e327019-ae4f-4f33-b61a-e8ef6f66e1ba: # text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardText
+    instructions: ''
+    name: text
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0192c06e-eae9-4ce0-8c7a-a24a440b74e1: # Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardLink
+    instructions: ''
+    name: Link
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  a1b4a8eb-c8fc-4b44-8bab-91f71bf4c0b7: # title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardTitle
+    instructions: ''
+    name: title
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a6aa3016-e379-4266-84c0-53ea4611cb21: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardImage
+    instructions: ''
+    name: Image
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  b94f815e-58cb-4f8e-aad7-0d786e713536: # Link text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: ''
+    name: 'Link text'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

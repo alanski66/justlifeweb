@@ -1,0 +1,167 @@
+fieldLayouts:
+  61a2b986-9b35-4fa5-8acf-59d544d72ed6:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: ba8836c3-eecb-4c8e-8740-66ec963cd2be # Campaign subtitle text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7b41bb4d-49c9-4af0-a0c9-72f02e645dfa # Title Display
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 674132e7-8d60-4537-b698-115f718291d1 # Campaign image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 98b30784-0bde-4938-928a-6bf154a806a9 # Intro text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c090407d-61c8-454f-8a34-0dcdee9c8c97 # Main text title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 85fc3b41-3642-41bd-a769-2cf9e1b27ccd # Body
+            instructions: ''
+            label: 'Main text'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 560e0a84-6dfe-453a-b766-59b6824fd541 # Fundraising total
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 727edbaa-4674-4a82-bc49-28a722425891 # Banner image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f3938584-5744-4277-89ef-45f37006fbbf # Video
+            instructions: 'This is not yet implemented - do not use'
+            label: ''
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Banner space'
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: c37ad50e-cc11-4fe1-aacd-cd35562f003b # Form title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 546b2a81-6f1b-4a54-b85e-17d1d30bddd7 # Form intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 31ab40c0-be36-4cf0-bdee-2353210c3886 # Donorfy embed link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Form
+        sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: 40e8c726-41e0-4aa7-aab2-2b9bda75957d # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: SEO
+        sortOrder: 4
+handle: donorfyCampaign
+hasTitleField: true
+name: 'Donorfy campaign'
+section: c9a58422-43a9-4425-8eb1-02e7358811b1 # Campaigns
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,87 @@
+fieldLayouts:
+  82dec387-25d1-45f8-a867-e4fcb466768d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: Title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: bf7221cc-8eac-4403-b1ec-8da0f16157ab # Category
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 642977d9-c3cc-4eed-9b52-c111a413ab3f # Supporter logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3b9c3cb5-ac74-401a-a998-7dd9f31a8572 # Website url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 98b30784-0bde-4938-928a-6bf154a806a9 # Intro text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Supports and funders'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: acbc0bba-242f-40cf-bdd1-a6417f6eeaa9 # Content block
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Case study'
+        sortOrder: 2
+handle: supportersFunders
+hasTitleField: true
+name: 'Supporters & Funders'
+section: 98a49d1d-ea91-4fa4-97a1-3748fcec9423 # Supporters & Funders
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''

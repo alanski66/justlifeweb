@@ -1,0 +1,9 @@
+format: null
+handle: documentThumb
+height: 298
+interlace: none
+mode: crop
+name: 'Document thumb'
+position: center-center
+quality: null
+width: 210

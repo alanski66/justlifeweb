@@ -1,0 +1,33 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 6aa2582a-f09c-43e9-96bf-6287ebf48a25 # Jobs
+handle: jobDocuments
+instructions: 'Add multiple job documents here ( make sure you give the uploaded documents readable titles!)'
+name: 'Job documents'
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:8b316631-f36c-481c-8e3f-c8aab26c4c24' # Documents
+  defaultUploadLocationSubpath: ''
+  limit: ''
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: ''
+  selectionLabel: 'Add job documents'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:69530c26-670d-47c2-a35f-a3ce5489b277' # Images
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:8b316631-f36c-481c-8e3f-c8aab26c4c24' # Documents
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

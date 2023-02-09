@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 2
+template: tags/_tag
+uriParts:
+  - tags/
+  -
+    - tag
+    - '[^\/]+'
+uriPattern: 'tags/<tag:[^\/]+>'

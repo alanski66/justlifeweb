@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b0271536-52a9-46ee-8122-425017ee9f4d # Projects
+handle: relatedStories
+instructions: ''
+name: 'Related Stories'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: 'Add a related story'
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:78fd42a6-4224-4840-91a5-55bf21aeed50' # Stories
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries
