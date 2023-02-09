@@ -1,0 +1,112 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 5bd7b2c9-de07-41a0-889c-3f0fc7ef292f # Featured
+handle: textOverlayPosition
+instructions: ''
+name: 'Text overlay position'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Left top'
+        -
+          - value
+          - left-top
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Left center'
+        -
+          - value
+          - left-center
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Left bottom'
+        -
+          - value
+          - left-bottom
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Center top'
+        -
+          - value
+          - center-top
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Center-center
+        -
+          - value
+          - center-center
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Center bottom'
+        -
+          - value
+          - center-bottom
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Right top'
+        -
+          - value
+          - right-top
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Right center'
+        -
+          - value
+          - right-center
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Right bottom'
+        -
+          - value
+          - right-bottom
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

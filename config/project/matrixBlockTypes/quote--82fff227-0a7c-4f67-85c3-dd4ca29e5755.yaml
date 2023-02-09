@@ -1,0 +1,70 @@
+field: 7382c89d-f041-4b2a-a12b-1b73543ff4fc # Project content
+fieldLayouts:
+  ad9ea147-4131-4add-b454-37fde985fe1c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: dbed8e46-7a59-47c1-95c6-13a422fe1df8 # Quote
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0b3cecf6-3ccc-487b-8593-ecb91949d807 # Source
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0b3cecf6-3ccc-487b-8593-ecb91949d807: # Source
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: source
+    instructions: ''
+    name: Source
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  dbed8e46-7a59-47c1-95c6-13a422fe1df8: # Quote
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: quote
+    instructions: 'Add the main text of quote here'
+    name: Quote
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: quote
+name: Quote
+sortOrder: 2

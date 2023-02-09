@@ -1,0 +1,51 @@
+field: cc6722bc-176e-4111-964c-3f01d0fd0032 # Donate benefits item list
+fieldLayouts:
+  c7868cbd-4918-485e-9b4d-a7e0324b12fa:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 83f88196-2a7a-4dad-a174-7f7fd0ca697d # List
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  83f88196-2a7a-4dad-a174-7f7fd0ca697d: # List
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: listItem
+    instructions: ''
+    name: List
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 7eea2cd7-328c-4734-967d-d557786dfb4b # Items
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_43_listitem}}'
+      fieldLayout: table
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: list
+name: List
+sortOrder: 1

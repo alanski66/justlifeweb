@@ -1,0 +1,19 @@
+columnSuffix: null
+contentColumnType: text
+fieldGroup: f5174c3f-c106-4d5c-a957-e1df328899e9 # Global subscribe
+handle: subscribeBoxFooterHeading
+instructions: 'Heading for subscribe box in footer'
+name: 'Subscribe box footer heading '
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

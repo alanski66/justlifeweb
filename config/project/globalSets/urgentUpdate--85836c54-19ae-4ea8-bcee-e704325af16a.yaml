@@ -1,0 +1,46 @@
+fieldLayouts:
+  5040afe2-294f-4283-a652-6f1c6a23bc7b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5b7818b4-46a0-40ef-b373-1c5a6f4d461b # Feature intro text
+            instructions: 'Brief text to introduce urgent news update - eg covid, site closure etc'
+            label: 'Urgent text'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b94541a5-4fee-46e9-8f0d-59da799180c8 # CTA button text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c37dd07c-e401-4016-a7c9-bbfd7f66055a # CTA link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: eb4dd8d4-526e-45bc-9df9-1798512dd7be # CTA section bg color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Urgent notices'
+        sortOrder: 1
+handle: urgentUpdate
+name: 'Urgent update'
+sortOrder: 9

@@ -48,6 +48,18 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+<<<<<<< Updated upstream
+=======
+          -
+            fieldUid: dc539c4d-32c5-4790-a7ed-4e7fd19df662 # Offcanvas menu title
+            instructions: 'This will be the heading in the slide out/offcanvas menu'
+            label: ''
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+>>>>>>> Stashed changes
         name: Content
         sortOrder: 1
       -

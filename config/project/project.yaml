@@ -1,7 +1,11 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 dateModified: 1663154009
 =======
 dateModified: 1667222736
+>>>>>>> Stashed changes
+=======
+dateModified: 1675980881
 >>>>>>> Stashed changes
 email:
   fromEmail: info@justlife.org.uk
@@ -42,6 +46,8 @@ meta:
     1f50885b-c3a7-4ebc-abd4-26b442a1a8fa: Subscribe # Subscribe
     1f113853-a212-457d-b76f-db78244af209: 'Feature title' # Feature title
     02a0696b-5fef-4116-ba52-f18b14fe7009: 'Color style' # Color style
+    2a8e87fa-0ed5-40af-adef-cd0fa7d14a34: Audio # Audio
+    2a153d78-4cc7-475d-a33f-5bad4fa62ce5: Audio # Audio
     2abd9fa2-beb8-447e-99cb-4175e151ee78: 'Main text position' # Main text position
     2aeb59bf-4aea-42a8-a8e2-37164ba667af: Arrows # Arrows
     2ba2e1f8-406f-4d12-a4d8-150210280758: 'Card landscape' # Card landscape
@@ -132,6 +138,7 @@ meta:
     7fb40023-ad56-4c67-bc65-9353674d5c1b: Citation # Citation
     8a7d22bc-7764-40d5-9fd6-df4752eb365e: 'Main menu' # Main menu
     08a7e56e-2483-4fe2-a651-649f8423c463: Icon # Icon
+    8a34be35-c0c0-44f3-b57a-3c127126ad2a: Transcript # Transcript
     8ac944b2-2dd7-488d-983d-9feb5b3cc7a3: Header # Header
     8ad9a4d4-52b3-41db-9a8e-b50986a2f2c9: Donate # Donate
     08ae4aff-6488-4c53-affc-a1abd7b92a7f: Author # Author
@@ -359,6 +366,7 @@ meta:
     a0273f4c-1e9a-4678-9226-1dadcfb87bf2: 'Step no' # Step no
     a08271b9-b8b0-4c41-b87f-63784b7e9c63: 'Fundraising Events' # Fundraising Events
     a1b4a8eb-c8fc-4b44-8bab-91f71bf4c0b7: title # title
+    a1dc5422-081d-4602-bb9b-2b1ee93c732e: Audio # Audio
     a1fb593f-8cf1-4328-a410-8af0f7d0cbe6: 'news intro' # news intro
     a2dca2d0-ebf7-4da4-ab01-c4688c3297c1: 'Button Link' # Button Link
     a3a4c254-ffb4-4991-94f2-44e7c4506d07: Quote # Quote
@@ -472,6 +480,7 @@ meta:
     c376e0b9-b7ff-43d9-90b3-708f9e817bf2: 'Custom icon' # Custom icon
     c459dbbc-2bb1-412a-b519-6b7df470d58b: 'Campaign box text' # Campaign box text
     c503fa68-b486-48ee-be03-a58b8183c57a: 'Text overlay position' # Text overlay position
+    c2135cf6-57c4-4237-b8f9-39c2f116cff9: audio # audio
     c7464e80-e294-4638-a910-139a3a9dd3a1: Subtitle # Subtitle
     c28773f4-8f78-487a-9675-a2a7f2ae04ae: 'Regional projects' # Regional projects
     c55409dc-addd-4b2f-ab1a-00287e90a340: 'Sub title' # Sub title
