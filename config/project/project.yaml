@@ -1,12 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-dateModified: 1663154009
-=======
-dateModified: 1667222736
->>>>>>> Stashed changes
-=======
-dateModified: 1675980881
->>>>>>> Stashed changes
+dateModified: 1676026573
 email:
   fromEmail: info@justlife.org.uk
   fromName: Justlife
@@ -104,6 +96,7 @@ meta:
     6a3d9f94-8f11-42da-8e7b-5f8e27ab5c5c: 'Document thumb' # Document thumb
     6a5fa0aa-193e-41d9-b6a4-8180dafb6ab9: 'Job type' # Job type
     6a56befb-e975-4846-9509-4903c910509d: 'Hero High definition ' # Hero High definition 
+    6a843750-be87-44c4-bd7e-6d60e7776c7c: 'Link list' # Link list
     6aa2582a-f09c-43e9-96bf-6287ebf48a25: Jobs # Jobs
     6c044977-7156-4cdd-9f5f-2b3096bddef4: 'Our impact' # Our impact
     6c2dbbeb-f72f-4b04-bec8-fc501ec4b9f4: 'Share row' # Share row
@@ -146,6 +139,7 @@ meta:
     8b316631-f36c-481c-8e3f-c8aab26c4c24: Documents # Documents
     8bca8a83-70af-4075-89e0-4b93e69b8d0d: 'Icon row' # Icon row
     8c28222c-b71c-46e5-8266-83f8eaa38c45: 'Related projects' # Related projects
+    8d45c34a-4ae4-486a-8399-b682f0c39024: 'Link title' # Link title
     08d20686-3600-47f2-8c0a-9e17b8d80457: Sticky # Sticky
     8de19c9e-3be7-4b09-a759-0850cfb38626: Publication # Publication
     08e678d9-9ee0-4ece-8fdd-a402c203d9e7: Category # Category
@@ -160,6 +154,7 @@ meta:
     09dce948-15fb-4b5d-818c-a1e33e6cdb15: 'Statistic type' # Statistic type
     9dffc050-eeec-4a4f-a5fd-fdbc228a980a: Text # Text
     9e96b439-8999-4bec-9e4d-dd45d1c62ee0: Amount # Amount
+    9e919c88-c76d-4382-aea2-b1ad808a6343: 'List heading' # List heading
     9f57329d-94c6-468b-a2cb-9620f9a80df9: 'Social links' # Social links
     11d8508b-9912-42bc-81d4-dac09aa3dcd7: Pre-title # Pre-title
     12d6e1e0-7486-476f-a2c3-ad9a4a832d5f: Text # Text
@@ -264,6 +259,7 @@ meta:
     560e0a84-6dfe-453a-b766-59b6824fd541: 'Fundraising total' # Fundraising total
     0561d296-8f39-483f-8be9-fee54c2a3c6a: Title # Title
     0568f7bd-c756-4a37-a36d-a2c4be779712: 'Email highlght message' # Email highlght message
+    572fbe02-d7d9-4973-951a-8d51671450c2: 'Link url' # Link url
     589bc11f-b900-4df7-81b8-f4984a38762e: 'Content footer' # Content footer
     601f0a60-d52a-4c7a-8d0f-51de133cbf16: Subtitle # Subtitle
     608f5ec4-9c1d-4bfc-bf3d-9b4c81edab7a: 'Additional contact info' # Additional contact info
@@ -388,6 +384,7 @@ meta:
     a2906816-3a81-41e8-9a50-add604fd832c: 'Donation single' # Donation single
     a8604062-4cd4-4ab2-9b13-5351acf3b6e8: 'Event brite' # Event brite
     a8866897-a11c-4d44-bbca-2997e4ab9b0c: 'Footer links' # Footer links
+    aa0b3f5c-1cfd-46e3-9931-ca6a57389a3d: 'List of links' # List of links
     aa6d601e-e6d9-482e-82dc-c5e69202ddda: Heading # Heading
     aa29a687-6bad-4bf2-a98e-2c6c3cb598b1: 'Button text' # Button text
     aa98d899-2c21-48c4-be1e-a1154e9c2beb: 'Donation single' # Donation single
@@ -490,6 +487,7 @@ meta:
     ca124378-3612-4e30-98ae-fa5f58f49178: 'Row with cards' # Row with cards
     ca158746-21d0-492a-848b-8165c4a69b2f: Icon # Icon
     cbc3accb-5f22-426f-add3-1008122bc8c0: 'Campaign Stories' # Campaign Stories
+    cbc7d57a-4969-4800-9082-416989849e18: 'Link list' # Link list
     cbea64af-c1ed-4e57-9176-efd0a03ab710: 'Background color' # Background color
     cc6722bc-176e-4111-964c-3f01d0fd0032: 'Donate benefits item list' # Donate benefits item list
     cca92393-d501-4345-b5b7-901c5473ffcc: Title # Title
@@ -497,6 +495,7 @@ meta:
     ce6ca13e-68d0-4780-b4d3-bedf50013650: Heading # Heading
     ce264188-7f3a-4c74-a55e-59569fa0bff5: Common # Common
     ce604615-8ff1-4a3b-a374-0864448d851d: 'Sub title' # Sub title
+    ceb17f58-efdd-4d30-b388-fa11f686a06e: 'Link description' # Link description
     cec078f0-74d5-43dd-b63b-9c78d8dbcc2c: 'Get involved' # Get involved
     cf1e4563-c3fa-4515-bc6c-0a8d7d25980f: 'Hide page' # Hide page
     cf2f1a3d-31fc-431d-a479-a19fe21b3d87: Countdown # Countdown
