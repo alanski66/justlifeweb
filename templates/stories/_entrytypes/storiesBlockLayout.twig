@@ -62,13 +62,15 @@
                                             </div>
                                             <div>
                                                 <h6 class="mb-1">
-                                                    <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
+                                                    <a class="text-dark " href="{{ story.url }}">{{ story.title }}</a>
                                                 </h6>
-                                                {% if story.introText | length %}
-                                                <p>{{ story.introText|truncateOnWord(60) }}</p>
-                                                {%  else %}
-                                                    <p>{{ story.body|truncateOnWord(60) }}</p>
-                                                    {% endif %}
+
+                                                <p class="small"> {% if story.introText | length %}{{ story.introText|truncateOnWord(60) }}{% endif %}</p>
+
+
+
+{#                                                    <p>{% if story.body | length %}{{ story.body|truncateOnWord(60) }}{% endif %}</p>#}
+
                                             </div>
                                         </div>
                                     {% endfor %}

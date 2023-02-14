@@ -93,8 +93,7 @@
     {% block bodyJs %}
 
         <script  src="{{ baseUrl }}js/dist-min.js"></script>
-
-
+        
 
         {#  serous conflict with chimp and gocardless and jwuery validate versions #}
         {% if craft.app.request.getSegment(2) not in ['donate'] %}
