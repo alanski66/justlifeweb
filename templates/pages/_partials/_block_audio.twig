@@ -28,7 +28,7 @@
 {% if block.audio |length %}
 <section class="block embed mb-4 mt-4  p-3 {{ block.backgroundColor }}">
     <figure>
-        <figcaption>Audio title{% if block.heading |length %}{{ block.heading }}{% endif %}</figcaption>
+        <figcaption>{% if block.heading |length %}{{ block.heading }}{% endif %}</figcaption>
         <audio
                 controls
                 src="{{ block.audio.one().getUrl() }}">
