@@ -74,10 +74,10 @@
                                                     <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
                                                 </h6>
                                                 {% if story.introText | length %}
-                                                <p>{{ story.introText|truncateOnWord(60) }}</p>
+                                                    <p class="small">{{ story.introText|truncateOnWord(60) }}</p>
                                                 {%  else %}
                                                     {% if story.body | length %}
-                                                    <p>{{ story.body|truncateOnWord(60) }}</p>
+                                                    <p class="small">{{ story.body|truncateOnWord(60) }}</p>
                                                     {% endif %}
                                                 {% endif %}
                                             </div>
