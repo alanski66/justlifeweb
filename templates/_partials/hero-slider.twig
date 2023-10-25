@@ -177,7 +177,8 @@
                         </div>
                     </div>
                 </div>
-                <script>
+                {%  js at endBody %}
+
                     document.addEventListener('DOMContentLoaded', function (event) {
                         function getTimeRemaining(endtime) {
                             const total = Date.parse(endtime) - Date.parse(new Date());
@@ -223,7 +224,7 @@
 
                         initializeClock('clockdiv', countdowndeadline);
                     });
-                </script>
+        {%  endjs %}
                 {%  case default %}
             {% endswitch %}
         {% endfor %}
