@@ -33,3 +33,4 @@
 *.codekit3
 *.codekit3
 config.codekit3
+/config/
