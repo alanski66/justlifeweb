@@ -32,3 +32,4 @@ config.codekit3
 config.codekit3
 /config/
 *.yaml
+*.codekit3
