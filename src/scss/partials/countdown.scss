@@ -28,6 +28,12 @@
 
 @media(max-width:575px){
   #clockdiv{
-    font-size:25px
+    font-size:22px
   }
+  #clockdiv div > span{
+    padding: 12px;
+    }
+   #clockdiv .smalltext{
+    font-size:14px;
+    }
 }
