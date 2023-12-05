@@ -82,7 +82,9 @@
                                         <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
                                     </h6>
                                     {% if story.introText|length %}
-                                    <p>{{ story.introText|truncateOnWord(60) }}</p>
+                                    <p>
+                                        {{ story.introText|truncateOnWord(60) }}
+                                    </p>
                                     {% endif %}
                                 </div>
                             </div>
@@ -116,7 +118,9 @@
                                     <h4 class="mb-1">
                                         <a class="text-dark" href="{{ story.url }}">{{ story.title }}</a>
                                     </h4>
+                                    {% if story.introText|length %}
                                     <p class="meta">{{ story.introText |truncateOnWord(90) |raw }}</p>
+                                    {% endif %}
                                 </div>
                             </div>
 
