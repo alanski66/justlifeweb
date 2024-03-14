@@ -1,4 +1,4 @@
-<section class="section">
+<section class="section _block_footer_related_tags">
     <div class="container">
         <h3 class="section-title section-title-border-half">See also</h3>
         {%  set location = entry.locationtags.one() %}
@@ -25,13 +25,13 @@
                     <div class="card mb-3" >
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <a href="{{ entry.url }}">
+                                <a href="{{ card.url }}">
                                     <img class="card-img rounded-0" src="{{ imgUrl }}">
                                 </a>
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title"><a href="{{ entry.url }}">{{ card.title }}</a></h5>
+                                    <h5 class="card-title"><a href="{{ card.url }}">{{ card.title }}</a></h5>
                                     <p class="card-text">{{ card.subTitle }}</p>
 
                                 </div>
