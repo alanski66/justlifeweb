@@ -1,19 +1,48 @@
-{#
- # News entry template
- # -------------------
- #
- # This template gets loaded whenever a News entry’s URL is
- # requested. That’s because the News section’s Template setting is
- # set to “news/_entry”, the path to this template.
- #
- # When this template is loaded, it will already have an ‘entry’
- # variable, set to the requested News entry.
- #
- # See this page for more details on how Craft routes requests:
- # http://craftcms.com/docs/routing
- #}
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+{%  set bodyClass = "newsletter" %}
+{% block content %}
+    {%  set layout = null %}
+    <!--newsletters subscribe entry type content -->
+    {%  if entry is defined %}
 
-{% extends
-    [
-    'news/_entrytypes/' ~ entry.type|kebab ~ '.twig'
-    ] %}
+        {% include '/_partials/hero-banner-left.twig' %}
+
+        <section class="generic {{entry.type | kebab }} page {%  if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="col-lg-8 pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h1 class="mb-3 hide ">{{ entry.title }}</h1>
+                            {% if entry.introText | length %}
+                                <p>{{ entry.introText |raw}}</p>
+                            {% endif %}
+                            {% if entry.body | length %}
+                                {{ entry.body }}
+                            {% endif %}
+                            {% if entry.subscribeForm | length %}
+                                {{ entry.subscribeForm | raw }}
+                            {% endif %}
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Sidebar -->
+                        <div class="bg-white px-4 py-4 sidebar-box-shadow">
+                            {% switch entry.type %}
+                            {%  case "" %}
+                            {% endswitch %}
+                            <h4>Other newsletters</h4>
+                            {%  include '/newsletters/_sidebar' %}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%  endif %}
+
+{% endblock %}
+

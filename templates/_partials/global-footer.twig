@@ -100,14 +100,19 @@
                         <h4 class="mb-2 text-white">{{ subscribe.subscribeBoxFooterHeading | default("Subscribe") }} </h4>
                         <p class="text-white mb-3">Join our email newsletter and stay up to date</p>
 
-                            <form  id="" method="post" name="" class="chimpy validate position-relative"  novalidate="novalidate">
+                        {% if subscribe.ctaLink |length and subscribe.ctaText | length %}
+                            <a class="btn btn-primary btn-sm text-white" href="{{ subscribe.ctaLink.one().url }}">
+                                Subscribe
+                            </a>
+                        {% endif %}
+{#                            <form  id="" method="post" name="" class="chimpy validate position-relative"  novalidate="novalidate">#}
 
-                                <input type="email" value="" name="subemail" class="pass-email form-control subscribe mb-0" id="pass-email" placeholder="Enter Your Email" aria-required="true" aria-invalid="true">
+{#                                <input type="email" value="" name="subemail" class="pass-email form-control subscribe mb-0" id="pass-email" placeholder="Enter Your Email" aria-required="true" aria-invalid="true">#}
 
-                            <button class="btn-subscribe" type="reset" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >
-                                <i class="ti-arrow-right"></i>
-                            </button>
-                        </form>
+{#                            <button class="btn-subscribe" type="reset" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >#}
+{#                                <i class="ti-arrow-right"></i>#}
+{#                            </button>#}
+{#                        </form>#}
                     </div>
 
                     <h4 class="mb-3 text-white">Stay in touch</h4>

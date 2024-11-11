@@ -41,7 +41,7 @@
                 {% set sentries = craft.entries({
                     'search': query,
                     'section': 'and, not staff, not miscPages, not mainMenu, not supportersFunders, not topNav, not emailNewsletters, not singleDonation, not donationRegular',
-                    'order': 'score'
+                    'orderBy': 'score'
                 }) %}
 
 

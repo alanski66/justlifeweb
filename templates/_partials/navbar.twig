@@ -85,7 +85,14 @@
         {% endif %}
     {% endfor %}
 
-    {# add top nav for mobile #}
+    {# add top nav subscribe for mobile #}
+    {% set menu = craft.entries.section('topNav').all() %}  {# .hidePage('0') #}
 
+    {% for item in menu %}
+        {% if item.slug == "subscribe" %}
+<li class="nav-item d-lg-none"><a class="nav-link  level1 btn btn-primary btn btn-primary btn-sm mx-auto" href="{{ item.entryLink.one().url ?: "#" }}
+">Subscribe</a></li>
+        {% endif %}
+    {% endfor %}
 
 </ul>

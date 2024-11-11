@@ -1,13 +1,13 @@
 <!-- facebook crud -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js"></script>
-{#<script>(function(d, s, id) {#}
-{#        var js, fjs = d.getElementsByTagName(s)[0];#}
-{#        if (d.getElementById(id)) return;#}
-{#        js = d.createElement(s); js.id = id;#}
-{#        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";#}
-{#        fjs.parentNode.insertBefore(js, fjs);#}
-{#    }(document, 'script', 'facebook-jssdk'));</script>#}
+{# <script>(function(d, s, id) { #}
+{# var js, fjs = d.getElementsByTagName(s)[0]; #}
+{# if (d.getElementById(id)) return; #}
+{# js = d.createElement(s); js.id = id; #}
+{# js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0"; #}
+{# fjs.parentNode.insertBefore(js, fjs); #}
+{# }(document, 'script', 'facebook-jssdk'));</script> #}
 <!-- preloader start -->
 <div class="preloader">
     <img src="{{ baseUrl }}images/preloader.gif" alt="preloader">
@@ -29,64 +29,60 @@
                         {% for item in menu %}
                             {% if item.entryLink | length %}
                                 <li class="list-inline-item">
-                                    <a href="{{ item.entryLink.one().url }}">{{ item.title }}</a>
-                                </li>
-                            {% else %}
-                                {% if item.slug == "subscribe" %}
-                                    <li class="list-inline-item">
-                                        <a href="#" data-toggle="modal" data-target="#subscribeModal">
+                                    {% if item.slug == "subscribe" %}
+                                        <a href="{{ item.entryLink.one().url ?: "#" }}">
                                             <i class="ti-email pr-2"></i>Subscribe</a>
-                                    </li>
-                                {% endif %}
-                                <li class="list-inline-item">
-                                    {% if item.brightonTelephone | length %}
-                                        <i class="text-white ti-mobile pr-1 pl-2"></i>
-                                        <a class="border-right-0 p-0 mr-3" href="tel:{{ item.brightonTelephone }}">
-                                            {{ item.title }}: {{ item.brightonTelephone }}</a>
-                                        <span class=" d-none px-1">-</span>
-                                    {% elseif item.manchesterTel | length %}
-                                        <i class="text-white ti-mobile pr-1"></i>
-                                        <a class="pl-0 border-right-0" href="tel:0161 285 5888">{{ item.title }}
-                                            : {{ item.manchesterTel }}</a>
+                                    {% else %}
+                                        <a href="{{ item.entryLink.one().url }}">{{ item.title }}</a>
                                     {% endif %}
                                 </li>
-
-                                <!-- social links -->
-                                <li class="list-inline-item">
-
-                                    <a class="social-icon-outline" href="{{ social.facebook }}">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon-outline" href="{{ social.twitter }}">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                </li>
-                                <li class="hide list-inline-item">
-                                    <a class="social-icon-outline" href="#">
-                                        <i class="ti-vimeo-alt"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon-outline" href="{{ social.linkedin }}">
-                                        <i class="ti-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon-outline" href="{{ social.instagram }}">
-                                        <i class="ti-instagram"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="social-icon-outline ytube" href="{{ social.youtube }}">
-                                        <img class="youtube" src="{{ baseUrl}}assets/social/youtubecustom.png" >
-                                    </a>
-                                </li>
                             {% endif %}
-
-
+                            <li class="list-inline-item">
+                                {% if item.brightonTelephone | length %}
+                                    <i class="text-white ti-mobile pr-1 pl-2"></i>
+                                    <a class="border-right-0 p-0 mr-3" href="tel:{{ item.brightonTelephone }}">
+                                        {{ item.title }}: {{ item.brightonTelephone }}</a>
+                                    <span class=" d-none px-1">-</span>
+                                {% elseif item.manchesterTel | length %}
+                                    <i class="text-white ti-mobile pr-1"></i>
+                                    <a class="pl-0 border-right-0" href="tel:0161 285 5888">{{ item.title }}
+                                        : {{ item.manchesterTel }}</a>
+                                {% endif %}
+                            </li>
                         {% endfor %}
+                        <!-- social links -->
+                        <li class="list-inline-item">
+
+                            <a class="social-icon-outline" href="{{ social.facebook }}">
+                                <i class="ti-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-icon-outline" href="{{ social.twitter }}">
+                                <i class="ti-twitter-alt"></i>
+                            </a>
+                        </li>
+                        <li class="hide list-inline-item">
+                            <a class="social-icon-outline" href="#">
+                                <i class="ti-vimeo-alt"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-icon-outline" href="{{ social.linkedin }}">
+                                <i class="ti-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-icon-outline" href="{{ social.instagram }}">
+                                <i class="ti-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-icon-outline ytube" href="{{ social.youtube }}">
+                                <img class="youtube" src="{{ baseUrl }}assets/social/youtubecustom.png">
+                            </a>
+                        </li>
+
 
                         <li class="list-inline-item">
                             <a href="#" class="search" id="searchOpen">
@@ -103,7 +99,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand mr-0" href="{{ alias('@web') }}">
-                    <img src="{{ baseUrl }}images/logo.svg" alt="logo" class="d-none d-lg-block mx-auto" width="150" height="124">
+                    <img src="{{ baseUrl }}images/logo.svg" alt="logo" class="d-none d-lg-block mx-auto" width="150"
+                         height="124">
                     <img src="{{ baseUrl }}images/jl-icon.svg" alt="logo icon" height="40" width="40"
                          class="d-sm-block d-md-none block d-lg-none d-xl-none my-2">
                     <img src="{{ baseUrl }}images/logo-mobile.svg" alt="logo" height="40" width="151"
@@ -130,7 +127,7 @@
         </div>
     </div>
 </header>
-{#-- Global cta --#}
+{#- - Global cta - -#}
 {% if callsToAction.ctaShowSitewide and callsToAction.ctaPosition =='top' %}
     {% include('_partials/cta-general') %}
 {% endif %}

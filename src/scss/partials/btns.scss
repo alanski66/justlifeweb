@@ -90,3 +90,8 @@ a#searchOpen #searchicon.ti-search{
 .ti-arrow-right{
   line-height: 2.3;
 }
+
+a.btn.text-white:hover{
+  background-color: lighten($red,5%)!important;
+  color:$white!important;
+}

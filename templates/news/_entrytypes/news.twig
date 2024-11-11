@@ -252,16 +252,8 @@
                                 </ul>
                         </div>
                         {% endif %}
-                        <!-- Widget Newsletter -->
-                        <div class="newsletter">
-                            <h4 class="mb-3">Stay updated</h4>
-                            <form action="#" class="chimpy">
-                                <input type="email" name="email" id="email" class="pass-email form-control" placeholder="Email">
-                                <button class="btn btn-primary btn-sm" type="reset" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >
-                                    Subscribe
-                                </button>
-                            </form>
-                        </div>
+                        <!-- subscribe sidebar -->
+                        {%  include('_partials/global-sidebar-subscribe') %}
                     </div>
                 </div>
             </div>

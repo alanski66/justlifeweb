@@ -8,7 +8,7 @@
     /* 1.1 typography */
 @import url("https://fonts.googleapis.com/css?family=Cabin:Open+Sans:400,600,700%7CPoppins:300,400,500,600,700%7CWork+Sans:400,500,600");
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-family-base, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: $font-size-base;
@@ -26,7 +26,8 @@ p, .paragraph {
   //color: $body-color;
   font-size: $font-size-base;
   margin-bottom:1.5rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-family-base, sans-serif;
+
 }
 .lead{
   //font-weight: 400;
@@ -34,13 +35,13 @@ p, .paragraph {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: $headings-font-family, sans-serif;
   //font-family: "Cabin", sans-serif;
   //font-family: "Raleway", sans-serif;
   margin-bottom: 10px;
 }
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 header{
