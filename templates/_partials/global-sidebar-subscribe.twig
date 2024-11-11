@@ -1,0 +1,41 @@
+{%  if callsToAction.ctaCustom |length %}
+    {% set link = callsToAction.ctaCustom %}
+{% elseif callsToAction.ctaLink | length %}
+    {% set link = callsToAction.ctaLink.one().url %}
+{% endif %}
+
+{%  set modal = '' %}
+{% if callsToAction.ctaPosition =='top' %}
+{% set padding = "py-3" %}
+{% else %}
+{% set padding = "py-50" %}
+{% endif %}
+{% if callsToAction.ctaCustom |length or callsToAction.ctaLink |length %}
+<!-- cta -->
+<section class="cta {{ callsToAction.ctaSectionBgColor }} {{ padding }} overlay-white {{ callsToAction.ctaPosition }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 text-center text-lg-left  mb-lg-0">
+                <h5 class="text-dark mb-0">
+                    <span class="d-none d-sm-block">{{ callsToAction.ctaText }}</span>
+                    <span class="d-block d-sm-none">{{ callsToAction.ctaTextShortVersion }}</span>
+                </h5>
+            </div>
+            <div class="col-lg-3 text-lg- right text-center align-self-center">
+
+                {%  if callsToAction.ctaButtonText == 'Subscribe' or callsToAction.ctaButtonText == 'subscribe' %}
+                {%  set modal = 'data-toggle="modal" data-target="#subscribeModal"' %}
+                    <button class="btn {{ callsToAction.ctaButtonColor }}" type="submit" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >
+                        <i class="ti-email"></i> {{callsToAction.ctaButtonText}}
+                    </button>
+                    {% else %}
+                        <a href="{{ link }}"  class="btn btn-sm {{ callsToAction.ctaButtonColor }} {{callsToAction.ctaButtonText | lower }}">{{callsToAction.ctaButtonText}}</a>
+                {% endif %}
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end cta -->
+{% endif %}

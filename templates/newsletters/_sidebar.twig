@@ -1,0 +1,63 @@
+{% extends "_layouts/generic-page-layout.twig" %}
+{% import '_macros' as macros %}
+{%  set bodyClass = "jobs" %}
+{% block content %}
+    {%  set layout = null %}
+    <!--jobs index page -->
+    {%  if entry is defined %}
+
+        {% include '/_partials/hero-featured.twig' %}
+
+        <section class="generic {{entry.type | kebab }} page {%  if   entry.featureImage | length < '1' %} no-featured-image{% endif %}">
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="col-lg-8 pt-3">
+                        <div class="bg-whit rounded mb-40">
+                            <h1 class="mb-3">{{ entry.title }}</h1>
+
+                            {% set entries = craft.entries({
+                                section: 'newsletters',
+                                orderBy: 'postDate desc'
+                            }) %}
+                        </div>
+
+                        {% for entry in entries.all() %}
+
+
+                            <article class="bg-white rounded mb-40">
+                                <h4>{{ entry.title }}</h4>
+                                <!-- Post Content -->
+                                {% if entry.briefDescription | length %}
+                                    {{ entry.briefDescription }}
+                                {% endif %}
+                                <div>
+
+
+                                    <div class="border-bottom ">
+
+                                        <a href="{{ entry.url }}" class="btn btn-sm btn-primary mb-4">Subscribe here</a>
+                                    </div>
+                                </div>
+                            </article>
+                        {% endfor %}
+
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Sidebar -->
+                        <div class="bg-white px-4 py-4 sidebar-box-shadow">
+                            {% switch entry.type %}
+                            {%  case "" %}
+                            {% endswitch %}
+                            {%  include '/pages/_partials/_side_subnav.twig' %}
+{#                            {%  include '/pages/_partials/_side_block_subscribe.twig' %}#}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%  endif %}
+
+{% endblock %}
