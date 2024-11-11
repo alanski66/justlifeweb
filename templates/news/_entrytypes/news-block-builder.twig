@@ -20,7 +20,7 @@
 
 
 {% set asset =  entry.image.one() %}
-{% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
+{% set date = '<span class="date">' ~ entry.postDate|date('F d, Y') ~ '</span>' %}
 
  {% set relatedTags = entry.tags.all() %}
 
@@ -35,8 +35,8 @@
         {%  set textBlocks = textBlocks ~ " " ~ block.text %}
     {% endfor %}
 
-    {% cache %}
-        {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
+
+        {% set date = '<span class="date">' ~ entry.postDate|date('F d, Y') ~ '</span>' %}
         <!-- blog single -->
         <section class="{{ entry.type }}">
             <div class="container">
@@ -50,13 +50,13 @@
                                 {% set newsImage = craft.imager.transformImage(asset,
                                     [
                                         { width: 320, position: asset.getFocalPoint(), jpegQuality: 65,ratio: 4/3, cropZoom:1.5 },
-                                        { width: 840, position: asset.getFocalPoint(),jpegQuality: 90 },
+                                        { width: 840, position: asset.getFocalPoint(),jpegQuality: 80 },
                                     ],
                                     {
                                         format: 'jpg',
                                         allowUpscale: true,
                                         mode: 'crop',
-                                        jpegQuality: 90,
+                                        jpegQuality: 80,
                                         interlace: true
                                     }
                                     ) %}
@@ -84,7 +84,7 @@
 
                                     <li class="list-inline-item text-color"><i class="ti-time"></i> {{ textBlocks | readTime('min') }} min read | </li>
                                     <li class="list-inline-item text-color">Posted by {{ entry.articleAuthor | default("Justlife") }}</li>
-                                    <li class="list-inline-item text-color">On {{entry.postDate.format('d F Y')}}</li>
+                                    <li class="list-inline-item text-color">On {{entry.postDate|date('d F Y')}}</li>
 
                                     {#                                {% if relatedTags|length %}#}
                                     {#                                <li class="list-inline-item">#}
@@ -143,6 +143,7 @@
 
                                 {% if relatedTags|length %}
                                     <!-- tags -->
+                                {% cache %}
                                     <div class="col-lg-7">
                                         <div class="d-flex">
                                             <span class="font-weight-light mt-2 mr-3">Tags:</span>
@@ -153,6 +154,7 @@
                                             </ul>
                                         </div>
                                     </div>
+                                {% endcache %}
                                 {% endif %}
                                 <div class="col-12">
 
@@ -180,6 +182,7 @@
                             <!-- categories -->
 
                             <!-- Widget Recent Post -->
+                            {% cache %}
                             <div class="mb-50">
                                 <h4 class="mb-3">Recent news</h4>
 
@@ -203,11 +206,11 @@
                                     {% case 'news' %}
 
                                         {% set thumbasset =  entry.image.one() %}
-                                        {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
+                                        {% set date = '<span class="date">' ~ entry.postDate|date('F d, Y') ~ '</span>' %}
 
                                     {% case 'newsblockbuilder' %}
                                         {% set thumbasset =  entry.image.one() %}
-                                        {% set date = '<span class="date">' ~ entry.postDate.format('F d, Y') ~ '</span>' %}
+                                        {% set date = '<span class="date">' ~ entry.postDate|date('F d, Y') ~ '</span>' %}
                                     {% endswitch %}
                                     {%  if thumbasset | length %}
 
@@ -234,7 +237,7 @@
                                                 <h6 class="mb-3">
                                                     <a class="text-dark" href="{{entry.url}}">{{ entry.title }}</a>
                                                 </h6>
-                                                <p class="meta">{{entry.postDate.format('d M, Y')}}</p>
+                                                <p class="meta">{{entry.postDate|date('d M, Y')}}</p>
                                             </div>
                                         </div>
                                     {% endif %}
@@ -242,7 +245,9 @@
 
 
                             </div>
-                            <!-- Widget Tags -->
+                            {% endcache %}
+                            <!-- Related Tags -->
+                            {% cache %}
                             {% if relatedTags|length %}
                                 <div class="mb-50">
                                     <h4 class="mb-3">Tags</h4>
@@ -254,23 +259,17 @@
                                     </ul>
                                 </div>
                             {% endif %}
-                            <!-- Widget Newsletter -->
-                            <div class="newsletter">
-                                <h4 class="mb-3">Stay updated</h4>
-                                <form action="#" class="chimpy">
-                                    <input type="email" name="email" id="email" class="pass-email form-control" placeholder="Email">
-                                    <button class="btn btn-primary btn-sm" type="reset" value="subscribe" name="subscribe" data-toggle="modal" data-target="#subscribeModal" >
-                                        Subscribe
-                                    </button>
-                                </form>
-                            </div>
+                            {% endcache %}
+                            <!-- subscribe sidebar -->
+                            {%  include('_partials/global-sidebar-subscribe') %}
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- /blog-single -->
-    {% endcache %}
+
     <!-- Page Content -->
     {% js %}
         document.addEventListener('DOMContentLoaded', function () {

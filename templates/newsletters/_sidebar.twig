@@ -1,0 +1,21 @@
+<!-- newsletter sidebar partial -->
+{#<div class="col-lg-4">#}
+
+        {% set entries = craft.entries({
+            section: 'newsletters',
+            orderBy: 'postDate desc'
+        }) %}
+<div class="mb-50">
+
+    <ul class="pl-0 mb-0">
+        {% for entry in entries.all() %}
+
+    <li class="border-bottom  level2">
+        <a href="{{ entry.url }}" class=" d-block text-color py-10">{{ entry.title }}</a>
+    </li>
+
+        {% endfor %}
+    </ul>
+</div>
+
+

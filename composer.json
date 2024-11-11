@@ -1,17 +1,17 @@
 {
     "require": {
-        "craftcms/cms": "3.9.5",
+        "craftcms/cms": "3.9.13",
         "vlucas/phpdotenv": "^2.4.0",
         "craftcms/redactor": "2.10.12",
         "topshelfcraft/environment-label": "3.2.0",
         "wrav/oembed": "1.13.19",
-        "xpertbot/craft-wheelform": "2.7.2",
+        "xpertbot/craft-wheelform": "2.7.3",
         "verbb/super-table": "2.7.5.1",
         "charliedev/section-field": "1.1.0",
         "studioespresso/craft-splashingimages": "2.1.8",
-        "nystudio107/craft-minify": "1.2.11",
-        "nystudio107/craft-typogrify": "1.1.20",
-        "craftcms/feed-me": "4.7.0",
+        "nystudio107/craft-minify": "1.2.13",
+        "nystudio107/craft-typogrify": "1.1.22",
+        "craftcms/feed-me": "4.8.1",
         "joomkit/pdfthumbnailer": "1.0.0",
         "verbb/icon-picker": "1.1.14",
         "ether/tags": "1.0.9",
@@ -21,13 +21,14 @@
         "superbig/craft3-mobiledetect": "1.0.2",
         "hybridinteractive/craft-position-fieldtype": "1.0.17",
         "xpertbot/wheelformhelper": "*",
-        "nystudio107/craft-seomatic": "3.4.63",
+        "nystudio107/craft-seomatic": "3.4.77",
         "dolphiq/redirect": "1.1.1",
         "adigital/eventbrite": "1.0.11",
         "pennebaker/craft-architect": "2.4.3",
         "indigoviking/liquid-letters": "1.2",
         "verbb/cloner": "1.2.2",
-        "mmikkel/cp-field-inspect": "1.4.4"
+        "mmikkel/cp-field-inspect": "1.4.4",
+        "craftcms/ckeditor": "1.5.0"
     },
     "repositories": [
         {

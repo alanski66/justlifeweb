@@ -37,11 +37,12 @@
     <meta name="msapplication-config" content="{{ baseUrl }}favicons/browserconfig.xml">
     <meta name="theme-color" content="#d00e38">
     <link rel="stylesheet" href="{{ baseUrl }}/css/style.min.css">
+{#    <link rel="preload" href="{{ baseUrl }}css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">#}
 {% endblock headLinks %}
 
 {# -- Any CSS that should be included before </head> -- #}
 {% block headCss %}
-    {% include "_inline-css/site-fonts.css" %}
+{#    {% include "_inline-css/site-fonts.css" %}#}
 {% endblock headCss %}
 
 {# -- Page body -- #}
@@ -54,7 +55,8 @@
 
                     {# -- Primary content block -- #}
                     {% block content %}
-
+{% cache %}
+                        {% endcache %}
                     {% endblock %}
 
         {# -- Content that appears below the primary content block -- #}

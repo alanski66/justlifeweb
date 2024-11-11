@@ -1,6 +1,7 @@
 {% do view.registerAssetBundle("plugins\\dolphiq\\iconpicker\\assets\\sharedAsset") %}
 {% extends "_layouts/generic-page-layout.twig" %}
 {% block content %}
+{% cache %}
     {% set lazyImage = false %}
     {% set blockPrefix = "" %}
 
@@ -254,4 +255,5 @@
             </div>
         </div>
     </section>
+    {% endcache %}
 {% endblock %}

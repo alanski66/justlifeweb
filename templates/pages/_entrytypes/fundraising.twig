@@ -28,18 +28,8 @@
                         <!-- Sidebar -->
                         <div class="bg-white px-4 py-4 sidebar-box-shadow">
 
-
                             {%  include '/pages/_partials/_side_subnav.twig' %}
                             {%  include '/pages/_partials/_side_block_subscribe.twig' %}
-                            {%  if entry.ctaLink |length %}
-<div class="mt-3">
-
-
-                                <a href="{{ entry.ctaLink.one().url }}" class="btn btn-outline w-100 mt-5 mb-3">{%  if entry.ctaButtonText |length %}
-                                        {{ entry.ctaButtonText  }}
-                                    {% endif %}</a>
-                            {% endif %}
-</div>
                         </div>
                     </div>
                 </div>

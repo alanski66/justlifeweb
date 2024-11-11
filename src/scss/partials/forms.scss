@@ -51,3 +51,16 @@ ul.errors li{
   font-family: $font-family-base!important;
   font-weight:bold!important;
 }
+// mailchimp
+#mc_embed_signup .button{
+  padding: 0 40px !important;
+  line-height: 47px!important;
+  height:47px!important;
+  text-transform: capitalize!important;
+}
+#mc-embedded-subscribe{
+  padding: 13px 40px !important;
+}
+#mc_embed_signup form{
+  margin-left: 0!important;
+}

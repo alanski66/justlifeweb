@@ -1,6 +1,6 @@
 <section class="section-slider">
     <div class=" hero-slider position-relative">
-
+    {% cache %}
         {% for block in entry.carousel.all() %}
             {% set asset = block.image[0] ?? null %}
             {% if asset | length %}
@@ -8,15 +8,15 @@
                     [
                         { width: 550, height:380, position: 'center-center', jpegQuality: 75,ratio: 4/3, cropZoom:1.5 },
                         { width: 768, height:380, position: asset.getFocalPoint(), ratio: 2/1, jpegQuality: 85, zoom: 1 },
-                        { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 95 },
-                        { width: 1200, height:380, position: asset.getFocalPoint() },
+                        { width: 1024, height:380, position: asset.getFocalPoint() ,jpegQuality: 80 },
+                        { width: 1200, height:380, position: asset.getFocalPoint(),jpegQuality: 80 },
                         { width: 2400, height:530, position: asset.getFocalPoint(),ratio: 2/1 }
                     ],
                     {
                         format: 'jpg',
                         allowUpscale: true,
                         mode: 'crop',
-                        jpegQuality: 90,
+                        jpegQuality: 80,
                         interlace: true
                     }
                 ) %}
@@ -228,7 +228,7 @@
                 {%  case default %}
             {% endswitch %}
         {% endfor %}
-
+        {% endcache %}
     </div>
 </section>
 {# set pass slick option#}

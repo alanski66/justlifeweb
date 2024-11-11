@@ -91,14 +91,14 @@ LOCAL_BACKUPS_PATH="/tmp/"
 
 # Remote ssh credentials, user@domain.com and Remote SSH Port
 REMOTE_SSH_LOGIN="REPLACE_ME"
-REMOTE_SSH_PORT="22"
+REMOTE_SSH_PORT="1222"
 
 # Remote path constants; paths should always have a trailing /
 REMOTE_ROOT_PATH="REPLACE_ME"
 REMOTE_ASSETS_PATH=${REMOTE_ROOT_PATH}"REPLACE_ME"
 
 # Should we connect to the remote database server via ssh?
-REMOTE_DB_USING_SSH="yes"
+REMOTE_DB_USING_SSH="no"
 
 # Remote database constants; default port for mysql is 3306, default port for postgres is 5432
 REMOTE_DB_NAME="REPLACE_ME"

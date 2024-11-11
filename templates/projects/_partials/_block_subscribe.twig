@@ -1,6 +1,16 @@
 {% set subcribeList = block.signUpList %}
-{% extends
-    [
-    '_partials/block_subscribe_' ~ subcribeList ~ '.twig',
-
-    ] %}
+{#{% set subcribeEntry = block.subscribeLink.one() %}#}
+<section class="mb-5 cta overlay-primary p-4 text-center text-lg-left" >
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-sm-12 col-lg-7">
+                <h5 class="text-white">{{ block.subscribeText}}</h5>
+            </div>
+            <div class="col-lg-5 text-lg-right align-self-center">
+                <a class="btn btn-primary text-white" href="{{ block.subscribeLink.one().url }}">
+                    Subscribe
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

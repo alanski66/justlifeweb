@@ -1,0 +1,21 @@
+<!-- global-sidebar-subscribe -->
+{% if entry is defined and entry.ctaLink |length %}
+    <div class="newsletter mb-5">
+        <h4 class="mb-3">{{ entry.ctaText|striptags ? entry.ctaText|striptags: "" }}</h4>
+            <a class="btn btn-primary btn-sm text-white" href="{{ entry.ctaLink.one().url }}">
+                {% if entry.ctaButtonText is defined and entry.ctaButtonText |length %}
+                    {{ entry.ctaButtonText}}
+                {% else %}Subscribe{% endif %}
+            </a>
+    </div>
+{% elseif subscribe.ctaLink |length and subscribe.ctaText | length %}
+    <div class="newsletter mb-5">
+        <h4 class="mb-3">{{ subscribe.ctaText|striptags ?: "" }}</h4>
+        <a class="btn btn-primary btn-sm text-white" href="{{ subscribe.ctaLink.one().url }}">
+            {% if subscribe.ctaButtonText is defined and subscribe.ctaButtonText |length %}
+            {{ subscribe.ctaButtonText}}
+            {% else %}Subscribe{% endif %}
+        </a>
+    </div>
+{% endif %}
+<!-- end global-sidebar-subscribe -->
