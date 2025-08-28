@@ -31,7 +31,7 @@ MYSQLDUMP_ADDITIONAL_ARGS+="--routines "
 MYSQLDUMP_ADDITIONAL_ARGS+="--set-charset "
 MYSQLDUMP_ADDITIONAL_ARGS+="--triggers "
 MYSQLDUMP_ADDITIONAL_ARGS+="--no-tablespaces "
-MYSQLDUMP_ADDITIONAL_ARGS+="--SSL=0"
+# MYSQLDUMP_ADDITIONAL_ARGS+="--SSL=0"
 
 
 # Arguments to dump just the schema
