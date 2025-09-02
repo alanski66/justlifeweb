@@ -144,12 +144,12 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="fr pt-4 w-75">
+                    {# <div class="fr pt-4 w-75">
                         <img class="mb-4" src="{{ baseUrl }}images/fr-logo.svg">
                         {# <img class="img-fluid w-50" src="{{ baseUrl }}images/LW_logo_LW employer only.png">
                         
                         <img class="img-fluid w-50" src="{{ baseUrl }}images/dc_badge1.png"> #}
-                    </div>
+                    </div> #}
                 </div>
                 <div class="col-12 d-none d-lg-block additional text-white small mb-4">
                     {{ organisationInfo.additionalContactInfo }}
@@ -158,6 +158,31 @@
             </div>
         </div>
     </div>
+    <!-- logos -->
+     <div class="footer pt-4 pb-3 position-relative">
+        <div class="container">
+            <div class="row">
+                {% set footerLogo = {
+                    mode: 'crop',
+                    width: 150,
+                    quality: 100,
+                    format:'png',
+                    position: 'top-center'
+                    } %}
+                    {% set assets = footer.logos %}
+
+                {% for asset in assets.all() %}
+
+                <div class="col-12 col-sm-4 d-flex justify-content-center">
+                    <img class="d-flex" src="{{ asset.url() }}" width="auto" height="90px">
+                </div>
+                        
+                {% endfor %}
+            </div>
+            
+        </div>
+     </div>
+    <!-- end logos -->
     <!-- copyright -->
     <div class="footer pt-4 pb-3 position-relative">
         <div class="container">
