@@ -157,7 +157,7 @@
 
 
                             {% for entry in entries.all() %}
-                                {% set asset = entry.pdfThumbnailImage[0] ?? null %}
+                                {% set asset = entry.pdfThumbnailImage.one() ?? null %}
 
 
                                 {%  if asset %}
