@@ -144,16 +144,17 @@
                         <!-- Widget Recent Post -->
                         <div class="mb-50">
                             {%  switch entry.type.handle %}
-                            {% case 'publications' %}
+                            {# {% case 'publications' %} #}
 
-                            {% case 'research' %}
+                            {# {% case 'research' %} #}
 
                             {% endswitch %}
                             <h4 class="mb-3">Other {{ entry.type }}</h4>
                             {% set entries = craft.entries()
                                 .section('publications')
                                 .type(entry.type)
-                                .limit('') %}
+                                .limit('')
+                                .orderBy('postDate desc') %}
 
 
                             {% for entry in entries.all() %}
