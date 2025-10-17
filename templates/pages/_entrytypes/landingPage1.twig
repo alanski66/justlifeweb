@@ -40,7 +40,9 @@
 
                 {% for card in block.cardItem.hideCard('not 1').all() %}
                     {% if card.cardImage | length %}
-                        {%  set image = card.cardImage[0] %}
+                        {%  set image = card.cardImage[0] ?? null %}
+                        
+                        {% if image is defined %}
                         {% set asset = craft.imager.transformImage(image, {
                             width: 350,
                             height:190,
@@ -48,6 +50,7 @@
                             cropZoom: 1.5
                         }) %}
                         {% set imgUrl = asset.getUrl() %}
+                        {% endif %}
                         {% else %}
 
                         {% set imgUrl = "https://via.placeholder.com/350x190" %}

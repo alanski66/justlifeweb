@@ -16,19 +16,19 @@
         "verbb/icon-picker": "1.1.14",
         "ether/tags": "1.0.9",
         "verbb/smith": "1.2.3",
-        "aelvan/imager": "v2.4.0",
         "dolphiq/iconpicker": "1.0.5",
         "superbig/craft3-mobiledetect": "1.0.2",
         "hybridinteractive/craft-position-fieldtype": "1.0.17",
         "xpertbot/wheelformhelper": "*",
-        "nystudio107/craft-seomatic": "3.5.19",
+        "nystudio107/craft-seomatic": "3.5.21",
         "dolphiq/redirect": "1.1.1",
         "adigital/eventbrite": "1.0.11",
         "pennebaker/craft-architect": "2.4.3",
         "indigoviking/liquid-letters": "1.2",
         "verbb/cloner": "1.2.2",
         "mmikkel/cp-field-inspect": "1.4.4",
-        "craftcms/ckeditor": "1.5.0"
+        "craftcms/ckeditor": "1.5.0",
+        "spacecatninja/imager-x": "^3.6"
     },
     "repositories": [
         {

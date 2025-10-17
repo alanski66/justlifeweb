@@ -43,7 +43,7 @@
                     {% set sentries = craft.entries({
                         'search': query,
                         'section': 'news',
-                        'order': 'score'
+                        'orderBy': 'score'
                     }) %}
                         {% paginate  sentries.limit(10) as pageInfo, pageEntries %}
 
