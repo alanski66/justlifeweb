@@ -9,18 +9,31 @@
 {% cache %}
 
 
-    {%  set tagID = entry.locationtags.one().id %}
+    {%  set tagID = entry.contentTags.one().id %}
     {% set relatedTo = [
         'and',
         {
-            field: 'locationtags',
+            field: 'contentTags',
             targetElement:  tagID
         }
     ] %}
+    {# NB exclude current id which has no image #}
     {% set entries = craft.entries()
         .section('projects')
-        .with(['locationtags']).relatedTo(relatedTo)
+        .with(['contentTags']).relatedTo(relatedTo)
+        .id('not ' ~ entry.id) 
         .all() %}
+
+{% set parentEntry = craft.entries.id(entry.id).one() %}
+
+{% if parentEntry %}
+  {% for child in parentEntry.children %}
+    <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+  {% endfor %}
+{% endif %}
+
+ {# Get only direct children #}
+{% set directChildren = craft.entries.descendantOf(entry.id).level(2).all() %}
 <!-- service -->
 <section class="section">
     <div class="container">
@@ -42,7 +55,8 @@
                     <div class="card-group mb-5">
                         {% if entries | length %}
                         {% for entry in entries %}
-                            {% if entry.projectImage.exists() %}
+
+                            {% if entry.projectImage[0] ?? false %}
                                 {% set asset = entry.projectImage.one() %}
                             {% endif %}
 
@@ -67,7 +81,7 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
 
                         {% endfor %}
                         {% endif %}

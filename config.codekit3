@@ -7,7 +7,7 @@
       "uuidString" : "DD17DC38-3A6D-4895-86C1-DAA03889ABF4"
     }
   ],
-  "creatorBuild" : "34680",
+  "creatorBuild" : "34892",
   "files" : {
     "\/.env" : {
       "cB" : 0,
@@ -4226,6 +4226,14 @@
       "oAP" : "\/templates\/projects\/_entrytypes\/project.twig",
       "oF" : 0
     },
+    "\/templates\/projects\/_entrytypes\/projectContentListing.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/projects\/_entrytypes\/projectContentListing.twig",
+      "oF" : 0
+    },
     "\/templates\/projects\/_partials\/_block_footer_related_tags.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5094,8 +5102,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -5732,6 +5738,9 @@
         "active" : 0,
         "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
+      "no-unassigned-vars" : {
+        "active" : 0
+      },
       "no-undef" : {
         "active" : 1,
         "optionString" : "{'typeof': false}"
@@ -5812,7 +5821,8 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowRegexCharacters': []}"
       },
       "no-useless-rename" : {
         "active" : 0,

@@ -105,6 +105,11 @@
                                            data-duration-in=".5" data-animation-in="fadeIn" data-delay-in=".9">
                                             {{ block.intro |raw }} </p>
                                     {% endif %}
+                                    {% if block.customLink | length %}
+                                        <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3"
+                                           href="{{ block.customLink }}"
+                                           class="btn btn-secondary text-uppercase text-{{ block.textColor }}"> {{ block.buttonText | default("more") }}</a>
+                                    {% endif %}
                                     {% if block.buttonLink | length %}
                                         <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3"
                                            href="{{ block.buttonLink.one().url }}"
