@@ -3698,6 +3698,14 @@
       "oAP" : "\/templates\/knowledge-hub\/index.twig",
       "oF" : 0
     },
+    "\/templates\/news-and-insights\/index.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/news-and-insights\/index.twig",
+      "oF" : 0
+    },
     "\/templates\/news\/_entry.twig" : {
       "cB" : 0,
       "ft" : 8192,
