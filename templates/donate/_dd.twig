@@ -130,13 +130,12 @@
                     {% do view.registerJsFile('https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js') %}
                     {% do view.registerJsFile('https://cdn.donorfy.com/wwjs/gocardlesspayments.2022.1.js') %}
 
-                    <!--<script type="text/javascript" src="https://az763204.vo.msecnd.net/wwjs/gocardlesspayments.2017.1.demo.js"></script>-->
 
 
                     <form method="post" id="DirectDebitForm">
                         <!-- You can change the layout, mark up, add css classes & styles etc however do not change the field names or field ids -->
                         {% if entry.donateFormSubtitle %}<h3>{{entry.donateFormSubtitle}}</h3>{% endif %}
-
+<input type="hidden" name="success_redirect_url" value="{{baseUrl}}dd-thank-you" />
                         <table class="w-100">
                             <tbody>
                             <tr>
